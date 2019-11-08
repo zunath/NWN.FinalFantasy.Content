@@ -1,0 +1,457 @@
+# Exported from NWmax 0.8 b61 at 27/07/2008 15:53:25
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: it_torch_000
+#local file: Unknown
+filedependancy Unknown
+newmodel it_torch_000
+setsupermodel it_torch_000 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom it_torch_000
+node dummy it_torch_000
+  parent NULL
+endnode
+node emitter emmiter_smoke
+  parent it_torch_000
+  position 0.0 0.477683 0.0
+  orientation 1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.631373 0.631373 0.631373 
+  colorEnd 0.0 0.0 0.0 
+  alphaStart 0.4
+  alphaEnd 0.0
+  sizeStart 0.0
+  sizeEnd 2.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 2.0
+  mass -0.2
+  spread 6.28319
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.2
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 30
+  framestart 0
+  frameend 15
+  random 1
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter Flame02
+  parent it_torch_000
+  position 0.0 0.22535 0.0
+  orientation 1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawntype_sel 0
+  spawnType 0
+  xSize 0.0
+  ySize 0.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 0.9
+  alphaEnd 0.0
+  sizeStart 0.05
+  sizeEnd 0.65
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 2.0
+  mass 0.0
+  spread 0.174533
+  particleRot 0.0
+  velocity 0.15
+  randvel 0.1
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_Flame00
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh torch
+  parent it_torch_000
+  position -0.00126953 0.328744 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 -19.5561 0.17099 
+  bitmap ist_torch1
+  verts 48
+    0.0225218 -0.453438 0.0130029
+    0.0253728 -0.152786 0.0139626
+    0.0288079 -0.0328163 0.0166252
+    0.00913546 -0.472357 0.00527427
+    0.0295906 -0.00697552 0.0193038
+    0.0332331 0.0294461 0.0216168
+    0.0270308 0.0718197 0.0176783
+    0.011974 0.0812352 0.00744675
+    0.0 -0.453438 -0.0260058
+    0.0 -0.152786 -0.0279253
+    0.0 -0.0328163 -0.0332716
+    0.0 -0.472357 -0.0105486
+    0.0 -0.00697552 -0.0347995
+    0.0 0.0294461 -0.0387845
+    0.0 0.0718197 -0.0353778
+    0.0 0.0812352 -0.0149146
+    0.0 -0.453438 0.0260059
+    0.0 -0.152786 0.0279253
+    0.0 -0.0328163 0.0332575
+    0.0 -0.472357 0.0105487
+    0.0 -0.00697552 0.0370226
+    0.0 0.0294461 0.0422043
+    0.0 0.0718197 0.0353637
+    0.0 0.0812353 0.0149006
+    0.0225218 -0.453438 -0.0130028
+    0.0253728 -0.152786 -0.0139626
+    0.0288079 -0.0328164 -0.0166393
+    0.00913546 -0.472357 -0.00527418
+    0.0295906 -0.00697552 -0.0193179
+    0.0332331 0.0294461 -0.0216309
+    0.0270308 0.0718196 -0.0176924
+    0.011974 0.0812352 -0.00746086
+    -0.0225219 -0.453438 0.0130029
+    -0.0253728 -0.152786 0.0139626
+    -0.0288079 -0.0328163 0.0166252
+    -0.00913546 -0.472357 0.00527427
+    -0.0295906 -0.00697551 0.0193038
+    -0.0332331 0.0294461 0.0216168
+    -0.0270308 0.0718197 0.0176783
+    -0.011974 0.0812352 0.00744676
+    -0.0225219 -0.453438 -0.0130028
+    -0.0253728 -0.152786 -0.0139626
+    -0.0288079 -0.0328163 -0.0166393
+    -0.00913546 -0.472357 -0.00527419
+    -0.0295906 -0.00697552 -0.0193179
+    -0.0332331 0.0294461 -0.0216309
+    -0.0270308 0.0718196 -0.0176924
+    -0.011974 0.0812352 -0.00746086
+  faces 92
+    16 19 3  256  16 19 3  1
+    16 3 0  256  16 3 0  1
+    0 3 27  256  48 51 27  1
+    0 27 24  256  48 27 66  1
+    24 27 11  256  66 27 64  1
+    24 11 8  256  24 11 8  1
+    11 27 3  256  64 27 51  1
+    11 3 19  256  64 51 55  1
+    0 24 25  256  48 66 67  1
+    0 25 1  256  48 67 49  1
+    1 17 16  256  1 17 16  1
+    1 16 0  256  1 16 0  1
+    24 8 9  256  24 8 9  1
+    24 9 25  256  24 9 25  1
+    25 9 10  256  25 9 10  1
+    25 10 26  256  25 10 26  1
+    25 26 2  256  67 68 50  1
+    25 2 1  256  67 50 49  1
+    2 18 17  256  2 18 17  1
+    2 17 1  256  2 17 1  1
+    2 4 20  256  2 4 20  1
+    2 20 18  256  2 20 18  1
+    4 2 26  256  52 50 68  1
+    4 26 28  256  52 68 69  1
+    28 26 10  256  28 26 10  1
+    28 10 12  256  28 10 12  1
+    29 28 12  256  29 28 12  1
+    29 12 13  256  29 12 13  1
+    5 4 28  256  53 52 69  1
+    5 28 29  256  53 69 70  1
+    5 21 20  256  5 21 20  1
+    5 20 4  256  5 20 4  1
+    5 6 22  256  5 6 22  1
+    5 22 21  256  5 22 21  1
+    5 29 30  256  53 70 71  1
+    5 30 6  256  53 71 54  1
+    29 13 14  256  29 13 14  1
+    29 14 30  256  29 14 30  1
+    30 14 15  256  30 14 15  1
+    30 15 31  256  71 65 31  1
+    6 30 31  256  54 71 31  1
+    6 31 7  256  54 31 7  1
+    6 7 23  256  54 7 56  1
+    6 23 22  256  6 23 22  1
+    31 15 23  256  31 65 56  1
+    31 23 7  256  31 56 7  1
+    16 35 19  256  16 35 19  1
+    16 32 35  256  16 32 35  1
+    32 43 35  256  57 43 60  1
+    32 40 43  256  57 72 43  1
+    40 11 43  256  72 64 43  1
+    40 8 11  256  40 8 11  1
+    11 35 43  256  64 60 43  1
+    11 19 35  256  64 55 60  1
+    32 41 40  256  57 73 72  1
+    32 33 41  256  57 58 73  1
+    33 16 17  256  33 16 17  1
+    33 32 16  256  33 32 16  1
+    40 9 8  256  40 9 8  1
+    40 41 9  256  40 41 9  1
+    41 10 9  256  41 10 9  1
+    41 42 10  256  41 42 10  1
+    41 34 42  256  73 59 74  1
+    41 33 34  256  73 58 59  1
+    34 17 18  256  34 17 18  1
+    34 33 17  256  34 33 17  1
+    34 20 36  256  34 20 36  1
+    34 18 20  256  34 18 20  1
+    36 42 34  256  61 74 59  1
+    36 44 42  256  61 75 74  1
+    44 10 42  256  44 10 42  1
+    44 12 10  256  44 12 10  1
+    45 12 44  256  45 12 44  1
+    45 13 12  256  45 13 12  1
+    37 44 36  256  62 75 61  1
+    37 45 44  256  62 76 75  1
+    37 20 21  256  37 20 21  1
+    37 36 20  256  37 36 20  1
+    37 22 38  256  37 22 38  1
+    37 21 22  256  37 21 22  1
+    37 46 45  256  62 77 76  1
+    37 38 46  256  62 63 77  1
+    45 14 13  256  45 14 13  1
+    45 46 14  256  45 46 14  1
+    46 15 14  256  46 15 14  1
+    46 47 15  256  77 47 65  1
+    38 47 46  256  63 47 77  1
+    38 39 47  256  63 39 47  1
+    38 23 39  256  63 56 39  1
+    38 22 23  256  38 22 23  1
+    47 23 15  256  47 56 65  1
+    47 39 23  256  47 39 56  1
+  tverts 78
+    0.500377 0.0476112 0
+    0.49701 0.575039 0
+    0.487669 0.785498 0
+    0.527494 0.0144236 0
+    0.478271 0.83083 0
+    0.470156 0.894724 0
+    0.483974 0.969059 0
+    0.479872 0.985576 0
+    0.577242 0.0476112 0
+    0.583976 0.575039 0
+    0.602734 0.785498 0
+    0.523009 0.0144236 0
+    0.608095 0.83083 0
+    0.622077 0.894724 0
+    0.610124 0.969059 0
+    0.538328 0.985576 0
+    0.454756 0.0476112 0
+    0.448022 0.575039 0
+    0.429313 0.785498 0
+    0.508988 0.0144236 0
+    0.416104 0.83083 0
+    0.397923 0.894724 0
+    0.421924 0.969059 0
+    0.49372 0.985576 0
+    0.53162 0.0476112 0
+    0.534988 0.575039 0
+    0.544379 0.785498 0
+    0.524504 0.0144236 0
+    0.553777 0.83083 0
+    0.561892 0.894724 0
+    0.548074 0.969059 0
+    0.532176 0.985576 0
+    0.500378 0.0476112 0
+    0.49701 0.575039 0
+    0.487669 0.785498 0
+    0.527494 0.0144236 0
+    0.478271 0.83083 0
+    0.470156 0.894724 0
+    0.483974 0.969059 0
+    0.479872 0.985576 0
+    0.53162 0.0476112 0
+    0.534988 0.575039 0
+    0.544379 0.785498 0
+    0.524504 0.0144236 0
+    0.553777 0.83083 0
+    0.561892 0.894724 0
+    0.548074 0.969059 0
+    0.532176 0.985576 0
+    0.460377 0.0476112 0
+    0.457011 0.575039 0
+    0.447669 0.785498 0
+    0.487494 0.0144236 0
+    0.438271 0.83083 0
+    0.430156 0.894724 0
+    0.443974 0.969059 0
+    0.468988 0.0144236 0
+    0.45372 0.985576 0
+    0.460378 0.0476112 0
+    0.457011 0.575039 0
+    0.447669 0.785498 0
+    0.487494 0.0144236 0
+    0.438271 0.83083 0
+    0.430156 0.894724 0
+    0.443974 0.969059 0
+    0.543009 0.0144236 0
+    0.558328 0.985576 0
+    0.55162 0.0476112 0
+    0.554988 0.575039 0
+    0.564379 0.785498 0
+    0.573777 0.83083 0
+    0.581892 0.894724 0
+    0.568074 0.969059 0
+    0.55162 0.0476112 0
+    0.554988 0.575039 0
+    0.564379 0.785498 0
+    0.573777 0.83083 0
+    0.581892 0.894724 0
+    0.568074 0.969059 0
+endnode
+endmodelgeom it_torch_000
+
+#NWmax ANIM ASCII
+newanim equip it_torch_000
+  length 0.1
+  transtime 0.25
+  animroot it_torch_000
+    node dummy it_torch_000
+        parent NULL
+    endnode
+    node emitter emmiter_smoke
+        parent it_torch_000
+        birthratekey
+            0.0 0 
+            0.0333333 12 
+            0.0666667 12 
+            0.1 12 
+        endlist
+    endnode
+    node emitter Flame02
+        parent it_torch_000
+        birthratekey
+            0.0 0 
+            0.0333333 8 
+            0.1 9 
+        endlist
+    endnode
+    node trimesh torch
+        parent it_torch_000
+    endnode
+doneanim equip it_torch_000
+
+
+#NWmax ANIM ASCII
+newanim unequip it_torch_000
+  length 0.1
+  transtime 0.25
+  animroot it_torch_000
+    node dummy it_torch_000
+        parent NULL
+    endnode
+    node emitter emmiter_smoke
+        parent it_torch_000
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node emitter Flame02
+        parent it_torch_000
+        birthratekey
+            0.0 12 
+            0.0333333 0 
+            0.1 0 
+        endlist
+    endnode
+    node trimesh torch
+        parent it_torch_000
+    endnode
+doneanim unequip it_torch_000
+
+donemodel it_torch_000

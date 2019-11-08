@@ -1,0 +1,21 @@
+# Exported from NWmax 0.8 b60 at 4/27/2009 1:38:04 AM
+# mdl file
+#
+# © Forest Rhodes 2009
+# a.k.a Morikahn
+#
+#NWmax MODEL ASCII
+# model: ashlw_t_011
+#local file: C:\Documents and Settings\mori\My Documents\3dsmax\scenes\NWN\Shields\large shield top 01\large_shield_top_011.max
+filedependancy large_shield_top_011.max
+newmodel ashlw_t_011
+setsupermodel ashlw_t_011 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom ashlw_t_011
+node dummy ashlw_t_011
+  parent NULL
+endnode
+endmodelgeom ashlw_t_011
+donemodel ashlw_t_011

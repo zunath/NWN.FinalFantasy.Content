@@ -1,0 +1,52 @@
+# Exported from NWMax Plus v5.06.01 at 9/13/2015 6:53:03 AM
+# mdl file
+#
+#NWMax Plus MODEL  ASCII
+# model: qno04_c03_02
+filedependancy Unknown
+newmodel qno04_c03_02
+setsupermodel qno04_c03_02 null
+classification Tile
+#NWMax Plus GEOM  ASCII
+beginmodelgeom qno04_c03_02
+node dummy qno04_c03_02
+  parent NULL
+endnode
+node dummy qno04_c03_02a
+  parent qno04_c03_02
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.552941 0.027451 0.227451 
+endnode
+node light qno04_c03_02ml1
+  parent qno04_c03_02
+  position 0.0 0.0 10.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.87451 0.87451 0.87451 
+  radius 14.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 1
+endnode
+node light qno04_c03_02ml2
+  parent qno04_c03_02
+  position 2.14 -0.66 9.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.87451 0.87451 0.87451 
+  radius 5.0
+  multiplier 1.0
+  color 0.00392157 0.00392157 0.00392157 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 1
+endnode
+endmodelgeom qno04_c03_02
+donemodel qno04_c03_02

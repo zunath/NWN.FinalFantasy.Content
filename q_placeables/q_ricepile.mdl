@@ -1,0 +1,831 @@
+# Exported from NWMax Plus v5.06.01 at 11/7/2015 3:16:01 PM
+# mdl file
+#
+#NWMax Plus MODEL  ASCII
+# model: q_ricepile
+filedependancy Unknown
+newmodel q_ricepile
+setsupermodel q_ricepile NULL
+classification Character
+setanimationscale 1.0
+#NWMax Plus GEOM  ASCII
+beginmodelgeom q_ricepile
+node dummy q_ricepile
+  parent NULL
+endnode
+node dummy dirtpile_impact
+  parent q_ricepile
+  position 0.0 0.0 0.17
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node dummy dirtpile_hand
+  parent q_ricepile
+  position 0.0 0.0 0.2
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node dummy dirtpile_head_hit
+  parent q_ricepile
+  position 0.0 0.02 0.38
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node dummy dirtpile_ground
+  parent q_ricepile
+  position 0.0 0.0 0.03
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node dummy dirtpile_head
+  parent q_ricepile
+  position 0.0 0.0 0.21
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.541176 
+endnode
+node trimesh damage_dirtpile
+  parent q_ricepile
+  position -0.03 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0705882 0.0 1.0 
+  Diffuse 1.0 0.501961 0.643137 
+  Specular 0.0 0.9 0.105882 
+  shininess 24
+  center 0.5 -0.5 25.0 
+  bitmap NULL
+  verts 12
+    -0.19 -0.19 0.0
+    -0.19 0.18 0.0
+    0.2 0.18 0.0
+    0.2 -0.19 0.0
+    -0.19 -0.19 0.5
+    0.2 -0.19 0.5
+    0.2 0.18 0.5
+    -0.19 0.18 0.5
+    0.11 -0.1 0.25
+    -0.1 -0.1 0.25
+    0.11 0.1 0.25
+    -0.1 0.1 0.25
+  faces 20
+    0 1 2  1  0 0 0  2
+    2 3 0  1  0 0 0  2
+    4 5 6  1  0 0 0  1
+    6 7 4  1  0 0 0  1
+    0 3 8  2  0 0 0  5
+    8 9 0  2  0 0 0  5
+    9 8 5  2  0 0 0  5
+    5 4 9  2  0 0 0  5
+    3 2 10  4  0 0 0  4
+    10 8 3  4  0 0 0  4
+    8 10 6  4  0 0 0  4
+    6 5 8  4  0 0 0  4
+    2 1 11  2  0 0 0  6
+    11 10 2  2  0 0 0  6
+    10 11 7  2  0 0 0  6
+    7 6 10  2  0 0 0  6
+    1 0 9  4  0 0 0  3
+    9 11 1  4  0 0 0  3
+    11 9 4  4  0 0 0  3
+    4 7 11  4  0 0 0  3
+endnode
+node trimesh dirtpile
+  parent damage_dirtpile
+  position 0.03 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0 0.0 0.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 20
+  center 6.5 7.0 41.0 
+  bitmap qp_grain1
+  verts 66
+    -0.43 2.18 0.02
+    -1.02 1.86 0.02
+    -0.72 1.58 0.02
+    -0.64 2.66 0.02
+    0.86 2.19 0.02
+    0.63 1.85 0.02
+    1.32 1.59 0.02
+    1.0 1.37 0.02
+    1.76 0.91 0.02
+    1.4 0.75 0.02
+    1.63 -0.05 0.02
+    2.04 -0.07 0.02
+    1.36 -0.78 0.02
+    1.73 -0.92 0.02
+    1.12 -1.43 0.02
+    1.46 -1.64 0.02
+    0.65 -1.91 0.02
+    0.87 -2.24 0.02
+    0.05 -2.13 0.02
+    0.1 -2.52 0.02
+    -0.81 -2.42 0.02
+    -0.64 -2.05 0.02
+    -1.63 -1.66 0.02
+    -1.27 -1.45 0.02
+    -1.85 -0.74 0.02
+    -1.45 -0.71 0.02
+    -1.77 0.03 0.02
+    -1.38 0.05 0.02
+    -1.91 0.74 0.02
+    -1.5 0.66 0.02
+    -1.02 1.4 0.02
+    -1.3 1.69 0.02
+    0.92 0.53 0.48
+    0.96 -0.01 0.3
+    0.87 -0.6 0.51
+    0.67 -1.14 0.36
+    0.36 -1.46 0.29
+    -0.01 -1.6 0.39
+    -0.41 -1.55 0.42
+    -0.81 -1.18 0.41
+    -0.93 -0.67 0.34
+    -0.82 0.08 0.31
+    -0.95 0.55 0.35
+    -0.65 1.02 0.37
+    -0.32 1.22 0.46
+    -0.16 1.55 0.38
+    0.32 1.4 0.42
+    0.58 1.07 0.33
+    0.03 1.01 0.59
+    0.26 0.84 0.59
+    0.57 0.37 0.59
+    0.57 -0.02 0.47
+    0.52 -0.46 0.59
+    0.34 -0.93 0.59
+    0.15 -1.12 0.59
+    -0.06 -1.2 0.59
+    -0.24 -1.18 0.59
+    -0.46 -0.97 0.59
+    -0.54 -0.64 0.59
+    -0.43 0.1 0.49
+    -0.55 0.47 0.59
+    -0.38 0.73 0.59
+    0.0 -0.55 0.8
+    0.0 -0.93 0.7
+    0.0 0.05 0.66
+    0.03 0.39 0.78
+  faces 114
+    0 1 2  1  0 1 2  1
+    0 3 1  1  0 3 1  1
+    4 0 5  1  4 0 5  1
+    4 3 0  1  4 3 0  1
+    6 5 7  1  6 5 7  1
+    6 4 5  1  6 4 5  1
+    8 7 9  1  8 7 9  1
+    8 6 7  1  8 6 7  1
+    8 10 11  1  8 10 11  1
+    8 9 10  1  8 9 10  1
+    11 12 13  1  11 12 13  1
+    11 10 12  1  11 10 12  1
+    13 14 15  1  13 14 15  1
+    13 12 14  1  13 12 14  1
+    15 16 17  1  15 16 17  1
+    15 14 16  1  15 14 16  1
+    17 18 19  1  17 18 19  1
+    17 16 18  1  17 16 18  1
+    18 20 19  1  18 20 19  1
+    18 21 20  1  18 21 20  1
+    21 22 20  1  21 22 20  1
+    21 23 22  1  21 23 22  1
+    23 24 22  1  23 24 22  1
+    23 25 24  1  23 25 24  1
+    25 26 24  1  25 26 24  1
+    25 27 26  1  25 27 26  1
+    27 28 26  1  27 28 26  1
+    27 29 28  1  27 29 28  1
+    30 28 29  1  30 28 29  1
+    30 31 28  1  30 31 28  1
+    2 31 30  1  2 31 30  1
+    2 1 31  1  2 1 31  1
+    10 32 33  1  10 32 33  1
+    10 9 32  1  10 9 32  1
+    12 33 34  1  12 33 34  1
+    12 10 33  1  12 10 33  1
+    14 34 35  1  14 34 35  1
+    14 12 34  1  14 12 34  1
+    16 35 36  1  16 35 36  1
+    16 14 35  1  16 14 35  1
+    18 36 37  1  18 36 37  1
+    18 16 36  1  18 16 36  1
+    38 18 37  1  38 18 37  1
+    38 21 18  1  38 21 18  1
+    39 21 38  1  39 21 38  1
+    39 23 21  1  39 23 21  1
+    40 23 39  1  40 23 39  1
+    40 25 23  1  40 25 23  1
+    41 25 40  1  41 25 40  1
+    41 27 25  1  41 27 25  1
+    42 27 41  1  42 27 41  1
+    42 29 27  1  42 29 27  1
+    43 29 42  1  43 29 42  1
+    43 30 29  1  43 30 29  1
+    44 30 43  1  44 30 43  1
+    44 2 30  1  44 2 30  1
+    45 2 44  1  45 2 44  1
+    45 0 2  1  45 0 2  1
+    5 45 46  1  5 45 46  1
+    5 0 45  1  5 0 45  1
+    7 46 47  1  7 46 47  1
+    7 5 46  1  7 5 46  1
+    9 47 32  1  9 47 32  1
+    9 7 47  1  9 7 47  1
+    45 48 46  1  45 48 46  1
+    45 44 48  1  45 44 48  1
+    47 48 49  1  47 48 49  1
+    47 46 48  1  47 46 48  1
+    32 49 50  1  32 49 50  1
+    32 47 49  1  32 47 49  1
+    33 50 51  1  33 50 51  1
+    33 32 50  1  33 32 50  1
+    34 51 52  1  34 51 52  1
+    34 33 51  1  34 33 51  1
+    35 52 53  1  35 52 53  1
+    35 34 52  1  35 34 52  1
+    36 53 54  1  36 53 54  1
+    36 35 53  1  36 35 53  1
+    37 54 55  1  37 54 55  1
+    37 36 54  1  37 36 54  1
+    56 37 55  1  56 37 55  1
+    56 38 37  1  56 38 37  1
+    57 38 56  1  57 38 56  1
+    57 39 38  1  57 39 38  1
+    58 39 57  1  58 39 57  1
+    58 40 39  1  58 40 39  1
+    59 40 58  1  59 40 58  1
+    59 41 40  1  59 41 40  1
+    60 41 59  1  60 41 59  1
+    60 42 41  1  60 42 41  1
+    61 42 60  1  61 42 60  1
+    61 43 42  1  61 43 42  1
+    48 43 61  1  48 43 61  1
+    48 44 43  1  48 44 43  1
+    62 53 52  1  62 53 52  1
+    62 63 53  1  62 63 53  1
+    58 63 62  1  58 63 62  1
+    58 57 63  1  58 57 63  1
+    56 63 57  1  56 63 57  1
+    54 63 55  1  54 63 55  1
+    59 62 64  1  59 62 64  1
+    59 58 62  1  59 58 62  1
+    62 51 64  1  62 51 64  1
+    62 52 51  1  62 52 51  1
+    60 64 65  1  60 64 65  1
+    60 59 64  1  60 59 64  1
+    64 50 65  1  64 50 65  1
+    64 51 50  1  64 51 50  1
+    65 61 60  1  65 61 60  1
+    65 49 48  1  65 49 48  1
+    65 50 49  1  65 50 49  1
+    65 48 61  1  65 48 61  1
+    56 55 63  1  56 55 63  1
+    54 53 63  1  54 53 63  1
+  tverts 66
+    0.427734 0.882813 0
+    0.173828 0.908203 0
+    0.300781 0.791016 0
+    0.378906 0.984375 0
+    0.720703 0.955078 0
+    0.666016 0.869141 0
+    0.912109 0.8125 0
+    0.810547 0.783203 0
+    0.955078 0.636719 0
+    0.857422 0.617188 0
+    0.890625 0.462891 0
+    1.00391 0.447266 0
+    0.886719 0.318359 0
+    0.974609 0.261719 0
+    0.818359 0.183594 0
+    0.916016 0.126953 0
+    0.681641 0.107422 0
+    0.740234 0.0292969 0
+    0.511719 0.0839844 0
+    0.523438 0.00976563 0
+    0.314453 0.0195313 0
+    0.369141 0.121094 0
+    0.107422 0.142578 0
+    0.193359 0.203125 0
+    0.0429688 0.324219 0
+    0.140625 0.328125 0
+    0.0371094 0.462891 0
+    0.128906 0.46875 0
+    0.0273438 0.599609 0
+    0.125 0.580078 0
+    0.232422 0.734375 0
+    0.105469 0.830078 0
+    0.740234 0.613281 0
+    0.779297 0.498047 0
+    0.75 0.367188 0
+    0.695313 0.251953 0
+    0.603516 0.199219 0
+    0.505859 0.203125 0
+    0.417969 0.222656 0
+    0.291016 0.289063 0
+    0.251953 0.357422 0
+    0.236328 0.492188 0
+    0.242188 0.589844 0
+    0.320313 0.685547 0
+    0.382813 0.734375 0
+    0.447266 0.791016 0
+    0.568359 0.777344 0
+    0.671875 0.728516 0
+    0.515625 0.714844 0
+    0.59375 0.689453 0
+    0.658203 0.59375 0
+    0.689453 0.519531 0
+    0.662109 0.410156 0
+    0.597656 0.345703 0
+    0.544922 0.308594 0
+    0.490234 0.294922 0
+    0.441406 0.298828 0
+    0.382813 0.337891 0
+    0.361328 0.400391 0
+    0.339844 0.537109 0
+    0.359375 0.615234 0
+    0.40625 0.664063 0
+    0.505859 0.417969 0
+    0.505859 0.341797 0
+    0.505859 0.533203 0
+    0.513672 0.597656 0
+endnode
+node emitter chunkywood182
+  parent q_ricepile
+  position 0.03 0.03 0.51
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w02
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter chunkywood183
+  parent q_ricepile
+  position 0.03 0.03 0.62
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.482353 0.435294 0.317647 
+  colorEnd 0.584314 0.533333 0.407843 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 2
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter fire!69
+  parent q_ricepile
+  position 0.0 -0.05 0.53
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.431373 0.329412 
+  colorEnd 0.819608 0.772549 0.584314 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+endmodelgeom q_ricepile
+
+#NWMax Plus ANIM  ASCII
+newanim damage q_ricepile
+  length 0.133333
+  transtime 0.0
+  animroot q_ricepile
+    node dummy q_ricepile
+        parent NULL
+    endnode
+    node dummy dirtpile_impact
+        parent q_ricepile
+        positionkey
+            0.0 0.0 0.0 0.17
+            0.133333 0.000218402 0.0 0.17
+        endlist
+    endnode
+    node dummy dirtpile_hand
+        parent q_ricepile
+        positionkey
+            0.0 0.0 0.0 0.2
+            0.133333 0.000218401 0.0 0.2
+        endlist
+    endnode
+    node dummy dirtpile_head_hit
+        parent q_ricepile
+        positionkey
+            0.0 0.0 0.02 0.38
+            0.133333 0.000218401 0.02 0.38
+        endlist
+    endnode
+    node dummy dirtpile_ground
+        parent q_ricepile
+        positionkey
+            0.0 0.0 0.0 0.03
+            0.133333 0.00022119 0.0 0.03
+        endlist
+    endnode
+    node dummy dirtpile_head
+        parent q_ricepile
+        positionkey
+            0.0 0.0 0.0 0.21
+            0.133333 0.000218402 0.0 0.21
+        endlist
+    endnode
+    node trimesh damage_dirtpile
+        parent q_ricepile
+        positionkey
+            0.0 -0.03 0.0 0.0
+            0.0333333 -0.03 0.0 0.0244581
+            0.1 -0.03 0.0 0.0
+            0.133333 -0.03 0.0 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.371336 -0.928463 0.00810258 -0.0469939
+            0.0666667 -0.59995 0.799969 0.0104722 -0.0436324
+            0.1 0.0 0.0 0.0 0.0
+            0.133333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh dirtpile
+        parent damage_dirtpile
+    endnode
+    node emitter chunkywood182
+        parent q_ricepile
+    endnode
+    node emitter chunkywood183
+        parent q_ricepile
+    endnode
+    node emitter fire!69
+        parent q_ricepile
+    endnode
+    node dummy ricepile_pwk
+        parent q_ricepile
+    endnode
+    node pwk NoWalk01
+        parent ricepile_pwk
+    endnode
+    node dummy dpl_pwk_use01
+        parent ricepile_pwk
+    endnode
+    node dummy dpl_pwk_use02
+        parent ricepile_pwk
+    endnode
+doneanim damage q_ricepile
+
+
+#NWMax Plus ANIM  ASCII
+newanim dead q_ricepile
+  length 0.0333333
+  transtime 0.0
+  animroot q_ricepile
+    node dummy q_ricepile
+        parent NULL
+    endnode
+    node dummy dirtpile_impact
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_hand
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_head_hit
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_ground
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_head
+        parent q_ricepile
+    endnode
+    node trimesh damage_dirtpile
+        parent q_ricepile
+        positionkey
+            0.0 -0.03 0.0 -3.77999
+            0.0333333 -0.03 0.0 -3.77999
+        endlist
+    endnode
+    node trimesh dirtpile
+        parent damage_dirtpile
+    endnode
+    node emitter chunkywood182
+        parent q_ricepile
+    endnode
+    node emitter chunkywood183
+        parent q_ricepile
+    endnode
+    node emitter fire!69
+        parent q_ricepile
+    endnode
+    node dummy ricepile_pwk
+        parent q_ricepile
+    endnode
+    node pwk NoWalk01
+        parent ricepile_pwk
+    endnode
+    node dummy dpl_pwk_use01
+        parent ricepile_pwk
+    endnode
+    node dummy dpl_pwk_use02
+        parent ricepile_pwk
+    endnode
+doneanim dead q_ricepile
+
+
+#NWMax Plus ANIM  ASCII
+newanim default q_ricepile
+  length 0.0
+  transtime 0.25
+  animroot q_ricepile
+    node dummy q_ricepile
+        parent NULL
+    endnode
+    node dummy dirtpile_impact
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_hand
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_head_hit
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_ground
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_head
+        parent q_ricepile
+    endnode
+    node trimesh damage_dirtpile
+        parent q_ricepile
+    endnode
+    node trimesh dirtpile
+        parent damage_dirtpile
+    endnode
+    node emitter chunkywood182
+        parent q_ricepile
+    endnode
+    node emitter chunkywood183
+        parent q_ricepile
+    endnode
+    node emitter fire!69
+        parent q_ricepile
+    endnode
+    node dummy ricepile_pwk
+        parent q_ricepile
+    endnode
+    node pwk NoWalk01
+        parent ricepile_pwk
+    endnode
+    node dummy dpl_pwk_use01
+        parent ricepile_pwk
+    endnode
+    node dummy dpl_pwk_use02
+        parent ricepile_pwk
+    endnode
+doneanim default q_ricepile
+
+
+#NWMax Plus ANIM  ASCII
+newanim die q_ricepile
+  length 0.166667
+  transtime 0.0
+  animroot q_ricepile
+  event 0.0333333 detonate
+    node dummy q_ricepile
+        parent NULL
+    endnode
+    node dummy dirtpile_impact
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_hand
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_head_hit
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_ground
+        parent q_ricepile
+    endnode
+    node dummy dirtpile_head
+        parent q_ricepile
+    endnode
+    node trimesh damage_dirtpile
+        parent q_ricepile
+        positionkey
+            0.0 -0.03 0.0 0.0
+            0.166667 -0.03 0.0 -3.77999
+        endlist
+    endnode
+    node trimesh dirtpile
+        parent damage_dirtpile
+    endnode
+    node emitter chunkywood182
+        parent q_ricepile
+    endnode
+    node emitter chunkywood183
+        parent q_ricepile
+    endnode
+    node emitter fire!69
+        parent q_ricepile
+    endnode
+    node dummy ricepile_pwk
+        parent q_ricepile
+    endnode
+    node pwk NoWalk01
+        parent ricepile_pwk
+    endnode
+    node dummy dpl_pwk_use01
+        parent ricepile_pwk
+    endnode
+    node dummy dpl_pwk_use02
+        parent ricepile_pwk
+    endnode
+doneanim die q_ricepile
+
+donemodel q_ricepile

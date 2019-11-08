@@ -1,0 +1,118 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Sat Jan 03 19:09:45 2015
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel tps02_z25
+  classification TILE
+  setsupermodel tps02_z25 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom tps02_z25
+node dummy tps02_z25
+  parent NULL
+endnode
+node trimesh aaobject01
+  parent tps02_z25
+  position 0 0 18
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 0 50
+  bitmap tps02_roof01
+  verts 4
+    -4.4 -4.4 0.5
+    4.4 -4.4 0.5
+    4.4 4.4 0.5
+    -4.4 4.4 0.5
+  faces 2
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+  tverts 4
+    -0.998047 -0.998047 0
+    0.99805 -0.998047 0
+    0.99805 0.99805 0
+    -0.998047 0.99805 0
+endnode
+node trimesh box01
+  parent tps02_z25
+  position 0 0 18
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  center 0 0 30
+  bitmap tps02_stone04
+  verts 16
+    -5 -5 0
+    5 -5 0
+    5 -5 0.6
+    -5 -5 0.6
+    5 5 0
+    5 5 0.6
+    -5 5 0
+    -5 5 0.6
+    4.7 -4.7 0.6
+    -4.7 -4.7 0.6
+    4.7 4.7 0.6
+    -4.7 4.7 0.6
+    4.4 -4.4 0.5
+    -4.4 -4.4 0.5
+    4.4 4.4 0.5
+    -4.4 4.4 0.5
+  faces 24
+    0 1 2 1 0 1 2 5
+    2 3 0 1 2 3 0 5
+    1 4 5 2 0 1 2 4
+    5 2 1 2 2 3 0 4
+    4 6 7 1 0 1 2 6
+    7 5 4 1 2 3 0 6
+    6 0 3 2 0 1 2 3
+    3 7 6 2 2 3 0 3
+    3 2 8 4 0 1 2 1
+    8 9 3 4 2 3 0 1
+    2 5 10 4 0 1 2 1
+    10 8 2 4 2 3 0 1
+    5 7 11 4 0 1 2 1
+    11 10 5 4 2 3 0 1
+    7 3 9 4 0 1 2 1
+    9 11 7 4 2 3 0 1
+    9 8 12 1 0 1 2 1
+    12 13 9 1 2 3 0 1
+    8 10 14 2 0 1 2 1
+    14 12 8 2 2 3 0 1
+    10 11 15 1 0 1 2 1
+    15 14 10 1 2 3 0 1
+    11 9 13 2 0 1 2 1
+    13 15 11 2 2 3 0 1
+  tverts 4
+    -1 0 0
+    1 0 0
+    1 0.0703125 0
+    -1 0.0703125 0
+endnode
+endmodelgeom tps02_z25
+donemodel tps02_z25

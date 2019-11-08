@@ -1,0 +1,244 @@
+# Exported from NWmax 0.8 b61 at 9/20/2009 12:39:13 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: pnm_f01
+#local file: Unknown
+filedependancy Unknown
+newmodel pnm_f01
+setsupermodel pnm_f01 NULL
+classification Character
+setanimationscale 0.9
+#NWmax GEOM  ASCII
+beginmodelgeom pnm_f01
+node dummy pnm_f01
+  parent NULL
+endnode
+node trimesh cylinder05
+  parent pnm_f01
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.101961 0.337255 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.588235 0.588235 0.588235 
+  Diffuse 0.588235 0.588235 0.588235 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 2.5691 -12.2648 26.9023 
+  bitmap tbw01_shroom
+  verts 31
+    0.0256163 -0.0143176 0.0
+    0.0139792 0.0149699 0.0
+    -0.00677277 -0.0103202 0.0
+    0.0377869 -0.163914 0.508804
+    0.0441807 -0.129042 0.52075
+    0.00914139 -0.142 0.518748
+    0.0316318 -0.151011 0.533015
+    0.171415 -0.0825274 0.49745
+    0.0544702 0.00693623 0.538046
+    -0.0885768 -0.0459668 0.529875
+    -0.114679 -0.188333 0.481106
+    0.00226607 -0.277798 0.440509
+    0.145313 -0.224894 0.448681
+    0.219629 -0.0414355 0.467856
+    0.070966 0.0722921 0.519464
+    -0.141561 -0.00630652 0.507323
+    -0.174742 -0.187285 0.445327
+    -0.168247 -0.203861 0.438937
+    -0.0195846 -0.317588 0.387329
+    -0.000995535 -0.320203 0.385012
+    0.180849 -0.252951 0.3954
+    0.192942 -0.23899 0.399471
+    0.226124 -0.058011 0.461467
+    0.052377 0.0749062 0.521782
+    -0.129467 0.00765499 0.511393
+    0.0303352 -0.082857 0.282019
+    0.0113151 -0.0913065 0.285666
+    0.00195153 -0.102344 0.284383
+    0.0172012 -0.112792 0.273746
+    0.0320244 -0.112919 0.267898
+    0.0354613 -0.0949935 0.276163
+  faces 36
+    29 4 3  8  33 23 26  3
+    30 25 4  8  35 28 23  3
+    25 5 4  8  28 24 23  3
+    26 27 5  8  29 30 24  3
+    27 3 5  8  30 22 24  3
+    28 29 3  8  31 32 22  3
+    6 7 8  1  0 1 2  2
+    6 8 9  1  0 2 3  2
+    6 9 10  1  0 3 4  2
+    6 10 11  1  0 4 5  2
+    6 11 12  1  0 5 6  2
+    6 12 7  1  0 6 1  2
+    7 13 14  1  1 7 8  2
+    7 14 8  1  1 8 2  2
+    9 15 16  1  3 9 10  2
+    9 16 10  1  3 10 4  2
+    10 17 18  1  4 11 12  2
+    10 18 11  1  4 12 5  2
+    11 19 20  1  5 13 14  2
+    11 20 12  1  5 14 6  2
+    12 21 22  1  6 15 16  2
+    12 22 7  1  6 16 1  2
+    8 23 24  1  2 17 18  2
+    8 24 9  1  2 18 3  2
+    26 5 25  8  29 24 28  3
+    0 1 25  8  27 20 28  3
+    1 26 25  8  20 29 28  3
+    1 2 26  8  20 21 29  3
+    26 2 27  8  29 21 30  3
+    28 3 27  8  31 22 30  3
+    2 28 27  8  21 31 30  3
+    2 0 28  8  21 19 31  3
+    28 0 29  8  31 19 32  3
+    30 4 29  8  34 23 33  3
+    0 30 29  8  25 34 33  3
+    0 25 30  8  27 28 35  3
+  tverts 36
+    0.779218 0.748154 0
+    0.858336 0.89842 0
+    0.690903 0.898609 0
+    0.598087 0.759574 0
+    0.672702 0.620349 0
+    0.840135 0.62016 0
+    0.932952 0.759196 0
+    0.873572 0.965237 0
+    0.648656 0.97316 0
+    0.512952 0.761106 0
+    0.617683 0.581926 0
+    0.634989 0.571958 0
+    0.857711 0.565132 0
+    0.876318 0.575059 0
+    0.98882 0.755097 0
+    0.990122 0.774992 0
+    0.890879 0.955269 0
+    0.630049 0.963233 0
+    0.514254 0.781001 0
+    0.252118 0.00445188 0
+    0.0880274 0.00445188 0
+    0.170073 0.00445188 0
+    0.252118 0.524037 0
+    0.0880274 0.524037 0
+    0.170073 0.524037 0
+    0.00598219 0.00445188 0
+    0.00598219 0.524037 0
+    0.00598219 0.00445188 0
+    0.0880274 0.28584 0
+    0.133209 0.290579 0
+    0.170073 0.289294 0
+    0.214215 0.283999 0
+    0.252118 0.278026 0
+    0.00598219 0.278026 0
+    0.0494923 0.279997 0
+    0.0494923 0.279997 0
+endnode
+node emitter fire
+  parent pnm_f01
+  position 0.0 0.0 0.135
+  orientation 0.77227 0.0 0.635295 -4.94323e-006
+  wirecolor 0.101961 0.694118 0.101961 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 75.0
+  ySize 150.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.439216 0.364706 
+  colorEnd 0.819608 0.796079 0.709804 
+  alphaStart 0.5
+  alphaEnd 0.0
+  sizeStart 1.0
+  sizeEnd 0.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 12
+  lifeExp 3.0
+  mass 0.05
+  spread 3.14159
+  particleRot 0.5
+  velocity 0.05
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 12
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node dummy f01_ground
+  parent pnm_f01
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.843137 0.898039 
+endnode
+node dummy f01_hand
+  parent pnm_f01
+  position 0.0 0.0 0.522
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.843137 0.898039 
+endnode
+node dummy f01_head
+  parent pnm_f01
+  position 0.0 0.0 0.585
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.843137 0.898039 
+endnode
+node dummy f01_head_hit
+  parent pnm_f01
+  position 0.0 0.0 0.18
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.843137 0.898039 
+endnode
+node dummy f01_impact
+  parent pnm_f01
+  position 0.0 0.0 0.234
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.6 0.894118 0.6 
+endnode
+endmodelgeom pnm_f01
+donemodel pnm_f01

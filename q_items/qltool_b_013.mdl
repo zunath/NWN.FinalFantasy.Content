@@ -1,0 +1,91 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Thu Jan 08 21:36:48 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel qltool_b_013
+setsupermodel qltool_b_013 null
+setanimationscale 1
+classification ITEM
+#MAXGEOM ASCII
+beginmodelgeom qltool_b_013
+node dummy qltool_b_013
+  parent NULL
+endnode
+node trimesh handle
+  parent qltool_b_013
+  position -0.00606148 0.6504 0
+  orientation 0.580336 -0.571332 0.580336 -4.17974
+  wirecolor 0.6 0.894118 0.6
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 1.84774e-005 2.26498e-006 59.83
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap tno01_wood02
+  verts 13
+    0 0.02352 0
+    -0.0203689 0.01176 0
+    -0.0203689 -0.01176 0
+    0 -0.02352 0
+    0.0203689 -0.01176 0
+    0.0203689 0.01176 0
+    3.69021e-007 0.02352 1.184
+    -0.0203685 0.01176 1.184
+    -0.0203685 -0.01176 1.184
+    3.73133e-007 -0.02352 1.184
+    0.0203693 -0.01176 1.184
+    0.0203693 0.01176 1.184
+    3.70049e-007 0 1.1966
+  faces 18
+    0 7 6 8 0 7 6 3
+    0 1 7 8 0 1 7 3
+    1 8 7 8 12 8 13 3
+    1 2 8 8 12 2 8 3
+    2 9 8 8 2 9 8 3
+    2 3 9 8 2 3 9 3
+    3 10 9 8 3 10 9 3
+    3 4 10 8 3 4 10 3
+    4 11 10 8 4 11 10 3
+    4 5 11 8 4 5 11 3
+    5 6 11 8 5 6 11 3
+    5 0 6 8 5 0 6 3
+    12 6 7 8 20 14 15 1
+    12 7 8 8 20 15 16 1
+    12 8 9 8 20 16 17 1
+    12 9 10 8 20 17 18 1
+    12 10 11 8 20 18 19 1
+    12 11 6 8 20 19 14 1
+  tverts 21
+    1.75 0.625 0
+    1.91667 0.625 0
+    1.08333 0.625 0
+    1.25 0.625 0
+    1.41667 0.625 0
+    1.58333 0.625 0
+    1.75 2.375 0
+    1.91667 2.375 0
+    1.08333 2.375 0
+    1.25 2.375 0
+    1.41667 2.375 0
+    1.58333 2.375 0
+    0.916667 0.625 0
+    0.916667 2.375 0
+    0.605 0.5 0
+    0.5525 0.590933 0
+    0.4475 0.590933 0
+    0.395 0.5 0
+    0.4475 0.409067 0
+    0.5525 0.409067 0
+    0.5 0.5 0
+endnode
+endmodelgeom qltool_b_013
+donemodel qltool_b_013

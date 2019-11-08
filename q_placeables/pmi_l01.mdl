@@ -1,0 +1,953 @@
+# Rewritten by CleanModels 3 Version 3.2.1u Mon Oct 06 16:10:06 2008
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel pmi_l01
+setsupermodel pmi_l01 null
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom pmi_l01
+node dummy pmi_l01
+  parent NULL
+endnode
+node emitter fire!
+  parent pmi_l01
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 1
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 1
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Normal
+  blend Normal
+  texture fxpa_smoke01
+  xgrid 4
+  ygrid 4
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0.2
+  blastLength 1
+  position 0 0.0137917 0.504806
+  orientation 1 0 0 -1.5708
+  xsize 92
+  ysize 73
+  threshold 0
+  combinetime 0
+  colorStart 0.47451 0.45098 0.392157
+  colorEnd 0.760784 0.74902 0.694118
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 0.5
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 8
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 1.5
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  fps 10
+  frameStart 0
+  frameEnd 24
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node trimesh damage
+  parent pmi_l01
+  ambient 0.0705882 0 1
+  diffuse 1 0.501961 0.643137
+  specular 0 0 0
+  shininess 25
+  shadow 0
+  render 0
+  bitmap NULL
+  position 0.000867307 0.0348657 0
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  verts 12
+    0.195415 0.186216 0
+    0.195415 -0.186216 0
+    -0.195415 -0.186216 0
+    -0.195415 0.186216 0
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    -0.103944 0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 -0.0990513 0.25
+  faces 20
+    0 1 2 1 0 0 0 1
+    2 3 0 1 0 0 0 1
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 8 1 0 0 0 1
+    8 9 0 1 0 0 0 1
+    9 8 5 1 0 0 0 1
+    5 4 9 1 0 0 0 1
+    3 2 10 1 0 0 0 1
+    10 8 3 1 0 0 0 1
+    8 10 6 1 0 0 0 1
+    6 5 8 1 0 0 0 1
+    2 1 11 1 0 0 0 1
+    11 10 2 1 0 0 0 1
+    10 11 7 1 0 0 0 1
+    7 6 10 1 0 0 0 1
+    1 0 9 1 0 0 0 1
+    9 11 1 1 0 0 0 1
+    11 9 4 1 0 0 0 1
+    4 7 11 1 0 0 0 1
+endnode
+node light auroralight01
+  parent damage
+  ambientonly 0
+  shadow 0
+  isdynamic 0
+  affectdynamic 1
+  lightpriority 3
+  fadinglight 1
+  flareradius 0
+  position 0.00579726 -0.0153301 0.861767
+  orientation 0 0 0 0
+  radius 4
+  multiplier 1
+  color 1 1 0.866669
+endnode
+node emitter candleflame
+  parent damage
+  p2p 0
+  p2p_sel 1
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 1
+  inherit 1
+  inheritvel 0
+  inherit_local 0
+  splat 0
+  inherit_part 0
+  renderorder 0
+  spawntype 0
+  update Fountain
+  render Normal
+  blend Lighten
+  texture fxpa_cndl01
+  xgrid 3
+  ygrid 3
+  loop 0
+  deadspace 0
+  twosidedtex 0
+  blastRadius 0
+  blastLength 0
+  position 0.00605281 -0.00936947 0.55
+  orientation 0 0 0 0
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 0 0 0
+  alphaStart 0
+  alphaEnd 1
+  sizeStart 0.4
+  sizeEnd 0.4
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 3
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  fps 16
+  frameStart 0
+  frameEnd 8
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node dummy base
+  parent damage
+  position 0.00605269 -0.0093657 0.02
+  orientation 0 0 0 0
+endnode
+node trimesh sphere01
+  parent base
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap qp_cndl_mug
+  position 0 0 -0.0761764
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  wirecolor 1 0 0
+  verts 17
+    0 0.166295 0.0661764
+    0 0.235176 0.0861764
+    -0.117588 0.117588 0.0661764
+    -0.166295 0.166295 0.0861764
+    -0.166295 0 0.0661764
+    -0.235176 0 0.0861764
+    -0.117588 -0.117588 0.0661764
+    -0.166295 -0.166295 0.0861764
+    0 -0.166295 0.0661764
+    0 -0.235176 0.0861764
+    0.117588 -0.117588 0.0661764
+    0.166295 -0.166295 0.0861764
+    0.166295 0 0.0661764
+    0.235176 0 0.0861764
+    0.117588 0.117588 0.0661764
+    0.166295 0.166295 0.0861764
+    0 0 0.0661764
+  faces 24
+    0 1 2 1 0 1 2 2
+    2 1 3 1 2 1 3 2
+    2 3 4 1 2 3 4 2
+    4 3 5 1 4 3 5 2
+    4 5 6 1 4 5 6 2
+    6 5 7 1 6 5 7 2
+    6 7 8 1 6 7 8 2
+    8 7 9 1 8 7 9 2
+    8 9 10 1 8 9 10 2
+    10 9 11 1 10 9 11 2
+    10 11 12 1 10 11 12 2
+    12 11 13 1 12 11 13 2
+    12 13 14 1 12 13 14 2
+    14 13 15 1 14 13 15 2
+    14 15 0 1 14 15 0 2
+    0 15 1 1 0 15 1 2
+    2 16 0 1 2 16 0 2
+    4 16 2 1 4 16 2 2
+    6 16 4 1 6 16 4 2
+    8 16 6 1 8 16 6 2
+    10 16 8 1 10 16 8 2
+    12 16 10 1 12 16 10 2
+    14 16 12 1 14 16 12 2
+    0 16 14 1 0 16 14 2
+  tverts 17
+    0.639817 0.628462 0
+    0.592979 0.574789 0
+    0.76456 0.586457 0
+    0.769393 0.515386 0
+    0.882468 0.644963 0
+    0.936141 0.598125 0
+    0.924473 0.769706 0
+    0.995544 0.774539 0
+    0.865968 0.887614 0
+    0.912805 0.941287 0
+    0.741225 0.929619 0
+    0.736392 1.00069 0
+    0.623316 0.871114 0
+    0.569644 0.917951 0
+    0.581311 0.74637 0
+    0.51024 0.741538 0
+    0.752892 0.758038 0
+endnode
+node trimesh sphere02
+  parent base
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap qp_cndl_mug
+  position 0 0 0.0196149
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  verts 16
+    0 0.235176 -0.00961495
+    0 0.166295 -0.0296149
+    -0.117588 0.117588 -0.0296149
+    -0.166295 0.166295 -0.00961495
+    -0.166295 0 -0.0296149
+    -0.235176 0 -0.00961495
+    -0.117588 -0.117588 -0.0296149
+    -0.166295 -0.166295 -0.00961495
+    0 -0.166295 -0.0296149
+    0 -0.235176 -0.00961495
+    0.117588 -0.117588 -0.0296149
+    0.166295 -0.166295 -0.00961495
+    0.166295 0 -0.0296149
+    0.235176 0 -0.00961495
+    0.117588 0.117588 -0.0296149
+    0.166295 0.166295 -0.00961495
+  faces 16
+    0 1 2 1 0 1 2 2
+    0 2 3 1 0 2 3 2
+    3 2 4 1 3 2 4 2
+    3 4 5 1 3 4 5 2
+    5 4 6 1 5 4 6 2
+    5 6 7 1 5 6 7 2
+    7 6 8 1 7 6 8 2
+    7 8 9 1 7 8 9 2
+    9 8 10 1 9 8 10 2
+    9 10 11 1 9 10 11 2
+    11 10 12 1 11 10 12 2
+    11 12 13 1 11 12 13 2
+    13 12 14 1 13 12 14 2
+    13 14 15 1 13 14 15 2
+    15 14 1 1 15 14 1 2
+    15 1 0 1 15 1 0 2
+  tverts 16
+    0.348862 0.972855 0
+    0.319609 0.90842 0
+    0.188926 0.912796 0
+    0.164049 0.979044 0
+    0.0934256 0.823485 0
+    0.0289906 0.852738 0
+    0.0890494 0.692802 0
+    0.0228017 0.667925 0
+    0.178361 0.597302 0
+    0.149108 0.532867 0
+    0.309044 0.592925 0
+    0.333921 0.526678 0
+    0.404544 0.682237 0
+    0.468979 0.652984 0
+    0.40892 0.81292 0
+    0.475168 0.837797 0
+endnode
+node trimesh candle01
+  parent damage
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap qp_cndl_mug
+  position 0.00605269 -0.0093657 0.01
+  orientation 0 0 0 0
+  scale 1
+  alpha 1
+  verts 11
+    0.0698605 0 0
+    0.0215881 0.0664415 0.438104
+    0.0698605 0 0.438104
+    0.0215881 0.0664415 0
+    -0.0565185 0.041063 0.424913
+    -0.0565185 0.041063 0
+    -0.0565185 -0.041063 0.424913
+    -0.0565185 -0.041063 0
+    0.0215881 -0.066441 0.429745
+    0.021588 -0.066441 0
+    0 0 0.424222
+  faces 15
+    0 1 2 1 0 1 2 3
+    0 3 1 1 0 3 1 3
+    3 4 1 1 4 5 6 3
+    3 5 4 1 4 7 5 3
+    5 6 4 1 8 6 9 3
+    5 7 6 1 8 10 6 3
+    7 8 6 1 11 12 13 3
+    7 9 8 1 11 14 12 3
+    9 2 8 1 15 6 16 3
+    9 0 2 1 15 17 6 3
+    10 2 1 1 18 19 20 1
+    10 1 4 1 18 20 21 1
+    10 4 6 1 18 21 22 1
+    10 6 8 1 18 22 23 1
+    10 8 2 1 18 23 19 1
+  tverts 24
+    0.39708 0.00726766 0
+    0.304146 0.495488 0
+    0.39708 0.495488 0
+    0.304146 0.00726762 0
+    0.302691 0.00726766 0
+    0.395499 0.472713 0
+    0.302691 0.495488 0
+    0.395499 0.00726762 0
+    0.395499 0.00726765 0
+    0.395499 0.495488 0
+    0.302691 0.00726761 0
+    0.302691 0.00726762 0
+    0.395499 0.495489 0
+    0.302691 0.486892 0
+    0.395499 0.0072676 0
+    0.395499 0.00726772 0
+    0.395499 0.481055 0
+    0.302691 0.00726769 0
+    0.252537 0.22659 0
+    0.215255 0.250341 0
+    0.218403 0.198433 0
+    0.268757 0.185415 0
+    0.296709 0.229291 0
+    0.263653 0.269461 0
+endnode
+node dummy cand_01_ground
+  parent pmi_l01
+  position 0.00363281 -0.0069873 0
+  orientation 0 0 0 0
+endnode
+node dummy cand_01_hand
+  parent pmi_l01
+  position -0.00398926 0.71005 0.263208
+  orientation 0 0 0 0
+endnode
+node dummy cand_01_head
+  parent pmi_l01
+  position 0.0182565 0.000933087 0.444612
+  orientation 0 0 0 0
+endnode
+node dummy cand_01_head_hit
+  parent pmi_l01
+  position -0.00398926 -0.0108251 0.2639
+  orientation 0 0 0 0
+endnode
+node dummy cand_01_impact
+  parent pmi_l01
+  position -0.00398926 -0.011001 0.291433
+  orientation 0 0 0 0
+endnode
+endmodelgeom pmi_l01
+
+#MAXANIM ASCII
+newanim damage pmi_l01
+  length 0.133333
+  transtime 0
+  animroot pmi_l01
+  node dummy pmi_l01
+    parent NULL
+  endnode
+  node emitter fire!
+    parent pmi_l01
+  endnode
+  node trimesh damage
+    parent pmi_l01
+    positionkey
+      0 0.000867307 0.0348657 0
+      0.0333333 0.000867307 0.0348657 0.0244581
+      0.133333 0.000867307 0.0348657 0
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 -0.371336 0.928463 0.00810258 -0.0469942
+      0.1 0.599949 -0.79997 0.0104721 -0.0436326
+      0.133333 0 0 0 0
+    endlist
+  endnode
+  node light auroralight01
+    parent damage
+  endnode
+  node emitter candleflame
+    parent damage
+  endnode
+  node dummy base
+    parent damage
+  endnode
+  node dummy sphere01
+    parent base
+  endnode
+  node dummy sphere02
+    parent base
+  endnode
+  node dummy candle01
+    parent damage
+  endnode
+  node dummy cand_01_ground
+    parent pmi_l01
+  endnode
+  node dummy cand_01_hand
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head_hit
+    parent pmi_l01
+  endnode
+  node dummy cand_01_impact
+    parent pmi_l01
+  endnode
+doneanim damage pmi_l01
+
+#MAXANIM ASCII
+newanim dead pmi_l01
+  length 0.0333333
+  transtime 0
+  animroot pmi_l01
+  node dummy pmi_l01
+    parent NULL
+  endnode
+  node emitter fire!
+    parent pmi_l01
+  endnode
+  node trimesh damage
+    parent pmi_l01
+    positionkey
+      0 0.000867307 0.0348657 -6.95145
+      0.0333333 0.000867307 0.0348657 -6.95145
+    endlist
+  endnode
+  node light auroralight01
+    parent damage
+  endnode
+  node emitter candleflame
+    parent damage
+  endnode
+  node dummy base
+    parent damage
+  endnode
+  node dummy sphere01
+    parent base
+  endnode
+  node dummy sphere02
+    parent base
+  endnode
+  node dummy candle01
+    parent damage
+  endnode
+  node dummy cand_01_ground
+    parent pmi_l01
+  endnode
+  node dummy cand_01_hand
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head_hit
+    parent pmi_l01
+  endnode
+  node dummy cand_01_impact
+    parent pmi_l01
+  endnode
+doneanim dead pmi_l01
+
+#MAXANIM ASCII
+newanim default pmi_l01
+  length 0
+  transtime 0.25
+  animroot pmi_l01
+  node dummy pmi_l01
+    parent NULL
+  endnode
+  node emitter fire!
+    parent pmi_l01
+  endnode
+  node dummy damage
+    parent pmi_l01
+  endnode
+  node light auroralight01
+    parent damage
+  endnode
+  node emitter candleflame
+    parent damage
+  endnode
+  node dummy base
+    parent damage
+  endnode
+  node dummy sphere01
+    parent base
+  endnode
+  node dummy sphere02
+    parent base
+  endnode
+  node dummy candle01
+    parent damage
+  endnode
+  node dummy cand_01_ground
+    parent pmi_l01
+  endnode
+  node dummy cand_01_hand
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head_hit
+    parent pmi_l01
+  endnode
+  node dummy cand_01_impact
+    parent pmi_l01
+  endnode
+doneanim default pmi_l01
+
+#MAXANIM ASCII
+newanim die pmi_l01
+  length 0.166667
+  transtime 0
+  event 0 detonate
+  animroot pmi_l01
+  node dummy pmi_l01
+    parent NULL
+  endnode
+  node emitter fire!
+    parent pmi_l01
+  endnode
+  node trimesh damage
+    parent pmi_l01
+    positionkey
+      0 0.000867307 0.0348657 0
+      0.166667 0.000867307 0.0348657 -6.95145
+    endlist
+  endnode
+  node light auroralight01
+    parent damage
+  endnode
+  node emitter candleflame
+    parent damage
+  endnode
+  node dummy base
+    parent damage
+  endnode
+  node dummy sphere01
+    parent base
+  endnode
+  node dummy sphere02
+    parent base
+  endnode
+  node dummy candle01
+    parent damage
+  endnode
+  node dummy cand_01_ground
+    parent pmi_l01
+  endnode
+  node dummy cand_01_hand
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head_hit
+    parent pmi_l01
+  endnode
+  node dummy cand_01_impact
+    parent pmi_l01
+  endnode
+doneanim die pmi_l01
+
+#MAXANIM ASCII
+newanim off pmi_l01
+  length 0.0333333
+  transtime 0.25
+  animroot pmi_l01
+  node dummy pmi_l01
+    parent NULL
+  endnode
+  node emitter fire!
+    parent pmi_l01
+  endnode
+  node trimesh damage
+    parent pmi_l01
+    positionkey
+      0 0.000867307 0.0348657 0
+      0.0333333 0.000867307 0.0348657 0
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node light auroralight01
+    parent damage
+    radiuskey
+      0 0
+      0.0333333 0
+    endlist
+  endnode
+  node emitter candleflame
+    parent damage
+    alphaendkey
+      0 0
+      0.0333333 0
+    endlist
+    sizestartkey
+      0 0
+      0.0333333 0
+    endlist
+    sizeendkey
+      0 0
+      0.0333333 0
+    endlist
+    birthratekey
+      0 0
+      0.0333333 0
+    endlist
+  endnode
+  node dummy base
+    parent damage
+  endnode
+  node dummy sphere01
+    parent base
+  endnode
+  node dummy sphere02
+    parent base
+  endnode
+  node dummy candle01
+    parent damage
+  endnode
+  node dummy cand_01_ground
+    parent pmi_l01
+  endnode
+  node dummy cand_01_hand
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head_hit
+    parent pmi_l01
+  endnode
+  node dummy cand_01_impact
+    parent pmi_l01
+  endnode
+doneanim off pmi_l01
+
+#MAXANIM ASCII
+newanim off2on pmi_l01
+  length 0.0333333
+  transtime 0.25
+  animroot pmi_l01
+  node dummy pmi_l01
+    parent NULL
+  endnode
+  node emitter fire!
+    parent pmi_l01
+  endnode
+  node trimesh damage
+    parent pmi_l01
+    positionkey
+      0 0.000867307 0.0348657 0
+      0.0333333 0.000867307 0.0348657 0
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node light auroralight01
+    parent damage
+    radiuskey
+      0 0
+      0.0333333 4
+    endlist
+  endnode
+  node emitter candleflame
+    parent damage
+    alphaendkey
+      0 0
+      0.0333333 1
+    endlist
+    sizestartkey
+      0 0
+      0.0333333 0.4
+    endlist
+    sizeendkey
+      0 0
+      0.0333333 0.4
+    endlist
+    birthratekey
+      0 0
+      0.0333333 3
+    endlist
+  endnode
+  node dummy base
+    parent damage
+  endnode
+  node dummy sphere01
+    parent base
+  endnode
+  node dummy sphere02
+    parent base
+  endnode
+  node dummy candle01
+    parent damage
+  endnode
+  node dummy cand_01_ground
+    parent pmi_l01
+  endnode
+  node dummy cand_01_hand
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head_hit
+    parent pmi_l01
+  endnode
+  node dummy cand_01_impact
+    parent pmi_l01
+  endnode
+doneanim off2on pmi_l01
+
+#MAXANIM ASCII
+newanim on pmi_l01
+  length 0.0333333
+  transtime 0.25
+  animroot pmi_l01
+  node dummy pmi_l01
+    parent NULL
+  endnode
+  node emitter fire!
+    parent pmi_l01
+  endnode
+  node trimesh damage
+    parent pmi_l01
+    positionkey
+      0 0.000867307 0.0348657 0
+      0.0333333 0.000867307 0.0348657 0
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node light auroralight01
+    parent damage
+    radiuskey
+      0 4
+      0.0333333 4
+    endlist
+  endnode
+  node emitter candleflame
+    parent damage
+    alphaendkey
+      0 1
+      0.0333333 1
+    endlist
+    sizestartkey
+      0 0.4
+      0.0333333 0.4
+    endlist
+    sizeendkey
+      0 0.4
+      0.0333333 0.4
+    endlist
+    birthratekey
+      0 3
+      0.0333333 3
+    endlist
+  endnode
+  node dummy base
+    parent damage
+  endnode
+  node dummy sphere01
+    parent base
+  endnode
+  node dummy sphere02
+    parent base
+  endnode
+  node dummy candle01
+    parent damage
+  endnode
+  node dummy cand_01_ground
+    parent pmi_l01
+  endnode
+  node dummy cand_01_hand
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head_hit
+    parent pmi_l01
+  endnode
+  node dummy cand_01_impact
+    parent pmi_l01
+  endnode
+doneanim on pmi_l01
+
+#MAXANIM ASCII
+newanim on2off pmi_l01
+  length 0.0333333
+  transtime 0.25
+  animroot pmi_l01
+  node dummy pmi_l01
+    parent NULL
+  endnode
+  node emitter fire!
+    parent pmi_l01
+  endnode
+  node trimesh damage
+    parent pmi_l01
+    positionkey
+      0 0.000867307 0.0348657 0
+      0.0333333 0.000867307 0.0348657 0
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node light auroralight01
+    parent damage
+    radiuskey
+      0 4
+      0.0333333 0
+    endlist
+  endnode
+  node emitter candleflame
+    parent damage
+    alphaendkey
+      0 1
+      0.0333333 0
+    endlist
+    sizestartkey
+      0 0.4
+      0.0333333 0
+    endlist
+    sizeendkey
+      0 0.4
+      0.0333333 0
+    endlist
+    birthratekey
+      0 3
+      0.0333333 0
+    endlist
+  endnode
+  node dummy base
+    parent damage
+  endnode
+  node dummy sphere01
+    parent base
+  endnode
+  node dummy sphere02
+    parent base
+  endnode
+  node dummy candle01
+    parent damage
+  endnode
+  node dummy cand_01_ground
+    parent pmi_l01
+  endnode
+  node dummy cand_01_hand
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head
+    parent pmi_l01
+  endnode
+  node dummy cand_01_head_hit
+    parent pmi_l01
+  endnode
+  node dummy cand_01_impact
+    parent pmi_l01
+  endnode
+doneanim on2off pmi_l01
+donemodel pmi_l01

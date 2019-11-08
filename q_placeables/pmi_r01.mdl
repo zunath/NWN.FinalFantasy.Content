@@ -1,0 +1,49 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Sun Jan 18 09:52:09 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel pmi_r01
+setsupermodel pmi_r01 null
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom pmi_r01
+node dummy pmi_r01
+  parent NULL
+endnode
+node trimesh rug01
+  parent pmi_r01
+  position 0 0 0.015
+  wirecolor 0.52549 0.231373 0.0313726
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 1
+  bitmap tni01_burlap
+  orientation 0 0 0 0
+  verts 4
+    -1 -1.5 0
+    1 -1.5 0
+    1 1.5 0
+    -1 1.5 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    0 2 3 1 0 2 3 1
+  tverts 4
+    0.997127 1.65003 0
+    0.997126 0.962407 0
+    1.99483 0.963061 0
+    1.99483 1.64927 0
+endnode
+endmodelgeom pmi_r01
+donemodel pmi_r01

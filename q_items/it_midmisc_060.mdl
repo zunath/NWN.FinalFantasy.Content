@@ -1,0 +1,222 @@
+# Exported from NWmax 0.8 b61 at 5/15/2011 4:54:59 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: it_midmisc_060
+#local file: Unknown
+filedependancy Unknown
+newmodel it_midmisc_060
+setsupermodel it_midmisc_060 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom it_midmisc_060
+node dummy it_midmisc_060
+  parent NULL
+endnode
+node trimesh Plane11
+  parent it_midmisc_060
+  position 0.156297 0.123401 0.0375
+  orientation 0.0 0.0 1.0 -0.152879
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center -0.313551 -2.06145 3.97909 
+  bitmap bh_plc_arcn_s
+  verts 9
+    -0.366221 -0.0379777 0.01
+    -0.345443 -0.288977 0.01
+    0.0022481 0.00716917 0.04749
+    0.00224785 -0.244689 0.01
+    0.370717 -0.00391121 0.01
+    0.360706 -0.255569 0.0695818
+    -0.387 0.21302 0.01
+    0.00224795 0.241943 0.01
+    0.380729 0.247748 0.0334618
+  faces 8
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    2 3 4  1  2 3 4  1
+    5 4 3  1  5 4 3  1
+    6 0 7  1  6 0 7  1
+    2 7 0  1  2 7 0  1
+    7 2 8  1  7 2 8  1
+    4 8 2  1  4 8 2  1
+  tverts 9
+    0.25237 0.508438 0
+    0.494138 0.508503 0
+    0.254226 0.754227 0
+    0.494391 0.754043 0
+    0.252373 0.992681 0
+    0.493691 0.993228 0
+    0.0106024 0.508372 0
+    0.0101001 0.754775 0
+    0.0110535 0.99331 0
+endnode
+node trimesh Plane10
+  parent it_midmisc_060
+  position -0.108481 -0.105211 0.03
+  orientation 0.0 0.0 1.0 -0.0872665
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center -0.313551 -2.06145 3.97909 
+  bitmap bh_plc_arcn_s
+  verts 9
+    -0.366221 -0.0379777 0.01
+    -0.345443 -0.288977 0.01
+    0.00224811 0.00716916 0.04749
+    0.00224784 -0.244689 0.01
+    0.370717 -0.00391122 0.01
+    0.360706 -0.255569 0.0695818
+    -0.387 0.21302 0.01
+    0.00224794 0.241943 0.01
+    0.380729 0.247748 0.0334618
+  faces 8
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    2 3 4  1  2 3 4  1
+    5 4 3  1  5 4 3  1
+    6 0 7  1  6 0 7  1
+    2 7 0  1  2 7 0  1
+    7 2 8  1  7 2 8  1
+    4 8 2  1  4 8 2  1
+  tverts 9
+    0.25237 0.508438 0
+    0.494138 0.508503 0
+    0.254226 0.754227 0
+    0.494391 0.754043 0
+    0.252373 0.992681 0
+    0.493691 0.993228 0
+    0.0106024 0.508372 0
+    0.0101001 0.754775 0
+    0.0110535 0.99331 0
+endnode
+node trimesh Plane09
+  parent it_midmisc_060
+  position 0.230684 0.226542 0.0
+  orientation 0.0 0.0 1.0 -0.0523599
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center -0.538351 -1.6704 2.8745 
+  bitmap bh_plc_arcn_s
+  verts 9
+    -0.368469 -0.0340672 0.01
+    -0.347691 -0.285066 0.01
+    0.0 0.0110794 0.04749
+    0.0 -0.240778 0.01
+    0.368469 0.0 0.01
+    0.358457 -0.251658 0.025
+    -0.389248 0.216932 0.01
+    0.0 0.245854 0.01
+    0.378481 0.251658 0.01
+  faces 8
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    2 3 4  1  2 3 4  1
+    5 4 3  1  5 4 3  1
+    6 0 7  1  6 0 7  1
+    2 7 0  1  2 7 0  1
+    7 2 8  1  7 2 8  1
+    4 8 2  1  4 8 2  1
+  tverts 9
+    0.25237 0.508438 0
+    0.494138 0.508503 0
+    0.254226 0.754227 0
+    0.494391 0.754043 0
+    0.252373 0.992681 0
+    0.493691 0.993228 0
+    0.0106024 0.508372 0
+    0.0101001 0.754775 0
+    0.0110535 0.99331 0
+endnode
+node trimesh Plane01
+  parent it_midmisc_060
+  position -0.179727 -0.160615 0.0
+  orientation 0.0 0.0 1.0 -0.152879
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center -0.313551 -2.06145 3.97909 
+  bitmap bh_plc_arcn_s
+  verts 9
+    -0.366221 -0.0379777 0.01
+    -0.345443 -0.288977 0.01
+    0.0022481 0.00716917 0.04749
+    0.00224785 -0.244689 0.01
+    0.370717 -0.00391121 0.01
+    0.360706 -0.255569 0.0695818
+    -0.387 0.21302 0.01
+    0.00224795 0.241943 0.01
+    0.380729 0.247748 0.0334618
+  faces 8
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    2 3 4  1  2 3 4  1
+    5 4 3  1  5 4 3  1
+    6 0 7  1  6 0 7  1
+    2 7 0  1  2 7 0  1
+    7 2 8  1  7 2 8  1
+    4 8 2  1  4 8 2  1
+  tverts 9
+    0.25237 0.508438 0
+    0.494138 0.508503 0
+    0.254226 0.754227 0
+    0.494391 0.754043 0
+    0.252373 0.992681 0
+    0.493691 0.993228 0
+    0.0106024 0.508372 0
+    0.0101001 0.754775 0
+    0.0110535 0.99331 0
+endnode
+endmodelgeom it_midmisc_060
+donemodel it_midmisc_060

@@ -1,0 +1,49 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Thu Jun 18 20:42:14 2015
+#MAXWALKMESH  ASCII
+beginwalkmeshgeom bdh02_q22_01
+node aabb wok
+  parent bdh02_q22_01
+  position 0 0 0
+  wirecolor 0.87451 0.337255 0.556863
+  ambient 0.588 0.588 0.588
+  diffuse 0.937255 0.941177 0.564706
+  specular 0 0 0
+  shininess 10
+  orientation 0 0 0 0
+  bitmap NULL
+  verts 9
+    -5 0 5
+    -5 -5 5
+    0 0 5
+    0 -5 5
+    5 0 5
+    5 -5 5
+    -5 5 5
+    0 5 5
+    5 5 5
+  faces 8
+    0 1 2 0 0 0 0 20
+    3 2 1 0 0 0 0 20
+    2 3 4 0 0 0 0 20
+    5 4 3 0 0 0 0 20
+    6 0 7 0 0 0 0 20
+    2 7 0 0 0 0 0 20
+    7 2 8 0 0 0 0 20
+    4 8 2 0 0 0 0 20
+  aabb     -5 -5 5 5 5 5 -1
+    -5 -5 5 0 5 5 -1
+    -5 -5 5 0 0 5 -1
+    -5 -5 5 0 0 5 0
+    -5 -5 5 0 0 5 1
+    -5 0 5 0 5 5 -1
+    -5 0 5 0 5 5 4
+    -5 0 5 0 5 5 5
+    0 -5 5 5 5 5 -1
+    0 -5 5 5 0 5 -1
+    0 -5 5 5 0 5 2
+    0 -5 5 5 0 5 3
+    0 0 5 5 5 5 -1
+    0 0 5 5 5 5 6
+    0 0 5 5 5 5 7
+endnode
+endwalkmeshgeom bdh02_q22_01

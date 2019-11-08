@@ -1,0 +1,2 @@
+envmaptexture ttw01_metal02
+alphamean 0.5

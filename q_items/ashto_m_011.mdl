@@ -1,0 +1,21 @@
+# Exported from NWmax 0.8 b60 at 6/20/2009 5:29:46 PM
+# mdl file
+#
+# © Forest Rhodes 2009
+# a.k.a Morikahn
+#
+#NWmax MODEL ASCII
+# model: ashto_m_011
+#local file: C:\Art\3d\NWN\Q\Shields\Tower Shield middle 01\tower_shield_middle_011.max
+filedependancy tower_shield_middle_011.max
+newmodel ashto_m_011
+setsupermodel ashto_m_011 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom ashto_m_011
+node dummy ashto_m_011
+  parent NULL
+endnode
+endmodelgeom ashto_m_011
+donemodel ashto_m_011

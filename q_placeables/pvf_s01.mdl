@@ -1,0 +1,392 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Sun Jan 25 14:30:07 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel pvf_s01
+setsupermodel pvf_s01 null
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom pvf_s01
+node dummy pvf_s01
+  parent NULL
+endnode
+node dummy s01_hand
+  parent pvf_s01
+  position 0.00398926 -0.505195 0.934402
+  orientation 0 0 0 0
+  wirecolor 0.894531 0.894531 0.894531
+endnode
+node dummy s01_head
+  parent pvf_s01
+  position 0.00398926 0.0108252 2.1763
+  orientation 0 0 0 0
+  wirecolor 0.894531 0.894531 0.894531
+endnode
+node dummy s01_head_hit
+  parent pvf_s01
+  position 0.00398926 0.0108252 1.69482
+  orientation 0 0 0 0
+  wirecolor 0.894531 0.894531 0.894531
+endnode
+node dummy s01_impact
+  parent pvf_s01
+  position 0.00398926 0.011001 0.868134
+  orientation 0 0 0 0
+  wirecolor 0.894531 0.894531 0.894531
+endnode
+node dummy s01_ground
+  parent pvf_s01
+  position -0.00363281 0.0069873 0
+  orientation 0 0 0 0
+  wirecolor 0.894531 0.894531 0.894531
+endnode
+node trimesh box54
+  parent pvf_s01
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.894531 0.894531 0.894531
+  ambient 0.2 0.2 0.2
+  diffuse 0.8 0.8 0.8
+  specular 0 0 0
+  shininess 1
+  bitmap NULL
+  render 0
+  shadow 0
+  beaming 0
+  transparencyhint 0
+  tilefade 0
+  rotatetexture 0
+  verts 8
+    -0.25 -0.25 0
+    -0.25 0.25 0
+    0.25 0.25 0
+    0.25 -0.25 0
+    -0.25 -0.25 0.1
+    0.25 -0.25 0.1
+    0.25 0.25 0.1
+    -0.25 0.25 0.1
+  faces 12
+    0 1 2 1 0 0 0 0
+    2 3 0 1 0 0 0 0
+    4 5 6 1 0 0 0 0
+    6 7 4 1 0 0 0 0
+    0 3 5 1 0 0 0 0
+    5 4 0 1 0 0 0 0
+    3 2 6 1 0 0 0 0
+    6 5 3 1 0 0 0 0
+    2 1 7 1 0 0 0 0
+    7 6 2 1 0 0 0 0
+    1 0 4 1 0 0 0 0
+    4 7 1 1 0 0 0 0
+endnode
+node emitter s01_emitter262
+  parent pvf_s01
+  position 0.0302332 0.0504858 -0.00731155
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.894531 0.894531 0.894531
+  colorStart 0.898039 0.262745 0.176471
+  colorEnd 0.890196 0.262745 0.176471
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 1
+  sizeEnd 0
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 10
+  spawntype 0
+  lifeExp 1
+  mass -0.5
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  fps 5
+  random 1
+  inherit 0
+  inherit_local 1
+  inherit_part 0
+  inheritvel 0
+  xsize 50
+  ysize 20
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Normal
+  blend Lighten
+  update_sel 1
+  render_sel 1
+  blend_sel 3
+  deadspace 0
+  opacity 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_type Bezier
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_starbnw
+  xgrid 2
+  ygrid 2
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+endnode
+node emitter s01_emitter263
+  parent pvf_s01
+  position -0.00924194 0.0137012 0.02
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.894531 0.894531 0.894531
+  colorStart 0.882353 0.258824 0.176471
+  colorEnd 0.886275 0.227451 0.176471
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 1.5
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 3
+  spawntype 0
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 1
+  randvel 0
+  fps 15
+  random 1
+  inherit 0
+  inherit_local 1
+  inherit_part 0
+  inheritvel 0
+  xsize 0
+  ysize 0
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  update_sel 1
+  render_sel 4
+  blend_sel 3
+  deadspace 0
+  opacity 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_type Bezier
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_ring02
+  xgrid 1
+  ygrid 1
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+endnode
+node emitter s01_emitter268
+  parent pvf_s01
+  position -0.00924194 0.0137012 0.02
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.894531 0.894531 0.894531
+  colorStart 0.882353 0.207843 0.176471
+  colorEnd 0.886275 0.227451 0.176471
+  alphaStart 0
+  alphaEnd 0.5
+  sizeStart 8
+  sizeEnd 4
+  sizeStart_y 0
+  sizeEnd_y 0
+  frameStart 0
+  frameEnd 3
+  birthrate 5
+  spawntype 0
+  lifeExp 2
+  mass 0
+  spread 0
+  particleRot 1
+  velocity 0
+  randvel 0
+  fps 15
+  random 1
+  inherit 0
+  inherit_local 1
+  inherit_part 0
+  inheritvel 0
+  xsize 0
+  ysize 0
+  bounce 0
+  bounce_co 0
+  loop 0
+  update Fountain
+  render Billboard_to_World_Z
+  blend Lighten
+  update_sel 1
+  render_sel 4
+  blend_sel 3
+  deadspace 0
+  opacity 0.5
+  blurlength 10
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  twosidedtex 0
+  p2p 0
+  p2p_sel 1
+  p2p_type Bezier
+  p2p_bezier2 0
+  p2p_bezier3 0
+  combinetime 0
+  drag 0
+  grav 0
+  threshold 0
+  texture fxpa_lensflare
+  xgrid 1
+  ygrid 1
+  affectedByWind 0
+  m_isTinted 0
+  renderorder 0
+  splat 0
+endnode
+endmodelgeom pvf_s01
+
+#MAXANIM ASCII
+newanim default pvf_s01
+  length 0
+  transtime 0.25
+  animroot pvf_s01
+  node dummy pvf_s01
+    parent NULL
+  endnode
+  node dummy s01_hand
+    parent pvf_s01
+  endnode
+  node dummy s01_head
+    parent pvf_s01
+  endnode
+  node dummy s01_head_hit
+    parent pvf_s01
+  endnode
+  node dummy s01_impact
+    parent pvf_s01
+  endnode
+  node dummy s01_ground
+    parent pvf_s01
+  endnode
+  node dummy box54
+    parent pvf_s01
+  endnode
+  node emitter s01_emitter262
+    parent pvf_s01
+  endnode
+  node emitter s01_emitter263
+    parent pvf_s01
+  endnode
+  node emitter s01_emitter268
+    parent pvf_s01
+  endnode
+doneanim default pvf_s01
+
+#MAXANIM ASCII
+newanim off pvf_s01
+  length 0
+  transtime 0.25
+  animroot pvf_s01
+  node dummy pvf_s01
+    parent NULL
+  endnode
+  node dummy s01_hand
+    parent pvf_s01
+  endnode
+  node dummy s01_head
+    parent pvf_s01
+  endnode
+  node dummy s01_head_hit
+    parent pvf_s01
+  endnode
+  node dummy s01_impact
+    parent pvf_s01
+  endnode
+  node dummy s01_ground
+    parent pvf_s01
+  endnode
+  node dummy box54
+    parent pvf_s01
+  endnode
+  node emitter s01_emitter262
+    parent pvf_s01
+  endnode
+  node emitter s01_emitter263
+    parent pvf_s01
+  endnode
+  node emitter s01_emitter268
+    parent pvf_s01
+  endnode
+doneanim off pvf_s01
+
+#MAXANIM ASCII
+newanim on pvf_s01
+  length 0.0333333
+  transtime 0.25
+  animroot pvf_s01
+  node dummy pvf_s01
+    parent NULL
+  endnode
+  node dummy s01_hand
+    parent pvf_s01
+  endnode
+  node dummy s01_head
+    parent pvf_s01
+  endnode
+  node dummy s01_head_hit
+    parent pvf_s01
+  endnode
+  node dummy s01_impact
+    parent pvf_s01
+  endnode
+  node dummy s01_ground
+    parent pvf_s01
+  endnode
+  node dummy box54
+    parent pvf_s01
+  endnode
+  node emitter s01_emitter262
+    parent pvf_s01
+  endnode
+  node emitter s01_emitter263
+    parent pvf_s01
+  endnode
+  node emitter s01_emitter268
+    parent pvf_s01
+  endnode
+doneanim on pvf_s01
+donemodel pvf_s01

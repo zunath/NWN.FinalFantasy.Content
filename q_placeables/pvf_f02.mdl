@@ -1,0 +1,192 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Sat Mar 14 10:17:31 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel pvf_f02
+setsupermodel pvf_f02 null
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom pvf_f02
+node dummy pvf_f02
+  parent NULL
+endnode
+node emitter fire_1
+  parent pvf_f02
+  position -0.000514909 -0.00154473 0
+  wirecolor 0.6 0.894118 0.721569
+  update_sel 1
+  update Fountain
+  render_sel 7
+  render Motion_Blur
+  blend_sel 3
+  blend Lighten
+  spawntype_sel 1
+  spawntype 0
+  xsize 5
+  ysize 5
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 1 0.792157 0.141176
+  colorEnd 0.694118 0.196078 0.0235294
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.2
+  sizeEnd 0.08
+  sizeStart_y 0.8
+  sizeEnd_y 0.8
+  birthrate 15
+  lifeExp 0.8
+  mass -0.3
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture q_fire
+  twosidedtex 0
+  xgrid 8
+  ygrid 2
+  fps 1
+  frameStart 0
+  frameEnd 12
+  random 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+endnode
+node emitter fire_2
+  parent pvf_f02
+  position -0.000514909 -0.00154473 0
+  orientation 0 0 1 -0.785398
+  wirecolor 0.6 0.894118 0.721569
+  update_sel 1
+  update Fountain
+  render_sel 7
+  render Motion_Blur
+  blend_sel 3
+  blend Lighten
+  spawntype_sel 1
+  spawntype 0
+  xsize 5
+  ysize 5
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 0.694118 0.196078 0.0235294
+  colorEnd 0.501961 0.141176 0.0196078
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 0.3
+  sizeEnd 0.1
+  sizeStart_y 1
+  sizeEnd_y 1
+  birthrate 15
+  lifeExp 0.8
+  mass -0.4
+  spread 0
+  particleRot 0
+  velocity 0
+  randvel 0
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture q_fire
+  twosidedtex 0
+  xgrid 8
+  ygrid 2
+  fps 1
+  frameStart 0
+  frameEnd 12
+  random 1
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node trimesh mesh01
+  parent pvf_f02
+  position 0 0 0
+  wirecolor 0.337255 0.337255 0.337255
+  tilefade 0
+  scale 1
+  render 0
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  diffuse 1 1 1
+  specular 0 0 0
+  center 0 0 18
+  bitmap NULL
+  orientation 0 0 0 0
+  verts 8
+    -0.18 -0.18 0
+    0.18 -0.18 0
+    -0.18 0.18 0
+    0.18 0.18 0
+    -0.18 -0.18 0.36
+    0.18 -0.18 0.36
+    -0.18 0.18 0.36
+    0.18 0.18 0.36
+  faces 12
+    0 2 3 2 0 0 0 2
+    3 1 0 2 0 0 0 2
+    4 5 7 4 0 0 0 1
+    7 6 4 4 0 0 0 1
+    0 1 5 8 0 0 0 5
+    5 4 0 8 0 0 0 5
+    1 3 7 16 0 0 0 4
+    7 5 1 16 0 0 0 4
+    3 2 6 32 0 0 0 6
+    6 7 3 32 0 0 0 6
+    2 0 4 64 0 0 0 3
+    4 6 2 64 0 0 0 3
+endnode
+endmodelgeom pvf_f02
+donemodel pvf_f02

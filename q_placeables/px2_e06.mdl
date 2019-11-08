@@ -1,0 +1,69 @@
+# Exported from NWmax 0.8 b60 at 10/7/2010 5:35:48 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: PX2_E06
+#local file: Unknown
+filedependancy Unknown
+newmodel PX2_E06
+setsupermodel PX2_E06 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom PX2_E06
+node dummy PX2_E06
+  parent NULL
+endnode
+node trimesh Plane20
+  parent PX2_E06
+  position 0.610952 0.116846 0.0
+  orientation 0.0 0.0 -1.0 -0.428465
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center -0.313551 -2.06145 3.97909 
+  bitmap qp_psheet04
+  verts 9
+    -0.366221 -0.0379777 0.01
+    -0.345443 -0.288977 0.01
+    0.00224811 0.00716916 0.04749
+    0.00224784 -0.244689 0.01
+    0.370717 -0.00391122 0.01
+    0.360706 -0.255569 0.0695818
+    -0.387 0.21302 0.01
+    0.00224794 0.241943 0.01
+    0.380729 0.247748 0.0334618
+  faces 8
+    0 1 2  1  0 1 2  1
+    3 2 1  1  3 2 1  1
+    2 3 4  1  2 3 4  1
+    5 4 3  1  5 4 3  1
+    6 0 7  1  6 0 7  1
+    2 7 0  1  2 7 0  1
+    7 2 8  1  7 2 8  1
+    4 8 2  1  4 8 2  1
+  tverts 9
+    0.485791 1.00603 0
+    0.862035 1.0059 0
+    0.48868 0.49867 0
+    0.862428 0.49905 0
+    0.485796 0.00644696 0
+    0.861339 0.00532317 0
+    0.10955 1.00617 0
+    0.108768 0.49754 0
+    0.110252 0.00515378 0
+endnode
+endmodelgeom PX2_E06
+donemodel PX2_E06

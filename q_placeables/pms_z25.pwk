@@ -1,0 +1,31 @@
+# Exported from NWmax 0.8 b61 at 7/3/2012 10:04:51 AM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh pms_z25_wg
+  parent pms_z25_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.431373 0.0313726 
+  bitmap NULL
+  verts 4
+    -0.650993 -0.66 0.0
+    0.657007 -0.66 0.0
+    -0.657007 0.66 0.0
+    0.650993 0.66 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode
+node dummy z25_pwk_use01
+  parent pms_z25_pwk
+  position 0.0 0.68 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.894118 0.6 
+endnode
+node dummy z25_pwk_use02
+  parent pms_z25_pwk
+  position 0.0 -0.68 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.596078 0.596078 
+endnode

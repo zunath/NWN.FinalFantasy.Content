@@ -1,0 +1,67 @@
+# Exported from NWmax 0.8 b61 at 6/19/2011 9:37:58 AM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh pwk
+  parent paf_z30_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.537255 0.0313726 0.431373 
+  bitmap NULL
+  verts 10
+    -1.08 -2.71 0.0
+    1.08 -2.71 0.0
+    -1.08 0.0 0.0
+    1.08 0.0 0.0
+    -0.95 2.6 0.0
+    0.95 2.6 0.0
+    -0.64 2.6 0.0
+    0.7 2.6 0.0
+    -0.55 1.05 0.0
+    0.62 1.06 0.0
+  faces 8
+    9 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+    4 2 6  1  0 0 0  7
+    3 5 7  1  0 0 0  7
+    6 2 8  1  0 0 0  7
+    7 9 3  1  0 0 0  7
+    2 0 8  1  0 0 0  7
+    8 0 9  1  0 0 0  7
+endnode
+node dummy 001_pwk_use04
+  parent paf_z30_pwk
+  position 0.550241 2.69174 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.239216 0.52549 0.0235294 
+endnode
+node dummy 001_pwk_use03
+  parent paf_z30_pwk
+  position -0.550747 2.6585 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.239216 0.52549 0.0235294 
+endnode
+node dummy 001_pwk_use01
+  parent paf_z30_pwk
+  position -1.22357 -0.45831 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.239216 0.52549 0.0235294 
+endnode
+node dummy 001_pwk_use02
+  parent paf_z30_pwk
+  position 1.23836 -0.381853 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.239216 0.52549 0.0235294 
+endnode
+node dummy 001_pwk_use05
+  parent paf_z30_pwk
+  position 0.029471 1.2056 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.239216 0.52549 0.0235294 
+endnode
+node dummy 001_pwk_use06
+  parent paf_z30_pwk
+  position 0.029471 -2.86298 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.239216 0.52549 0.0235294 
+endnode

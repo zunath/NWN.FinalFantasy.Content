@@ -1,0 +1,1982 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Wed Feb 18 10:08:53 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel pmi_w01
+setsupermodel pmi_w01 null
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom pmi_w01
+node dummy pmi_w01
+  parent NULL
+endnode
+node dummy w01_impact
+  parent pmi_w01
+  position 0 0 0.319718
+  wirecolor 0.898039 0.65098 0.843137
+  orientation 0 0 0 0
+endnode
+node dummy w01_ground
+  parent pmi_w01
+  position 0 0 0
+  wirecolor 0.898039 0.65098 0.843137
+  orientation 0 0 0 0
+endnode
+node dummy w01_hand
+  parent pmi_w01
+  position 0 0 1
+  wirecolor 0.898039 0.65098 0.843137
+  orientation 0 0 0 0
+endnode
+node dummy w01_head
+  parent pmi_w01
+  position 0 0 1
+  wirecolor 0.898039 0.65098 0.843137
+  orientation 0 0 0 0
+endnode
+node dummy w01_head_hit
+  parent pmi_w01
+  position 0 0 0.318467
+  wirecolor 0.898039 0.65098 0.843137
+  orientation 0 0 0 0
+endnode
+node trimesh box02
+  parent pmi_w01
+  position 0 0 -4.69208e-006
+  wirecolor 0.894118 0.6 0.721569
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0 0 2.1
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_wood256
+  orientation 0 0 0 0
+  verts 8
+    -0.21875 -0.07 0
+    0.21875 -0.07 0
+    -0.21875 0.07 0
+    0.21875 0.07 0
+    -0.21875 -0.07 0.042
+    0.21875 -0.07 0.042
+    -0.21875 0.07 0.042
+    0.21875 0.07 0.042
+  faces 10
+    4 5 7 4 8 9 10 1
+    7 6 4 4 10 11 8 1
+    0 1 5 8 12 13 14 5
+    5 4 0 8 14 15 12 5
+    1 3 7 16 1 16 17 4
+    7 5 1 16 17 5 1 4
+    3 2 6 32 3 18 19 6
+    6 7 3 32 19 7 3 6
+    2 0 4 64 2 0 4 3
+    4 6 2 64 4 6 2 3
+  tverts 20
+    0.782261 0.086573 0
+    0.217739 0.086573 0
+    0.469761 0.0865729 0
+    0.086573 0.988281 0
+    0.782261 0.180323 0
+    0.217739 0.180323 0
+    0.469761 0.180323 0
+    0.180323 0.988281 0
+    0.782261 0.0117187 0
+    0.782261 0.988281 0
+    0.469761 0.988281 0
+    0.469761 0.0117188 0
+    0.913427 0.0117187 0
+    0.913427 0.988281 0
+    0.819677 0.988281 0
+    0.819677 0.0117187 0
+    0.530239 0.086573 0
+    0.530239 0.180323 0
+    0.0865729 0.0117188 0
+    0.180323 0.0117188 0
+endnode
+node trimesh box01
+  parent box02
+  position 0 0 0.301
+  wirecolor 0.894118 0.6 0.721569
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0 0 1.75
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_wood256
+  orientation 0 0 0 0
+  verts 8
+    -0.175 -0.02625 0
+    0.175 -0.02625 0
+    -0.175 0.02625 0
+    0.175 0.02625 0
+    -0.175 -0.02625 0.035
+    0.175 -0.02625 0.035
+    -0.175 0.02625 0.035
+    0.175 0.02625 0.035
+  faces 12
+    0 2 3 2 8 9 10 2
+    3 1 0 2 10 11 8 2
+    4 5 7 4 12 13 14 1
+    7 6 4 4 14 15 12 1
+    0 1 5 8 16 17 18 5
+    5 4 0 8 18 19 16 5
+    1 3 7 16 1 20 21 4
+    7 5 1 16 21 5 1 4
+    3 2 6 32 3 22 23 6
+    6 7 3 32 23 7 3 6
+    2 0 4 64 2 0 4 3
+    4 6 2 64 4 6 2 3
+  tverts 24
+    0.982663 0.272119 0
+    0.0173369 0.272119 0
+    0.865475 0.272119 0
+    0.272119 0.890625 0
+    0.982663 0.350244 0
+    0.0173369 0.350244 0
+    0.865475 0.350244 0
+    0.350244 0.890625 0
+    0.0173371 0.109375 0
+    0.134525 0.109375 0
+    0.134524 0.890625 0
+    0.0173369 0.890625 0
+    0.982663 0.109375 0
+    0.982663 0.890625 0
+    0.865476 0.890625 0
+    0.865475 0.109375 0
+    0.727881 0.109375 0
+    0.727881 0.890625 0
+    0.649756 0.890625 0
+    0.649756 0.109375 0
+    0.134524 0.272119 0
+    0.134524 0.350244 0
+    0.272119 0.109375 0
+    0.350244 0.109375 0
+endnode
+node trimesh cylinder01
+  parent box01
+  position 0.0751933 0 0.021
+  wirecolor 0.52549 0.0235294 0.0235294
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0.04375 0 -8.75
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap qp_rope_01
+  orientation 0 0 0 0
+  verts 6
+    0.00175 0 -0.175
+    -0.000875 0.00151554 -0.175
+    -0.000875 -0.00151554 -0.175
+    0.00175 0 0
+    -0.000875 0.00151554 0
+    -0.000875 -0.00151554 0
+  faces 6
+    0 4 3 8 6 4 7 3
+    0 1 4 8 6 1 4 3
+    1 5 4 8 1 5 4 3
+    1 2 5 8 1 2 5 3
+    2 3 5 8 2 3 5 3
+    2 0 3 8 2 0 3 3
+  tverts 8
+    12.9986 0.84764 0
+    12.9972 0.847771 0
+    12.9982 0.688773 0
+    0.1646 0.84764 0
+    0.1631 0.847621 0
+    0.1643 0.688755 0
+    12.9972 0.688701 0
+    0.1631 0.688701 0
+endnode
+node trimesh geosphere05
+  parent cylinder01
+  position 0 0 -0.1925
+  wirecolor 0.101961 0.694118 0.345098
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap c_diamond
+  orientation 0 0 0 0
+  verts 12
+    0 0 0.021
+    0.018783 0 0.00939148
+    0.00580426 0.0178637 0.00939148
+    -0.0151957 0.0110404 0.00939148
+    -0.0151957 -0.0110404 0.00939148
+    0.00580426 -0.0178637 0.00939148
+    0.0151957 0.0110404 -0.00939148
+    -0.00580426 0.0178637 -0.00939148
+    -0.018783 0 -0.00939148
+    -0.00580426 -0.0178637 -0.00939148
+    0.0151957 -0.0110403 -0.00939148
+    0 0 -0.021
+  faces 20
+    0 1 2 1 12 1 2 2
+    0 2 3 1 13 2 3 2
+    0 3 4 1 14 15 4 2
+    0 4 5 1 16 4 5 2
+    0 5 1 1 0 5 1 2
+    1 10 6 1 1 10 6 2
+    2 6 7 1 2 6 7 2
+    3 7 8 1 15 17 8 2
+    4 8 9 1 4 8 9 2
+    5 9 10 1 5 9 10 2
+    6 2 1 1 6 2 1 2
+    7 3 2 1 7 3 2 2
+    8 4 3 1 8 4 15 2
+    9 5 4 1 9 5 4 2
+    10 1 5 1 10 1 5 2
+    11 7 6 1 18 7 6 2
+    11 8 7 1 19 8 17 2
+    11 9 8 1 20 9 8 2
+    11 10 9 1 21 10 9 2
+    11 6 10 1 11 6 10 2
+  tverts 22
+    1.4 1 0
+    1.5 0.647584 0
+    1.7 0.647584 0
+    1.9 0.647584 0
+    1.1 0.647584 0
+    1.3 0.647584 0
+    1.6 0.352416 0
+    1.8 0.352416 0
+    1 0.352416 0
+    1.2 0.352416 0
+    1.4 0.352416 0
+    1.5 0 0
+    1.6 1 0
+    1.8 1 0
+    1 1 0
+    0.9 0.647584 0
+    1.2 1 0
+    0.8 0.352416 0
+    1.7 0 0
+    0.9 0 0
+    1.1 0 0
+    1.3 0 0
+endnode
+node trimesh cylinder06
+  parent box01
+  position 0.0375966 0 0.021
+  wirecolor 0.52549 0.0235294 0.0235294
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0.04375 0 -8.75
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap qp_rope_01
+  orientation 0 0 0 0
+  verts 6
+    0.00175 0 -0.175
+    -0.000875 0.00151554 -0.175
+    -0.000875 -0.00151554 -0.175
+    0.00175 0 0
+    -0.000875 0.00151554 0
+    -0.000875 -0.00151554 0
+  faces 6
+    0 4 3 8 6 4 7 3
+    0 1 4 8 6 1 4 3
+    1 5 4 8 1 5 4 3
+    1 2 5 8 1 2 5 3
+    2 3 5 8 2 3 5 3
+    2 0 3 8 2 0 3 3
+  tverts 8
+    12.9986 0.84764 0
+    12.9972 0.847771 0
+    12.9982 0.688773 0
+    0.1646 0.84764 0
+    0.1631 0.847621 0
+    0.1643 0.688755 0
+    12.9972 0.688701 0
+    0.1631 0.688701 0
+endnode
+node trimesh geosphere04
+  parent cylinder06
+  position 0 0 -0.1925
+  orientation 0 0 -1 -3.14159
+  wirecolor 0.101961 0.694118 0.345098
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap c_diamond
+  verts 12
+    0 0 0.021
+    0.018783 0 0.00939148
+    0.00580426 0.0178637 0.00939148
+    -0.0151957 0.0110404 0.00939148
+    -0.0151957 -0.0110404 0.00939148
+    0.00580426 -0.0178637 0.00939148
+    0.0151957 0.0110404 -0.00939148
+    -0.00580426 0.0178637 -0.00939148
+    -0.018783 0 -0.00939148
+    -0.00580426 -0.0178637 -0.00939148
+    0.0151957 -0.0110403 -0.00939148
+    0 0 -0.021
+  faces 20
+    0 1 2 1 12 1 2 2
+    0 2 3 1 13 2 3 2
+    0 3 4 1 14 15 4 2
+    0 4 5 1 16 4 5 2
+    0 5 1 1 0 5 1 2
+    1 10 6 1 1 10 6 2
+    2 6 7 1 2 6 7 2
+    3 7 8 1 15 17 8 2
+    4 8 9 1 4 8 9 2
+    5 9 10 1 5 9 10 2
+    6 2 1 1 6 2 1 2
+    7 3 2 1 7 3 2 2
+    8 4 3 1 8 4 15 2
+    9 5 4 1 9 5 4 2
+    10 1 5 1 10 1 5 2
+    11 7 6 1 18 7 6 2
+    11 8 7 1 19 8 17 2
+    11 9 8 1 20 9 8 2
+    11 10 9 1 21 10 9 2
+    11 6 10 1 11 6 10 2
+  tverts 22
+    1.4 1 0
+    1.5 0.647584 0
+    1.7 0.647584 0
+    1.9 0.647584 0
+    1.1 0.647584 0
+    1.3 0.647584 0
+    1.6 0.352416 0
+    1.8 0.352416 0
+    1 0.352416 0
+    1.2 0.352416 0
+    1.4 0.352416 0
+    1.5 0 0
+    1.6 1 0
+    1.8 1 0
+    1 1 0
+    0.9 0.647584 0
+    1.2 1 0
+    0.8 0.352416 0
+    1.7 0 0
+    0.9 0 0
+    1.1 0 0
+    1.3 0 0
+endnode
+node trimesh cylinder02
+  parent box01
+  position 0 0 0.021
+  wirecolor 0.52549 0.0235294 0.0235294
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0.04375 0 -8.75
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap qp_rope_01
+  orientation 0 0 0 0
+  verts 6
+    0.00175 0 -0.175
+    -0.000875 0.00151554 -0.175
+    -0.000875 -0.00151554 -0.175
+    0.00175 0 0
+    -0.000875 0.00151554 0
+    -0.000875 -0.00151554 0
+  faces 6
+    0 4 3 8 6 4 7 3
+    0 1 4 8 6 1 4 3
+    1 5 4 8 1 5 4 3
+    1 2 5 8 1 2 5 3
+    2 3 5 8 2 3 5 3
+    2 0 3 8 2 0 3 3
+  tverts 8
+    12.9986 0.84764 0
+    12.9972 0.847771 0
+    12.9982 0.688773 0
+    0.1646 0.84764 0
+    0.1631 0.847621 0
+    0.1643 0.688755 0
+    12.9972 0.688701 0
+    0.1631 0.688701 0
+endnode
+node trimesh geosphere03
+  parent cylinder02
+  position 0 0 -0.1925
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.101961 0.694118 0.345098
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap c_diamond
+  verts 12
+    0 0 0.021
+    0.018783 0 0.00939148
+    0.00580426 0.0178637 0.00939148
+    -0.0151957 0.0110404 0.00939148
+    -0.0151957 -0.0110404 0.00939148
+    0.00580426 -0.0178637 0.00939148
+    0.0151957 0.0110404 -0.00939148
+    -0.00580426 0.0178637 -0.00939148
+    -0.018783 0 -0.00939148
+    -0.00580426 -0.0178637 -0.00939148
+    0.0151957 -0.0110403 -0.00939148
+    0 0 -0.021
+  faces 20
+    0 1 2 1 12 1 2 2
+    0 2 3 1 13 2 3 2
+    0 3 4 1 14 15 4 2
+    0 4 5 1 16 4 5 2
+    0 5 1 1 0 5 1 2
+    1 10 6 1 1 10 6 2
+    2 6 7 1 2 6 7 2
+    3 7 8 1 15 17 8 2
+    4 8 9 1 4 8 9 2
+    5 9 10 1 5 9 10 2
+    6 2 1 1 6 2 1 2
+    7 3 2 1 7 3 2 2
+    8 4 3 1 8 4 15 2
+    9 5 4 1 9 5 4 2
+    10 1 5 1 10 1 5 2
+    11 7 6 1 18 7 6 2
+    11 8 7 1 19 8 17 2
+    11 9 8 1 20 9 8 2
+    11 10 9 1 21 10 9 2
+    11 6 10 1 11 6 10 2
+  tverts 22
+    1.4 1 0
+    1.5 0.647584 0
+    1.7 0.647584 0
+    1.9 0.647584 0
+    1.1 0.647584 0
+    1.3 0.647584 0
+    1.6 0.352416 0
+    1.8 0.352416 0
+    1 0.352416 0
+    1.2 0.352416 0
+    1.4 0.352416 0
+    1.5 0 0
+    1.6 1 0
+    1.8 1 0
+    1 1 0
+    0.9 0.647584 0
+    1.2 1 0
+    0.8 0.352416 0
+    1.7 0 0
+    0.9 0 0
+    1.1 0 0
+    1.3 0 0
+endnode
+node trimesh cylinder03
+  parent box01
+  position -0.0751933 0 0.021
+  wirecolor 0.52549 0.0235294 0.0235294
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0.04375 0 -8.75
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap qp_rope_01
+  orientation 0 0 0 0
+  verts 6
+    0.00175 0 -0.175
+    -0.000875 0.00151554 -0.175
+    -0.000875 -0.00151554 -0.175
+    0.00175 0 0
+    -0.000875 0.00151554 0
+    -0.000875 -0.00151554 0
+  faces 6
+    0 4 3 8 6 4 7 3
+    0 1 4 8 6 1 4 3
+    1 5 4 8 1 5 4 3
+    1 2 5 8 1 2 5 3
+    2 3 5 8 2 3 5 3
+    2 0 3 8 2 0 3 3
+  tverts 8
+    12.9986 0.84764 0
+    12.9972 0.847771 0
+    12.9982 0.688773 0
+    0.1646 0.84764 0
+    0.1631 0.847621 0
+    0.1643 0.688755 0
+    12.9972 0.688701 0
+    0.1631 0.688701 0
+endnode
+node trimesh geosphere01
+  parent cylinder03
+  position 0 0 -0.1925
+  wirecolor 0.101961 0.694118 0.345098
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap c_diamond
+  orientation 0 0 0 0
+  verts 12
+    0 0 0.021
+    0.018783 0 0.00939148
+    0.00580426 0.0178637 0.00939148
+    -0.0151957 0.0110404 0.00939148
+    -0.0151957 -0.0110404 0.00939148
+    0.00580426 -0.0178637 0.00939148
+    0.0151957 0.0110404 -0.00939148
+    -0.00580426 0.0178637 -0.00939148
+    -0.018783 0 -0.00939148
+    -0.00580426 -0.0178637 -0.00939148
+    0.0151957 -0.0110403 -0.00939148
+    0 0 -0.021
+  faces 20
+    0 1 2 1 12 1 2 2
+    0 2 3 1 13 2 3 2
+    0 3 4 1 14 15 4 2
+    0 4 5 1 16 4 5 2
+    0 5 1 1 0 5 1 2
+    1 10 6 1 1 10 6 2
+    2 6 7 1 2 6 7 2
+    3 7 8 1 15 17 8 2
+    4 8 9 1 4 8 9 2
+    5 9 10 1 5 9 10 2
+    6 2 1 1 6 2 1 2
+    7 3 2 1 7 3 2 2
+    8 4 3 1 8 4 15 2
+    9 5 4 1 9 5 4 2
+    10 1 5 1 10 1 5 2
+    11 7 6 1 18 7 6 2
+    11 8 7 1 19 8 17 2
+    11 9 8 1 20 9 8 2
+    11 10 9 1 21 10 9 2
+    11 6 10 1 11 6 10 2
+  tverts 22
+    1.4 1 0
+    1.5 0.647584 0
+    1.7 0.647584 0
+    1.9 0.647584 0
+    1.1 0.647584 0
+    1.3 0.647584 0
+    1.6 0.352416 0
+    1.8 0.352416 0
+    1 0.352416 0
+    1.2 0.352416 0
+    1.4 0.352416 0
+    1.5 0 0
+    1.6 1 0
+    1.8 1 0
+    1 1 0
+    0.9 0.647584 0
+    1.2 1 0
+    0.8 0.352416 0
+    1.7 0 0
+    0.9 0 0
+    1.1 0 0
+    1.3 0 0
+endnode
+node trimesh cylinder04
+  parent box01
+  position -0.0375967 0 0.021
+  wirecolor 0.52549 0.0235294 0.0235294
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0.04375 0 -8.75
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap qp_rope_01
+  orientation 0 0 0 0
+  verts 6
+    0.00175 0 -0.175
+    -0.000875 0.00151554 -0.175
+    -0.000875 -0.00151554 -0.175
+    0.00175 0 0
+    -0.000875 0.00151554 0
+    -0.000875 -0.00151554 0
+  faces 6
+    0 4 3 8 6 4 7 3
+    0 1 4 8 6 1 4 3
+    1 5 4 8 1 5 4 3
+    1 2 5 8 1 2 5 3
+    2 3 5 8 2 3 5 3
+    2 0 3 8 2 0 3 3
+  tverts 8
+    12.9986 0.84764 0
+    12.9972 0.847771 0
+    12.9982 0.688773 0
+    0.1646 0.84764 0
+    0.1631 0.847621 0
+    0.1643 0.688755 0
+    12.9972 0.688701 0
+    0.1631 0.688701 0
+endnode
+node trimesh geosphere02
+  parent cylinder04
+  position 0 0 -0.1925
+  orientation 0 0 -1 -3.14159
+  wirecolor 0.101961 0.694118 0.345098
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap c_diamond
+  verts 12
+    0 0 0.021
+    0.018783 0 0.00939148
+    0.00580426 0.0178637 0.00939148
+    -0.0151957 0.0110404 0.00939148
+    -0.0151957 -0.0110404 0.00939148
+    0.00580426 -0.0178637 0.00939148
+    0.0151957 0.0110404 -0.00939148
+    -0.00580426 0.0178637 -0.00939148
+    -0.018783 0 -0.00939148
+    -0.00580426 -0.0178637 -0.00939148
+    0.0151957 -0.0110403 -0.00939148
+    0 0 -0.021
+  faces 20
+    0 1 2 1 12 1 2 2
+    0 2 3 1 13 2 3 2
+    0 3 4 1 14 15 4 2
+    0 4 5 1 16 4 5 2
+    0 5 1 1 0 5 1 2
+    1 10 6 1 1 10 6 2
+    2 6 7 1 2 6 7 2
+    3 7 8 1 15 17 8 2
+    4 8 9 1 4 8 9 2
+    5 9 10 1 5 9 10 2
+    6 2 1 1 6 2 1 2
+    7 3 2 1 7 3 2 2
+    8 4 3 1 8 4 15 2
+    9 5 4 1 9 5 4 2
+    10 1 5 1 10 1 5 2
+    11 7 6 1 18 7 6 2
+    11 8 7 1 19 8 17 2
+    11 9 8 1 20 9 8 2
+    11 10 9 1 21 10 9 2
+    11 6 10 1 11 6 10 2
+  tverts 22
+    1.4 1 0
+    1.5 0.647584 0
+    1.7 0.647584 0
+    1.9 0.647584 0
+    1.1 0.647584 0
+    1.3 0.647584 0
+    1.6 0.352416 0
+    1.8 0.352416 0
+    1 0.352416 0
+    1.2 0.352416 0
+    1.4 0.352416 0
+    1.5 0 0
+    1.6 1 0
+    1.8 1 0
+    1 1 0
+    0.9 0.647584 0
+    1.2 1 0
+    0.8 0.352416 0
+    1.7 0 0
+    0.9 0 0
+    1.1 0 0
+    1.3 0 0
+endnode
+node trimesh side_a03
+  parent box02
+  position 0.1715 0 4.69208e-006
+  orientation 0.57735 0.57735 0.57735 -4.18879
+  wirecolor 0.6 0.894118 0.839216
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0 2.4647 3.57628e-007
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_rck
+  verts 8
+    0.0969948 -4.69208e-006 -0.014
+    0.0969948 -4.69208e-006 0.014
+    0.0692461 0.0492987 0.014
+    0.0692461 0.0492987 -0.014
+    -0.0969948 -4.69208e-006 -0.014
+    -0.0969948 -4.69208e-006 0.014
+    -0.0692461 0.0492987 0.014
+    -0.0692461 0.0492987 -0.014
+  faces 6
+    1 6 5 2 1 3 0 1
+    1 2 6 2 1 4 3 1
+    2 7 6 4 2 5 6 4
+    2 3 7 4 2 7 5 4
+    3 4 7 2 3 1 4 2
+    3 0 4 2 3 0 1 2
+  tverts 8
+    0.992971 0.138886 0
+    0.992971 0.355392 0
+    0.719874 0.246153 0
+    0.937945 0.169855 0
+    0.937945 0.324423 0
+    0.874441 0.214903 0
+    0.874441 0.246153 0
+    0.719874 0.214903 0
+endnode
+node trimesh side_a01
+  parent side_a03
+  orientation -0.57735 -0.57735 0.57735 -6.28319
+  wirecolor 0.6 0.894118 0.839216
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center -4.84974 -17.7103 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_rck
+  position -0.0415602 0.176102 0.014
+  verts 8
+    0.0415602 0.178099 -0.028
+    0.0415602 0.178099 0
+    0.0415602 0.12481 0
+    0.0415602 0.12481 -0.028
+    -0.0554346 -0.176107 -0.028
+    -0.0554346 -0.176107 0
+    -0.0276859 -0.126803 0
+    -0.0276859 -0.126803 -0.028
+  faces 8
+    4 1 0 8 7 8 9 3
+    4 5 1 8 7 10 8 3
+    5 2 1 2 4 2 0 1
+    5 6 2 2 4 11 2 1
+    6 3 2 8 5 12 1 4
+    6 7 3 8 5 13 12 4
+    7 0 3 2 6 0 2 2
+    7 4 0 2 6 3 0 2
+  tverts 14
+    0.597652 0.247139 0
+    0.935342 0.246153 0
+    0.657127 0.247139 0
+    0.992971 0.355392 0
+    0.992971 0.138886 0
+    0.654524 0.246153 0
+    0.937945 0.324423 0
+    0.994817 0.214903 0
+    0.599498 0.246153 0
+    0.599498 0.214903 0
+    0.994817 0.246153 0
+    0.937945 0.169855 0
+    0.935342 0.214903 0
+    0.654524 0.214903 0
+endnode
+node trimesh side_a02
+  parent side_a03
+  orientation 1 0 0 -6.28319
+  wirecolor 0.6 0.894118 0.839216
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 4.84974 -17.7103 1.01328e-006
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_rck
+  position 0.0415602 0.176102 0.014
+  verts 8
+    -0.0415602 0.178099 -0.028
+    -0.0415602 0.178099 0
+    -0.0415602 0.12481 0
+    -0.0415602 0.12481 -0.028
+    0.0554346 -0.176107 -0.028
+    0.0554346 -0.176107 0
+    0.0276859 -0.126803 0
+    0.0276859 -0.126803 -0.028
+  faces 8
+    0 5 4 1 0 1 2 3
+    0 1 5 1 0 3 1 3
+    1 6 5 2 4 5 6 1
+    1 2 6 2 4 7 5 1
+    2 7 6 1 8 9 10 4
+    2 3 7 1 8 11 9 4
+    3 4 7 2 7 12 13 2
+    3 0 4 2 7 4 12 2
+  tverts 14
+    0.599498 0.214903 0
+    0.994817 0.246153 0
+    0.994817 0.214903 0
+    0.599498 0.246153 0
+    0.597652 0.247139 0
+    0.937945 0.324423 0
+    0.992971 0.355392 0
+    0.657127 0.247139 0
+    0.658973 0.246153 0
+    0.939791 0.214903 0
+    0.939791 0.246153 0
+    0.658973 0.214903 0
+    0.992971 0.138886 0
+    0.937945 0.169855 0
+endnode
+node trimesh side_b03
+  parent box02
+  position -0.1715 0 4.69208e-006
+  orientation 0.57735 0.57735 0.57735 -4.18879
+  wirecolor 0.6 0.894118 0.839216
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0 2.4647 3.57628e-007
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_rck
+  verts 8
+    0.0969948 -4.69208e-006 -0.014
+    0.0969948 -4.69208e-006 0.014
+    0.0692461 0.0492987 0.014
+    0.0692461 0.0492987 -0.014
+    -0.0969948 -4.69208e-006 -0.014
+    -0.0969948 -4.69208e-006 0.014
+    -0.0692461 0.0492987 0.014
+    -0.0692461 0.0492987 -0.014
+  faces 6
+    1 6 5 2 1 3 0 1
+    1 2 6 2 1 4 3 1
+    2 7 6 4 2 5 6 4
+    2 3 7 4 2 7 5 4
+    3 4 7 2 3 1 4 2
+    3 0 4 2 3 0 1 2
+  tverts 8
+    0.992971 0.138886 0
+    0.992971 0.355392 0
+    0.719874 0.246153 0
+    0.937945 0.169855 0
+    0.937945 0.324423 0
+    0.874441 0.214903 0
+    0.874441 0.246153 0
+    0.719874 0.214903 0
+endnode
+node trimesh side_b01
+  parent side_b03
+  orientation -0.57735 -0.57735 0.57735 -6.28319
+  wirecolor 0.6 0.894118 0.839216
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center -4.84974 -17.7103 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_rck
+  position -0.0415602 0.176102 0.014
+  verts 8
+    0.0415602 0.178099 -0.028
+    0.0415602 0.178099 0
+    0.0415602 0.12481 0
+    0.0415602 0.12481 -0.028
+    -0.0554346 -0.176107 -0.028
+    -0.0554346 -0.176107 0
+    -0.0276859 -0.126803 0
+    -0.0276859 -0.126803 -0.028
+  faces 8
+    4 1 0 8 7 8 9 3
+    4 5 1 8 7 10 8 3
+    5 2 1 2 4 2 0 1
+    5 6 2 2 4 11 2 1
+    6 3 2 8 5 12 1 4
+    6 7 3 8 5 13 12 4
+    7 0 3 2 6 0 2 2
+    7 4 0 2 6 3 0 2
+  tverts 14
+    0.597652 0.247139 0
+    0.935342 0.246153 0
+    0.657127 0.247139 0
+    0.992971 0.355392 0
+    0.992971 0.138886 0
+    0.654524 0.246153 0
+    0.937945 0.324423 0
+    0.994817 0.214903 0
+    0.599498 0.246153 0
+    0.599498 0.214903 0
+    0.994817 0.246153 0
+    0.937945 0.169855 0
+    0.935342 0.214903 0
+    0.654524 0.214903 0
+endnode
+node trimesh side_b02
+  parent side_b03
+  orientation 1 0 0 -6.28319
+  wirecolor 0.6 0.894118 0.839216
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 4.84974 -17.7103 1.01328e-006
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap plc_rck
+  position 0.0415602 0.176102 0.014
+  verts 8
+    -0.0415602 0.178099 -0.028
+    -0.0415602 0.178099 0
+    -0.0415602 0.12481 0
+    -0.0415602 0.12481 -0.028
+    0.0554346 -0.176107 -0.028
+    0.0554346 -0.176107 0
+    0.0276859 -0.126803 0
+    0.0276859 -0.126803 -0.028
+  faces 8
+    0 5 4 1 0 1 2 3
+    0 1 5 1 0 3 1 3
+    1 6 5 2 4 5 6 1
+    1 2 6 2 4 7 5 1
+    2 7 6 1 8 9 10 4
+    2 3 7 1 8 11 9 4
+    3 4 7 2 7 12 13 2
+    3 0 4 2 7 4 12 2
+  tverts 14
+    0.599498 0.214903 0
+    0.994817 0.246153 0
+    0.994817 0.214903 0
+    0.599498 0.246153 0
+    0.597652 0.247139 0
+    0.937945 0.324423 0
+    0.992971 0.355392 0
+    0.657127 0.247139 0
+    0.658973 0.246153 0
+    0.939791 0.214903 0
+    0.939791 0.246153 0
+    0.658973 0.214903 0
+    0.992971 0.138886 0
+    0.937945 0.169855 0
+endnode
+node emitter die!
+  parent pmi_w01
+  position 0.00408178 0.0146899 0.45
+  orientation 1 0 0 -4.71239
+  wirecolor 1 1 1
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  blend Normal
+  spawntype_sel 0
+  xsize 100
+  ysize 99
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 0.443137 0.392157 0.258824
+  colorEnd 0.72549 0.694118 0.560784
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0.2
+  blastLength 1
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  spawntype 0
+endnode
+endmodelgeom pmi_w01
+
+#MAXANIM ASCII
+newanim damage pmi_w01
+  length 0.3
+  transtime 0.1
+  animroot pmi_w01
+  node dummy pmi_w01
+    parent NULL
+  endnode
+  node dummy w01_impact
+    parent pmi_w01
+  endnode
+  node dummy w01_ground
+    parent pmi_w01
+  endnode
+  node dummy w01_hand
+    parent pmi_w01
+  endnode
+  node dummy w01_head
+    parent pmi_w01
+  endnode
+  node dummy w01_head_hit
+    parent pmi_w01
+  endnode
+  node trimesh box02
+    parent pmi_w01
+    positionkey
+      0 0 0 0
+      0.0333333 0 0 0.01
+      0.133333 0 0 0
+      0.3 0 0 0
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 1 0 0 -0.0174533
+      0.133333 0 0 0 0
+      0.3 0 0 0 0
+    endlist
+  endnode
+  node trimesh box01
+    parent box02
+    positionkey
+      0 0 0 0.301
+      0.3 0 0 0.301
+    endlist
+  endnode
+  node trimesh cylinder01
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.0333333 -0.742186 0.668562 -0.0467504 -0.234677
+      0.133333 1 -6.65643e-007 0 -0.0698132
+      0.233333 -1 -2.67065e-006 0 -0.0174533
+      0.3 0 0 0 0
+    endlist
+  endnode
+  node dummy geosphere05
+    parent cylinder01
+  endnode
+  node trimesh cylinder06
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.0333333 -0.928262 0.371021 -0.0259444 -0.187945
+      0.133333 1 0 0 -0.0698132
+      0.233333 -1 0 0 -0.0174533
+      0.3 0 0 0 0
+    endlist
+  endnode
+  node trimesh geosphere04
+    parent cylinder06
+    orientationkey
+      0 0 0 -1 -3.14159
+      0.3 0 0 -1 -3.14159
+    endlist
+  endnode
+  node trimesh cylinder02
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.0333333 -1 0 0 -0.174533
+      0.133333 1 0 0 -0.0698132
+      0.233333 -1 0 0 -0.0174533
+      0.3 0 0 0 0
+    endlist
+  endnode
+  node trimesh geosphere03
+    parent cylinder02
+    orientationkey
+      0 0 0 -1 -1.5708
+      0.3 0 0 -1 -1.5708
+    endlist
+  endnode
+  node trimesh cylinder03
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.0333333 -0.742186 -0.668562 0.0467504 -0.234677
+      0.133333 1 6.65643e-007 0 -0.0698132
+      0.233333 -1 2.67065e-006 0 -0.0174533
+      0.3 0 0 0 0
+    endlist
+  endnode
+  node dummy geosphere01
+    parent cylinder03
+  endnode
+  node trimesh cylinder04
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.0333333 -0.928262 -0.371021 0.0259444 -0.187945
+      0.133333 1 0 0 -0.0698132
+      0.233333 -1 0 0 -0.0174533
+      0.3 0 0 0 0
+    endlist
+  endnode
+  node trimesh geosphere02
+    parent cylinder04
+    orientationkey
+      0 0 0 -1 -3.14159
+      0.3 0 0 -1 -3.14159
+    endlist
+  endnode
+  node trimesh side_a03
+    parent box02
+    orientationkey
+      0 0.57735 0.57735 0.57735 -4.18879
+      0.3 0.57735 0.57735 0.57735 -4.18879
+    endlist
+  endnode
+  node dummy side_a01
+    parent side_a03
+  endnode
+  node dummy side_a02
+    parent side_a03
+  endnode
+  node trimesh side_b03
+    parent box02
+    orientationkey
+      0 0.57735 0.57735 0.57735 -4.18879
+      0.3 0.57735 0.57735 0.57735 -4.18879
+    endlist
+  endnode
+  node dummy side_b01
+    parent side_b03
+  endnode
+  node dummy side_b02
+    parent side_b03
+  endnode
+  node emitter die!
+    parent pmi_w01
+  endnode
+doneanim damage pmi_w01
+
+#MAXANIM ASCII
+newanim dead pmi_w01
+  length 0.0333333
+  transtime 0.25
+  animroot pmi_w01
+  node dummy pmi_w01
+    parent NULL
+  endnode
+  node dummy w01_impact
+    parent pmi_w01
+  endnode
+  node dummy w01_ground
+    parent pmi_w01
+  endnode
+  node dummy w01_hand
+    parent pmi_w01
+  endnode
+  node dummy w01_head
+    parent pmi_w01
+  endnode
+  node dummy w01_head_hit
+    parent pmi_w01
+  endnode
+  node trimesh box02
+    parent pmi_w01
+    positionkey
+      0 0 0 -12
+      0.0333333 0 0 -12
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node dummy box01
+    parent box02
+  endnode
+  node dummy cylinder01
+    parent box01
+  endnode
+  node dummy geosphere05
+    parent cylinder01
+  endnode
+  node dummy cylinder06
+    parent box01
+  endnode
+  node dummy geosphere04
+    parent cylinder06
+  endnode
+  node dummy cylinder02
+    parent box01
+  endnode
+  node dummy geosphere03
+    parent cylinder02
+  endnode
+  node dummy cylinder03
+    parent box01
+  endnode
+  node dummy geosphere01
+    parent cylinder03
+  endnode
+  node dummy cylinder04
+    parent box01
+  endnode
+  node dummy geosphere02
+    parent cylinder04
+  endnode
+  node dummy side_a03
+    parent box02
+  endnode
+  node dummy side_a01
+    parent side_a03
+  endnode
+  node dummy side_a02
+    parent side_a03
+  endnode
+  node dummy side_b03
+    parent box02
+  endnode
+  node dummy side_b01
+    parent side_b03
+  endnode
+  node dummy side_b02
+    parent side_b03
+  endnode
+  node emitter die!
+    parent pmi_w01
+  endnode
+doneanim dead pmi_w01
+
+#MAXANIM ASCII
+newanim default pmi_w01
+  length 0
+  transtime 0
+  animroot pmi_w01
+  node dummy pmi_w01
+    parent NULL
+  endnode
+  node dummy w01_impact
+    parent pmi_w01
+  endnode
+  node dummy w01_ground
+    parent pmi_w01
+  endnode
+  node dummy w01_hand
+    parent pmi_w01
+  endnode
+  node dummy w01_head
+    parent pmi_w01
+  endnode
+  node dummy w01_head_hit
+    parent pmi_w01
+  endnode
+  node dummy box02
+    parent pmi_w01
+  endnode
+  node dummy box01
+    parent box02
+  endnode
+  node dummy cylinder01
+    parent box01
+  endnode
+  node dummy geosphere05
+    parent cylinder01
+  endnode
+  node dummy cylinder06
+    parent box01
+  endnode
+  node dummy geosphere04
+    parent cylinder06
+  endnode
+  node dummy cylinder02
+    parent box01
+  endnode
+  node dummy geosphere03
+    parent cylinder02
+  endnode
+  node dummy cylinder03
+    parent box01
+  endnode
+  node dummy geosphere01
+    parent cylinder03
+  endnode
+  node dummy cylinder04
+    parent box01
+  endnode
+  node dummy geosphere02
+    parent cylinder04
+  endnode
+  node dummy side_a03
+    parent box02
+  endnode
+  node dummy side_a01
+    parent side_a03
+  endnode
+  node dummy side_a02
+    parent side_a03
+  endnode
+  node dummy side_b03
+    parent box02
+  endnode
+  node dummy side_b01
+    parent side_b03
+  endnode
+  node dummy side_b02
+    parent side_b03
+  endnode
+  node emitter die!
+    parent pmi_w01
+  endnode
+doneanim default pmi_w01
+
+#MAXANIM ASCII
+newanim die pmi_w01
+  length 0.3
+  transtime 0.25
+  event 0.266667 detonate
+  animroot pmi_w01
+  node dummy pmi_w01
+    parent NULL
+  endnode
+  node dummy w01_impact
+    parent pmi_w01
+  endnode
+  node dummy w01_ground
+    parent pmi_w01
+  endnode
+  node dummy w01_hand
+    parent pmi_w01
+  endnode
+  node dummy w01_head
+    parent pmi_w01
+  endnode
+  node dummy w01_head_hit
+    parent pmi_w01
+  endnode
+  node trimesh box02
+    parent pmi_w01
+    positionkey
+      0 0 0 -4.69208e-006
+      0.266667 0 0 0
+      0.3 0 0 -12
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.3 0 0 0 0
+    endlist
+  endnode
+  node trimesh box01
+    parent box02
+    positionkey
+      0 0 0 0.301
+      0.266667 0 0 0.043427
+    endlist
+  endnode
+  node dummy cylinder01
+    parent box01
+  endnode
+  node dummy geosphere05
+    parent cylinder01
+  endnode
+  node dummy cylinder06
+    parent box01
+  endnode
+  node dummy geosphere04
+    parent cylinder06
+  endnode
+  node dummy cylinder02
+    parent box01
+  endnode
+  node dummy geosphere03
+    parent cylinder02
+  endnode
+  node dummy cylinder03
+    parent box01
+  endnode
+  node dummy geosphere01
+    parent cylinder03
+  endnode
+  node dummy cylinder04
+    parent box01
+  endnode
+  node dummy geosphere02
+    parent cylinder04
+  endnode
+  node trimesh side_a03
+    parent box02
+    orientationkey
+      0 0.57735 0.57735 0.57735 -4.18879
+      0.266667 0.250877 0.250877 0.934945 -4.64517
+    endlist
+  endnode
+  node dummy side_a01
+    parent side_a03
+  endnode
+  node dummy side_a02
+    parent side_a03
+  endnode
+  node trimesh side_b03
+    parent box02
+    orientationkey
+      0 0.57735 0.57735 0.57735 -4.18879
+      0.266667 0.675929 0.675929 0.293665 -3.71286
+    endlist
+  endnode
+  node dummy side_b01
+    parent side_b03
+  endnode
+  node dummy side_b02
+    parent side_b03
+  endnode
+  node emitter die!
+    parent pmi_w01
+  endnode
+doneanim die pmi_w01
+
+#MAXANIM ASCII
+newanim off pmi_w01
+  length 0.0333333
+  transtime 0.25
+  animroot pmi_w01
+  node dummy pmi_w01
+    parent NULL
+  endnode
+  node dummy w01_impact
+    parent pmi_w01
+  endnode
+  node dummy w01_ground
+    parent pmi_w01
+  endnode
+  node dummy w01_hand
+    parent pmi_w01
+  endnode
+  node dummy w01_head
+    parent pmi_w01
+  endnode
+  node dummy w01_head_hit
+    parent pmi_w01
+  endnode
+  node dummy box02
+    parent pmi_w01
+  endnode
+  node dummy box01
+    parent box02
+  endnode
+  node trimesh cylinder01
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node dummy geosphere05
+    parent cylinder01
+  endnode
+  node dummy cylinder06
+    parent box01
+  endnode
+  node dummy geosphere04
+    parent cylinder06
+  endnode
+  node dummy cylinder02
+    parent box01
+  endnode
+  node dummy geosphere03
+    parent cylinder02
+  endnode
+  node trimesh cylinder03
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node dummy geosphere01
+    parent cylinder03
+  endnode
+  node dummy cylinder04
+    parent box01
+  endnode
+  node dummy geosphere02
+    parent cylinder04
+  endnode
+  node dummy side_a03
+    parent box02
+  endnode
+  node dummy side_a01
+    parent side_a03
+  endnode
+  node dummy side_a02
+    parent side_a03
+  endnode
+  node dummy side_b03
+    parent box02
+  endnode
+  node dummy side_b01
+    parent side_b03
+  endnode
+  node dummy side_b02
+    parent side_b03
+  endnode
+  node emitter die!
+    parent pmi_w01
+  endnode
+doneanim off pmi_w01
+
+#MAXANIM ASCII
+newanim off2on pmi_w01
+  length 1.33333
+  transtime 0.25
+  animroot pmi_w01
+  node dummy pmi_w01
+    parent NULL
+  endnode
+  node dummy w01_impact
+    parent pmi_w01
+  endnode
+  node dummy w01_ground
+    parent pmi_w01
+  endnode
+  node dummy w01_hand
+    parent pmi_w01
+  endnode
+  node dummy w01_head
+    parent pmi_w01
+  endnode
+  node dummy w01_head_hit
+    parent pmi_w01
+  endnode
+  node dummy box02
+    parent pmi_w01
+  endnode
+  node dummy box01
+    parent box02
+  endnode
+  node trimesh cylinder01
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.266667 0 1 0 -0.418879
+      0.366667 0 1 0 -0.418879
+      0.666667 0 0 0 0
+    endlist
+  endnode
+  node dummy geosphere05
+    parent cylinder01
+  endnode
+  node dummy cylinder06
+    parent box01
+  endnode
+  node dummy geosphere04
+    parent cylinder06
+  endnode
+  node dummy cylinder02
+    parent box01
+  endnode
+  node dummy geosphere03
+    parent cylinder02
+  endnode
+  node trimesh cylinder03
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.666667 0 0 0 0
+      0.933333 0 -1 0 -0.418879
+      1.03333 0 -1 0 -0.418879
+      1.33333 0 0 0 0
+    endlist
+  endnode
+  node dummy geosphere01
+    parent cylinder03
+  endnode
+  node dummy cylinder04
+    parent box01
+  endnode
+  node dummy geosphere02
+    parent cylinder04
+  endnode
+  node dummy side_a03
+    parent box02
+  endnode
+  node dummy side_a01
+    parent side_a03
+  endnode
+  node dummy side_a02
+    parent side_a03
+  endnode
+  node dummy side_b03
+    parent box02
+  endnode
+  node dummy side_b01
+    parent side_b03
+  endnode
+  node dummy side_b02
+    parent side_b03
+  endnode
+  node emitter die!
+    parent pmi_w01
+  endnode
+doneanim off2on pmi_w01
+
+#MAXANIM ASCII
+newanim on pmi_w01
+  length 1.33333
+  transtime 0.25
+  animroot pmi_w01
+  node dummy pmi_w01
+    parent NULL
+  endnode
+  node dummy w01_impact
+    parent pmi_w01
+  endnode
+  node dummy w01_ground
+    parent pmi_w01
+  endnode
+  node dummy w01_hand
+    parent pmi_w01
+  endnode
+  node dummy w01_head
+    parent pmi_w01
+  endnode
+  node dummy w01_head_hit
+    parent pmi_w01
+  endnode
+  node dummy box02
+    parent pmi_w01
+  endnode
+  node dummy box01
+    parent box02
+  endnode
+  node trimesh cylinder01
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.266667 0 1 0 -0.418879
+      0.366667 0 1 0 -0.418879
+      0.666667 0 0 0 0
+    endlist
+  endnode
+  node dummy geosphere05
+    parent cylinder01
+  endnode
+  node dummy cylinder06
+    parent box01
+  endnode
+  node dummy geosphere04
+    parent cylinder06
+  endnode
+  node dummy cylinder02
+    parent box01
+  endnode
+  node dummy geosphere03
+    parent cylinder02
+  endnode
+  node trimesh cylinder03
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.666667 0 0 0 0
+      0.933333 0 -1 0 -0.418879
+      1.03333 0 -1 0 -0.418879
+      1.33333 0 0 0 0
+    endlist
+  endnode
+  node dummy geosphere01
+    parent cylinder03
+  endnode
+  node dummy cylinder04
+    parent box01
+  endnode
+  node dummy geosphere02
+    parent cylinder04
+  endnode
+  node dummy side_a03
+    parent box02
+  endnode
+  node dummy side_a01
+    parent side_a03
+  endnode
+  node dummy side_a02
+    parent side_a03
+  endnode
+  node dummy side_b03
+    parent box02
+  endnode
+  node dummy side_b01
+    parent side_b03
+  endnode
+  node dummy side_b02
+    parent side_b03
+  endnode
+  node emitter die!
+    parent pmi_w01
+  endnode
+doneanim on pmi_w01
+
+#MAXANIM ASCII
+newanim on2off pmi_w01
+  length 1.33333
+  transtime 0.25
+  animroot pmi_w01
+  node dummy pmi_w01
+    parent NULL
+  endnode
+  node dummy w01_impact
+    parent pmi_w01
+  endnode
+  node dummy w01_ground
+    parent pmi_w01
+  endnode
+  node dummy w01_hand
+    parent pmi_w01
+  endnode
+  node dummy w01_head
+    parent pmi_w01
+  endnode
+  node dummy w01_head_hit
+    parent pmi_w01
+  endnode
+  node dummy box02
+    parent pmi_w01
+  endnode
+  node dummy box01
+    parent box02
+  endnode
+  node trimesh cylinder01
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.266667 0 1 0 -0.418879
+      0.366667 0 1 0 -0.418879
+      0.666667 0 0 0 0
+    endlist
+  endnode
+  node dummy geosphere05
+    parent cylinder01
+  endnode
+  node dummy cylinder06
+    parent box01
+  endnode
+  node dummy geosphere04
+    parent cylinder06
+  endnode
+  node dummy cylinder02
+    parent box01
+  endnode
+  node dummy geosphere03
+    parent cylinder02
+  endnode
+  node trimesh cylinder03
+    parent box01
+    orientationkey
+      0 0 0 0 0
+      0.666667 0 0 0 0
+      0.966667 0 -1 0 -0.418879
+      1.03333 0 -1 0 -0.418879
+      1.33333 0 0 0 0
+    endlist
+  endnode
+  node dummy geosphere01
+    parent cylinder03
+  endnode
+  node dummy cylinder04
+    parent box01
+  endnode
+  node dummy geosphere02
+    parent cylinder04
+  endnode
+  node dummy side_a03
+    parent box02
+  endnode
+  node dummy side_a01
+    parent side_a03
+  endnode
+  node dummy side_a02
+    parent side_a03
+  endnode
+  node dummy side_b03
+    parent box02
+  endnode
+  node dummy side_b01
+    parent side_b03
+  endnode
+  node dummy side_b02
+    parent side_b03
+  endnode
+  node emitter die!
+    parent pmi_w01
+  endnode
+doneanim on2off pmi_w01
+donemodel pmi_w01

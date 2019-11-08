@@ -1,0 +1,10 @@
+2DA V2.0
+
+       Corner1     Edge       Corner2     Height     Model            
+0      Wall        Pipe       Wall        0          isc02_z01_01
+1      Wall        ****       Wall        0          isc02_z02_01
+2      Wall        ****       ****        0          isc02_z02_01
+3      Water       ****       Water       0          isc02_z03_01
+4      Water       ****       ****        0          isc02_z03_01
+2      Wall        ****       Water       0          isc02_z04_01
+

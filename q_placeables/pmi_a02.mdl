@@ -1,0 +1,261 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Sat Mar 28 08:51:01 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel pmi_a02
+setsupermodel pmi_a02 null
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom pmi_a02
+node dummy pmi_a02
+  parent NULL
+endnode
+node trimesh frame4
+  parent pmi_a02
+  position -0.6 -0.00750004 2.19
+  wirecolor 0.768628 0.337255 0.882353
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 1.00136e-005 0.75 0
+  bitmap qp_paint_02
+  orientation 0 0 0 0
+  verts 8
+    -0.0449999 -0.0224981 0.54
+    -0.0449999 -0.0225019 -0.54
+    -0.0449999 0.0375019 0.54
+    -0.0449999 0.0374981 -0.54
+    0.0450001 1.55299e-006 0.45
+    0.0450001 -1.51903e-006 -0.45
+    0.0450001 0.0225016 0.45
+    0.0450001 0.0224985 -0.45
+  faces 6
+    0 2 3 2 8 2 3 2
+    3 1 0 2 3 9 8 2
+    4 5 7 4 10 11 7 1
+    7 6 4 4 7 6 10 1
+    0 1 5 8 0 1 5 5
+    5 4 0 8 5 4 0 5
+  tverts 12
+    0.257723 0.01468 0
+    1.33473 0.01468 0
+    1.34028 0.122277 0
+    0.215278 0.122277 0
+    0.351473 0.10843 0
+    1.24099 0.10843 0
+    0.309028 0.106652 0
+    1.24653 0.106652 0
+    1.34028 0.0597772 0
+    0.215278 0.0597769 0
+    0.309028 0.0832147 0
+    1.24653 0.0832144 0
+endnode
+node trimesh picture
+  parent pmi_a02
+  position 0 0.0150005 2.19
+  wirecolor 0.0156863 0.521569 0.0156863
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 -3.621e-005 0
+  bitmap qp_paint_02
+  orientation 0 0 0 0
+  verts 4
+    -0.555 1.09523e-006 0.45
+    -0.555 -2.08408e-006 -0.45
+    0.555 -1.81943e-006 -0.45
+    0.555 1.35988e-006 0.45
+  faces 2
+    2 3 0 4 2 3 0 1
+    0 1 2 4 0 1 2 1
+  tverts 4
+    0.0141588 0.996689 0
+    0.0141588 0.201987 0
+    0.994291 0.201987 0
+    0.994291 0.996689 0
+endnode
+node trimesh frame3
+  parent pmi_a02
+  position 0 -0.00749985 1.695
+  wirecolor 0.0313726 0.431373 0.521569
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0.749985 -1.00136e-005
+  bitmap qp_paint_02
+  orientation 0 0 0 0
+  verts 8
+    -0.555 0 0.045
+    -0.645 -0.0225003 -0.0449999
+    -0.555 0.0225001 0.0449999
+    -0.645 0.0374997 -0.0450002
+    0.555 3.01123e-007 0.045
+    0.645 -0.0225 -0.0449999
+    0.555 0.0225003 0.0449999
+    0.645 0.0375 -0.0450002
+  faces 6
+    0 1 5 8 8 9 10 5
+    5 4 0 8 10 11 8 5
+    1 3 7 16 1 3 7 4
+    7 5 1 16 7 5 1 4
+    2 0 4 64 2 0 4 3
+    4 6 2 64 4 6 2 3
+  tverts 12
+    1.85149 0.14872 0
+    0.60148 0.172157 0
+    1.85149 0.125282 0
+    0.60148 0.109657 0
+    0.69523 0.14872 0
+    1.94524 0.172157 0
+    0.69523 0.125282 0
+    1.94524 0.109657 0
+    1.85149 0.0560991 0
+    1.94524 0.14985 0
+    0.60148 0.14985 0
+    0.69523 0.0560991 0
+endnode
+node trimesh frame2
+  parent pmi_a02
+  position 0.6 -0.00749972 2.19
+  wirecolor 0.564706 0.109804 0.694118
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0.75 0
+  bitmap qp_paint_02
+  orientation 0 0 0 0
+  verts 8
+    -0.045 -1.57687e-006 0.45
+    -0.045 1.60244e-006 -0.45
+    -0.045 0.0224984 0.45
+    -0.045 0.0225016 -0.45
+    0.045 -0.0225019 0.54
+    0.045 -0.022498 -0.54
+    0.045 0.0374981 0.54
+    0.045 0.0375019 -0.54
+  faces 6
+    0 2 3 2 8 2 3 2
+    3 1 0 2 3 9 8 2
+    4 5 7 4 10 11 7 1
+    7 6 4 4 7 6 10 1
+    0 1 5 8 0 1 5 5
+    5 4 0 8 5 4 0 5
+  tverts 12
+    0.311981 1.09298 0
+    1.24948 1.09298 0
+    1.23388 0.173292 0
+    0.296385 0.173292 0
+    0.218231 1.18673 0
+    1.34323 1.18673 0
+    0.202635 0.188917 0
+    1.32763 0.188917 0
+    1.23388 0.149854 0
+    0.296385 0.149854 0
+    0.202635 0.126417 0
+    1.32763 0.126417 0
+endnode
+node trimesh frame1
+  parent pmi_a02
+  position 0 -0.00749985 2.685
+  wirecolor 0.0313726 0.239216 0.537255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  center 0 0.750015 -49.5
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap qp_paint_02
+  orientation 0 0 0 0
+  verts 10
+    -0.645 -0.0225 0.0450001
+    -0.555 -2.66254e-007 -0.045
+    -0.645 0.0375 0.0449998
+    -0.555 0.0224998 -0.0450001
+    0.645 -0.0224997 0.0450001
+    0.555 0 -0.045
+    0.645 0.0375003 0.0449998
+    0.555 0.0225 -0.0450001
+    0.645 0.0375 -1.035
+    -0.645 0.0374979 -1.035
+  faces 8
+    0 1 5 8 8 9 10 5
+    5 4 0 8 10 11 8 5
+    1 3 7 16 1 3 7 4
+    7 5 1 16 7 5 1 4
+    2 0 4 64 2 0 4 3
+    4 6 2 64 4 6 2 3
+    8 9 2 64 12 13 14 3
+    2 6 8 64 14 15 12 3
+  tverts 16
+    0.828125 0.0364797 0
+    2.07813 0.0599171 0
+    0.828125 0.0989797 0
+    2.07813 0.0833546 0
+    2.17188 0.0364795 0
+    0.921875 0.059917 0
+    2.17188 0.0989795 0
+    0.921875 0.0833545 0
+    0.828125 0.150117 0
+    0.921875 0.0563667 0
+    2.07813 0.0563667 0
+    2.17188 0.150117 0
+    1.71584 1.1947 0
+    1.5019 1.19496 0
+    1.50152 1.0045 0
+    1.71526 1.00434 0
+endnode
+endmodelgeom pmi_a02
+donemodel pmi_a02

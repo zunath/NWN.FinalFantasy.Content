@@ -1,0 +1,926 @@
+# Exported from NWmax 0.8 b60 at 11/26/2010 4:06:44 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: paf_z19
+#local file: Unknown
+filedependancy Unknown
+newmodel paf_z19
+setsupermodel paf_z19 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom paf_z19
+node dummy paf_z19
+  parent NULL
+endnode
+node dummy z19_hand
+  parent paf_z19
+  position 0.00398926 -0.904311 0.629331
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.560784 0.878431 0.341176 
+endnode
+node dummy z19_head
+  parent paf_z19
+  position 0.00398926 0.0108252 1.32925
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.560784 0.878431 0.341176 
+endnode
+node dummy z19_head_hit
+  parent paf_z19
+  position 0.00398926 0.0108252 0.847772
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.560784 0.878431 0.341176 
+endnode
+node dummy z19_impact
+  parent paf_z19
+  position 0.00398926 0.011001 0.384467
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.560784 0.878431 0.341176 
+endnode
+node dummy z19_ground
+  parent paf_z19
+  position -0.00363281 0.0069873 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.560784 0.878431 0.341176 
+endnode
+node emitter fire!43
+  parent paf_z19
+  position 0.0131848 -0.0381348 0.532671
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.733333 0.67451 0.533333 
+  colorEnd 0.803922 0.780392 0.678431 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter ChunkyWood72
+  parent paf_z19
+  position 0.0131848 -0.0381348 0.606715
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName PLC_Chunk_S01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter ChunkyWood73
+  parent paf_z19
+  position 0.0131848 -0.0381348 0.712937
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.701961 0.67451 0.603922 
+  colorEnd 0.854902 0.847059 0.82353 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 2.9
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName PLC_Chunk_M01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh damage09
+  parent paf_z19
+  position 0.0147516 0.0017041 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0705882 0.0 1.0 
+  Diffuse 1.0 0.501961 0.643137 
+  Specular 0.0 0.9 0.105882 
+  shininess 24
+  center 0.0 0.0 25.0 
+  bitmap NULL
+  verts 12
+    -0.2 -0.19 0.0
+    -0.2 0.19 0.0
+    0.2 0.19 0.0
+    0.2 -0.19 0.0
+    -0.2 -0.19 0.5
+    0.2 -0.19 0.5
+    0.2 0.19 0.5
+    -0.2 0.19 0.5
+    0.1 -0.1 0.25
+    -0.1 -0.1 0.25
+    0.1 0.1 0.25
+    -0.1 0.1 0.25
+  faces 20
+    0 1 2  1  0 0 0  2
+    2 3 0  1  0 0 0  2
+    4 5 6  1  0 0 0  1
+    6 7 4  1  0 0 0  1
+    0 3 8  2  0 0 0  5
+    8 9 0  2  0 0 0  5
+    9 8 5  2  0 0 0  5
+    5 4 9  2  0 0 0  5
+    3 2 10  4  0 0 0  4
+    10 8 3  4  0 0 0  4
+    8 10 6  4  0 0 0  4
+    6 5 8  4  0 0 0  4
+    2 1 11  2  0 0 0  6
+    11 10 2  2  0 0 0  6
+    10 11 7  2  0 0 0  6
+    7 6 10  2  0 0 0  6
+    1 0 9  4  0 0 0  3
+    9 11 1  4  0 0 0  3
+    11 9 4  4  0 0 0  3
+    4 7 11  4  0 0 0  3
+endnode
+node trimesh Bin01
+  parent damage09
+  position -0.0147516 -0.0017041 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 0
+  center 0.0 0.0 24.9999 
+  bitmap qp_barrel_01
+  verts 60
+    0.40125 0.0 0.5
+    0.347493 0.200625 0.5
+    0.200625 0.347493 0.5
+    0.0 0.40125 0.5
+    -0.200625 0.347493 0.5
+    -0.347493 0.200625 0.5
+    -0.40125 0.0 0.5
+    -0.347493 -0.200625 0.5
+    -0.200625 -0.347493 0.5
+    0.0 -0.40125 0.5
+    0.200625 -0.347493 0.5
+    0.347493 -0.200625 0.5
+    0.385 0.0 0.25
+    0.33342 0.1925 0.25
+    0.1925 0.33342 0.25
+    0.0 0.385 0.25
+    -0.1925 0.33342 0.25
+    -0.33342 0.1925 0.25
+    -0.385 0.0 0.25
+    -0.33342 -0.1925 0.25
+    -0.1925 -0.33342 0.25
+    0.0 -0.385 0.25
+    0.1925 -0.33342 0.25
+    0.33342 -0.1925 0.25
+    0.32558 0.0 -1.96457e-006
+    0.281961 0.16279 -1.96457e-006
+    0.16279 0.281961 -1.96457e-006
+    0.0 0.32558 -1.96457e-006
+    -0.16279 0.281961 -1.96457e-006
+    -0.281961 0.16279 -1.96457e-006
+    -0.32558 0.0 -1.96457e-006
+    -0.281961 -0.16279 -1.96457e-006
+    -0.16279 -0.281961 -1.96457e-006
+    0.0 -0.32558 -1.96457e-006
+    0.16279 -0.28196 -1.96457e-006
+    0.281961 -0.16279 -1.96457e-006
+    0.36125 0.0 0.5
+    0.317496 0.170628 0.5
+    0.170628 0.317496 0.5
+    0.0 0.36125 0.5
+    -0.170628 0.317496 0.5
+    -0.317496 0.170628 0.5
+    -0.36125 0.0 0.5
+    -0.317496 -0.170628 0.5
+    -0.170628 -0.317496 0.5
+    0.0 -0.36125 0.5
+    0.170628 -0.317496 0.5
+    0.317496 -0.170628 0.5
+    0.36125 0.0 0.35
+    0.317496 0.170628 0.35
+    0.170628 0.317496 0.35
+    0.0 0.36125 0.35
+    -0.170628 0.317496 0.35
+    -0.317496 0.170628 0.35
+    -0.36125 0.0 0.35
+    -0.317496 -0.170628 0.35
+    -0.170628 -0.317496 0.35
+    0.0 -0.36125 0.35
+    0.170628 -0.317496 0.35
+    0.317496 -0.170628 0.35
+  faces 96
+    19 31 20  1  19 31 20  1
+    32 20 31  1  32 20 31  1
+    7 19 8  1  7 109 8  1
+    20 8 19  1  110 8 109  1
+    20 32 21  1  20 32 21  1
+    33 21 32  1  33 21 32  1
+    8 20 9  1  8 110 9  1
+    21 9 20  1  111 9 110  1
+    21 33 22  1  21 33 22  1
+    34 22 33  1  34 22 33  1
+    9 21 10  1  9 111 10  1
+    22 10 21  1  112 10 111  1
+    22 34 23  1  22 34 23  1
+    35 23 34  1  35 23 34  1
+    10 22 11  1  10 112 11  1
+    23 11 22  1  113 11 112  1
+    23 35 12  1  23 35 12  1
+    24 12 35  1  24 12 35  1
+    11 23 0  1  11 113 0  1
+    12 0 23  1  102 0 113  1
+    12 24 13  1  12 24 13  1
+    25 13 24  1  25 13 24  1
+    0 12 1  1  0 102 1  1
+    13 1 12  1  103 1 102  1
+    13 25 14  1  13 25 14  1
+    26 14 25  1  26 14 25  1
+    1 13 2  1  1 103 2  1
+    14 2 13  1  104 2 103  1
+    14 26 15  1  14 26 15  1
+    27 15 26  1  27 15 26  1
+    2 14 3  1  2 104 3  1
+    15 3 14  1  105 3 104  1
+    15 27 16  1  60 61 16  1
+    28 16 27  1  28 16 61  1
+    3 15 4  1  63 64 4  1
+    16 4 15  1  106 4 64  1
+    16 28 17  1  16 28 17  1
+    29 17 28  1  29 17 28  1
+    17 29 18  1  17 29 18  1
+    30 18 29  1  30 18 29  1
+    18 30 19  1  18 30 19  1
+    4 16 5  1  4 106 5  1
+    17 5 16  1  107 5 106  1
+    5 17 6  1  5 107 6  1
+    18 6 17  1  108 6 107  1
+    6 18 7  1  6 108 7  1
+    19 7 18  1  109 7 108  1
+    31 19 30  1  31 19 30  1
+    43 7 8  1  78 43 44  1
+    8 44 43  1  44 82 78  1
+    44 8 9  1  87 45 83  1
+    9 45 44  1  83 90 87  1
+    42 6 7  1  73 42 72  1
+    7 43 42  1  72 77 73  1
+    41 5 6  1  65 41 62  1
+    6 42 41  1  62 70 65  1
+    40 4 5  1  92 40 91  1
+    5 41 40  1  91 95 92  1
+    45 9 10  1  100 46 99  1
+    10 46 45  1  99 101 100  1
+    46 10 11  1  97 47 96  1
+    11 47 46  1  96 98 97  1
+    47 11 0  1  94 74 36  1
+    0 36 47  1  36 75 94  1
+    36 0 1  1  79 37 76  1
+    1 37 36  1  76 80 79  1
+    37 1 2  1  84 38 81  1
+    2 38 37  1  81 85 84  1
+    38 2 3  1  88 39 86  1
+    3 39 38  1  86 89 88  1
+    39 3 4  1  68 66 67  1
+    4 40 39  1  67 93 68  1
+    38 50 49  1  116 50 49  1
+    49 37 38  1  49 115 116  1
+    37 49 48  1  115 49 48  1
+    48 36 37  1  48 114 115  1
+    39 51 50  1  117 51 50  1
+    50 38 39  1  50 116 117  1
+    40 52 51  1  118 52 69  1
+    51 39 40  1  69 71 118  1
+    36 48 59  1  114 48 59  1
+    59 47 36  1  59 125 114  1
+    47 59 58  1  125 59 58  1
+    58 46 47  1  58 124 125  1
+    46 58 57  1  124 58 57  1
+    57 45 46  1  57 123 124  1
+    45 57 56  1  123 57 56  1
+    56 44 45  1  56 122 123  1
+    44 56 55  1  122 56 55  1
+    55 43 44  1  55 121 122  1
+    43 55 54  1  121 55 54  1
+    54 42 43  1  54 120 121  1
+    42 54 53  1  120 54 53  1
+    53 41 42  1  53 119 120  1
+    41 53 52  1  119 53 52  1
+    52 40 41  1  52 118 119  1
+  tverts 126
+    1.5 0.835283 0
+    1.66667 0.835283 0
+    1.83333 0.835283 0
+    2.0 0.835283 0
+    0.166667 0.835283 0
+    0.333333 0.835283 0
+    0.5 0.835283 0
+    0.666667 0.835283 0
+    0.833333 0.835283 0
+    1.0 0.835283 0
+    1.16667 0.835283 0
+    1.33333 0.835283 0
+    1.5 0.4155 0
+    1.66667 0.4155 0
+    1.83333 0.4155 0
+    2.0 0.4155 0
+    0.166667 0.4155 0
+    0.333333 0.4155 0
+    0.5 0.4155 0
+    0.666667 0.4155 0
+    0.833333 0.4155 0
+    1.0 0.4155 0
+    1.16667 0.4155 0
+    1.33333 0.4155 0
+    1.5 0.165749 0
+    1.66667 0.165749 0
+    1.83333 0.165749 0
+    2.0 0.165749 0
+    0.166666 0.165749 0
+    0.333334 0.165749 0
+    0.5 0.165749 0
+    0.666666 0.165749 0
+    0.833333 0.165749 0
+    1.0 0.165749 0
+    1.16667 0.165749 0
+    1.33333 0.165749 0
+    0.585596 0.806441 0
+    0.585394 0.829614 0
+    0.592998 0.836165 0
+    0.579667 0.828858 0
+    0.593159 0.835393 0
+    0.429598 0.806441 0
+    0.423864 0.805736 0
+    0.416203 0.799251 0
+    0.593159 0.799251 0
+    0.429505 0.807097 0
+    0.424079 0.804327 0
+    0.416203 0.799251 0
+    1.5 0.691365 0
+    1.65697 0.691365 0
+    1.84303 0.691365 0
+    2.0 0.691365 0
+    0.156969 0.691365 0
+    0.343031 0.691365 0
+    0.5 0.691365 0
+    0.656969 0.691365 0
+    0.843031 0.691365 0
+    1.0 0.691365 0
+    1.15697 0.691365 0
+    1.34303 0.691365 0
+    0.0 0.4155 0
+    0.0 0.165749 0
+    0.585596 0.806441 0
+    0.0 0.835283 0
+    0.0 0.585533 0
+    0.445529 0.834034 0
+    0.585394 0.829614 0
+    0.429419 0.826891 0
+    0.578126 0.800463 0
+    0.0 0.691365 0
+    0.57782 0.83546 0
+    0.0 0.841215 0
+    0.579857 0.807097 0
+    0.431387 0.834821 0
+    0.429598 0.806441 0
+    0.57782 0.83546 0
+    0.429419 0.826891 0
+    0.563686 0.83455 0
+    0.416203 0.835393 0
+    0.578126 0.800463 0
+    0.445829 0.79958 0
+    0.416049 0.834621 0
+    0.593159 0.835393 0
+    0.585498 0.805736 0
+    0.593313 0.800024 0
+    0.416364 0.79848 0
+    0.423675 0.827497 0
+    0.445677 0.83455 0
+    0.563978 0.801127 0
+    0.431703 0.798547 0
+    0.577976 0.834821 0
+    0.416203 0.835393 0
+    0.593159 0.799251 0
+    0.445829 0.79958 0
+    0.445529 0.834034 0
+    0.416203 0.799251 0
+    0.593159 0.799251 0
+    0.416203 0.835393 0
+    0.593159 0.835393 0
+    0.580024 0.80841 0
+    0.431092 0.833539 0
+    0.563376 0.835577 0
+    1.5 0.585533 0
+    1.66667 0.585533 0
+    1.83333 0.585533 0
+    2.0 0.585533 0
+    0.166667 0.585533 0
+    0.333333 0.585533 0
+    0.5 0.585533 0
+    0.666667 0.585533 0
+    0.833333 0.585533 0
+    1.0 0.585533 0
+    1.16667 0.585533 0
+    1.33333 0.585533 0
+    1.5 0.841215 0
+    1.65697 0.841215 0
+    1.84303 0.841215 0
+    2.0 0.841215 0
+    0.156969 0.841215 0
+    0.343031 0.841215 0
+    0.5 0.841215 0
+    0.656969 0.841215 0
+    0.843031 0.841215 0
+    1.0 0.841215 0
+    1.15697 0.841215 0
+    1.34303 0.841215 0
+endnode
+node trimesh Grain01
+  parent Bin01
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 37.0 
+  bitmap qp_fishfood01
+  verts 13
+    0.36125 0.0 0.36
+    0.317496 0.170628 0.35
+    0.170628 0.317496 0.35
+    0.0 0.36125 0.35
+    -0.170628 0.317496 0.35
+    -0.317496 0.170628 0.35
+    -0.36125 0.0 0.35
+    -0.317496 -0.170628 0.35
+    -0.170628 -0.317496 0.355
+    0.0 -0.36125 0.375
+    0.170628 -0.317496 0.37
+    0.317496 -0.170628 0.365
+    0.0 0.0 0.39
+  faces 12
+    11 12 10  0  11 12 10  1
+    12 9 10  0  12 9 10  1
+    12 8 9  0  12 8 9  1
+    1 12 0  0  1 12 0  1
+    12 11 0  0  12 11 0  1
+    2 12 1  0  2 12 1  1
+    12 2 3  0  12 2 3  1
+    3 4 12  0  3 4 12  1
+    5 6 12  0  5 6 12  1
+    6 7 12  0  6 7 12  1
+    12 4 5  0  12 4 5  1
+    7 8 12  0  7 8 12  1
+  tverts 13
+    0.0655042 0.749189 0
+    0.000192077 0.51342 0
+    0.075324 0.235375 0
+    0.250305 0.0648838 0
+    0.485772 -0.00040106 0
+    0.763933 0.0746994 0
+    0.934496 0.249607 0
+    0.999809 0.484976 0
+    0.924676 0.763221 0
+    0.749695 0.934515 0
+    0.514228 0.999596 0
+    0.236067 0.924298 0
+    0.5 0.500802 0
+endnode
+endmodelgeom paf_z19
+
+#NWmax ANIM ASCII
+newanim damage paf_z19
+  length 0.133333
+  transtime 0.0
+  animroot paf_z19
+    node dummy paf_z19
+        parent NULL
+    endnode
+    node dummy z19_hand
+        parent paf_z19
+    endnode
+    node dummy z19_head
+        parent paf_z19
+    endnode
+    node dummy z19_head_hit
+        parent paf_z19
+    endnode
+    node dummy z19_impact
+        parent paf_z19
+    endnode
+    node dummy z19_ground
+        parent paf_z19
+    endnode
+    node emitter fire!43
+        parent paf_z19
+    endnode
+    node emitter ChunkyWood72
+        parent paf_z19
+    endnode
+    node emitter ChunkyWood73
+        parent paf_z19
+    endnode
+    node trimesh damage09
+        parent paf_z19
+        positionkey
+            0.0 0.0147516 0.0017041 0.0
+            0.0333333 0.0147516 0.0017041 0.0244581
+            0.133333 0.0147516 0.0017041 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.371336 -0.928463 0.00810258 -0.0469939
+            0.1 -0.59995 0.799969 0.0104722 -0.0436324
+            0.133333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Bin01
+        parent damage09
+    endnode
+    node trimesh Grain01
+        parent Bin01
+    endnode
+    node dummy paf_z19_pwk
+        parent paf_z19
+    endnode
+    node trimesh paf_z18_wg
+        parent paf_z19_pwk
+    endnode
+    node dummy z19_pwk_use02
+        parent paf_z19_pwk
+    endnode
+    node dummy z19_pwk_use01
+        parent paf_z19_pwk
+    endnode
+doneanim damage paf_z19
+
+
+#NWmax ANIM ASCII
+newanim die paf_z19
+  length 0.166667
+  transtime 0.0
+  animroot paf_z19
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+  event 0.0333333 detonate
+    node dummy paf_z19
+        parent NULL
+    endnode
+    node dummy z19_hand
+        parent paf_z19
+    endnode
+    node dummy z19_head
+        parent paf_z19
+    endnode
+    node dummy z19_head_hit
+        parent paf_z19
+    endnode
+    node dummy z19_impact
+        parent paf_z19
+    endnode
+    node dummy z19_ground
+        parent paf_z19
+    endnode
+    node emitter fire!43
+        parent paf_z19
+    endnode
+    node emitter ChunkyWood72
+        parent paf_z19
+    endnode
+    node emitter ChunkyWood73
+        parent paf_z19
+    endnode
+    node trimesh damage09
+        parent paf_z19
+        positionkey
+            0.0 0.0147516 0.0017041 0.0
+            0.166667 0.0147516 0.0017041 -3.77999
+        endlist
+    endnode
+    node trimesh Bin01
+        parent damage09
+    endnode
+    node trimesh Grain01
+        parent Bin01
+    endnode
+    node dummy paf_z19_pwk
+        parent paf_z19
+    endnode
+    node trimesh paf_z18_wg
+        parent paf_z19_pwk
+    endnode
+    node dummy z19_pwk_use02
+        parent paf_z19_pwk
+    endnode
+    node dummy z19_pwk_use01
+        parent paf_z19_pwk
+    endnode
+doneanim die paf_z19
+
+
+#NWmax ANIM ASCII
+newanim dead paf_z19
+  length 0.0333333
+  transtime 0.0
+  animroot paf_z19
+    node dummy paf_z19
+        parent NULL
+    endnode
+    node dummy z19_hand
+        parent paf_z19
+    endnode
+    node dummy z19_head
+        parent paf_z19
+    endnode
+    node dummy z19_head_hit
+        parent paf_z19
+    endnode
+    node dummy z19_impact
+        parent paf_z19
+    endnode
+    node dummy z19_ground
+        parent paf_z19
+    endnode
+    node emitter fire!43
+        parent paf_z19
+    endnode
+    node emitter ChunkyWood72
+        parent paf_z19
+    endnode
+    node emitter ChunkyWood73
+        parent paf_z19
+    endnode
+    node trimesh damage09
+        parent paf_z19
+        positionkey
+            0.0 0.0147516 0.0017041 -3.77999
+            0.0333333 0.0147516 0.0017041 -3.77999
+        endlist
+    endnode
+    node trimesh Bin01
+        parent damage09
+    endnode
+    node trimesh Grain01
+        parent Bin01
+    endnode
+    node dummy paf_z19_pwk
+        parent paf_z19
+    endnode
+    node trimesh paf_z18_wg
+        parent paf_z19_pwk
+    endnode
+    node dummy z19_pwk_use02
+        parent paf_z19_pwk
+    endnode
+    node dummy z19_pwk_use01
+        parent paf_z19_pwk
+    endnode
+doneanim dead paf_z19
+
+
+#NWmax ANIM ASCII
+newanim default paf_z19
+  length 0.0
+  transtime 0.25
+  animroot paf_z19
+    node dummy paf_z19
+        parent NULL
+    endnode
+    node dummy z19_hand
+        parent paf_z19
+    endnode
+    node dummy z19_head
+        parent paf_z19
+    endnode
+    node dummy z19_head_hit
+        parent paf_z19
+    endnode
+    node dummy z19_impact
+        parent paf_z19
+    endnode
+    node dummy z19_ground
+        parent paf_z19
+    endnode
+    node emitter fire!43
+        parent paf_z19
+    endnode
+    node emitter ChunkyWood72
+        parent paf_z19
+    endnode
+    node emitter ChunkyWood73
+        parent paf_z19
+    endnode
+    node trimesh damage09
+        parent paf_z19
+    endnode
+    node trimesh Bin01
+        parent damage09
+    endnode
+    node trimesh Grain01
+        parent Bin01
+    endnode
+    node dummy paf_z19_pwk
+        parent paf_z19
+    endnode
+    node trimesh paf_z18_wg
+        parent paf_z19_pwk
+    endnode
+    node dummy z19_pwk_use02
+        parent paf_z19_pwk
+    endnode
+    node dummy z19_pwk_use01
+        parent paf_z19_pwk
+    endnode
+doneanim default paf_z19
+
+donemodel paf_z19

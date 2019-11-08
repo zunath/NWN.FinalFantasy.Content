@@ -1,0 +1,39 @@
+# Exported from NWmax 0.8 b61 at 9/20/2009 9:19:41 AM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node dummy 003_pwk_use01
+  parent dlp_rubble_003_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.721569 0.607843 0.898039 
+endnode
+node dummy 003_pwk_use02
+  parent dlp_rubble_003_pwk
+  position -0.725852 0.0 0.15
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.560784 0.878431 0.341176 
+endnode
+node trimesh pwk
+  parent dlp_rubble_003_pwk
+  position 0.00879639 -0.00784618 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.027451 0.227451 
+  bitmap NULL
+  verts 8
+    -0.372366 -0.599032 0.0
+    -0.100437 -0.646427 0.0
+    0.53751 -0.450134 0.0
+    -0.647085 -0.141236 0.0
+    0.633374 0.00484211 0.0
+    -0.446228 0.637851 0.0
+    0.1552 0.660676 0.0
+    0.505554 0.564812 0.0
+  faces 6
+    0 1 4  1  0 0 0  7
+    2 4 1  1  0 0 0  7
+    5 3 6  1  0 0 0  7
+    0 6 3  1  0 0 0  7
+    6 0 7  1  0 0 0  7
+    4 7 0  1  0 0 0  7
+endnode

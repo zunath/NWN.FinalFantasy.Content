@@ -1,0 +1,1 @@
+envmaptexture isc08_cryref

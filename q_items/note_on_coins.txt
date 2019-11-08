@@ -1,0 +1,6 @@
+Note on coins:
+
+The coins are meant to represent the 5 classic coin metals of DnD, copper, silver, electrum, gold, and platinum.  Of course designers can use them for whatever they want, heirlooms, lucky coins, clues, tokens etc.
+
+While technically not “gems”, I wanted them to make that nice “ping!” noise that gems do in the inventory.
+

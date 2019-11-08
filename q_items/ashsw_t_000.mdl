@@ -1,0 +1,17 @@
+# Exported from NWmax 0.8 b60 at 3/29/2008 10:09:45 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: ashsw_t_011
+#local file: Unknown
+filedependancy Unknown
+newmodel ashsw_t_000
+setsupermodel ashsw_t_000 NULL
+classification Item
+#NWmax GEOM  ASCII
+beginmodelgeom ashsw_t_000
+node dummy ashsw_t_000
+  parent NULL
+endnode
+endmodelgeom ashsw_t_000
+donemodel ashsw_t_000

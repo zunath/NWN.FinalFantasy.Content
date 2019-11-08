@@ -1,0 +1,33 @@
+# Exported from NWmax 0.8 b61 at 5/27/2010 9:44:49 AM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh PWK
+  parent pms_mx2_PWK
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.239216 0.537255 
+  bitmap NULL
+  verts 8
+    -0.9 -0.45 0.0
+    -0.45 -0.9 0.0
+    0.45 -0.9 0.0
+    0.9 -0.45 0.0
+    0.9 0.45 0.0
+    -0.9 0.45 0.0
+    -0.45 0.9 0.0
+    0.45 0.9 0.0
+  faces 6
+    1 2 4  1  0 0 0  7
+    3 4 2  1  0 0 0  7
+    5 0 6  1  0 0 0  7
+    1 6 0  1  0 0 0  7
+    6 1 7  1  0 0 0  7
+    4 7 1  1  0 0 0  7
+endnode
+node dummy mx2_pwk_use01
+  parent pms_mx2_PWK
+  position 1.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.768628 0.345098 0.882353 
+endnode

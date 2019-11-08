@@ -1,0 +1,88 @@
+# Rewritten by CleanModels 3 Version 3.5.2d Mon Nov 30 19:02:45 2015
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel pni01_r23_02
+  classification TILE
+  setsupermodel pni01_r23_02 NULL
+  setanimationscale 1
+#MAXGEOM ASCII
+beginmodelgeom pni01_r23_02
+node dummy pni01_r23_02
+  parent NULL
+endnode
+node light pni01_r23_02ml1
+  parent pni01_r23_02
+  position 0 0 5
+  orientation 0 0 0 0
+  wirecolor 1 1 1
+  radius 14
+  multiplier 1
+  color 0 0 0
+  ambientonly 0
+  nDynamicType 0
+  affectdynamic 1
+  shadow 0
+  lightpriority 5
+  fadinglight 1
+endnode
+node aabb wok_r23_02
+  parent pni01_r23_02
+  position 0 0 0
+  bitmap NULL
+  orientation 0 0 0 0
+  wirecolor 0.411765 0.639216 0.6
+  ambient 0.588 0.588 0.588
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  render 0
+  shadow 0
+  verts 4
+    -5 5 3
+    -5 -5 3
+    5 5 3
+    5 -5 3
+  faces 2
+    0 1 2 1 0 0 0 2
+    3 2 1 1 0 0 0 2
+  aabb     -5 -5 3 5 5 3 -1
+    -5 -5 3 5 5 3 0
+    -5 -5 3 5 5 3 1
+endnode
+node trimesh plane96
+  parent pni01_r23_02
+  position 0 0 3
+  orientation 0 0 0 0
+  wirecolor 0.917647 0.0313726 0.109804
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 1
+  center 0 0 0
+  bitmap tni01_black
+  verts 4
+    -5 5 0
+    -5 -5 0
+    5 5 0
+    5 -5 0
+  faces 2
+    0 1 2 1 0 1 2 1
+    3 2 1 1 3 2 1 1
+  tverts 4
+    -4.5 5.5 0
+    -4.5 -4.5 0
+    5.5 5.5 0
+    5.5 -4.5 0
+endnode
+endmodelgeom pni01_r23_02
+donemodel pni01_r23_02

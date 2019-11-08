@@ -1,0 +1,143 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Sun Mar 01 22:18:23 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel pnb_a03
+setsupermodel pnb_a03 null
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom pnb_a03
+node dummy pnb_a03
+  parent NULL
+endnode
+node dummy a01_impact
+  parent pnb_a03
+  position 0 0 1.16791
+  wirecolor 0.52549 0.0235294 0.0235294
+  orientation 0 0 0 0
+endnode
+node dummy a01_ground
+  parent pnb_a03
+  position 0 0 0
+  wirecolor 0.541176 0.0313726 0.431373
+  orientation 0 0 0 0
+endnode
+node dummy a01_hand
+  parent pnb_a03
+  position 0 0 1.15839
+  wirecolor 0.541176 0.0313726 0.431373
+  orientation 0 0 0 0
+endnode
+node dummy a01_head
+  parent pnb_a03
+  position 0 0 1.7
+  wirecolor 0.541176 0.0313726 0.431373
+  orientation 0 0 0 0
+endnode
+node dummy a01_head_hit
+  parent pnb_a03
+  position 0 0 1.17488
+  wirecolor 0.541176 0.0313726 0.431373
+  orientation 0 0 0 0
+endnode
+node trimesh line02
+  parent pnb_a03
+  position 0 0 0
+  wirecolor 0.439216 0.521569 0.0156863
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center undefined
+  bitmap qp_leaves_03
+  orientation 0 0 0 0
+  verts 28
+    -0.0718634 -0.0902915 1.3
+    -0.371863 1.30971 0
+    -0.0718634 -0.890295 0
+    1.12814 1.00971 0
+    -1.27187 0.409709 0
+    1.12814 -0.290291 0
+    0.328137 0.409709 1.5
+    0.451793 -0.378702 1.3
+    -0.755693 0.920436 0
+    0.609965 -0.904415 0
+    0.484103 1.46418 0
+    -1.02708 -0.4231 0
+    1.34978 0.351859 0
+    -0.275977 0.80347 1.5
+    -0.386962 0.0234528 1.3
+    1.04299 -0.0490123 0
+    -1.15972 0.230453 0
+    0.365079 -1.4203 0
+    0.40651 1.05322 0
+    -0.890649 -1.08393 0
+    -0.0074889 -0.4923 1.5
+    -0.801045 -0.407744 1.3
+    0.766286 0.42247 0
+    -1.34978 -0.424502 0
+    0.97072 -0.915798 0
+    -0.461275 1.03225 0
+    -0.327719 -1.46418 0
+    0.529177 -0.0106444 1.5
+  faces 40
+    1 2 0 1 4 2 5 1
+    0 2 3 1 0 1 3 1
+    0 3 4 1 0 1 3 1
+    0 5 1 1 2 4 5 1
+    4 5 6 1 1 0 3 1
+    3 4 6 1 4 2 5 1
+    2 3 6 1 1 0 3 1
+    5 1 6 1 2 4 5 1
+    1 2 6 1 1 0 3 1
+    8 9 7 1 4 2 5 1
+    7 10 11 1 0 1 3 1
+    7 12 8 1 2 4 5 1
+    7 11 12 1 0 1 3 1
+    11 12 13 1 1 0 3 1
+    10 11 13 1 4 2 5 1
+    9 10 13 1 1 0 3 1
+    12 8 13 1 2 4 5 1
+    8 9 13 1 1 0 3 1
+    0 4 5 1 3 0 1 1
+    7 9 10 1 3 0 1 1
+    15 16 14 1 4 2 5 1
+    14 16 17 1 0 1 3 1
+    14 17 18 1 0 1 3 1
+    14 19 15 1 2 4 5 1
+    18 19 20 1 1 0 3 1
+    17 18 20 1 4 2 5 1
+    16 17 20 1 1 0 3 1
+    19 15 20 1 2 4 5 1
+    15 16 20 1 1 0 3 1
+    22 23 21 1 4 2 5 1
+    21 24 25 1 0 1 3 1
+    21 26 22 1 2 4 5 1
+    21 25 26 1 0 1 3 1
+    25 26 27 1 1 0 3 1
+    24 25 27 1 4 2 5 1
+    23 24 27 1 1 0 3 1
+    26 22 27 1 2 4 5 1
+    22 23 27 1 1 0 3 1
+    14 18 19 1 3 0 1 1
+    21 23 24 1 3 0 1 1
+  tverts 6
+    1.5 0.999989 0
+    0.499998 0.99996 0
+    2.00002 0.999997 0
+    1.00001 1.79987 0
+    0.999992 1.00001 0
+    1.50002 0.19992 0
+endnode
+endmodelgeom pnb_a03
+donemodel pnb_a03

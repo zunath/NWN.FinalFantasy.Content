@@ -1,0 +1,406 @@
+# Exported from NWmax 0.8 b61 at 12/4/2011 9:27:40 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: psp_c35
+#local file: Unknown
+filedependancy Unknown
+newmodel psp_c35
+setsupermodel psp_c35 qp_x0_rb3
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom psp_c35
+node dummy psp_c35
+  parent NULL
+endnode
+node trimesh damage48
+  parent psp_c35
+  position -0.00086731 -0.130659 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0705882 0.0 1.0 
+  Diffuse 1.0 0.501961 0.643137 
+  Specular 0.0 0.0 0.0 
+  shininess 24
+  center 0.0 0.0 25.0 
+  bitmap NULL
+  verts 12
+    -0.195415 -0.186216 0.0
+    -0.195415 0.186216 0.0
+    0.195415 0.186216 0.0
+    0.195415 -0.186216 0.0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2  1  0 0 0  0
+    2 3 0  1  0 0 0  0
+    4 5 6  1  0 0 0  0
+    6 7 4  1  0 0 0  0
+    0 3 8  1  0 0 0  0
+    8 9 0  1  0 0 0  0
+    9 8 5  1  0 0 0  0
+    5 4 9  1  0 0 0  0
+    3 2 10  1  0 0 0  0
+    10 8 3  1  0 0 0  0
+    8 10 6  1  0 0 0  0
+    6 5 8  1  0 0 0  0
+    2 1 11  1  0 0 0  0
+    11 10 2  1  0 0 0  0
+    10 11 7  1  0 0 0  0
+    7 6 10  1  0 0 0  0
+    1 0 9  1  0 0 0  0
+    9 11 1  1  0 0 0  0
+    11 9 4  1  0 0 0  0
+    4 7 11  1  0 0 0  0
+endnode
+node trimesh groups04033
+  parent damage48
+  position 0.188526 0.0254148 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.898039 0.898039 0.898039 
+  Diffuse 0.898039 0.898039 0.898039 
+  Specular 0.0 0.0 0.0 
+  shininess 26
+  center -5.936 -5.40455 15.0 
+  bitmap tx_stone03
+  verts 36
+    -1.20343 0.549151 0.0
+    -1.20502 0.378864 0.0
+    -1.20502 0.378864 0.3
+    -1.20343 0.549151 0.3
+    -0.579241 0.354231 0.0
+    -0.579241 0.354231 0.3
+    -0.577702 0.141634 0.0
+    -0.577702 0.141634 0.3
+    -0.847757 0.150027 0.0
+    -0.847757 0.150027 0.3
+    -0.864766 -0.0993937 0.0
+    -0.864766 -0.0993937 0.3
+    -0.154371 -0.11777 0.0
+    -0.154371 -0.11777 0.3
+    -0.148934 -0.478977 0.0
+    -0.148934 -0.478977 0.3
+    -0.34847 -0.465369 0.0
+    -0.34847 -0.465369 0.3
+    -0.342486 -0.642186 0.0
+    -0.342486 -0.642186 0.3
+    0.616287 -0.663468 0.0
+    0.616287 -0.663468 0.3
+    0.644819 -0.186304 0.0
+    0.644819 -0.186304 0.3
+    0.451812 -0.165123 0.0
+    0.451812 -0.165123 0.3
+    0.463061 -0.0295741 0.0
+    0.463061 -0.0295741 0.3
+    0.838371 -0.0230943 0.0
+    0.838371 -0.0230943 0.3
+    0.853569 0.346729 0.0
+    0.853569 0.346729 0.3
+    1.08027 0.34931 0.0
+    1.08027 0.34931 0.3
+    1.0863 0.555377 0.0
+    1.0863 0.555377 0.3
+  faces 52
+    0 1 2  1  0 1 2  0
+    0 2 3  1  0 2 3  0
+    1 4 5  1  4 5 6  0
+    1 5 2  1  4 6 7  0
+    4 6 7  1  8 9 10  0
+    4 7 5  1  8 10 11  0
+    6 8 9  1  12 13 14  0
+    6 9 7  1  12 14 15  0
+    8 10 11  1  16 17 18  0
+    8 11 9  1  16 18 19  0
+    10 12 13  1  13 20 21  0
+    10 13 11  1  13 21 14  0
+    12 14 15  1  22 23 24  0
+    12 15 13  1  22 24 25  0
+    14 16 17  1  26 27 28  0
+    14 17 15  1  26 28 29  0
+    16 18 19  1  30 31 32  0
+    16 19 17  1  30 32 33  0
+    18 20 21  1  34 35 36  0
+    18 21 19  1  34 36 37  0
+    20 22 23  1  38 39 40  0
+    20 23 21  1  38 40 41  0
+    22 24 25  1  35 42 43  0
+    22 25 23  1  35 43 36  0
+    24 26 27  1  44 45 46  0
+    24 27 25  1  44 46 47  0
+    26 28 29  1  42 48 49  0
+    26 29 27  1  42 49 43  0
+    28 30 31  1  50 51 52  0
+    28 31 29  1  50 52 53  0
+    30 32 33  1  54 55 56  0
+    30 33 31  1  54 55 57  0
+    32 34 35  1  58 59 60  0
+    32 35 33  1  58 60 61  0
+    34 0 3  1  62 63 64  0
+    34 3 35  1  62 64 65  0
+    15 17 19  1  66 67 68  0
+    15 19 21  1  66 68 69  0
+    15 21 23  1  66 69 70  0
+    15 23 25  1  66 70 71  0
+    13 15 25  1  72 66 71  0
+    33 35 3  1  55 73 74  0
+    31 33 3  1  54 55 74  0
+    31 3 2  1  54 74 75  0
+    31 2 5  1  54 75 76  0
+    29 31 5  1  77 54 76  0
+    27 29 5  1  78 77 76  0
+    27 5 7  1  78 76 79  0
+    9 11 13  1  80 81 72  0
+    7 9 13  1  79 80 72  0
+    27 7 13  1  78 79 72  0
+    27 13 25  1  78 72 71  0
+  tverts 82
+    0.186487 0.357188 0
+    0.187616 0.400328 0
+    0.239982 0.398957 0
+    0.238852 0.355817 0
+    0.201056 0.777525 0
+    0.196942 0.620411 0
+    0.246385 0.619116 0
+    0.250499 0.776231 0
+    0.187694 0.40328 0
+    0.189089 0.45655 0
+    0.241454 0.455178 0
+    0.240059 0.401909 0
+    0.196876 0.617883 0
+    0.198667 0.686297 0
+    0.24811 0.685002 0
+    0.246319 0.616588 0
+    0.189092 0.456694 0
+    0.19075 0.520005 0
+    0.243115 0.518634 0
+    0.241457 0.455322 0
+    0.194022 0.508916 0
+    0.243465 0.507622 0
+    0.190713 0.518598 0
+    0.193108 0.610031 0
+    0.245473 0.60866 0
+    0.243079 0.517227 0
+    0.193823 0.501321 0
+    0.19515 0.551998 0
+    0.244593 0.550703 0
+    0.243266 0.500026 0
+    0.193061 0.608263 0
+    0.194193 0.651492 0
+    0.246558 0.650121 0
+    0.245426 0.606891 0
+    0.195018 0.54693 0
+    0.18878 0.308731 0
+    0.238223 0.307436 0
+    0.244461 0.545636 0
+    0.194212 0.652207 0
+    0.191029 0.53065 0
+    0.243394 0.529279 0
+    0.246577 0.650835 0
+    0.190041 0.356879 0
+    0.239484 0.355584 0
+    0.190919 0.526436 0
+    0.190057 0.493516 0
+    0.242422 0.492145 0
+    0.243284 0.525064 0
+    0.187586 0.263122 0
+    0.237029 0.261827 0
+    0.189943 0.489189 0
+    0.187556 0.398022 0
+    0.239921 0.39665 0
+    0.242308 0.487818 0
+    0.332505 0.259327 0
+    0.340943 0.203316 0
+    0.340943 0.203316 0
+    0.332505 0.259327 0
+    0.187474 0.394902 0
+    0.186148 0.344254 0
+    0.238513 0.342883 0
+    0.239839 0.393531 0
+    0.186126 0.20737 0
+    0.201122 0.780053 0
+    0.250565 0.778759 0
+    0.235569 0.206075 0
+    0.113456 0.503426 0
+    0.114783 0.554102 0
+    0.0643284 0.550353 0
+    0.0656933 0.311954 0
+    0.168006 0.309275 0
+    0.171803 0.357356 0
+    0.187976 0.509075 0
+    0.379549 0.202305 0
+    0.39058 0.775092 0
+    0.337777 0.773945 0
+    0.328952 0.616954 0
+    0.246111 0.261589 0
+    0.216817 0.356177 0
+    0.275672 0.61582 0
+    0.27493 0.6843 0
+    0.21158 0.685959 0
+endnode
+node emitter chunkywood142
+  parent psp_c35
+  position -0.0566472 -0.205132 0.248705
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 89.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 1.0 1.0 
+  colorEnd 1.0 1.0 1.0 
+  alphaStart 1.0
+  alphaEnd 1.0
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.75
+  mass 3.0
+  spread 1.22173
+  particleRot 5.0
+  velocity 8.0
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  framestart 0
+  frameend 24
+  random 0
+  chunkName qp_chunk_s01
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter fire!90
+  parent psp_c35
+  position -0.0566472 -0.206116 0.174662
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.454902 0.407843 
+  colorEnd 0.819608 0.803922 0.745098 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+endmodelgeom psp_c35
+donemodel psp_c35

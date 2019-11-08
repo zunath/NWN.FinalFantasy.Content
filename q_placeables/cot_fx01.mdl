@@ -1,0 +1,173 @@
+# Exported from NWmax 0.8 b61 at 8/15/2009 12:51:36 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: cot_fx01
+#local file: Unknown
+filedependancy Unknown
+newmodel cot_fx01
+setsupermodel cot_fx01 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom cot_fx01
+node dummy cot_fx01
+  parent NULL
+endnode
+node emitter fire!03
+  parent cot_fx01
+  position 0.0466596 -0.126434 0.0124961
+  orientation 1.0 0.0 0.0 -1.42244
+  wirecolor 0.603922 0.603922 0.603922 
+  update_sel 1
+  update Fountain
+  render_sel 4
+  render Billboard_to_World_Z
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 60.0
+  ySize 60.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.392157 0.0 0.0 
+  colorEnd 0.184314 0.0 0.0 
+  alphaStart 0.5
+  alphaEnd 0.0
+  sizeStart 1.0
+  sizeEnd 6.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 5
+  lifeExp 5.0
+  mass 0.0
+  spread 1.0472
+  particleRot 0.2
+  velocity 0.5
+  randvel 0.4
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 10
+  framestart 0
+  frameend 24
+  random 1
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node dummy T03_hand
+  parent cot_fx01
+  position 0.00398437 -0.505195 0.587124
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.694118 0.101961 0.345098 
+endnode
+node dummy T03_head
+  parent cot_fx01
+  position 0.00398437 0.0108252 0.861455
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node dummy T03_head_hit
+  parent cot_fx01
+  position 0.00398437 0.0108252 0.379977
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node dummy T03_impact
+  parent cot_fx01
+  position 0.00398437 0.011001 0.231613
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node dummy T03_ground
+  parent cot_fx01
+  position -0.00363281 0.0069873 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node trimesh Box01
+  parent cot_fx01
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 0
+  center 0.0 0.0 18.0 
+  bitmap NULL
+  verts 8
+    -0.18 -0.18 0.0
+    0.18 -0.18 0.0
+    -0.18 0.18 0.0
+    0.18 0.18 0.0
+    -0.18 -0.18 0.36
+    0.18 -0.18 0.36
+    -0.18 0.18 0.36
+    0.18 0.18 0.36
+  faces 12
+    0 2 3  2  9 11 10  2
+    3 1 0  2  10 8 9  2
+    4 5 7  4  8 9 11  1
+    7 6 4  4  11 10 8  1
+    0 1 5  8  4 5 7  5
+    5 4 0  8  7 6 4  5
+    1 3 7  16  0 1 3  4
+    7 5 1  16  3 2 0  4
+    3 2 6  32  4 5 7  6
+    6 7 3  32  7 6 4  6
+    2 0 4  64  0 1 3  3
+    4 6 2  64  3 2 0  3
+  tverts 12
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+    0.0 0.0 0
+    1.0 0.0 0
+    0.0 1.0 0
+    1.0 1.0 0
+endnode
+endmodelgeom cot_fx01
+donemodel cot_fx01

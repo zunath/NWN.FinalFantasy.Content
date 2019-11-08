@@ -1,0 +1,18 @@
+# Exported from NWmax 0.8 b60 at 3/29/2009 4:11:40 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: ashsw_m_011
+#local file: C:\Documents and Settings\mori\My Documents\3dsmax\scenes\NWN\Shields\small shield middle 1\small_shield_middle_011.max
+filedependancy small_shield_middle_011.max
+newmodel ashsw_m_000
+setsupermodel ashsw_m_000 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom ashsw_m_000
+node dummy ashsw_m_000
+  parent NULL
+endnode
+endmodelgeom ashsw_m_000
+donemodel ashsw_m_000

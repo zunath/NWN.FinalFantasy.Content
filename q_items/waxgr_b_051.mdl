@@ -1,0 +1,98 @@
+# Exported from NWmax 0.8 b61 at 7/5/2012 1:15:29 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: waxgr_b_051
+#local file: Unknown
+filedependancy Unknown
+newmodel waxgr_b_051
+setsupermodel waxgr_b_051 null
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom waxgr_b_051
+node dummy waxgr_b_051
+  parent NULL
+endnode
+node trimesh g_axgr_b_031
+  parent waxgr_b_051
+  position 0.000385132 -0.227558 -0.000102695
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 0.3
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.5 0.5 0.5 
+  shininess 1
+  center 0.0 0.0 7.86144 
+  bitmap qc_ghostenv
+  verts 14
+    0.0 0.0 -0.0140582
+    0.0 0.048048 0.0134648
+    0.048048 0.0 0.0134648
+    -0.048048 0.0 0.0134648
+    0.0 -0.048048 0.0134648
+    0.0169183 0.0 0.0321836
+    0.0 0.0433016 0.0731136
+    0.0433016 0.0 0.0731136
+    0.0 0.0169183 0.0321836
+    -0.0433016 0.0 0.0731136
+    -0.0169183 0.0 0.0321836
+    0.0 -0.0433016 0.0731136
+    0.0 -0.0169183 0.0321836
+    0.0 0.0 0.171287
+  faces 24
+    0 1 2  1  0 1 2  2
+    0 3 1  1  0 3 4  2
+    0 4 3  1  0 5 3  2
+    0 2 4  1  0 2 5  2
+    5 6 7  1  6 7 8  3
+    5 8 6  1  6 9 7  3
+    8 9 6  1  10 11 12  3
+    8 10 9  1  10 13 11  3
+    10 11 9  1  13 14 11  3
+    10 12 11  1  13 15 14  3
+    12 7 11  1  15 8 14  3
+    12 5 7  1  15 6 8  3
+    13 7 6  2  16 8 7  1
+    13 6 9  2  16 12 11  1
+    13 9 11  2  16 11 14  1
+    13 11 7  2  16 14 8  1
+    8 5 2  2  9 6 2  2
+    2 1 8  2  2 1 9  2
+    10 8 1  2  13 10 4  2
+    1 3 10  2  4 3 13  2
+    12 10 3  2  15 13 3  2
+    3 4 12  2  3 5 15  2
+    5 12 4  2  6 15 5  2
+    4 2 5  2  5 2 6  2
+  tverts 17
+    0.125846 0.525483 0
+    0.230013 0.556389 0
+    0.177929 0.556389 0
+    0.0737627 0.556389 0
+    0.0216793 0.556389 0
+    0.125846 0.556389 0
+    0.177929 0.577408 0
+    0.230013 0.623369 0
+    0.177929 0.623369 0
+    0.230013 0.577408 0
+    0.0216793 0.577408 0
+    0.0737627 0.623369 0
+    0.0216793 0.623369 0
+    0.0737627 0.577408 0
+    0.125846 0.623369 0
+    0.125846 0.577408 0
+    0.125846 0.733608 0
+endnode
+endmodelgeom waxgr_b_051
+donemodel waxgr_b_051

@@ -1,0 +1,333 @@
+# Exported from NWmax 0.8 b47 at 1/7/2006 9:02:04 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: gin01_q04_01
+filedependancy Unknown
+newmodel gin01_q04_01
+setsupermodel gin01_q04_01 NULL
+classification Tile
+#NWmax GEOM  ASCII
+beginmodelgeom gin01_q04_01
+node dummy gin01_q04_01
+  parent NULL
+endnode
+node light gin01_q04_01ml1
+  parent gin01_q04_01
+  position 0.0 0.0 5.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  radius 14.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 1
+endnode
+node light gin01_q04_01ml2
+  parent gin01_q04_01
+  position -2.00093 0.251542 4.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  radius 5.0
+  multiplier 1.0
+  color 0.00392157 0.00392157 0.00392157 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 1
+endnode
+node aabb Line121
+  parent gin01_q04_01
+  position 0.0 0.0 1.5
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  multimaterial 20
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+  ambient 0.588 0.588 0.588 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Obscuring
+  verts 8
+    5.0 2.5 -1.5
+    5.0 -5.0 -1.5
+    -5.0 2.5 -1.5
+    -5.0 -5.0 -1.5
+    5.0 2.5 1.5
+    -5.0 2.5 1.5
+    -5.0 5.0 1.5
+    5.0 5.0 1.5
+  faces 6
+    4 5 2  2  0 0 0  2
+    2 0 4  2  0 0 0  2
+    7 6 5  2  0 0 0  2
+    5 4 7  2  0 0 0  2
+    1 0 2  0  0 0 0  4
+    2 3 1  0  0 0 0  4
+    aabb         -5.0 -5.0 -1.5 5.0 5.0 1.5 -1
+        -5.0 -5.0 -1.5 5.0 5.0 1.5 -1
+        -5.0 -5.0 -1.5 5.0 2.5 -1.5 5
+        -5.0 2.5 -1.5 5.0 5.0 1.5 -1
+        -5.0 2.5 -1.5 5.0 2.5 1.5 0
+        -5.0 2.5 1.5 5.0 5.0 1.5 2
+        -5.0 -5.0 -1.5 5.0 5.0 1.5 -1
+        -5.0 -5.0 -1.5 5.0 2.5 -1.5 4
+        -5.0 2.5 -1.5 5.0 5.0 1.5 -1
+        -5.0 2.5 -1.5 5.0 2.5 1.5 1
+        -5.0 2.5 1.5 5.0 5.0 1.5 3
+endnode
+#Tile trimesh node
+node trimesh Object162
+  parent gin01_q04_01
+  position 0.0 0.0 3.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0 0.0 0.0 
+  Diffuse 0.0 0.0 0.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center undefined
+  bitmap TIN01_black
+  verts 7
+    -5.0 5.0 0.0
+    -2.5 3.5 0.0
+    0.0 3.5 0.0
+    2.5 3.5 0.0
+    5.0 5.0 0.0
+    5.0 3.5 0.0
+    -5.0 3.5 0.0
+  faces 5
+    1 2 0  1  1 2 0  1
+    2 3 4  1  2 3 4  1
+    4 0 2  1  4 0 2  1
+    3 5 4  1  3 5 4  1
+    0 6 1  1  0 6 1  1
+  tverts 7
+    0.0 0.875001 0
+    1.25 0.125 0
+    2.5 0.125 0
+    3.75 0.125 0
+    5.0 0.874999 0
+    5.0 0.124999 0
+    -2.98023e-007 0.125001 0
+endnode
+#Tile trimesh node
+node trimesh Object261
+  parent gin01_q04_01
+  position 0.0 0.0 0.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 1
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center undefined
+  bitmap TIN01_floor2
+  verts 20
+    -2.5 -2.5 0.0
+    -2.5 -5.0 0.0
+    0.0 -5.0 0.0
+    0.0 -2.5 0.0
+    2.5 -2.5 0.0
+    2.5 -5.0 0.0
+    5.0 -2.5 0.0
+    5.0 -5.0 0.0
+    -2.5 0.0 0.0
+    0.0 0.0 0.0
+    2.5 0.0 0.0
+    5.0 0.0 0.0
+    0.0 2.5 0.0
+    2.5 2.5 0.0
+    5.0 2.5 0.0
+    -2.5 2.5 0.0
+    -5.0 -5.0 0.0
+    -5.0 -2.5 0.0
+    -5.0 0.0 0.0
+    -5.0 2.5 0.0
+  faces 24
+    3 2 4  1  3 2 4  1
+    5 4 2  1  5 4 2  1
+    4 5 6  1  4 5 6  1
+    7 6 5  1  7 6 5  1
+    9 3 10  1  9 3 10  1
+    4 10 3  1  4 10 3  1
+    10 4 11  1  10 4 11  1
+    6 11 4  1  6 11 4  1
+    13 10 14  1  13 10 14  1
+    11 14 10  1  11 14 10  1
+    10 13 9  0  10 13 9  1
+    9 13 12  0  9 13 12  1
+    12 15 8  0  12 15 8  1
+    8 9 12  0  8 9 12  1
+    9 8 0  0  9 8 0  1
+    0 3 9  0  0 3 9  1
+    3 0 1  0  3 0 1  1
+    1 2 3  0  1 2 3  1
+    16 1 0  0  16 1 0  1
+    0 17 16  0  0 17 16  1
+    17 0 8  0  17 0 8  1
+    8 18 17  0  8 18 17  1
+    18 8 15  0  18 8 15  1
+    15 19 18  0  15 19 18  1
+  tverts 20
+    0.5 0.5 0
+    0.5 0.0 0
+    1.0 0.0 0
+    1.0 0.5 0
+    1.5 0.5 0
+    1.5 -1.19209e-007 0
+    2.0 0.5 0
+    2.0 -2.38419e-007 0
+    0.5 1.0 0
+    1.0 1.0 0
+    1.5 1.0 0
+    2.0 1.0 0
+    1.0 1.5 0
+    1.5 1.5 0
+    2.0 1.5 0
+    0.5 1.5 0
+    -2.38419e-007 1.78814e-007 0
+    -1.19209e-007 0.5 0
+    0.0 1.0 0
+    0.0 1.5 0
+endnode
+#Tile trimesh node
+node trimesh Plane121
+  parent gin01_q04_01
+  position -3.01 3.12 2.44
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 0.980392 0.980392 0.980392 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center undefined
+  bitmap TIN01_wallCORD
+  verts 15
+    0.51 -0.62 -2.44
+    0.51 -0.62 0.56
+    3.01 -0.62 -2.44
+    3.01 -0.62 0.56
+    5.51 -0.62 -2.44
+    5.51 -0.62 0.56
+    8.01 -0.62 -2.44
+    8.01 -0.62 0.56
+    -1.99 -0.62 0.56
+    3.01 0.38 0.56
+    0.51 0.38 0.56
+    5.51 0.38 0.56
+    8.01 0.38 0.56
+    -1.99 0.38 0.56
+    -1.99 -0.62 -2.44
+  faces 16
+    3 1 0  2  14 7 15  1
+    5 3 2  2  16 17 18  1
+    4 6 7  2  19 12 20  1
+    7 5 4  2  13 21 22  1
+    9 10 1  4  24 25 26  1
+    1 3 9  4  26 27 24  1
+    11 9 3  4  2 0 1  1
+    3 5 11  4  1 3 2  1
+    12 11 5  4  4 2 3  1
+    5 7 12  4  3 5 4  1
+    8 1 13  4  28 26 29  1
+    1 10 13  4  26 25 29  1
+    2 4 5  2  23 11 9  1
+    0 2 3  2  8 10 6  1
+    0 1 14  0  30 34 35  1
+    14 1 8  0  32 31 33  1
+  tverts 36
+    0.344796 1.1101 0
+    0.344796 0.877671 0
+    1.17813 1.1101 0
+    1.17813 0.877671 0
+    2.01146 1.1101 0
+    2.01146 0.877671 0
+    2.5 1.0 0
+    1.25 1.0 0
+    1.25 0.0 0
+    3.75 1.0 0
+    2.5 0.0 0
+    3.75 0.0 0
+    5.0 0.0 0
+    5.0 1.0 0
+    2.5 1.0 0
+    1.25 0.0 0
+    3.75 1.0 0
+    2.5 1.0 0
+    2.5 0.0 0
+    3.75 0.0 0
+    5.0 1.0 0
+    3.75 1.0 0
+    3.75 0.0 0
+    2.5 0.0 0
+    3.0 1.11176 0
+    2.0 1.11176 0
+    2.0 0.876471 0
+    3.0 0.87647 0
+    1.0 0.876471 0
+    1.0 1.11176 0
+    3.125 0.0 0
+    3.125 1.0 0
+    1.875 0.0 0
+    1.875 1.0 0
+    3.125 1.0 0
+    1.875 0.0 0
+endnode
+endmodelgeom gin01_q04_01
+donemodel gin01_q04_01

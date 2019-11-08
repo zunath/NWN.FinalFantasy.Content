@@ -1,0 +1,64 @@
+# Exported from NWMax Plus v5.06.01 at 12/23/2014 7:02:27 PM
+# pwk file
+#
+#NWMax Plus PWKMESH  ASCII
+node trimesh PLC_B10_wg
+  parent phod_sarco01_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.521569 0.431373 0.0313726 
+  multimaterial 30
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  ambient 0.588 0.588 0.588 
+  diffuse 0.705882 0.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Nonwalk
+  verts 6
+    -0.247747 -1.15107 0.0
+    0.237617 -1.15107 -0.0089806
+    -0.171286 1.05643 0.0
+    0.161155 1.05643 -0.0089806
+    -0.43043 0.590033 0.0
+    0.408311 0.575931 -0.0089806
+  faces 4
+    4 0 3  1  0 0 0  7
+    5 3 0  1  0 0 0  7
+    2 4 3  1  0 0 0  7
+    1 5 0  1  0 0 0  7
+endnode
+node dummy B10_pwk_use01
+  parent phod_sarco01_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.890196 0.6 0.6 
+endnode

@@ -1,0 +1,12 @@
+2DA V2.0
+
+       Corner1     Edge      Corner2     Height     Model 
+0      grass       ****      ****        0          twm01_z01_01
+1      grass       ****      grass       0          twm01_z01_01
+2      grass+      ****      ****        1          twm01_z01_01
+3      grass+      ****      grass       0          twm01_z01_02
+4      grass+      ****      grass+      1          twm01_z01_01
+5      Marsh       ****      Grass       0          twm01_z04_01
+6      Marsh       ****      Marsh       0          twm01_z05_01
+7      Marsh       ****      ****        0          twm01_z05_01
+8      Marsh       ****      Grass+      0          twm01_z06_01

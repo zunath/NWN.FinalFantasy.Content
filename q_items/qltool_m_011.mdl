@@ -1,0 +1,14 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Thu Jan 08 21:36:48 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel qltool_m_011
+setsupermodel qltool_m_011 null
+setanimationscale 1
+classification ITEM
+#MAXGEOM ASCII
+beginmodelgeom qltool_m_011
+node dummy qltool_m_011
+  parent NULL
+endnode
+endmodelgeom qltool_m_011
+donemodel qltool_m_011

@@ -1,0 +1,79 @@
+# Exported from NWmax 0.8 b61 at 5/15/2011 7:48:32 AM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: it_book
+#local file: Unknown
+filedependancy Unknown
+newmodel it_book
+setsupermodel it_book NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom it_book
+node dummy it_book
+  parent NULL
+endnode
+node trimesh book_gen
+  parent it_book
+  position 0.0 0.0 0.0
+  orientation -1.0 3.96282e-006 0.0 -1.3348e-006
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.862745 0.862745 0.862745 
+  Diffuse 0.862745 0.862745 0.862745 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 4.0 
+  bitmap PLC_Bookcover
+  verts 8
+    -0.2 -0.275 0.08
+    0.2 -0.275 0.08
+    0.2 0.275 0.08
+    -0.2 0.275 0.08
+    -0.2 -0.275 0.0
+    0.2 -0.275 0.0
+    0.2 0.275 0.0
+    -0.2 0.275 0.0
+  faces 12
+    0 1 2  1  0 1 2  1
+    2 3 0  1  2 3 0  1
+    4 5 1  2  4 5 6  1
+    1 0 4  2  6 7 4  1
+    5 6 2  4  8 9 10  1
+    2 1 5  4  10 11 8  1
+    7 4 0  4  12 13 14  1
+    0 3 7  4  14 15 12  1
+    6 7 2  2  5 4 6  1
+    3 2 7  2  7 6 4  1
+    5 4 6  1  1 0 2  1
+    7 6 4  1  3 2 0  1
+  tverts 16
+    0.0432599 0.191107 0
+    0.805165 0.191106 0
+    0.805165 0.99993 0
+    0.0432602 0.99993 0
+    0.00217453 0.00231147 0
+    0.729447 0.00231147 0
+    0.729447 0.174725 0
+    0.00217453 0.174725 0
+    0.165288 0.0019289 0
+    0.812347 0.0019289 0
+    0.812347 0.174343 0
+    0.165288 0.174343 0
+    0.426471 0.998457 0
+    0.426471 0.189634 0
+    0.573529 0.189634 0
+    0.573529 0.998457 0
+endnode
+endmodelgeom it_book
+donemodel it_book

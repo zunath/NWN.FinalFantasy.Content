@@ -1,0 +1,222 @@
+#Exported from 3ds max by MDL Plug-in Suite 1.0b
+#http://www.bricksbuilder.com/nwn/utils/
+#MAXMODEL ASCII
+# model: st_cndl01
+filedependancy Unknown
+newmodel st_cndl01
+setsupermodel st_cndl01 NULL
+classification Character
+setanimationscale 1.0
+#MAXGEOM  ASCII
+beginmodelgeom st_cndl01
+node dummy st_cndl01
+  parent NULL
+endnode
+node trimesh Cylinder37
+  parent st_cndl01
+  position 0 0 0.307741
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap st_cndl01
+  verts 11
+    0 -0.0459738 -0.112903
+    0.0514396 -0.0015812 -0.112903
+    0.0232694 0.0549308 -0.112903
+    -0.0233812 0.0548707 -0.112903
+    -0.0514518 -0.00170143 -0.112903
+    0 -0.0549283 0.112903
+    0.0586307 -0.0110179 0.112903
+    0.0265195 0.0533863 0.112903
+    -0.0266461 0.0533178 0.112903
+    -0.0586302 -0.0111549 0.112903
+    -0.00335708 0.00283305 0.0987261
+  faces 15
+    0 6 5  1  6 13 12  2
+    0 1 6  1  6 7 13  2
+    1 7 6  1  7 14 13  2
+    1 2 7  1  7 8 14  2
+    2 8 7  1  8 15 14  2
+    2 3 8  1  8 9 15  2
+    3 9 8  1  9 16 15  2
+    3 4 9  1  9 10 16  2
+    4 5 9  1  10 11 16  2
+    4 0 5  1  10 5 11  2
+    10 6 7  1  17 1 2  0
+    10 7 8  1  17 2 3  0
+    5 10 9  1  0 17 4  0
+    9 10 8  1  4 17 3  0
+    5 6 10  1  0 1 17  0
+  tverts 18
+    0.502863 0.919858 0
+    0.339654 0.920405 0
+    0.418665 0.920337 0
+    0.587843 0.920555 0
+    0.689619 0.920841 0
+    0.832735 0.0186513 0
+    0.616067 0.0186513 0
+    0.33762 0.0186513 0
+    0.126744 0.0186513 0
+    0.33762 0.0186514 0
+    0.616067 0.0186514 0
+    0.830301 0.919611 0
+    0.615107 0.919611 0
+    0.33858 0.919611 0
+    0.129178 0.919611 0
+    0.33858 0.919612 0
+    0.615107 0.919612 0
+    0.513735 0.990763 0
+endnode
+node emitter OmenEmitter71
+  parent Cylinder37
+  position -0.00087035 0.00361371 0.13133
+  orientation 0 0 0 0
+  wirecolor 0.894531 0.894531 0.894531
+    colorStart 1 1 1
+    colorEnd 0 0 0
+    alphaStart 0
+    alphaEnd 1
+    sizeStart 0.3
+    sizeEnd 0.3
+    sizeStart_y 0
+    sizeEnd_y 0
+    frameStart 0
+    frameEnd 8
+    birthrate 3
+    spawnType 0
+    lifeExp 2
+    mass 0
+    spread 0
+    particleRot 0
+    velocity 0
+    randvel 0
+    fps 16
+    random 1
+    inherit 1
+    inherit_local 0
+    inherit_part 0
+    inheritvel 0
+    xsize 0
+    ysize 0
+    bounce 0
+    bounce_co 0
+    loop 0
+    update Fountain
+    render Normal
+    Blend Lighten
+    update_sel 1
+    render_sel 1
+    blend_sel 3
+    deadspace 0
+    opacity 0.5
+    blurlength 10
+    lightningDelay 0
+    lightningRadius 0
+    lightningScale 0
+    blastRadius 0
+    blastLength 0
+    twosidedtex 0
+    p2p 0
+    p2p_sel 1
+    p2p_type Bezier
+    p2p_bezier2 0
+    p2p_bezier3 0
+    combinetime 0
+    drag 0
+    grav 0
+    threshold 0
+    texture fxpa_cndl01
+    xgrid 3
+    ygrid 3
+    affectedByWind 0
+    m_isTinted 0
+    renderorder 0
+    Splat 0
+endnode
+node trimesh Cylinder07
+  parent st_cndl01
+  position 0 0 0
+  orientation 0 0 0 0
+  wirecolor 0.605469 0.605469 0.605469
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  bitmap st_pott04
+  verts 19
+    -0.0846066 0 0
+    -0.0423031 -0.0732714 0
+    0.0423039 -0.0732714 0
+    0.0846074 0 0
+    0.0423039 0.0732723 0
+    -0.0423031 0.0732723 0
+    -0.110137 0 0.0860472
+    -0.0550685 -0.0953817 0.0860472
+    0.0550693 -0.0953818 0.0860472
+    0.110138 0 0.0860472
+    0.0550693 0.0953826 0.0860472
+    -0.0550685 0.0953827 0.0860472
+    -0.0744068 0 0.311853
+    -0.0372032 -0.0644381 0.311853
+    0.037204 -0.0644381 0.311853
+    0.0744076 0 0.311853
+    0.037204 0.064439 0.311853
+    -0.0372032 0.064439 0.311853
+    0 0 0.194838
+  faces 30
+    0 7 6  1  0 7 6  2
+    0 1 7  1  0 1 7  2
+    1 8 7  1  1 8 7  2
+    1 2 8  1  1 2 8  2
+    2 9 8  1  2 9 8  2
+    2 3 9  1  2 3 9  2
+    3 10 9  1  3 10 9  2
+    3 4 10  1  3 4 10  2
+    4 11 10  1  4 11 10  2
+    4 5 11  1  4 5 11  2
+    5 6 11  1  5 6 11  2
+    5 0 6  1  5 0 6  2
+    6 13 12  1  6 13 12  2
+    6 7 13  1  6 7 13  2
+    7 14 13  1  7 14 13  2
+    7 8 14  1  7 8 14  2
+    8 15 14  1  8 15 14  2
+    8 9 15  1  8 9 15  2
+    9 16 15  1  9 16 15  2
+    9 10 16  1  9 10 16  2
+    10 17 16  1  10 17 16  2
+    10 11 17  1  10 11 17  2
+    11 12 17  1  11 12 17  2
+    11 6 12  1  11 6 12  2
+    18 12 13  1  18 12 13  0
+    18 13 14  1  18 13 14  0
+    18 14 15  1  18 14 15  0
+    18 15 16  1  18 15 16  0
+    18 16 17  1  18 16 17  0
+    18 17 12  1  18 17 12  0
+  tverts 19
+    0.839664 0.0175169 0
+    0.600094 0.0175169 0
+    0.318248 0.0175169 0
+    0.0786779 0.0175169 0
+    0.318248 0.0175169 0
+    0.600094 0.0175169 0
+    0.95448 0.285132 0
+    0.642619 0.285132 0
+    0.275723 0.285132 0
+    -0.0361388 0.285132 0
+    0.275723 0.285132 0
+    0.642619 0.285132 0
+    0.793793 0.987412 0
+    0.583105 0.987412 0
+    0.335237 0.987412 0
+    0.124548 0.987412 0
+    0.335237 0.987412 0
+    0.583105 0.987412 0
+    0.459171 0.623483 0
+endnode
+endmodelgeom st_cndl01
+donemodel st_cndl01

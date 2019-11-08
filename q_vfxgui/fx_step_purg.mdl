@@ -1,0 +1,100 @@
+# Exported from NWmax 0.8 b61 at 5/30/2011 4:50:35 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: fx_step_purg
+#local file: Unknown
+filedependancy Unknown
+newmodel fx_step_purg
+setsupermodel fx_step_purg NULL
+classification Effect
+#NWmax GEOM  ASCII
+beginmodelgeom fx_step_purg
+node dummy fx_step_purg
+  parent NULL
+endnode
+node emitter dust
+  parent fx_step_purg
+  position 0.0 0.0 0.00451603
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 4
+  render Billboard_to_World_Z
+  blend_sel 1
+  Blend Normal
+  spawntype_sel 0
+  spawnType 0
+  xSize 30.0
+  ySize 30.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.494118 0.494118 0.494118 
+  colorEnd 0.494118 0.494118 0.494118 
+  alphaStart 0.7
+  alphaEnd 0.0
+  sizeStart 0.35
+  sizeEnd 0.3
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 5
+  lifeExp 1.5
+  mass 0.0
+  spread 3.14159
+  particleRot 0.4
+  velocity 0.1
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  Splat 0
+  affectedByWind false
+  texture fxpa_Smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  framestart 0
+  frameend 15
+  random 1
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+endmodelgeom fx_step_purg
+
+#NWmax ANIM ASCII
+newanim impact fx_step_purg
+  length 1.96667
+  transtime 0.25
+  animroot fx_step_purg
+  event 0.0 detonate
+    node dummy fx_step_purg
+        parent NULL
+    endnode
+    node emitter dust
+        parent fx_step_purg
+    endnode
+doneanim impact fx_step_purg
+
+donemodel fx_step_purg

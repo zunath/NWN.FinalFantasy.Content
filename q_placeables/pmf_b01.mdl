@@ -1,0 +1,185 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Fri Jan 16 10:30:33 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel pmf_b01
+setsupermodel pmf_b01 null
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom pmf_b01
+node dummy pmf_b01
+  parent NULL
+endnode
+node dummy benc_01_impact
+  parent pmf_b01
+  position 0 0 0.435574
+  orientation 0 0 0 0
+endnode
+node dummy benc_01_ground
+  parent pmf_b01
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy benc_01_head
+  parent pmf_b01
+  position 0 0 0.548131
+  orientation 0 0 0 0
+endnode
+node dummy benc_01_head_hit
+  parent pmf_b01
+  position 0 0 0.462557
+  orientation 0 0 0 0
+endnode
+node trimesh box45_01
+  parent pmf_b01
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 6
+  bitmap tno01_wood011
+  position -0.00281192 -0.00413456 0.43
+  orientation 0 0 1 -0.597246
+  scale 1
+  alpha 1
+  verts 16
+    0.88 0.92 0.07
+    0.21 0.43 0.03
+    0.47 0.03 0.03
+    1.19 0.46 0.07
+    -0.48 -0.04 0.03
+    -0.23 -0.42 0.03
+    -1.19 -0.46 0.07
+    -0.89 -0.91 0.07
+    0.88 0.92 -0.04
+    0.21 0.43 -0.08
+    -0.48 -0.04 -0.08
+    -1.19 -0.46 -0.04
+    -0.89 -0.91 -0.04
+    -0.23 -0.42 -0.08
+    0.47 0.03 -0.08
+    1.19 0.46 -0.04
+  faces 22
+    0 1 2 1 0 1 2 1
+    2 3 0 1 2 3 0 1
+    1 4 5 1 1 4 5 1
+    5 2 1 1 5 2 1 1
+    4 6 7 1 4 6 7 1
+    7 5 4 1 7 5 4 1
+    8 9 1 2 8 9 10 5
+    1 0 8 2 10 11 8 5
+    9 10 4 2 9 12 13 5
+    4 1 9 2 13 10 9 5
+    10 11 6 2 12 14 15 5
+    6 4 10 2 15 13 12 5
+    11 12 7 4 16 17 18 4
+    7 6 11 4 18 19 16 4
+    12 13 5 2 14 12 13 6
+    5 7 12 2 13 15 14 6
+    13 14 2 2 12 9 10 6
+    2 5 13 2 10 13 12 6
+    14 15 3 2 9 8 11 6
+    3 2 14 2 11 10 9 6
+    15 8 0 4 17 16 19 3
+    0 3 15 4 19 18 17 3
+  tverts 20
+    1 0.00049898 0
+    1 0.333499 0
+    0.877018 0.333499 0
+    0.877018 0.000498996 0
+    1 0.666499 0
+    0.877018 0.6665 0
+    1 0.9995 0
+    0.877018 0.9995 0
+    0.106582 0.000374138 0
+    0.106582 0.333374 0
+    0.0763173 0.333374 0
+    0.0763173 0.000374095 0
+    0.106582 0.666375 0
+    0.0763173 0.666375 0
+    0.106582 0.999375 0
+    0.0763173 0.999375 0
+    0.105479 0 0
+    0.10548 0.2343 0
+    0.0735236 0.2343 0
+    0.0735224 0 0
+endnode
+node trimesh box46_01
+  parent pmf_b01
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 6
+  bitmap tno01_wood04
+  position 0.990162 -0.00221878 0.17
+  orientation 0 0 1 -0.597246
+  scale 1
+  alpha 1
+  verts 8
+    -0.1 0.24 -0.17
+    -0.19 0.18 -0.17
+    -0.21 0.1 0.27
+    -0.12 0.17 0.27
+    0.09 -0.25 -0.17
+    0.02 -0.23 0.27
+    0.18 -0.19 -0.17
+    0.1 -0.17 0.27
+  faces 8
+    0 1 2 1 0 1 2 5
+    2 3 0 1 2 3 0 5
+    1 4 5 2 4 5 6 4
+    5 2 1 2 6 7 4 4
+    4 6 7 1 1 0 3 6
+    7 5 4 1 3 2 1 6
+    6 0 3 2 5 4 7 3
+    3 7 6 2 7 6 5 3
+  tverts 8
+    0.478625 0.431437 0
+    0.533461 0.431437 0
+    0.533461 0.568563 0
+    0.478556 0.568563 0
+    0.43962 0.662859 0
+    0.572205 0.662859 0
+    0.572271 0.795444 0
+    0.439554 0.795444 0
+endnode
+node trimesh box572_01
+  parent pmf_b01
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 6
+  bitmap tno01_wood04
+  position -0.94286 0.0184232 0.17
+  orientation 0 0 1 -0.597246
+  scale 1
+  alpha 1
+  verts 8
+    -0.1 0.25 -0.17
+    -0.19 0.18 -0.17
+    -0.11 0.17 0.27
+    -0.03 0.22 0.27
+    0.1 -0.25 -0.17
+    0.1 -0.18 0.27
+    0.18 -0.19 -0.17
+    0.19 -0.11 0.27
+  faces 8
+    0 1 2 1 0 1 2 5
+    2 3 0 1 2 3 0 5
+    1 4 5 2 4 5 6 4
+    5 2 1 2 6 7 4 4
+    4 6 7 1 1 0 3 6
+    7 5 4 1 3 2 1 6
+    6 0 3 2 5 4 7 3
+    3 7 6 2 7 6 5 3
+  tverts 8
+    0.53864 0.631365 0
+    0.479298 0.631365 0
+    0.479298 0.395205 0
+    0.538708 0.395205 0
+    0.43962 0.566241 0
+    0.572205 0.566241 0
+    0.572271 0.795444 0
+    0.439554 0.795444 0
+endnode
+endmodelgeom pmf_b01
+donemodel pmf_b01

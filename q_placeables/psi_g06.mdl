@@ -1,0 +1,523 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Wed Jan 14 22:06:23 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel psi_g06
+setsupermodel psi_g06 plc_j08
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom psi_g06
+node dummy psi_g06
+  parent NULL
+endnode
+node dummy g06_impact
+  parent psi_g06
+  position 0 0 0.85
+  wirecolor 0.882353 0.345098 0.780392
+  orientation 0 0 0 0
+endnode
+node dummy g06_ground
+  parent psi_g06
+  position 0 0 0
+  wirecolor 0.882353 0.345098 0.780392
+  orientation 0 0 0 0
+endnode
+node dummy g06_hand
+  parent psi_g06
+  position 0 0 0.850045
+  wirecolor 0.882353 0.345098 0.780392
+  orientation 0 0 0 0
+endnode
+node dummy g06_head
+  parent psi_g06
+  position -0.05965 0 1.78191
+  wirecolor 0.882353 0.345098 0.780392
+  orientation 0 0 0 0
+endnode
+node dummy g06_head_hit
+  parent psi_g06
+  position -0.0605425 0 1.23373
+  wirecolor 0.882353 0.345098 0.780392
+  orientation 0 0 0 0
+endnode
+node emitter chunkywood112
+  parent psi_g06
+  position -0.000766602 -0.0242374 0.712937
+  wirecolor 1 1 1
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  blend Normal
+  spawntype_sel 0
+  xsize 89
+  ysize 40
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 0.482353 0.435294 0.317647
+  colorEnd 0.584314 0.533333 0.407843
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 2
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 2.9
+  velocity 8
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_s02
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+  spawntype 0
+endnode
+node emitter chunkywood113
+  parent psi_g06
+  position -0.000766602 -0.0242374 0.606715
+  wirecolor 1 1 1
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  blend Normal
+  spawntype_sel 0
+  xsize 89
+  ysize 40
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 1
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 5
+  velocity 8
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_s01
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+  spawntype 0
+endnode
+node trimesh damage30
+  parent psi_g06
+  position 0.000800171 -0.00351318 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 0
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 0.0705882 0 1
+  diffuse 1 0.501961 0.643137
+  specular 0 0.9 0.105882
+  shininess 24
+  center 0 0 25
+  bitmap NULL
+  orientation 0 0 0 0
+  verts 12
+    -0.195415 -0.186216 0
+    -0.195415 0.186216 0
+    0.195415 0.186216 0
+    0.195415 -0.186216 0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2 1 0 0 0 2
+    2 3 0 1 0 0 0 2
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 8 2 0 0 0 5
+    8 9 0 2 0 0 0 5
+    9 8 5 2 0 0 0 5
+    5 4 9 2 0 0 0 5
+    3 2 10 4 0 0 0 4
+    10 8 3 4 0 0 0 4
+    8 10 6 4 0 0 0 4
+    6 5 8 4 0 0 0 4
+    2 1 11 2 0 0 0 6
+    11 10 2 2 0 0 0 6
+    10 11 7 2 0 0 0 6
+    7 6 10 2 0 0 0 6
+    1 0 9 4 0 0 0 3
+    9 11 1 4 0 0 0 3
+    11 9 4 4 0 0 0 3
+    4 7 11 4 0 0 0 3
+endnode
+node trimesh box20
+  parent damage30
+  position 0.00229385 0.000835873 0.890004
+  wirecolor 0.337255 0.337255 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center -0.309399 -2.73456 0.3065
+  bitmap tno01_bark01
+  orientation 0 0 0 0
+  verts 16
+    -0.415061 -0.00430832 -0.171547
+    -0.368596 -0.0170835 -0.125003
+    0.385583 0.0205168 0.0446399
+    0.440986 -0.00430832 0.05783
+    -0.447174 -0.00430832 -0.0517004
+    -0.386004 -0.0233502 -0.0600342
+    0.353884 -0.00430832 0.162943
+    0.408873 -0.00430832 0.177677
+    -0.422063 -0.075208 -0.145416
+    -0.360072 -0.075208 -0.156813
+    0.378995 -0.075208 0.0692267
+    0.435131 -0.075208 0.0796806
+    -0.441453 -0.075208 -0.0730516
+    -0.385317 -0.075208 -0.0625976
+    0.353884 -0.075208 0.162943
+    0.414594 -0.075208 0.156326
+  faces 28
+    0 4 5 2 15 16 17 2
+    5 1 0 2 17 18 15 2
+    1 5 6 2 18 17 19 2
+    6 2 1 2 19 20 18 2
+    2 6 7 2 20 19 21 2
+    7 3 2 2 21 22 20 2
+    8 9 13 4 23 24 25 1
+    13 12 8 4 25 26 23 1
+    9 10 14 4 24 27 28 1
+    14 13 9 4 28 25 24 1
+    10 11 15 4 27 29 30 1
+    15 14 10 4 30 28 27 1
+    0 1 9 8 7 1 9 5
+    9 8 0 8 9 31 7 5
+    1 2 10 8 1 2 10 5
+    10 9 1 8 10 9 1 5
+    2 3 11 8 2 32 33 5
+    11 10 2 8 33 10 2 5
+    3 7 15 16 3 34 35 4
+    15 11 3 16 35 11 3 4
+    7 6 14 32 7 6 9 6
+    14 15 7 32 9 14 7 6
+    6 5 13 32 6 5 13 6
+    13 14 6 32 13 9 6 6
+    5 4 12 32 5 32 36 6
+    12 13 5 32 36 13 5 6
+    4 0 8 64 4 0 8 3
+    8 12 4 64 8 12 4 3
+  tverts 37
+    0.428008 0.954337 0
+    0.911116 0.53207 0
+    0.0628168 0.64957 0
+    0.571992 0.671141 0
+    0.428008 1.32886 0
+    0.0693035 0.512486 0
+    0.901528 0.571992 0
+    0.96338 0.571992 0
+    0.649569 1.036 0
+    0.901528 0.350431 0
+    0.0702269 0.35043 0
+    0.35043 0.739424 0
+    0.649569 1.26214 0
+    0.0700762 0.350431 0
+    0.969815 0.35043 0
+    0.96338 0.954337 0
+    0.9995 1.32886 0
+    0.930697 1.30282 0
+    0.911116 1.09979 0
+    0.0984718 1.99962 0
+    0.0628168 1.62992 0
+    0.0366202 2.04566 0
+    0.000499547 1.67114 0
+    0.0287443 0.0359969 0
+    0.0984717 0.000381261 0
+    0.0700762 0.294804 0
+    0.00693446 0.262136 0
+    0.929773 0.706755 0
+    0.901528 0.999619 0
+    0.992915 0.739424 0
+    0.969815 0.978941 0
+    0.971256 0.350431 0
+    0.000499547 0.571992 0
+    0.00708529 0.35043 0
+    0.571992 1.04566 0
+    0.35043 0.978941 0
+    0.00693446 0.350431 0
+endnode
+node trimesh box36
+  parent damage30
+  position 0.00229385 0.0608359 0.620004
+  wirecolor 0.337255 0.337255 0.337255
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0.23005 -2.72996 0.44265
+  bitmap tno01_bark01
+  orientation 0 0 0 0
+  verts 16
+    0.122108 -0.00426229 -0.653184
+    0.081849 -0.0170375 -0.570876
+    0.0119545 0.0205627 0.587533
+    0.00609492 -0.00426237 0.672851
+    -0.00149435 -0.00426226 -0.663998
+    0.0148443 -0.0233041 -0.576738
+    -0.110055 -0.00426233 0.576858
+    -0.117507 -0.00426234 0.662037
+    0.0951582 -0.0751619 -0.655542
+    0.114656 -0.0751619 -0.568006
+    -0.0134027 -0.075162 0.585313
+    -0.0164405 -0.075162 0.670879
+    0.0205259 -0.0751619 -0.662072
+    0.017488 -0.0751619 -0.576507
+    -0.110055 -0.0751619 0.576858
+    -0.0954872 -0.075162 0.663964
+  faces 28
+    0 4 5 2 34 35 36 2
+    5 1 0 2 36 37 34 2
+    1 5 6 2 37 36 38 2
+    6 2 1 2 38 39 37 2
+    2 6 7 2 39 38 40 2
+    7 3 2 2 40 41 39 2
+    8 9 13 4 21 22 12 1
+    13 12 8 4 12 23 21 1
+    9 10 14 4 22 14 24 1
+    14 13 9 4 24 12 22 1
+    10 11 15 4 14 16 25 1
+    15 14 10 4 25 24 14 1
+    0 1 9 8 26 27 28 5
+    9 8 0 8 28 29 26 5
+    1 2 10 8 27 30 31 5
+    10 9 1 8 31 28 27 5
+    2 3 11 8 30 32 33 5
+    11 10 2 8 33 31 30 5
+    3 7 15 16 1 0 9 4
+    15 11 3 16 9 5 1 4
+    7 6 14 32 10 3 8 6
+    14 15 7 32 15 17 18 6
+    6 5 13 32 3 2 7 6
+    13 14 6 32 7 8 3 6
+    5 4 12 32 19 20 13 6
+    12 13 5 32 11 7 2 6
+    4 0 8 64 1 0 4 3
+    8 12 4 64 4 6 1 3
+  tverts 42
+    0.125602 0.571992 0
+    0.511858 0.571992 0
+    0.487514 0.0657072 0
+    0.428008 0.927767 0
+    0.20982 0.35043 0
+    0.441434 0.35043 0
+    0.443046 0.35043 0
+    0.64957 0.0658799 0
+    0.649569 0.927767 0
+    0.194413 0.35043 0
+    0.428008 0.991419 0
+    0.64957 0.00193885 0
+    0.547461 0.0659765 0
+    0.610781 0.00194097 0
+    0.450927 0.935464 0
+    0.61078 0.929137 0
+    0.441434 0.9995 0
+    0.610781 0.994325 0
+    0.389219 0.992883 0
+    0.448725 0.0658036 0
+    0.389219 0.000499547 0
+    0.79018 0.00682792 0
+    0.851111 0.0723385 0
+    0.556954 0.00194097 0
+    0.148889 0.929137 0
+    0.194413 0.994325 0
+    0.571992 0.00227278 0
+    0.532069 0.0641715 0
+    0.35043 0.0663298 0
+    0.35043 0.000499487 0
+    0.64957 0.935338 0
+    0.35043 0.933669 0
+    0.571992 0.999501 0
+    0.35043 0.998017 0
+    0.125602 0.00858068 0
+    0.511859 0.000499547 0
+    0.460801 0.0657072 0
+    0.251411 0.0700878 0
+    0.851111 0.927767 0
+    0.469831 0.935744 0
+    0.874398 0.991419 0
+    0.488142 0.9995 0
+endnode
+node emitter fire!67
+  parent psi_g06
+  position -0.000766602 -0.0242374 0.532671
+  orientation 1 0 0 -4.71239
+  wirecolor 1 1 1
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  blend Normal
+  spawntype_sel 0
+  xsize 100
+  ysize 99
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 0.47451 0.431373 0.329412
+  colorEnd 0.819608 0.772549 0.584314
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0.2
+  blastLength 1
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  spawntype 0
+endnode
+endmodelgeom psi_g06
+donemodel psi_g06

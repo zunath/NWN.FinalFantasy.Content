@@ -1,0 +1,23 @@
+# Exported from NWmax 0.8 b61 at 9/20/2009 9:17:05 AM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh Plane04
+  parent dlp_rubble_002_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.54902 0.341176 0.882353 
+  bitmap NULL
+  verts 6
+    -0.24853 -0.151379 0.0
+    0.240396 -0.176114 0.0
+    -0.210288 0.0772058 0.0
+    0.153435 0.137067 0.0
+    0.240396 -0.0608532 0.0
+    -0.123477 0.181129 0.0
+  faces 4
+    1 4 0  1  0 0 0  7
+    2 0 3  1  0 0 0  7
+    3 0 4  1  0 0 0  7
+    2 3 5  0  0 0 0  7
+endnode

@@ -1,0 +1,1 @@
+envmaptexture qc_ghostenv2

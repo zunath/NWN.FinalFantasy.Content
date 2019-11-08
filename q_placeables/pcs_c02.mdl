@@ -1,0 +1,1631 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Sun Mar 15 10:54:46 2009
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel pcs_c02
+setsupermodel pcs_c02 null
+setanimationscale 1
+classification CHARACTER
+#MAXGEOM ASCII
+beginmodelgeom pcs_c02
+node dummy pcs_c02
+  parent NULL
+endnode
+node dummy c02_impact
+  parent pcs_c02
+  position 0 0 0.45
+  wirecolor 0.52549 0.431373 0.0313726
+  orientation 0 0 0 0
+endnode
+node dummy c02_ground
+  parent pcs_c02
+  position 0 0 0
+  wirecolor 0.52549 0.431373 0.0313726
+  orientation 0 0 0 0
+endnode
+node dummy c02_hand
+  parent pcs_c02
+  position 0 -0.5 0.5
+  wirecolor 0.52549 0.431373 0.0313726
+  orientation 0 0 0 0
+endnode
+node dummy c02_head
+  parent pcs_c02
+  position 0 0 1.35
+  wirecolor 0.52549 0.431373 0.0313726
+  orientation 0 0 0 0
+endnode
+node dummy c02_head_hit
+  parent pcs_c02
+  position 0 0 0.55
+  wirecolor 0.52549 0.431373 0.0313726
+  orientation 0 0 0 0
+endnode
+node emitter chunkywood190
+  parent pcs_c02
+  position 0.0272229 0.0045166 0.509271
+  wirecolor 1 1 1
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  blend Normal
+  spawntype_sel 0
+  spawntype 0
+  xsize 89
+  ysize 40
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 1
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 5
+  velocity 8
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 0
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w02
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+endnode
+node emitter chunkywood191
+  parent pcs_c02
+  position 0.0272229 0.00353271 0.615493
+  wirecolor 1 1 1
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  blend Normal
+  spawntype_sel 0
+  spawntype 0
+  xsize 89
+  ysize 40
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 0.482353 0.435294 0.317647
+  colorEnd 0.584314 0.533333 0.407843
+  alphaStart 1
+  alphaEnd 1
+  sizeStart 0.1
+  sizeEnd 0.1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 2
+  lifeExp 0.75
+  mass 3
+  spread 1.22173
+  particleRot 2.9
+  velocity 8
+  randvel 0.3
+  bounce_co 0.5
+  blurlength 10
+  loop 0
+  bounce 1
+  m_isTinted 0
+  splat 0
+  affectedByWind false
+  texture fxpa_cloud02
+  twosidedtex 1
+  xgrid 5
+  ygrid 5
+  fps 0
+  frameStart 0
+  frameEnd 24
+  random 0
+  chunkName plc_chunk_w01
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0
+  blastLength 0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+  orientation 0 0 0 0
+endnode
+node emitter fire!117
+  parent pcs_c02
+  position 0.0272229 0.00353271 0.435227
+  orientation 1 0 0 -4.71239
+  wirecolor 1 1 1
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  blend Normal
+  spawntype_sel 0
+  spawntype 0
+  xsize 100
+  ysize 99
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0
+  combinetime 0
+  deadspace 0
+  opacity 0.5
+  colorStart 0.443137 0.388235 0.247059
+  colorEnd 0.639216 0.607843 0.482353
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 4
+  sizeEnd 1
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2
+  randvel 0.5
+  bounce_co 0
+  blurlength 10
+  loop 0
+  bounce 0
+  m_isTinted 1
+  splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningSubDiv 0
+  lightningScale 0
+  blastRadius 0.2
+  blastLength 1
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node trimesh damage75
+  parent pcs_c02
+  position 0.0287878 -0.0170325 0
+  wirecolor 1 1 1
+  tilefade 0
+  scale 1
+  render 0
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 0.0705882 0 1
+  diffuse 1 0.501961 0.643137
+  specular 0 0.9 0.105882
+  shininess 24
+  center 0 0 25
+  bitmap NULL
+  orientation 0 0 0 0
+  verts 12
+    -0.195415 -0.186216 0
+    -0.195415 0.186216 0
+    0.195415 0.186216 0
+    0.195415 -0.186216 0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2 1 0 0 0 2
+    2 3 0 1 0 0 0 2
+    4 5 6 1 0 0 0 1
+    6 7 4 1 0 0 0 1
+    0 3 8 2 0 0 0 5
+    8 9 0 2 0 0 0 5
+    9 8 5 2 0 0 0 5
+    5 4 9 2 0 0 0 5
+    3 2 10 4 0 0 0 4
+    10 8 3 4 0 0 0 4
+    8 10 6 4 0 0 0 4
+    6 5 8 4 0 0 0 4
+    2 1 11 2 0 0 0 6
+    11 10 2 2 0 0 0 6
+    10 11 7 2 0 0 0 6
+    7 6 10 2 0 0 0 6
+    1 0 9 4 0 0 0 3
+    9 11 1 4 0 0 0 3
+    11 9 4 4 0 0 0 3
+    4 7 11 4 0 0 0 3
+endnode
+node trimesh box01
+  parent damage75
+  position -0.0287878 0.0170325 0
+  wirecolor 0.0313726 0.431373 0.521569
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0 24
+  bitmap qp_crate_02
+  orientation 0 0 0 0
+  verts 12
+    -0.26 -0.26 0
+    0.26 -0.26 0
+    -0.26 0.26 0
+    0.26 0.26 0
+    0.26 -0.26 0.48
+    -0.26 -0.26 0.48
+    -0.26 0.26 0.48
+    0.26 0.26 0.48
+    0.24 -0.24 0.48
+    -0.24 -0.24 0.48
+    -0.24 0.24 0.48
+    0.24 0.24 0.48
+  faces 16
+    1 4 5 8 1 2 3 5
+    5 0 1 8 3 0 1 5
+    2 6 7 32 1 2 3 6
+    7 3 2 32 3 0 1 6
+    1 3 7 16 0 1 2 4
+    7 4 1 16 2 3 0 4
+    2 0 5 64 0 1 2 3
+    5 6 2 64 2 3 0 3
+    8 9 5 1 8 9 5 5
+    5 4 8 1 5 4 8 5
+    10 11 7 1 10 11 7 6
+    7 6 10 1 7 6 10 6
+    11 8 4 1 11 8 4 4
+    4 7 11 1 4 7 11 4
+    9 10 6 1 9 10 6 3
+    6 5 9 1 6 5 9 3
+  tverts 12
+    0.0535714 0.00189184 0
+    0.946429 0.00189184 0
+    0.946429 0.873772 0
+    0.0535714 0.873772 0
+    0.930604 0.0743672 0
+    0.0693961 0.0743673 0
+    0.0691022 0.927298 0
+    0.93031 0.927298 0
+    0.89748 0.107491 0
+    0.102519 0.107491 0
+    0.102226 0.894174 0
+    0.897186 0.894174 0
+endnode
+node trimesh box04
+  parent damage75
+  position -0.0287878 0.0170325 0
+  wirecolor 0.521569 0.231373 0.0313726
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0 3
+  bitmap qp_crate_02
+  orientation 0 0 0 0
+  verts 8
+    -0.28 -0.28 0
+    0.28 -0.28 0
+    -0.28 0.28 0
+    0.28 0.28 0
+    -0.28 -0.28 0.06
+    0.28 -0.28 0.06
+    -0.28 0.28 0.06
+    0.28 0.28 0.06
+  faces 12
+    4 5 7 4 4 5 7 1
+    7 6 4 4 7 6 4 1
+    0 1 5 8 0 1 3 5
+    5 4 0 8 3 2 0 5
+    1 3 7 16 0 1 3 4
+    7 5 1 16 3 2 0 4
+    3 2 6 32 0 1 3 6
+    6 7 3 32 3 2 0 6
+    2 0 4 64 0 1 3 3
+    4 6 2 64 3 2 0 3
+    1 0 3 4 5 4 7 1
+    2 3 0 4 6 7 4 1
+  tverts 8
+    0 0 0
+    1 0 0
+    0 0.110373 0
+    1 0.110373 0
+    0 0.979697 0
+    1 0.979697 0
+    0 2.0203 0
+    1 2.0203 0
+endnode
+node trimesh box06
+  parent damage75
+  position -0.278788 -0.232967 0
+  wirecolor 0.686275 0.101961 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0 24.5
+  bitmap qp_crate_02
+  orientation 0 0 0 0
+  verts 8
+    -0.025 -0.025 0
+    0.025 -0.025 0
+    -0.025 0.025 0
+    0.025 0.025 0
+    -0.025 -0.025 0.49
+    0.025 -0.025 0.49
+    -0.025 0.025 0.49
+    0.025 0.025 0.49
+  faces 10
+    5 4 0 8 7 6 4 5
+    0 1 5 8 4 5 7 5
+    7 5 1 16 3 2 0 4
+    1 3 7 16 0 1 3 4
+    6 7 3 32 7 6 4 6
+    3 2 6 32 4 5 7 6
+    4 6 2 64 3 2 0 3
+    2 0 4 64 0 1 3 3
+    7 6 4 1 8 10 9 7
+    4 5 7 1 9 11 8 7
+  tverts 12
+    0.000603884 0.0498339 0
+    0.111615 0.0498339 0
+    0.000603884 0.907715 0
+    0.111615 0.907715 0
+    0.999615 0.0479882 0
+    0.891857 0.0479882 0
+    0.999615 0.907715 0
+    0.891857 0.907715 0
+    0.643412 0.845197 0
+    0.744842 0.725914 0
+    0.643681 0.724367 0
+    0.745029 0.843281 0
+endnode
+node trimesh box07
+  parent damage75
+  position 0.221212 0.267033 0
+  wirecolor 0.686275 0.101961 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0 24.5
+  bitmap qp_crate_02
+  orientation 0 0 0 0
+  verts 8
+    -0.025 -0.025 0
+    0.025 -0.025 0
+    -0.025 0.025 0
+    0.025 0.025 0
+    -0.025 -0.025 0.49
+    0.025 -0.025 0.49
+    -0.025 0.025 0.49
+    0.025 0.025 0.49
+  faces 10
+    5 4 0 8 7 6 4 5
+    0 1 5 8 4 5 7 5
+    7 5 1 16 3 2 0 4
+    1 3 7 16 0 1 3 4
+    6 7 3 32 7 6 4 6
+    3 2 6 32 4 5 7 6
+    4 6 2 64 3 2 0 3
+    2 0 4 64 0 1 3 3
+    7 6 4 1 8 10 9 7
+    4 5 7 1 9 11 8 7
+  tverts 12
+    0.000603884 0.0498339 0
+    0.111615 0.0498339 0
+    0.000603884 0.907715 0
+    0.111615 0.907715 0
+    0.999615 0.0479882 0
+    0.891857 0.0479882 0
+    0.999615 0.907715 0
+    0.891857 0.907715 0
+    0.503081 0.559115 0
+    0.620957 0.428432 0
+    0.503266 0.428824 0
+    0.620743 0.558903 0
+endnode
+node trimesh box08
+  parent damage75
+  position -0.278788 0.267033 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.686275 0.101961 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0 24.5
+  bitmap qp_crate_02
+  verts 8
+    -0.025 -0.025 0
+    0.025 -0.025 0
+    -0.025 0.025 0
+    0.025 0.025 0
+    -0.025 -0.025 0.49
+    0.025 -0.025 0.49
+    -0.025 0.025 0.49
+    0.025 0.025 0.49
+  faces 10
+    5 4 0 8 7 6 4 5
+    0 1 5 8 4 5 7 5
+    7 5 1 16 3 2 0 4
+    1 3 7 16 0 1 3 4
+    6 7 3 32 7 6 4 6
+    3 2 6 32 4 5 7 6
+    4 6 2 64 3 2 0 3
+    2 0 4 64 0 1 3 3
+    7 6 4 1 8 10 9 7
+    4 5 7 1 9 11 8 7
+  tverts 12
+    0.000603884 0.0498339 0
+    0.111615 0.0498339 0
+    0.000603884 0.907715 0
+    0.111615 0.907715 0
+    0.999615 0.0479882 0
+    0.891857 0.0479882 0
+    0.999615 0.907715 0
+    0.891857 0.907715 0
+    0.642155 0.28626 0
+    0.749213 0.39813 0
+    0.748083 0.2871 0
+    0.642404 0.398125 0
+endnode
+node trimesh box10
+  parent damage75
+  position 0.221212 -0.232967 0
+  orientation 0 0 -1 -1.5708
+  wirecolor 0.686275 0.101961 0.101961
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0 24.5
+  bitmap qp_crate_02
+  verts 8
+    -0.025 -0.025 0
+    0.025 -0.025 0
+    -0.025 0.025 0
+    0.025 0.025 0
+    -0.025 -0.025 0.49
+    0.025 -0.025 0.49
+    -0.025 0.025 0.49
+    0.025 0.025 0.49
+  faces 10
+    5 4 0 8 7 6 4 5
+    0 1 5 8 4 5 7 5
+    7 5 1 16 3 2 0 4
+    1 3 7 16 0 1 3 4
+    6 7 3 32 7 6 4 6
+    3 2 6 32 4 5 7 6
+    4 6 2 64 3 2 0 3
+    2 0 4 64 0 1 3 3
+    7 6 4 1 8 10 9 7
+    4 5 7 1 9 11 8 7
+  tverts 12
+    0.000603884 0.0498339 0
+    0.111615 0.0498339 0
+    0.000603884 0.907715 0
+    0.111615 0.907715 0
+    0.999615 0.0479882 0
+    0.891857 0.0479882 0
+    0.999615 0.907715 0
+    0.891857 0.907715 0
+    0.234354 0.746216 0
+    0.367244 0.612403 0
+    0.234788 0.614249 0
+    0.365833 0.748985 0
+endnode
+node trimesh shad0
+  parent damage75
+  position -0.0287878 0.0170325 0.48
+  wirecolor 0 0 0
+  tilefade 0
+  scale 1
+  render 0
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 0
+  center 0 0 0
+  bitmap black
+  orientation 0 0 0 0
+  verts 4
+    -0.24 -0.24 0
+    0.24 -0.24 0
+    -0.24 0.24 0
+    0.24 0.24 0
+  faces 2
+    2 0 3 1 2 0 3 1
+    1 3 0 1 1 3 0 1
+  tverts 4
+    0 0 0
+    1 0 0
+    0 1 0
+    1 1 0
+endnode
+node trimesh box03
+  parent damage75
+  position -0.0287878 0.0170325 0.48
+  wirecolor 0.6 0.894118 0.721569
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0 -20
+  bitmap qp_crate_02
+  orientation 0 0 0 0
+  verts 8
+    -0.24 -0.24 0
+    0.24 -0.24 0
+    -0.24 0.24 0
+    0.24 0.24 0
+    -0.24 -0.24 -0.4
+    0.24 -0.24 -0.4
+    -0.24 0.24 -0.4
+    0.24 0.24 -0.4
+  faces 10
+    4 5 7 4 1 0 2 2
+    7 6 4 4 2 3 1 2
+    0 1 5 8 0 1 3 5
+    5 4 0 8 3 2 0 5
+    1 3 7 16 0 1 3 4
+    7 5 1 16 3 2 0 4
+    3 2 6 32 0 1 3 6
+    6 7 3 32 3 2 0 6
+    2 0 4 64 0 1 3 3
+    4 6 2 64 3 2 0 3
+  tverts 4
+    0.112403 0.112403 0
+    0.887597 0.112403 0
+    0.112403 0.887597 0
+    0.887597 0.887597 0
+endnode
+node dummy crate_lid
+  parent damage75
+  position -0.0287878 0.0170325 0.54
+  wirecolor 0.54902 0.345098 0.882353
+  orientation 0 0 0 0
+endnode
+node trimesh box02
+  parent crate_lid
+  position 0 0 -0.06
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center 0 0 3
+  bitmap qp_crate_02
+  orientation 0 0 0 0
+  wirecolor 1 0 0
+  verts 16
+    -0.28 -0.28 0
+    0.28 -0.28 0
+    -0.28 0.28 0
+    0.28 0.28 0
+    -0.28 -0.28 0.06
+    0.28 -0.28 0.06
+    -0.28 0.28 0.06
+    0.28 0.28 0.06
+    -0.22 -0.22 0
+    0.22 -0.22 0
+    0.22 -0.22 0.06
+    -0.22 -0.22 0.06
+    0.22 0.22 0
+    0.22 0.22 0.06
+    -0.22 0.22 0
+    -0.22 0.22 0.06
+  faces 32
+    0 1 5 8 4 5 2 5
+    5 4 0 8 2 3 4 5
+    1 3 7 16 6 7 8 4
+    7 5 1 16 8 3 6 4
+    3 2 6 32 6 7 8 6
+    6 7 3 32 8 3 6 6
+    2 0 4 64 9 10 12 3
+    4 6 2 64 12 11 9 3
+    11 15 6 4 14 15 3 1
+    11 6 4 4 14 3 1 1
+    11 4 5 4 14 1 0 1
+    10 11 5 4 13 14 0 1
+    10 5 7 4 13 0 2 1
+    13 10 7 4 16 13 2 1
+    13 7 6 4 16 2 3 1
+    13 6 15 4 16 3 15 1
+    12 14 2 2 15 16 2 2
+    12 2 3 2 15 2 3 2
+    9 12 3 2 14 15 3 2
+    9 3 1 2 14 3 1 2
+    8 9 1 2 13 14 1 2
+    8 1 0 2 13 1 0 2
+    8 0 2 2 13 0 2 2
+    8 2 14 2 13 2 16 2
+    11 8 14 64 19 17 18 3
+    14 15 11 64 18 20 19 3
+    8 11 10 8 18 20 19 5
+    10 9 8 8 19 17 18 5
+    15 14 12 32 19 17 18 6
+    12 13 15 32 18 20 19 6
+    12 9 10 16 17 18 20 4
+    10 13 12 16 20 19 17 4
+  tverts 21
+    2 0 0
+    1 0 0
+    2 1 0
+    1 1 0
+    0.999861 0.890719 0
+    1.99986 0.890719 0
+    0.999937 0.890702 0
+    1.99994 0.890702 0
+    2.00001 0.999999 0
+    0.999919 0.890644 0
+    1.99992 0.890644 0
+    0.999919 0.999883 0
+    1.99992 0.999883 0
+    1.89047 0.109526 0
+    1.10953 0.109526 0
+    1.10953 0.890474 0
+    1.89047 0.890474 0
+    0.10131 0.890053 0
+    0.10131 0.108803 0
+    0.00131038 0.890053 0
+    0.00131041 0.108803 0
+endnode
+node trimesh object01
+  parent crate_lid
+  position 0 0 -0.0199995
+  wirecolor 0.0313726 0.431373 0.521569
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center undefined
+  bitmap qp_crate_02
+  orientation 0 0 0 0
+  verts 4
+    -0.26 -0.26 -4.95911e-007
+    0.26 -0.26 -4.95911e-007
+    -0.26 0.26 -4.95911e-007
+    0.26 0.26 -4.95911e-007
+  faces 2
+    0 1 3 4 0 1 3 1
+    3 2 0 4 3 2 0 1
+  tverts 4
+    0.0535714 0.0501696 0
+    0.946429 0.0501696 0
+    0.0535647 0.946392 0
+    0.946422 0.946392 0
+endnode
+node trimesh object02
+  parent crate_lid
+  position 0 0 -0.0199995
+  wirecolor 0.0313726 0.431373 0.521569
+  tilefade 0
+  scale 1
+  render 1
+  shadow 1
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 1 1 1
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  center undefined
+  bitmap qp_crate_02
+  orientation 0 0 0 0
+  verts 4
+    -0.26 -0.26 -4.95911e-007
+    0.26 -0.26 -4.95911e-007
+    -0.26 0.26 -4.95911e-007
+    0.26 0.26 -4.95911e-007
+  faces 2
+    1 0 3 4 1 0 3 1
+    2 3 0 4 2 3 0 1
+  tverts 4
+    0.0535714 0.0501696 0
+    0.946429 0.0501696 0
+    0.0535647 0.946392 0
+    0.946422 0.946392 0
+endnode
+endmodelgeom pcs_c02
+
+#MAXANIM ASCII
+newanim close pcs_c02
+  length 0.0333333
+  transtime 0.25
+  animroot pcs_c02
+  node dummy pcs_c02
+    parent NULL
+  endnode
+  node dummy c02_impact
+    parent pcs_c02
+  endnode
+  node dummy c02_ground
+    parent pcs_c02
+  endnode
+  node dummy c02_hand
+    parent pcs_c02
+  endnode
+  node dummy c02_head
+    parent pcs_c02
+  endnode
+  node dummy c02_head_hit
+    parent pcs_c02
+  endnode
+  node emitter chunkywood190
+    parent pcs_c02
+  endnode
+  node emitter chunkywood191
+    parent pcs_c02
+  endnode
+  node emitter fire!117
+    parent pcs_c02
+  endnode
+  node dummy damage75
+    parent pcs_c02
+  endnode
+  node dummy box01
+    parent damage75
+  endnode
+  node dummy box04
+    parent damage75
+  endnode
+  node dummy box06
+    parent damage75
+  endnode
+  node dummy box07
+    parent damage75
+  endnode
+  node dummy box08
+    parent damage75
+  endnode
+  node dummy box10
+    parent damage75
+  endnode
+  node dummy shad0
+    parent damage75
+  endnode
+  node dummy box03
+    parent damage75
+  endnode
+  node dummy crate_lid
+    parent damage75
+    positionkey
+      0 -0.0287878 0.0170325 0.54
+      0.0333333 -0.0287878 0.0170325 0.54
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node dummy box02
+    parent crate_lid
+  endnode
+  node dummy object01
+    parent crate_lid
+  endnode
+  node dummy object02
+    parent crate_lid
+  endnode
+  node dummy pcs_c02_pwk
+    parent pcs_c02
+  endnode
+  node dummy c02_pwk_use01
+    parent pcs_c02_pwk
+  endnode
+  node dummy no_walk
+    parent pcs_c02_pwk
+  endnode
+doneanim close pcs_c02
+
+#MAXANIM ASCII
+newanim close2open pcs_c02
+  length 0.633333
+  transtime 0.25
+  animroot pcs_c02
+  node dummy pcs_c02
+    parent NULL
+  endnode
+  node dummy c02_impact
+    parent pcs_c02
+  endnode
+  node dummy c02_ground
+    parent pcs_c02
+  endnode
+  node dummy c02_hand
+    parent pcs_c02
+  endnode
+  node dummy c02_head
+    parent pcs_c02
+  endnode
+  node dummy c02_head_hit
+    parent pcs_c02
+  endnode
+  node emitter chunkywood190
+    parent pcs_c02
+  endnode
+  node emitter chunkywood191
+    parent pcs_c02
+  endnode
+  node emitter fire!117
+    parent pcs_c02
+  endnode
+  node dummy damage75
+    parent pcs_c02
+  endnode
+  node dummy box01
+    parent damage75
+  endnode
+  node dummy box04
+    parent damage75
+  endnode
+  node dummy box06
+    parent damage75
+  endnode
+  node dummy box07
+    parent damage75
+  endnode
+  node dummy box08
+    parent damage75
+  endnode
+  node dummy box10
+    parent damage75
+  endnode
+  node dummy shad0
+    parent damage75
+  endnode
+  node dummy box03
+    parent damage75
+  endnode
+  node dummy crate_lid
+    parent damage75
+    positionkey
+      0 -0.0287878 0.0170325 0.54
+      0.133333 -0.162121 0.0170325 0.54
+      0.233333 -0.262121 0.0170325 0.54
+      0.3 -0.328788 0.0170325 0.54
+      0.366667 -0.378788 0.0070325 0.49
+      0.5 -0.428788 -0.0229675 0.38
+      0.633333 -0.463788 -0.0529675 0.27
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.133333 0 1 0 -0.10472
+      0.233333 0 1 0 -0.261799
+      0.3 0 1 0 -0.610865
+      0.366667 0 1 0 -0.907571
+      0.5 0 1 0 -1.09956
+      0.633333 0.0218021 0.999176 0.0342224 -1.13521
+    endlist
+  endnode
+  node dummy box02
+    parent crate_lid
+  endnode
+  node dummy object01
+    parent crate_lid
+  endnode
+  node dummy object02
+    parent crate_lid
+  endnode
+  node dummy pcs_c02_pwk
+    parent pcs_c02
+  endnode
+  node dummy c02_pwk_use01
+    parent pcs_c02_pwk
+  endnode
+  node dummy no_walk
+    parent pcs_c02_pwk
+  endnode
+doneanim close2open pcs_c02
+
+#MAXANIM ASCII
+newanim damage pcs_c02
+  length 0.1
+  transtime 0
+  animroot pcs_c02
+  node dummy pcs_c02
+    parent NULL
+  endnode
+  node dummy c02_impact
+    parent pcs_c02
+  endnode
+  node dummy c02_ground
+    parent pcs_c02
+  endnode
+  node dummy c02_hand
+    parent pcs_c02
+  endnode
+  node dummy c02_head
+    parent pcs_c02
+  endnode
+  node dummy c02_head_hit
+    parent pcs_c02
+  endnode
+  node emitter chunkywood190
+    parent pcs_c02
+  endnode
+  node emitter chunkywood191
+    parent pcs_c02
+  endnode
+  node emitter fire!117
+    parent pcs_c02
+  endnode
+  node trimesh damage75
+    parent pcs_c02
+    positionkey
+      0 0.0287878 -0.0170325 0
+      0.0333333 0.0287878 -0.0170325 0.025
+      0.1 0.0287878 -0.0170325 0
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 1 0 0 -0.0174533
+      0.1 0 0 0 0
+    endlist
+  endnode
+  node dummy box01
+    parent damage75
+  endnode
+  node dummy box04
+    parent damage75
+  endnode
+  node dummy box06
+    parent damage75
+  endnode
+  node dummy box07
+    parent damage75
+  endnode
+  node dummy box08
+    parent damage75
+  endnode
+  node dummy box10
+    parent damage75
+  endnode
+  node dummy shad0
+    parent damage75
+  endnode
+  node dummy box03
+    parent damage75
+  endnode
+  node dummy crate_lid
+    parent damage75
+  endnode
+  node dummy box02
+    parent crate_lid
+  endnode
+  node dummy object01
+    parent crate_lid
+  endnode
+  node dummy object02
+    parent crate_lid
+  endnode
+  node dummy pcs_c02_pwk
+    parent pcs_c02
+  endnode
+  node dummy c02_pwk_use01
+    parent pcs_c02_pwk
+  endnode
+  node dummy no_walk
+    parent pcs_c02_pwk
+  endnode
+doneanim damage pcs_c02
+
+#MAXANIM ASCII
+newanim dead pcs_c02
+  length 0.0333333
+  transtime 0
+  animroot pcs_c02
+  node dummy pcs_c02
+    parent NULL
+  endnode
+  node dummy c02_impact
+    parent pcs_c02
+  endnode
+  node dummy c02_ground
+    parent pcs_c02
+  endnode
+  node dummy c02_hand
+    parent pcs_c02
+  endnode
+  node dummy c02_head
+    parent pcs_c02
+  endnode
+  node dummy c02_head_hit
+    parent pcs_c02
+  endnode
+  node emitter chunkywood190
+    parent pcs_c02
+  endnode
+  node emitter chunkywood191
+    parent pcs_c02
+  endnode
+  node emitter fire!117
+    parent pcs_c02
+  endnode
+  node trimesh damage75
+    parent pcs_c02
+    positionkey
+      0 0.0287878 -0.0170325 -4.2
+      0.0333333 0.0287878 -0.0170325 -4.2
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.0333333 0 0 0 0
+    endlist
+  endnode
+  node dummy box01
+    parent damage75
+  endnode
+  node dummy box04
+    parent damage75
+  endnode
+  node dummy box06
+    parent damage75
+  endnode
+  node dummy box07
+    parent damage75
+  endnode
+  node dummy box08
+    parent damage75
+  endnode
+  node dummy box10
+    parent damage75
+  endnode
+  node dummy shad0
+    parent damage75
+  endnode
+  node dummy box03
+    parent damage75
+  endnode
+  node dummy crate_lid
+    parent damage75
+  endnode
+  node dummy box02
+    parent crate_lid
+  endnode
+  node dummy object01
+    parent crate_lid
+  endnode
+  node dummy object02
+    parent crate_lid
+  endnode
+  node dummy pcs_c02_pwk
+    parent pcs_c02
+  endnode
+  node dummy c02_pwk_use01
+    parent pcs_c02_pwk
+  endnode
+  node dummy no_walk
+    parent pcs_c02_pwk
+  endnode
+doneanim dead pcs_c02
+
+#MAXANIM ASCII
+newanim default pcs_c02
+  length 0
+  transtime 0.25
+  animroot pcs_c02
+  node dummy pcs_c02
+    parent NULL
+  endnode
+  node dummy c02_impact
+    parent pcs_c02
+  endnode
+  node dummy c02_ground
+    parent pcs_c02
+  endnode
+  node dummy c02_hand
+    parent pcs_c02
+  endnode
+  node dummy c02_head
+    parent pcs_c02
+  endnode
+  node dummy c02_head_hit
+    parent pcs_c02
+  endnode
+  node emitter chunkywood190
+    parent pcs_c02
+  endnode
+  node emitter chunkywood191
+    parent pcs_c02
+  endnode
+  node emitter fire!117
+    parent pcs_c02
+  endnode
+  node dummy damage75
+    parent pcs_c02
+  endnode
+  node dummy box01
+    parent damage75
+  endnode
+  node dummy box04
+    parent damage75
+  endnode
+  node dummy box06
+    parent damage75
+  endnode
+  node dummy box07
+    parent damage75
+  endnode
+  node dummy box08
+    parent damage75
+  endnode
+  node dummy box10
+    parent damage75
+  endnode
+  node dummy shad0
+    parent damage75
+  endnode
+  node dummy box03
+    parent damage75
+  endnode
+  node dummy crate_lid
+    parent damage75
+  endnode
+  node dummy box02
+    parent crate_lid
+  endnode
+  node dummy object01
+    parent crate_lid
+  endnode
+  node dummy object02
+    parent crate_lid
+  endnode
+  node dummy pcs_c02_pwk
+    parent pcs_c02
+  endnode
+  node dummy c02_pwk_use01
+    parent pcs_c02_pwk
+  endnode
+  node dummy no_walk
+    parent pcs_c02_pwk
+  endnode
+doneanim default pcs_c02
+
+#MAXANIM ASCII
+newanim die pcs_c02
+  length 0.133333
+  transtime 0
+  event 0.0333333 detonate
+  animroot pcs_c02
+  node dummy pcs_c02
+    parent NULL
+  endnode
+  node dummy c02_impact
+    parent pcs_c02
+  endnode
+  node dummy c02_ground
+    parent pcs_c02
+  endnode
+  node dummy c02_hand
+    parent pcs_c02
+  endnode
+  node dummy c02_head
+    parent pcs_c02
+  endnode
+  node dummy c02_head_hit
+    parent pcs_c02
+  endnode
+  node emitter chunkywood190
+    parent pcs_c02
+  endnode
+  node emitter chunkywood191
+    parent pcs_c02
+  endnode
+  node emitter fire!117
+    parent pcs_c02
+  endnode
+  node trimesh damage75
+    parent pcs_c02
+    positionkey
+      0 0.0287878 -0.0170325 0
+      0.133333 0.0287878 -0.0170325 -4.2
+    endlist
+    orientationkey
+      0 0 0 0 0
+      0.133333 0 0 0 0
+    endlist
+  endnode
+  node dummy box01
+    parent damage75
+  endnode
+  node dummy box04
+    parent damage75
+  endnode
+  node dummy box06
+    parent damage75
+  endnode
+  node dummy box07
+    parent damage75
+  endnode
+  node dummy box08
+    parent damage75
+  endnode
+  node dummy box10
+    parent damage75
+  endnode
+  node dummy shad0
+    parent damage75
+  endnode
+  node dummy box03
+    parent damage75
+  endnode
+  node dummy crate_lid
+    parent damage75
+  endnode
+  node dummy box02
+    parent crate_lid
+  endnode
+  node dummy object01
+    parent crate_lid
+  endnode
+  node dummy object02
+    parent crate_lid
+  endnode
+  node dummy pcs_c02_pwk
+    parent pcs_c02
+  endnode
+  node dummy c02_pwk_use01
+    parent pcs_c02_pwk
+  endnode
+  node dummy no_walk
+    parent pcs_c02_pwk
+  endnode
+doneanim die pcs_c02
+
+#MAXANIM ASCII
+newanim open pcs_c02
+  length 0.0333333
+  transtime 0.25
+  animroot pcs_c02
+  node dummy pcs_c02
+    parent NULL
+  endnode
+  node dummy c02_impact
+    parent pcs_c02
+  endnode
+  node dummy c02_ground
+    parent pcs_c02
+  endnode
+  node dummy c02_hand
+    parent pcs_c02
+  endnode
+  node dummy c02_head
+    parent pcs_c02
+  endnode
+  node dummy c02_head_hit
+    parent pcs_c02
+  endnode
+  node emitter chunkywood190
+    parent pcs_c02
+  endnode
+  node emitter chunkywood191
+    parent pcs_c02
+  endnode
+  node emitter fire!117
+    parent pcs_c02
+  endnode
+  node dummy damage75
+    parent pcs_c02
+  endnode
+  node dummy box01
+    parent damage75
+  endnode
+  node dummy box04
+    parent damage75
+  endnode
+  node dummy box06
+    parent damage75
+  endnode
+  node dummy box07
+    parent damage75
+  endnode
+  node dummy box08
+    parent damage75
+  endnode
+  node dummy box10
+    parent damage75
+  endnode
+  node dummy shad0
+    parent damage75
+  endnode
+  node dummy box03
+    parent damage75
+  endnode
+  node dummy crate_lid
+    parent damage75
+    positionkey
+      0 -0.463788 -0.0529675 0.27
+      0.0333333 -0.463788 -0.0529675 0.27
+    endlist
+    orientationkey
+      0 0.0218021 0.999176 0.0342224 -1.13521
+      0.0333333 0.0218022 0.999176 0.0342224 -1.13521
+    endlist
+  endnode
+  node dummy box02
+    parent crate_lid
+  endnode
+  node dummy object01
+    parent crate_lid
+  endnode
+  node dummy object02
+    parent crate_lid
+  endnode
+  node dummy pcs_c02_pwk
+    parent pcs_c02
+  endnode
+  node dummy c02_pwk_use01
+    parent pcs_c02_pwk
+  endnode
+  node dummy no_walk
+    parent pcs_c02_pwk
+  endnode
+doneanim open pcs_c02
+
+#MAXANIM ASCII
+newanim open2close pcs_c02
+  length 0.633333
+  transtime 0.25
+  animroot pcs_c02
+  node dummy pcs_c02
+    parent NULL
+  endnode
+  node dummy c02_impact
+    parent pcs_c02
+  endnode
+  node dummy c02_ground
+    parent pcs_c02
+  endnode
+  node dummy c02_hand
+    parent pcs_c02
+  endnode
+  node dummy c02_head
+    parent pcs_c02
+  endnode
+  node dummy c02_head_hit
+    parent pcs_c02
+  endnode
+  node emitter chunkywood190
+    parent pcs_c02
+  endnode
+  node emitter chunkywood191
+    parent pcs_c02
+  endnode
+  node emitter fire!117
+    parent pcs_c02
+  endnode
+  node dummy damage75
+    parent pcs_c02
+  endnode
+  node dummy box01
+    parent damage75
+  endnode
+  node dummy box04
+    parent damage75
+  endnode
+  node dummy box06
+    parent damage75
+  endnode
+  node dummy box07
+    parent damage75
+  endnode
+  node dummy box08
+    parent damage75
+  endnode
+  node dummy box10
+    parent damage75
+  endnode
+  node dummy shad0
+    parent damage75
+  endnode
+  node dummy box03
+    parent damage75
+  endnode
+  node dummy crate_lid
+    parent damage75
+    positionkey
+      0 -0.463788 -0.0529675 0.27
+      0.133333 -0.428788 -0.0229675 0.38
+      0.266667 -0.378788 0.0070325 0.49
+      0.333333 -0.328788 0.0170325 0.54
+      0.4 -0.262121 0.0170325 0.54
+      0.5 -0.162121 0.0170325 0.54
+      0.633333 -0.0287878 0.0170325 0.54
+    endlist
+    orientationkey
+      0 0.0218021 0.999176 0.0342224 -1.13521
+      0.133333 0 1 0 -1.09956
+      0.266667 0 1 0 -0.907571
+      0.333333 0 1 0 -0.610865
+      0.4 0 1 0 -0.261799
+      0.5 0 1 0 -0.10472
+      0.633333 0 0 0 0
+    endlist
+  endnode
+  node dummy box02
+    parent crate_lid
+  endnode
+  node dummy object01
+    parent crate_lid
+  endnode
+  node dummy object02
+    parent crate_lid
+  endnode
+  node dummy pcs_c02_pwk
+    parent pcs_c02
+  endnode
+  node dummy c02_pwk_use01
+    parent pcs_c02_pwk
+  endnode
+  node dummy no_walk
+    parent pcs_c02_pwk
+  endnode
+doneanim open2close pcs_c02
+donemodel pcs_c02

@@ -1,0 +1,17 @@
+2DA V2.0
+
+      LABEL        RESREF           STRREF
+
+0     ****         ****             ****
+1     blue         gi_waypoint01    67281
+2     red          gi_waypoint02    67282
+3     green        gi_waypoint03    67284
+4     yellow       gi_waypoint04    67285
+5     detect       gi_waypoint05    16797717
+6     map          gi_waypoint06    16797718
+7     stealth      gi_waypoint07    16797719
+8     safe         gi_waypoint08    16797720
+9     shop         gi_waypoint09    16797721
+10    home         gi_waypoint10    16797722
+11    tavern       gi_waypoint11    16797723
+12    transition   gi_waypoint12    16797724

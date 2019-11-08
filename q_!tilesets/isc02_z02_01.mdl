@@ -1,0 +1,44 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Sat Apr 23 16:03:08 2011
+#MAXMODEL ASCII
+filedependency Unknown
+newmodel isc02_z02_01
+setsupermodel isc02_z02_01 null
+setanimationscale 1
+classification TILE
+#MAXGEOM ASCII
+beginmodelgeom isc02_z02_01
+node dummy isc02_z02_01
+  parent NULL
+endnode
+node trimesh black
+  parent isc02_z02_01
+  position 0 0 0.85
+  orientation 0 0 0 0
+  wirecolor 0.321569 0.411765 0.486275
+  tilefade 0
+  scale 1
+  render 1
+  shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1
+  transparencyhint 0
+  selfillumcolor 0 0 0
+  ambient 0 0 0
+  diffuse 0 0 0
+  specular 0 0 0
+  shininess 1
+  center 0 0 215
+  bitmap isc02_brick01
+  verts 4
+    5 5 2.15
+    5 -5 2.15
+    -5 5 2.15
+    -5 -5 2.15
+  faces 2
+    2 3 1 0 0 0 0 1
+    2 1 0 0 0 0 0 1
+endnode
+endmodelgeom isc02_z02_01
+donemodel isc02_z02_01

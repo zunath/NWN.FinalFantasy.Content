@@ -1,0 +1,50 @@
+# Exported from NWMax Plus v5.06.01 at 6/16/2014 7:09:06 PM
+# pwk file
+#
+#NWMax Plus PWKMESH  ASCII
+node trimesh Plane04
+  parent pl_harp_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.0313726 
+  multimaterial 30
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  bitmap NULL
+  verts 4
+    0.541425 0.096837 0.0
+    -0.541425 0.0968371 0.0
+    0.541425 -0.0968371 0.0
+    -0.541425 -0.096837 0.0
+  faces 2
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+endnode

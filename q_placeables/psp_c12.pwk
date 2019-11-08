@@ -1,0 +1,43 @@
+# Exported from NWmax 0.8 b61 at 11/30/2011 7:30:09 PM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node dummy c12_pwk_use01
+  parent psp_c12_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.894118 0.839216 0.6 
+endnode
+node dummy c12_pwk_use02
+  parent psp_c12_pwk
+  position 0.00186272 0.960062 0.0123607
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.878431 0.341176 0.560784 
+endnode
+node trimesh wok
+  parent psp_c12_pwk
+  position 1.36632 -0.0266575 2.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  bitmap NULL
+  verts 8
+    0.151728 0.505757 3.15
+    0.151727 0.505756 -2.0
+    0.151727 -0.505756 -2.0
+    0.151728 -0.505753 3.15
+    -2.88282 -0.505753 3.15
+    -2.88282 -0.505756 -2.0
+    -2.88282 0.505756 -2.0
+    -2.88282 0.505757 3.15
+  faces 10
+    2 1 0  1  0 0 0  7
+    0 3 2  1  0 0 0  7
+    6 5 4  1  0 0 0  7
+    4 7 6  1  0 0 0  7
+    4 5 2  0  0 0 0  7
+    2 3 4  0  0 0 0  7
+    7 4 3  0  0 0 0  7
+    3 0 7  0  0 0 0  7
+    0 1 6  0  0 0 0  7
+    6 7 0  0  0 0 0  7
+endnode

@@ -1,0 +1,1670 @@
+# Exported from NWMax Plus v5.06.01 at 11/14/2015 2:57:21 AM
+# mdl file
+#
+#NWMax Plus MODEL  ASCII
+# model: ctx1_y02_04
+filedependancy Unknown
+newmodel ctx1_y02_04
+setsupermodel ctx1_y02_04 null
+classification Tile
+#NWMax Plus GEOM  ASCII
+beginmodelgeom ctx1_y02_04
+node dummy ctx1_y02_04
+  parent NULL
+endnode
+node light ctx1_y02_04ml2
+  parent ctx1_y02_04
+  position 2.5 0.0 13.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  radius 5.0
+  multiplier 1.0
+  color 0.004 0.004 0.004 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 1
+endnode
+node light ctx1_y02_04ml1
+  parent ctx1_y02_04
+  position 0.0 0.0 13.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  radius 14.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 1
+endnode
+#Tile trimesh node
+node trimesh cylinder03
+  parent ctx1_y02_04
+  position -1.25 2.5 5.2
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 300.0 
+  bitmap tno01_bark02
+  verts 12
+    -0.4 0.0 0.0
+    -0.2 -0.35 0.0
+    -0.2 -0.35 6.0
+    -0.4 0.0 6.0
+    0.2 -0.35 0.0
+    0.2 -0.35 6.0
+    0.4 0.0 0.0
+    0.4 0.0 6.0
+    0.2 0.35 0.0
+    0.2 0.35 6.0
+    -0.2 0.35 0.0
+    -0.2 0.35 6.0
+  faces 12
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    1 4 5  1  4 5 6  0
+    5 2 1  1  6 7 4  0
+    4 6 7  1  8 9 10  0
+    7 5 4  1  10 11 8  0
+    6 8 9  1  9 12 13  0
+    9 7 6  1  13 10 9  0
+    8 10 11  1  14 15 16  0
+    11 9 8  1  16 17 14  0
+    10 0 3  1  18 0 3  0
+    3 11 10  1  3 19 18  0
+  tverts 20
+    0.25 0.04 0
+    0.319282 0.04 0
+    0.319282 1.24 0
+    0.25 1.24 0
+    0.66 0.04 0
+    0.74 0.04 0
+    0.74 1.24 0
+    0.66 1.24 0
+    0.680718 0.04 0
+    0.75 0.04 0
+    0.75 1.24 0
+    0.680718 1.24 0
+    0.819282 0.04 0
+    0.819282 1.24 0
+    0.26 0.04 0
+    0.34 0.04 0
+    0.34 1.24 0
+    0.26 1.24 0
+    0.180718 0.04 0
+    0.180718 1.24 0
+endnode
+#Tile trimesh node
+node trimesh p03
+  parent ctx1_y02_04
+  position -1.25 2.5 5.2
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 600.0 
+  bitmap tnx01_logend
+  verts 6
+    -0.2 -0.35 6.0
+    0.2 -0.35 6.0
+    0.4 0.0 6.0
+    0.2 0.35 6.0
+    -0.2 0.35 6.0
+    -0.4 0.0 6.0
+  faces 4
+    0 1 2  1  0 1 2  0
+    2 3 4  1  2 3 4  0
+    0 2 4  1  0 2 4  0
+    5 0 4  1  5 0 4  0
+  tverts 6
+    0.74975 0.9995 0
+    0.25025 0.999501 0
+    0.0004995 0.5 0
+    0.25025 0.0004995 0
+    0.74975 0.0004995 0
+    0.999501 0.5 0
+endnode
+#Tile trimesh node
+node trimesh p04
+  parent ctx1_y02_04
+  position -1.0 5.0 4.85
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 600.0 
+  bitmap tnx01_logend
+  verts 6
+    -0.2 -0.35 6.0
+    0.2 -0.35 6.0
+    0.4 0.0 6.0
+    0.2 0.35 6.0
+    -0.2 0.35 6.0
+    -0.4 0.0 6.0
+  faces 4
+    0 1 2  1  0 1 2  0
+    2 3 4  1  2 3 4  0
+    0 2 4  1  0 2 4  0
+    5 0 4  1  5 0 4  0
+  tverts 6
+    0.74975 0.9995 0
+    0.25025 0.999501 0
+    0.0004995 0.5 0
+    0.25025 0.0004995 0
+    0.74975 0.0004995 0
+    0.999501 0.5 0
+endnode
+#Tile trimesh node
+node trimesh cylinder04
+  parent ctx1_y02_04
+  position -1.0 5.0 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 292.5 
+  bitmap tno01_bark02
+  verts 12
+    -0.4 0.0 0.0
+    -0.2 -0.35 0.0
+    -0.2 -0.35 5.85
+    -0.4 0.0 5.85
+    0.2 -0.35 0.0
+    0.2 -0.35 5.85
+    0.4 0.0 0.0
+    0.4 0.0 5.85
+    0.2 0.35 0.0
+    0.2 0.35 5.85
+    -0.2 0.35 0.0
+    -0.2 0.35 5.85
+  faces 12
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    1 4 5  1  4 5 6  0
+    5 2 1  1  6 7 4  0
+    4 6 7  1  8 9 10  0
+    7 5 4  1  10 11 8  0
+    6 8 9  1  9 12 13  0
+    9 7 6  1  13 10 9  0
+    8 10 11  1  14 15 16  0
+    11 9 8  1  16 17 14  0
+    10 0 3  1  18 0 3  0
+    3 11 10  1  3 19 18  0
+  tverts 20
+    0.155666 0.0 0
+    0.224948 0.0 0
+    0.224948 1.17 0
+    0.155666 1.17 0
+    0.265256 0.0 0
+    0.345256 0.0 0
+    0.345256 1.17 0
+    0.265256 1.17 0
+    0.775052 0.0 0
+    0.844334 0.0 0
+    0.844334 1.17 0
+    0.775052 1.17 0
+    0.913616 0.0 0
+    0.913616 1.17 0
+    0.654744 0.0 0
+    0.734744 0.0 0
+    0.734744 1.17 0
+    0.654744 1.17 0
+    0.0863837 0.0 0
+    0.0863837 1.17 0
+endnode
+#Tile trimesh node
+node trimesh ground
+  parent ctx1_y02_04
+  position 0.0 0.0 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 1
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center -350.0 0.0 0.0 
+  bitmap tno01_grass
+  verts 10
+    -2.0 5.0 0.0
+    -5.0 5.0 0.0
+    -5.0 2.5 0.0
+    -2.25 2.5 0.0
+    -5.0 0.0 0.0
+    -2.4 0.0 0.0
+    -5.0 -2.5 0.0
+    -2.25 -2.5 0.0
+    -5.0 -5.0 0.0
+    -2.0 -5.0 0.0
+  faces 8
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    3 2 4  1  3 2 4  0
+    4 5 3  1  4 5 3  0
+    5 4 6  1  5 4 6  0
+    6 7 5  1  6 7 5  0
+    7 6 8  1  7 6 8  0
+    8 9 7  1  8 9 7  0
+  tverts 10
+    0.4 0.0 0
+    1.0 0.0 0
+    1.0 0.5 0
+    0.45 0.5 0
+    1.0 1.0 0
+    0.48 1.0 0
+    1.0 1.5 0
+    0.45 1.5 0
+    1.0 2.0 0
+    0.4 2.0 0
+endnode
+#Tile trimesh node
+node trimesh dirt
+  parent ctx1_y02_04
+  position 0.0 0.0 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritColor 0
+  rotateTexture 1
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center -170.0 0.0 37.5 
+  bitmap tno01_dirt01
+  verts 10
+    -1.25 2.5 0.7
+    -1.0 5.0 0.5
+    -2.0 5.0 0.0
+    -2.25 2.5 0.0
+    -2.4 0.0 0.0
+    -1.4 0.0 0.75
+    -2.25 -2.5 0.0
+    -1.25 -2.5 0.6
+    -2.0 -5.0 0.0
+    -1.0 -5.0 0.5
+  faces 8
+    0 1 2  1  0 1 2  0
+    0 3 4  1  0 3 4  0
+    4 5 0  1  4 5 0  0
+    5 4 6  1  5 4 6  0
+    6 7 5  1  6 7 5  0
+    7 6 8  1  7 6 8  0
+    2 3 0  1  2 3 0  0
+    8 9 7  1  8 9 7  0
+  tverts 10
+    0.25 0.5 0
+    0.2 0.0 0
+    0.4 0.0 0
+    0.45 0.5 0
+    0.48 1.0 0
+    0.28 1.0 0
+    0.45 1.5 0
+    0.25 1.5 0
+    0.4 2.0 0
+    0.2 2.0 0
+endnode
+#Tile trimesh node
+node trimesh walls
+  parent ctx1_y02_04
+  position 0.0 0.0 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center -120.0 0.0 275.0 
+  bitmap tno01_stone11d
+  verts 18
+    -1.0 5.0 0.5
+    -1.25 2.5 0.7
+    -1.25 2.5 5.0
+    -1.0 5.0 5.0
+    -1.25 -2.5 0.6
+    -1.0 -5.0 0.5
+    -1.0 -5.0 5.0
+    -1.25 -2.5 5.0
+    -1.4 0.0 5.0
+    -1.4 0.0 0.75
+    -1.36 -0.6 3.2
+    -1.36 -0.6 4.5
+    -1.29 -1.9 3.2
+    -1.29 -1.9 4.5
+    -1.29 1.9 3.2
+    -1.29 1.9 4.5
+    -1.36 0.6 3.2
+    -1.36 0.6 4.5
+  faces 24
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    4 5 6  1  4 5 6  0
+    6 7 4  1  6 7 4  0
+    8 9 10  1  8 9 10  0
+    10 11 8  1  10 11 8  0
+    10 9 4  1  10 9 4  0
+    4 12 10  1  4 12 10  0
+    4 7 13  1  4 7 13  0
+    13 12 4  1  13 12 4  0
+    7 8 11  1  7 8 11  0
+    11 13 7  1  11 13 7  0
+    2 1 14  1  2 1 14  0
+    14 15 2  1  14 15 2  0
+    1 9 16  1  1 9 16  0
+    16 14 1  1  16 14 1  0
+    9 8 17  1  9 8 17  0
+    17 16 9  1  17 16 9  0
+    8 2 15  1  8 2 15  0
+    15 17 8  1  15 17 8  0
+    15 14 16  2  15 14 16  1
+    15 16 17  2  15 16 17  1
+    11 10 12  2  11 10 12  1
+    11 12 13  2  11 12 13  1
+  tverts 18
+    0.0 0.274998 0
+    0.25 0.295001 0
+    0.25 0.725001 0
+    0.0 0.724998 0
+    0.75 0.285001 0
+    1.0 0.274998 0
+    1.0 0.724998 0
+    0.75 0.725001 0
+    0.5 0.725002 0
+    0.5 0.300002 0
+    0.56 0.545002 0
+    0.56 0.675002 0
+    0.69 0.545001 0
+    0.69 0.675001 0
+    0.31 0.545001 0
+    0.31 0.675001 0
+    0.44 0.545002 0
+    0.44 0.675002 0
+endnode
+#Tile trimesh node
+node trimesh up
+  parent ctx1_y02_04
+  position 0.0 0.0 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritColor 0
+  rotateTexture 1
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 205.0 0.0 500.0 
+  bitmap tnx01_plank
+  verts 15
+    5.0 5.0 5.0
+    2.5 5.0 5.0
+    2.5 2.5 5.0
+    5.0 2.5 5.0
+    -0.5 5.0 5.0
+    -0.75 2.5 5.0
+    2.5 0.0 5.0
+    5.0 0.0 5.0
+    -0.9 0.0 5.0
+    2.5 -2.5 5.0
+    5.0 -2.5 5.0
+    -0.75 -2.5 5.0
+    2.5 -5.0 5.0
+    5.0 -5.0 5.0
+    -0.5 -5.0 5.0
+  faces 16
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    4 5 2  1  4 5 2  0
+    2 1 4  1  2 1 4  0
+    3 2 6  1  3 2 6  0
+    6 7 3  1  6 7 3  0
+    2 5 8  1  2 5 8  0
+    8 6 2  1  8 6 2  0
+    7 6 9  1  7 6 9  0
+    9 10 7  1  9 10 7  0
+    6 8 11  1  6 8 11  0
+    11 9 6  1  11 9 6  0
+    10 9 12  1  10 9 12  0
+    12 13 10  1  12 13 10  0
+    9 11 14  1  9 11 14  0
+    14 12 9  1  14 12 9  0
+  tverts 15
+    0.0 0.0 0
+    0.5 0.0 0
+    0.5 0.5 0
+    0.0 0.5 0
+    1.1 0.0 0
+    1.15 0.5 0
+    0.5 1.0 0
+    0.0 1.0 0
+    1.18 1.0 0
+    0.5 1.5 0
+    0.0 1.5 0
+    1.15 1.5 0
+    0.5 2.0 0
+    0.0 2.0 0
+    1.1 2.0 0
+endnode
+#Tile trimesh node
+node trimesh trim
+  parent ctx1_y02_04
+  position -1.2 0.0 5.25
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 25.0 0.0 500.0 
+  bitmap tno01_wood04
+  verts 20
+    0.2 5.0 4.75
+    -0.05 2.5 4.75
+    -0.05 2.5 5.25
+    0.2 5.0 5.25
+    -0.2 0.0 4.75
+    -0.2 0.0 5.25
+    -0.05 -2.5 4.75
+    -0.05 -2.5 5.25
+    0.2 -5.0 4.75
+    0.2 -5.0 5.25
+    0.45 2.5 5.25
+    0.7 5.0 5.25
+    0.3 0.0 5.25
+    0.45 -2.5 5.25
+    0.7 -5.0 5.25
+    0.45 2.5 4.75
+    0.7 5.0 4.75
+    0.3 0.0 4.75
+    0.45 -2.5 4.75
+    0.7 -5.0 4.75
+  faces 24
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    1 4 5  1  1 4 5  0
+    5 2 1  1  5 2 1  0
+    4 6 7  1  4 6 7  0
+    7 5 4  1  7 5 4  0
+    6 8 9  1  6 8 9  0
+    9 7 6  1  9 7 6  0
+    3 2 10  2  10 11 12  0
+    10 11 3  2  12 13 10  0
+    2 5 12  2  11 14 15  0
+    12 10 2  2  15 12 11  0
+    5 7 13  2  14 16 17  0
+    13 12 5  2  17 15 14  0
+    7 9 14  2  16 18 19  0
+    14 13 7  2  19 17 16  0
+    11 10 15  1  9 7 6  0
+    15 16 11  1  6 8 9  0
+    10 12 17  1  7 5 4  0
+    17 15 10  1  4 6 7  0
+    12 13 18  1  5 2 1  0
+    18 17 12  1  1 4 5  0
+    13 14 19  1  2 3 0  0
+    19 18 13  1  0 1 2  0
+  tverts 20
+    1.1 0.0 0
+    1.1 0.5 0
+    0.999998 0.5 0
+    1.0 0.0 0
+    1.1 1.0 0
+    0.999996 1.0 0
+    1.09999 1.5 0
+    0.999995 1.5 0
+    1.09999 2.0 0
+    0.999993 2.0 0
+    0.1 0.0 0
+    0.1 0.5 0
+    0.0 0.5 0
+    0.0 0.0 0
+    0.1 1.0 0
+    0.0 1.0 0
+    0.1 1.5 0
+    0.0 1.5 0
+    0.1 2.0 0
+    0.0 2.0 0
+endnode
+#Tile trimesh node
+node trimesh up02
+  parent ctx1_y02_04
+  position 0.0 0.0 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 224.0 -250.0 505.0 
+  bitmap tno01_wood04
+  verts 15
+    4.75 -2.5 5.1
+    4.75 -4.75 5.1
+    5.0 -5.0 5.1
+    5.0 -2.5 5.1
+    2.5 -4.75 5.1
+    -0.52 -4.75 5.1
+    -0.5 -5.0 5.1
+    2.5 -5.0 5.1
+    2.5 -4.75 5.0
+    -0.52 -4.75 5.0
+    4.75 -2.5 5.0
+    4.75 -4.75 5.0
+    5.0 0.0 5.1
+    4.75 0.0 5.1
+    4.75 0.0 5.0
+  faces 16
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    4 5 6  1  4 5 6  0
+    6 7 4  1  6 7 4  0
+    1 4 7  1  8 4 7  0
+    7 2 1  1  7 9 8  0
+    8 9 5  1  10 11 5  0
+    5 4 8  1  5 4 10  0
+    10 11 1  1  12 13 1  0
+    1 0 10  1  1 0 12  0
+    11 8 4  1  14 10 4  0
+    4 1 11  1  4 15 14  0
+    0 3 12  1  0 3 16  0
+    12 13 0  1  16 17 0  0
+    10 0 13  1  12 0 17  0
+    13 14 10  1  17 18 12  0
+  tverts 19
+    0.1 0.6 0
+    0.1 0.950813 0
+    0.0505799 1.0 0
+    0.0505799 0.6 0
+    1.0 0.6 0
+    1.0 0.0 0
+    1.05258 0.0 0
+    1.05258 0.6 0
+    1.00001 0.946872 0
+    1.05258 1.0 0
+    0.980952 0.6 0
+    0.980952 0.0 0
+    0.119048 0.6 0
+    0.119048 0.950813 0
+    0.980952 0.946871 0
+    1.0 0.946872 0
+    0.0505799 0.0999999 0
+    0.1 0.0999999 0
+    0.119048 0.1 0
+endnode
+#Tile trimesh node
+node trimesh up05
+  parent ctx1_y02_04
+  position 0.0 0.0 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 225.0 250.0 505.0 
+  bitmap tno01_wood04
+  verts 15
+    2.5 4.75 5.1
+    4.75 4.75 5.1
+    5.0 5.0 5.1
+    2.5 5.0 5.1
+    -0.48 4.75 5.1
+    -0.5 5.0 5.1
+    4.75 0.0 5.1
+    5.0 0.0 5.1
+    5.0 2.5 5.1
+    4.75 2.5 5.1
+    4.75 0.0 5.0
+    4.75 2.5 5.0
+    -0.48 4.75 5.0
+    2.5 4.75 5.0
+    4.75 4.75 5.0
+  faces 16
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    4 0 3  1  4 0 3  0
+    3 5 4  1  3 5 4  0
+    6 7 8  1  6 7 8  0
+    8 9 6  1  8 9 6  0
+    1 9 8  1  10 9 8  0
+    8 2 1  1  8 11 10  0
+    10 6 9  1  12 6 9  0
+    9 11 10  1  9 13 12  0
+    12 13 0  1  14 15 0  0
+    0 4 12  1  0 4 14  0
+    13 14 1  1  15 16 1  0
+    1 0 13  1  1 0 15  0
+    14 11 9  1  17 13 9  0
+    9 1 14  1  9 18 17  0
+  tverts 19
+    0.1 0.6 0
+    0.1 0.950813 0
+    0.0505799 1.0 0
+    0.0505799 0.6 0
+    0.1 0.0 0
+    0.0505799 0.0 0
+    1.0 0.1 0
+    1.05258 0.0999998 0
+    1.05258 0.6 0
+    1.0 0.6 0
+    1.00001 0.946872 0
+    1.05258 1.0 0
+    0.980952 0.0999997 0
+    0.980952 0.6 0
+    0.119048 0.0 0
+    0.119048 0.6 0
+    0.119048 0.950813 0
+    0.980952 0.946871 0
+    1.0 0.946872 0
+endnode
+#Tile trimesh node
+node trimesh grass01
+  parent ctx1_y02_04
+  position 0.0 0.0 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center -212.5 0.0 25.0 
+  bitmap tno01_grassrim01
+  verts 8
+    -2.0 5.0 0.0
+    -2.25 2.5 0.0
+    -2.25 2.5 0.5
+    -2.0 5.0 0.5
+    -2.25 -2.5 0.0
+    -2.0 -5.0 0.0
+    -2.0 -5.0 0.5
+    -2.25 -2.5 0.5
+  faces 4
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    4 5 6  1  4 5 6  0
+    6 7 4  1  6 7 4  0
+  tverts 8
+    0.5 0.0 0
+    3.0 0.0 0
+    3.0 0.5 0
+    0.5 0.5 0
+    8.0 0.0 0
+    10.5 0.0 0
+    10.5 0.5 0
+    8.0 0.5 0
+endnode
+#Tile trimesh node
+node trimesh grass02
+  parent ctx1_y02_04
+  position 0.0 0.0 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center -212.5 0.0 25.0 
+  bitmap tno01_grassrim01
+  verts 8
+    -2.0 5.0 0.0
+    -2.0 5.0 0.5
+    -2.25 2.5 0.5
+    -2.25 2.5 0.0
+    -2.25 -2.5 0.0
+    -2.25 -2.5 0.5
+    -2.0 -5.0 0.5
+    -2.0 -5.0 0.0
+  faces 4
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    4 5 6  1  4 5 6  0
+    6 7 4  1  6 7 4  0
+  tverts 8
+    0.5 0.0 0
+    0.5 0.5 0
+    3.0 0.5 0
+    3.0 0.0 0
+    8.0 0.0 0
+    8.0 0.5 0
+    10.5 0.5 0
+    10.5 0.0 0
+endnode
+#Tile trimesh node
+node trimesh cylinder05
+  parent ctx1_y02_04
+  position -1.25 -2.5 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 300.0 
+  bitmap tno01_bark02
+  verts 12
+    -0.4 0.0 0.0
+    -0.2 -0.35 0.0
+    -0.2 -0.35 6.0
+    -0.4 0.0 6.0
+    0.2 -0.35 0.0
+    0.2 -0.35 6.0
+    0.4 0.0 0.0
+    0.4 0.0 6.0
+    0.2 0.35 0.0
+    0.2 0.35 6.0
+    -0.2 0.35 0.0
+    -0.2 0.35 6.0
+  faces 12
+    0 1 2  1  0 1 2  0
+    2 3 0  1  2 3 0  0
+    1 4 5  1  4 5 6  0
+    5 2 1  1  6 7 4  0
+    4 6 7  1  8 9 10  0
+    7 5 4  1  10 11 8  0
+    6 8 9  1  9 12 13  0
+    9 7 6  1  13 10 9  0
+    8 10 11  1  14 15 16  0
+    11 9 8  1  16 17 14  0
+    10 0 3  1  18 0 3  0
+    3 11 10  1  3 19 18  0
+  tverts 20
+    0.25 0.04 0
+    0.319282 0.04 0
+    0.319282 1.24 0
+    0.25 1.24 0
+    0.66 0.04 0
+    0.74 0.04 0
+    0.74 1.24 0
+    0.66 1.24 0
+    0.680718 0.04 0
+    0.75 0.04 0
+    0.75 1.24 0
+    0.680718 1.24 0
+    0.819282 0.04 0
+    0.819282 1.24 0
+    0.26 0.04 0
+    0.34 0.04 0
+    0.34 1.24 0
+    0.26 1.24 0
+    0.180718 0.04 0
+    0.180718 1.24 0
+endnode
+#Tile trimesh node
+node trimesh p05
+  parent ctx1_y02_04
+  position -1.25 -2.5 5.0
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 600.0 
+  bitmap tnx01_logend
+  verts 6
+    -0.2 -0.35 6.0
+    0.2 -0.35 6.0
+    0.4 0.0 6.0
+    0.2 0.35 6.0
+    -0.2 0.35 6.0
+    -0.4 0.0 6.0
+  faces 4
+    0 1 2  1  0 1 2  0
+    2 3 4  1  2 3 4  0
+    0 2 4  1  0 2 4  0
+    5 0 4  1  5 0 4  0
+  tverts 6
+    0.74975 0.9995 0
+    0.25025 0.999501 0
+    0.0004995 0.5 0
+    0.25025 0.0004995 0
+    0.74975 0.0004995 0
+    0.999501 0.5 0
+endnode
+node aabb wm
+  parent ctx1_y02_04
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  multimaterial 30
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  ambient 0.588 0.588 0.588 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Obscuring
+  verts 24
+    -2.0 5.0 5.0
+    -2.25 2.5 5.0
+    -1.25 2.5 10.0
+    -1.0 5.0 10.0
+    -2.4 0.0 5.0
+    -1.4 0.0 10.0
+    -2.25 -2.5 5.0
+    -1.25 -2.5 10.0
+    -2.0 -5.0 5.0
+    -1.0 -5.0 10.0
+    -0.75 2.5 10.0
+    -0.5 5.0 10.0
+    -0.9 0.0 10.0
+    -0.75 -2.5 10.0
+    -0.5 -5.0 10.0
+    -0.55 2.5 10.0
+    -0.3 5.0 10.0
+    -0.7 0.0 10.0
+    -0.55 -2.5 10.0
+    -0.3 -5.0 10.0
+    -5.0 5.0 5.0
+    -5.0 -5.0 5.0
+    5.0 5.0 10.0
+    5.0 -5.0 10.0
+  faces 34
+    0 1 2  1  0 0 0  2
+    2 3 0  1  0 0 0  2
+    1 4 5  1  0 0 0  2
+    5 2 1  1  0 0 0  2
+    4 6 7  1  0 0 0  2
+    7 5 4  1  0 0 0  2
+    6 8 9  1  0 0 0  2
+    9 7 6  1  0 0 0  2
+    3 2 10  1  0 0 0  7
+    10 11 3  1  0 0 0  7
+    2 5 12  1  0 0 0  7
+    12 10 2  1  0 0 0  7
+    5 7 13  1  0 0 0  7
+    13 12 5  1  0 0 0  7
+    7 9 14  1  0 0 0  7
+    14 13 7  1  0 0 0  7
+    11 10 15  1  0 0 0  7
+    15 16 11  1  0 0 0  7
+    10 12 17  1  0 0 0  7
+    17 15 10  1  0 0 0  7
+    12 13 18  1  0 0 0  7
+    18 17 12  1  0 0 0  7
+    13 14 19  1  0 0 0  7
+    19 18 13  1  0 0 0  7
+    1 0 20  2  0 0 0  3
+    4 1 20  2  0 0 0  3
+    20 21 4  2  0 0 0  3
+    6 4 21  2  0 0 0  3
+    8 6 21  2  0 0 0  3
+    16 15 22  1  0 0 0  5
+    15 17 23  1  0 0 0  5
+    23 22 15  1  0 0 0  5
+    17 18 23  1  0 0 0  5
+    18 19 23  1  0 0 0  5
+    aabb         -5.0 -5.0 5.0 5.0 5.0 10.0 -1
+        -5.0 -5.0 5.0 -0.75 5.0 10.0 -1
+        -5.0 -5.0 5.0 -0.75 0.0 10.0 -1
+        -5.0 -5.0 5.0 -1.0 -2.5 10.0 -1
+        -5.0 -5.0 5.0 -2.0 -2.5 5.0 28
+        -2.25 -5.0 5.0 -1.0 -2.5 10.0 -1
+        -2.25 -5.0 5.0 -1.0 -2.5 10.0 6
+        -2.25 -5.0 5.0 -1.0 -2.5 10.0 7
+        -5.0 -5.0 5.0 -0.75 0.0 10.0 -1
+        -5.0 -5.0 5.0 -2.25 0.0 5.0 27
+        -2.4 -2.5 5.0 -0.75 0.0 10.0 -1
+        -2.4 -2.5 5.0 -1.25 0.0 10.0 4
+        -2.4 -2.5 5.0 -0.75 0.0 10.0 -1
+        -2.4 -2.5 5.0 -1.25 0.0 10.0 5
+        -1.4 -2.5 10.0 -0.75 0.0 10.0 12
+        -5.0 -5.0 5.0 -0.9 5.0 10.0 -1
+        -5.0 -5.0 5.0 -0.9 5.0 10.0 -1
+        -5.0 -5.0 5.0 -2.4 5.0 5.0 26
+        -2.4 0.0 5.0 -0.9 2.5 10.0 -1
+        -2.4 0.0 5.0 -1.4 2.5 10.0 2
+        -2.25 0.0 5.0 -0.9 2.5 10.0 -1
+        -2.25 0.0 5.0 -1.25 2.5 10.0 3
+        -1.4 0.0 10.0 -0.9 2.5 10.0 10
+        -5.0 0.0 5.0 -1.0 5.0 10.0 -1
+        -5.0 0.0 5.0 -1.25 5.0 10.0 -1
+        -5.0 0.0 5.0 -2.25 5.0 5.0 25
+        -2.25 2.5 5.0 -1.25 5.0 10.0 0
+        -5.0 2.5 5.0 -1.0 5.0 10.0 -1
+        -5.0 2.5 5.0 -2.0 5.0 5.0 24
+        -2.0 2.5 5.0 -1.0 5.0 10.0 1
+        -1.4 -5.0 10.0 5.0 5.0 10.0 -1
+        -1.4 -5.0 10.0 5.0 2.5 10.0 -1
+        -1.25 -5.0 10.0 5.0 -2.5 10.0 -1
+        -1.25 -5.0 10.0 -0.3 -2.5 10.0 -1
+        -1.25 -5.0 10.0 -0.3 -2.5 10.0 -1
+        -1.25 -5.0 10.0 -0.5 -2.5 10.0 14
+        -0.75 -5.0 10.0 -0.3 -2.5 10.0 22
+        -1.25 -5.0 10.0 -0.3 -2.5 10.0 -1
+        -1.25 -5.0 10.0 -0.5 -2.5 10.0 15
+        -0.75 -5.0 10.0 -0.3 -2.5 10.0 23
+        -0.55 -5.0 10.0 5.0 -2.5 10.0 33
+        -1.4 -5.0 10.0 5.0 2.5 10.0 -1
+        -0.9 -5.0 10.0 5.0 0.0 10.0 -1
+        -0.9 -2.5 10.0 -0.55 0.0 10.0 20
+        -0.7 -5.0 10.0 5.0 0.0 10.0 32
+        -1.4 -5.0 10.0 5.0 2.5 10.0 -1
+        -1.4 -2.5 10.0 -0.55 0.0 10.0 -1
+        -1.4 -2.5 10.0 -0.75 0.0 10.0 13
+        -0.9 -2.5 10.0 -0.55 0.0 10.0 21
+        -0.7 -5.0 10.0 5.0 2.5 10.0 30
+        -1.25 -5.0 10.0 5.0 5.0 10.0 -1
+        -1.25 -5.0 10.0 5.0 5.0 10.0 -1
+        -0.9 -5.0 10.0 5.0 5.0 10.0 -1
+        -0.9 0.0 10.0 -0.7 2.5 10.0 18
+        -0.55 -5.0 10.0 5.0 5.0 10.0 31
+        -1.25 0.0 10.0 -0.55 2.5 10.0 -1
+        -1.25 0.0 10.0 -0.75 2.5 10.0 11
+        -0.75 0.0 10.0 -0.55 2.5 10.0 19
+        -1.25 2.5 10.0 5.0 5.0 10.0 -1
+        -1.25 2.5 10.0 -0.3 5.0 10.0 -1
+        -1.25 2.5 10.0 -0.5 5.0 10.0 -1
+        -1.25 2.5 10.0 -0.75 5.0 10.0 8
+        -0.75 2.5 10.0 -0.5 5.0 10.0 16
+        -1.0 2.5 10.0 -0.3 5.0 10.0 -1
+        -1.0 2.5 10.0 -0.5 5.0 10.0 9
+        -0.55 2.5 10.0 -0.3 5.0 10.0 17
+        -0.55 2.5 10.0 5.0 5.0 10.0 29
+endnode
+#Tile trimesh node
+node trimesh hearth_main
+  parent ctx1_y02_04
+  position -1.7 0.2 4.94
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 8.0 -19.0 168.5 
+  bitmap tno01_stone11d
+  verts 29
+    -0.64 -1.99 0.06
+    1.02 -2.37 0.06
+    0.92 -2.27 0.85
+    -0.55 -1.97 0.93
+    0.88 -1.89 1.75
+    -0.5 -1.63 1.81
+    0.88 -1.79 2.64
+    -0.29 -1.49 2.69
+    1.02 1.99 0.06
+    -0.64 1.61 0.06
+    -0.55 1.59 0.91
+    0.92 1.88 0.88
+    -0.49 1.32 1.79
+    0.89 1.58 1.79
+    -0.29 1.19 2.67
+    0.9 1.46 2.66
+    0.9 -1.39 3.13
+    -0.21 -1.19 3.19
+    -0.21 0.85 3.19
+    0.91 1.06 3.13
+    0.92 -1.03 3.26
+    -0.07 -0.89 3.31
+    -0.07 0.53 3.31
+    0.93 0.67 3.26
+    -0.21 -0.19 3.19
+    -0.37 -0.19 2.69
+    -0.66 -0.19 1.81
+    -0.74 -0.19 0.93
+    -0.86 -0.19 0.06
+  faces 39
+    0 1 2  1  0 1 2  4
+    2 3 0  1  2 3 0  4
+    3 2 4  1  3 2 4  4
+    4 5 3  1  4 5 3  4
+    5 4 6  1  5 4 6  4
+    6 7 5  1  6 7 5  4
+    8 9 10  1  8 9 10  3
+    10 11 8  1  10 11 8  3
+    11 10 12  1  11 10 12  3
+    12 13 11  1  12 13 11  3
+    13 12 14  1  13 12 14  3
+    14 15 13  1  14 15 13  3
+    7 6 16  1  7 6 16  1
+    16 17 7  1  16 17 7  1
+    15 14 18  1  15 14 18  1
+    18 19 15  1  18 19 15  1
+    17 16 20  1  17 16 20  1
+    20 21 17  1  20 21 17  1
+    19 18 22  1  19 18 22  1
+    22 23 19  1  22 23 19  1
+    22 18 24  1  24 25 26  1
+    22 24 21  1  24 26 27  1
+    24 17 21  1  26 28 27  1
+    18 14 25  1  25 29 30  1
+    18 25 24  1  25 30 26  1
+    24 25 7  1  26 30 31  1
+    24 7 17  1  26 31 28  1
+    14 12 26  1  29 32 33  1
+    14 26 25  1  29 33 30  1
+    25 26 5  1  30 33 34  1
+    25 5 7  1  30 34 31  1
+    12 10 27  1  32 35 36  1
+    12 27 26  1  32 36 33  1
+    26 27 3  1  33 36 37  1
+    26 3 5  1  33 37 34  1
+    10 9 28  1  35 38 39  1
+    10 28 27  1  35 39 36  1
+    27 28 0  1  36 39 40  1
+    27 0 3  1  36 40 37  1
+  tverts 41
+    0.397542 0.00326459 0
+    0.631841 -0.00153089 0
+    0.61582 0.100185 0
+    0.40924 0.111943 0
+    0.601004 0.233474 0
+    0.407607 0.241318 0
+    0.598531 0.348558 0
+    0.432596 0.360057 0
+    0.368141 -0.00133612 0
+    0.602837 0.0033192 0
+    0.591124 0.109897 0
+    0.38445 0.104975 0
+    0.589711 0.235306 0
+    0.395996 0.2349 0
+    0.565815 0.353633 0
+    0.397629 0.349218 0
+    0.591348 0.433628 0
+    0.436016 0.440804 0
+    0.563433 0.439427 0
+    0.40624 0.431796 0
+    0.585155 0.472175 0
+    0.447565 0.475756 0
+    0.552411 0.475574 0
+    0.413244 0.472142 0
+    0.396989 0.472506 0
+    0.351232 0.450353 0
+    0.49999 0.450384 0
+    0.600101 0.472549 0
+    0.643027 0.450414 0
+    0.302608 0.375776 0
+    0.500007 0.375311 0
+    0.685946 0.378599 0
+    0.284035 0.246957 0
+    0.500038 0.242842 0
+    0.705994 0.249383 0
+    0.245421 0.12382 0
+    0.500047 0.118901 0
+    0.754632 0.12667 0
+    0.24257 0.00358643 0
+    0.500059 -0.00529357 0
+    0.757502 0.00369494 0
+endnode
+#Tile trimesh node
+node trimesh object631
+  parent ctx1_y02_04
+  position -1.19 0.0 12.99
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 1.0 
+  bitmap tno01_chimtop01
+  verts 8
+    -0.35 0.38 0.01
+    -0.4 0.31 0.01
+    0.4 -0.32 0.01
+    0.31 0.4 0.01
+    0.37 0.38 0.01
+    -0.36 -0.37 0.01
+    0.36 -0.37 0.01
+    -0.32 -0.4 0.01
+  faces 6
+    0 1 2  1  0 1 2  0
+    3 0 2  1  3 0 2  0
+    4 3 2  1  4 3 2  0
+    1 5 2  1  1 5 2  0
+    6 2 5  1  6 2 5  0
+    5 7 6  1  5 7 6  0
+  tverts 8
+    1.05291 0.983134 0
+    0.99835 0.890877 0
+    2.01073 0.0899044 0
+    1.909 1.00088 0
+    1.99275 0.933733 0
+    1.01633 0.0470487 0
+    1.95242 0.0193224 0
+    1.09633 0.00157115 0
+endnode
+node dummy ctx1_y02_04a
+  parent ctx1_y02_04
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0313726 0.0313726 0.533333 
+endnode
+node emitter tb_smoke
+  parent ctx1_y02_04a
+  position -1.185 0.005 13.0
+  orientation 0.0 0.0 1.0 -0.139626
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 1.0
+  ySize 1.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.12549 0.12549 0.12549 
+  colorEnd 0.756863 0.756863 0.756863 
+  alphaStart 0.4
+  alphaEnd 0.0
+  sizeStart 1.5
+  sizeEnd 3.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 0
+  lifeExp 7.0
+  mass -0.01
+  spread 1.0472
+  particleRot 1.5
+  velocity 1.5
+  randvel 0.2
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 15
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+#Tile trimesh node
+node trimesh hearth_main001
+  parent ctx1_y02_04
+  position -1.7 0.2 4.94
+  orientation  0.0 0.0 0.0  0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 45.5 -18.0 566.0 
+  bitmap tno01_stone11d
+  verts 16
+    -0.07 0.53 3.31
+    -0.07 -0.89 3.31
+    0.02 -0.87 4.04
+    0.03 0.48 4.05
+    0.92 -1.03 3.26
+    0.94 -0.99 4.05
+    0.93 0.67 3.26
+    0.95 0.65 4.05
+    0.06 0.38 5.83
+    0.05 -0.77 5.82
+    0.98 0.38 5.83
+    0.97 -0.77 5.83
+    0.15 -0.57 8.06
+    0.87 -0.57 8.06
+    0.16 0.18 8.06
+    0.88 0.18 8.06
+  faces 22
+    0 1 2  1  0 1 2  1
+    2 3 0  1  2 3 0  1
+    1 4 5  1  4 5 6  1
+    5 2 1  1  6 7 4  1
+    6 0 3  1  8 9 10  1
+    3 7 6  1  10 11 8  1
+    8 3 2  1  12 3 2  1
+    8 2 9  1  12 2 13  1
+    10 7 3  1  14 11 10  1
+    10 3 8  1  14 10 15  1
+    9 2 5  1  16 7 6  1
+    9 5 11  1  16 6 17  1
+    11 5 7  1  18 19 20  1
+    11 7 10  1  18 20 21  1
+    12 9 11  1  22 16 17  1
+    12 11 13  1  22 17 23  1
+    14 8 9  1  24 12 13  1
+    14 9 12  1  24 13 25  1
+    13 11 10  1  26 18 21  1
+    13 10 15  1  26 21 27  1
+    15 10 8  1  28 14 15  1
+    15 8 14  1  28 15 29  1
+  tverts 30
+    0.425118 0.350516 0
+    0.575106 0.350585 0
+    0.572924 0.42814 0
+    0.430322 0.429195 0
+    0.446591 0.356555 0
+    0.550485 0.350778 0
+    0.552286 0.433178 0
+    0.455808 0.432601 0
+    0.448611 0.350868 0
+    0.553591 0.356547 0
+    0.543648 0.433838 0
+    0.446709 0.43303 0
+    0.440861 0.617042 0
+    0.562338 0.615977 0
+    0.445935 0.620094 0
+    0.541401 0.619428 0
+    0.45823 0.618331 0
+    0.553872 0.619858 0
+    0.436893 0.619328 0
+    0.413698 0.431951 0
+    0.586393 0.431959 0
+    0.557993 0.619329 0
+    0.467233 0.852679 0
+    0.542084 0.853061 0
+    0.461909 0.852799 0
+    0.541136 0.852769 0
+    0.457855 0.854273 0
+    0.536837 0.854269 0
+    0.458044 0.853151 0
+    0.532757 0.852629 0
+endnode
+endmodelgeom ctx1_y02_04
+
+#NWMax Plus ANIM  ASCII
+newanim animloop01 ctx1_y02_04
+  length 0.633333
+  transtime 0.25
+  animroot ctx1_y02_04
+    node dummy ctx1_y02_04
+        parent NULL
+    endnode
+    node light ctx1_y02_04ml2
+        parent ctx1_y02_04
+    endnode
+    node light ctx1_y02_04ml1
+        parent ctx1_y02_04
+    endnode
+    node trimesh cylinder03
+        parent ctx1_y02_04
+    endnode
+    node trimesh p03
+        parent ctx1_y02_04
+    endnode
+    node trimesh p04
+        parent ctx1_y02_04
+    endnode
+    node trimesh cylinder04
+        parent ctx1_y02_04
+    endnode
+    node trimesh ground
+        parent ctx1_y02_04
+    endnode
+    node trimesh dirt
+        parent ctx1_y02_04
+    endnode
+    node trimesh walls
+        parent ctx1_y02_04
+    endnode
+    node trimesh up
+        parent ctx1_y02_04
+    endnode
+    node trimesh trim
+        parent ctx1_y02_04
+    endnode
+    node trimesh up02
+        parent ctx1_y02_04
+    endnode
+    node trimesh up05
+        parent ctx1_y02_04
+    endnode
+    node trimesh grass01
+        parent ctx1_y02_04
+    endnode
+    node trimesh grass02
+        parent ctx1_y02_04
+    endnode
+    node trimesh cylinder05
+        parent ctx1_y02_04
+    endnode
+    node trimesh p05
+        parent ctx1_y02_04
+    endnode
+    node aabb wm
+        parent ctx1_y02_04
+    endnode
+    node trimesh hearth_main
+        parent ctx1_y02_04
+    endnode
+    node trimesh object631
+        parent ctx1_y02_04
+    endnode
+    node dummy ctx1_y02_04a
+        parent ctx1_y02_04
+    endnode
+    node emitter tb_smoke
+        parent ctx1_y02_04a
+        birthratekey
+            0.0 7 
+            0.333333 4 
+            0.633333 7 
+        endlist
+    endnode
+    node trimesh hearth_main001
+        parent ctx1_y02_04
+    endnode
+doneanim animloop01 ctx1_y02_04
+
+
+#NWMax Plus ANIM  ASCII
+newanim tiledefault ctx1_y02_04
+  length 0.0333333
+  transtime 0.25
+  animroot ctx1_y02_04
+    node dummy ctx1_y02_04
+        parent NULL
+    endnode
+    node light ctx1_y02_04ml2
+        parent ctx1_y02_04
+    endnode
+    node light ctx1_y02_04ml1
+        parent ctx1_y02_04
+    endnode
+    node trimesh cylinder03
+        parent ctx1_y02_04
+    endnode
+    node trimesh p03
+        parent ctx1_y02_04
+    endnode
+    node trimesh p04
+        parent ctx1_y02_04
+    endnode
+    node trimesh cylinder04
+        parent ctx1_y02_04
+    endnode
+    node trimesh ground
+        parent ctx1_y02_04
+    endnode
+    node trimesh dirt
+        parent ctx1_y02_04
+    endnode
+    node trimesh walls
+        parent ctx1_y02_04
+    endnode
+    node trimesh up
+        parent ctx1_y02_04
+    endnode
+    node trimesh trim
+        parent ctx1_y02_04
+    endnode
+    node trimesh up02
+        parent ctx1_y02_04
+    endnode
+    node trimesh up05
+        parent ctx1_y02_04
+    endnode
+    node trimesh grass01
+        parent ctx1_y02_04
+    endnode
+    node trimesh grass02
+        parent ctx1_y02_04
+    endnode
+    node trimesh cylinder05
+        parent ctx1_y02_04
+    endnode
+    node trimesh p05
+        parent ctx1_y02_04
+    endnode
+    node aabb wm
+        parent ctx1_y02_04
+    endnode
+    node trimesh hearth_main
+        parent ctx1_y02_04
+    endnode
+    node trimesh object631
+        parent ctx1_y02_04
+    endnode
+    node dummy ctx1_y02_04a
+        parent ctx1_y02_04
+    endnode
+    node emitter tb_smoke
+        parent ctx1_y02_04a
+        birthratekey
+            0.0 0 
+            0.0333333 0 
+        endlist
+    endnode
+    node trimesh hearth_main001
+        parent ctx1_y02_04
+    endnode
+doneanim tiledefault ctx1_y02_04
+
+donemodel ctx1_y02_04

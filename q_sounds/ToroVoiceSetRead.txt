@@ -1,0 +1,67 @@
+April 24, 2004.
+
+soundset 2da file already contains toro voicesets, CEP, and DLA Treant
+soundset2da info: (even if you don't use the CEP or treant, this doesn't affect anything)
+
+256           Treant
+850-899    CEP
+970-999    Toro voicesets
+
+I have also unlocked all npc and monster voicesets that have speech. 
+Also I found a hidden surprise and was quite easily able to restore a Bioware voiceset that was not working called "minotaur Zor"
+
+Custom TLK Info:
+I have also created a custom tlk. to use with these soundsets so that text will accompany everything that is spoken.
+It is not absolutely necesary to use the tlk but without it you will not see the text.
+My tlk occupies lines 128000-128999, as posted on the tlk thread on the BIO forums. This should be compatible with mostly everything out there as of now.
+For you convienience I have also included a already merged tlk of the voicesets + CEP
+
+
+These voicesets will be named as follows and appear at the bottom of the list:
+
+fAnnahxx  will appear as Tiefling,female
+fMortexx will appear as Male 1
+fedwinxx will appear as Male 2
+fguybrus will appear as Male 3
+frMinscm will appear as Male 4
+fVhailor will appear as Cleric, Battle priest
+fSrArtus will appear as Paladin,Champion of Torm
+fImoenxx will appear as Female 1
+fScarabx will appear as Assassin
+fIrlanxx  will appear as Rogue,swashbuckler (female)
+fbrekkex will appear as Priestess
+fkorganx will appear as Dwarf, Male
+fcalista will appear as Mercenary
+falgerno will appear as Old man
+fnatasha will appear as Rogue, Gypsy
+fsorchan will appear as Female 2
+fscarlet will appear as Female 3
+ftheresa will appear as Cleric, Battle priest
+fkurtzxx will appear as Soldier
+fnigelxx will appear as Half orc, male 1
+frhettxx will appear as Male 5
+
+
+
+Thats all for now !!!!
+
+
+Huge credit goes to Sander Philpse,
+Sorceror Place
+http://www.sorcerers.net/index.shtml
+Vox Populi
+http://www.merrymeet.com/voxpopuli/
+
+and a good friend; Rich G.  a.k.a 'Nippin Tuck' for helping me with the grunt work.
+
+
+
+
+To use:
+Place all the wav. and ssf files and soundset 2da in your override.
+Associate the tlk with your mod.
+thats it.
+
+Multiplayer use:  Include the ssf files in your haks (these are very small 2k each). Then as an optional
+choice offer the ssf and wav. files and soundset 2da in a separate download for override. In case you're wondering, including the small ssf files in the hak will  enable all those who do not want to download the optional(larger) wav files to still see the text only when a player is using a custom voice provided everyone is using the same soundset 2da.
+

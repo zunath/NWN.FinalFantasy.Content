@@ -1,0 +1,16 @@
+# Exported from NWmax 0.8 b61 at 1/5/2009 7:37:01 AM
+# dwk file
+#
+#NWmax DWKMESH  ASCII
+node dummy 01_DWK_dp_closed_01
+  parent door_tp_01_DWK
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.337255 0.337255 
+endnode
+node dummy 01_DWK_dp_closed_02
+  parent door_tp_01_DWK
+  position 0.0 0.6 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.780392 0.882353 
+endnode

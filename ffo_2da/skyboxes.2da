@@ -1,0 +1,16 @@
+2DA V2.0
+                                                                                                                                                                                              
+    LABEL           STRING_REF  CYCLICAL    DAWN              DAY               DUSK              NIGHT
+
+0   None            ****        ****        ****              ****              ****              ****
+1   Grass_Clear     ****        1           Skyda_001         Sky_001           Skyd_001          Skyn_001
+2   Grass_Storm	    ****        1           SSkyda_001        SSky_001          SSkyd_001         SSkyn_001
+3   Desert_Clear    ****        1           DSkyda_001        DSky_001          DSkyd_001         DSkyn_001
+4   Winter_Clear    ****        1           WSkyda_001        WSky_001          WSkyd_001         WSkyn_001
+5   Icy    	    ****        0           ISky_001          ISky_001          ISky_001          ISky_001
+6   Black           ****        0           Skybl_001         Skybl_001         Skybl_001         Skybl_001
+7   "Overcast 1"    ****        1           sky_q_ovrcast_1a  sky_q_ovrcast_1a  sky_q_ovrcast_1b  sky_q_ovrcast_1b
+8   "Overcast 2"    ****        1           sky_q_ovrcast_2a  sky_q_ovrcast_2a  sky_q_ovrcast_2b  sky_q_ovrcast_2b
+9   "Overcast 3"    ****        1           sky_q_ovrcast_3a  sky_q_ovrcast_3b  sky_q_ovrcast_3c  sky_q_ovrcast_3b
+10  "Underdark"     ****        0           sky_under         sky_under         sky_under         sky_under
+11  "Purgatory"     ****        0           pur01_ovrcast_2a  pur01_ovrcast_2a  pur01_ovrcast_2a  pur01_ovrcast_2a  

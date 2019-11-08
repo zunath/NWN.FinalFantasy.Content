@@ -1,0 +1,26 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Thu Feb 10 13:20:05 2011
+#MAXWALKMESH  ASCII
+beginwalkmeshgeom isc02_a00_01
+node aabb wok
+  parent isc02_a00_01
+  position 0 0 0
+  wirecolor 0.337255 0.337255 0.337255
+  ambient 0.588 0.588 0.588
+  diffuse 1 1 1
+  specular 0 0 0
+  shininess 10
+  orientation 0 0 0 0
+  bitmap NULL
+  verts 4
+    -5 5 3
+    -5 -5 3
+    5 -5 3
+    5 5 3
+  faces 2
+    0 1 2 0 0 0 0 2
+    0 2 3 0 0 0 0 2
+  aabb     -5 -5 3 5 5 3 -1
+    -5 -5 3 5 5 3 0
+    -5 -5 3 5 5 3 1
+endnode
+endwalkmeshgeom isc02_a00_01

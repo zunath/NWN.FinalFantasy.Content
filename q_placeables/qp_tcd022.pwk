@@ -1,0 +1,10 @@
+# Exported from NWmax 0.8 b61 at 6/8/2008 4:49:38 AM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node dummy x45_pwk_use01
+  parent qp_tcd022_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.603922 0.72549 0.898039 
+endnode

@@ -1,0 +1,30 @@
+# Rewritten by CleanModels 3 Version 3.2.2.1 Wed Aug 14 14:27:23 2013
+#MAXWALKMESH  ASCII
+beginwalkmeshgeom thv01_e01_02
+node aabb w_box546
+  parent thv01_e01_02
+  wirecolor 0.686275 0.101961 0.101961
+  bitmap NULL
+  orientation 0 0 0 0
+  position 0 0 0
+  verts 6
+    -5 -5 3.35
+    5 -5 3.35
+    -5 5 3.35
+    5 5 3.35
+    -5 -1.51 3.5
+    -5 1.51 3.5
+  faces 4
+    0 1 4 4 0 0 0 2
+    3 5 4 4 0 0 0 2
+    4 1 3 4 0 0 0 2
+    3 2 5 4 0 0 0 2
+  aabb     -5 -5 3.35 5 5 3.5 -1
+    -5 -5 3.35 5 5 3.5 -1
+    -5 -5 3.35 5 -1.51 3.5 0
+    -5 -1.51 3.35 5 5 3.5 -1
+    -5 -1.51 3.35 5 5 3.5 1
+    -5 1.51 3.35 5 5 3.5 3
+    -5 -5 3.35 5 5 3.5 2
+endnode
+endwalkmeshgeom thv01_e01_02

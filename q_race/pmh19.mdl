@@ -1,0 +1,360 @@
+#MAXMODEL ASCII
+# model: pmh19
+filedependancy pmh19.max
+newmodel pmh19
+setsupermodel pmh19 arh_anims
+classification CHARACTER
+setanimationscale 1
+#MAXGEOM  ASCII
+beginmodelgeom pmh19
+node dummy pmh19
+  parent NULL
+endnode
+node dummy rootdummy
+  parent pmh19
+  position -0.000405171 0.0200069 1.2072
+  orientation 0 0 0 0
+endnode
+node dummy torso_g
+  parent rootdummy
+  position 0.000405168 0.0108289 0.000205994
+  orientation 0 0 0 0
+endnode
+node dummy neck_g
+  parent torso_g
+  position 0 -0.0810528 0.46895
+  orientation 0 0 0 0
+endnode
+node dummy head_g
+  parent neck_g
+  position 0 0.0186997 0.0767157
+  orientation 0 0 0 0
+endnode
+node dummy head
+  parent head_g
+  position 0 -0.000279422 0.19265
+  orientation 0 0 0 0
+endnode
+node dummy lbicep_g
+  parent torso_g
+  position -0.201005 -0.0794903 0.349985
+  orientation 0 0 0 0
+endnode
+node dummy lshoulder_g
+  parent lbicep_g
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy lforearm_g
+  parent lbicep_g
+  position -0.0390346 0.0212191 -0.301921
+  orientation 0 0 0 0
+endnode
+node dummy lhand_g
+  parent lforearm_g
+  position -0.03309 0.0228936 -0.291763
+  orientation 0 0 0 0
+endnode
+node dummy rbicep_g
+  parent torso_g
+  position 0.20101 -0.0794903 0.349986
+  orientation 0 0 0 0
+endnode
+node dummy rshoulder_g
+  parent rbicep_g
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy rforearm_g
+  parent rbicep_g
+  position 0.03903 0.0212191 -0.301921
+  orientation 0 0 0 0
+endnode
+node dummy rhand_g
+  parent rforearm_g
+  position 0.03309 0.0228936 -0.291763
+  orientation 0 0 0 0
+endnode
+node dummy cloak_g
+  parent torso_g
+  position 0.00295819 -0.104661 0.437523
+  orientation 0 0 0 0
+endnode
+node dummy cl1_fg
+  parent cloak_g
+  position -0.23 0.00382541 0.0321132
+  orientation 0 0 0 0
+endnode
+node dummy cr1_fg
+  parent cloak_g
+  position 0.23 0.00382541 0.0321132
+  orientation 0 0 0 0
+endnode
+node dummy cloak_shl
+  parent cloak_g
+  position -0.102 0 0.0450706
+  orientation 0 0 0 0
+endnode
+node dummy cloak_shr
+  parent cloak_g
+  position 0.102 0 0.0450706
+  orientation 0 0 0 0
+endnode
+node dummy cl1_g
+  parent cloak_g
+  position -0.23 0.00382543 0.0130705
+  orientation 0 0 0 0
+endnode
+node dummy cl2_g
+  parent cl1_g
+  position -0.02 -0.0959283 -0.4392
+  orientation 0 0 0 0
+endnode
+node dummy cl3_g
+  parent cl2_g
+  position -0.015 -0.00907169 -0.324
+  orientation 0 0 0 0
+endnode
+node dummy cl4_g
+  parent cl3_g
+  position -0.025 -0.018 -0.4545
+  orientation 0 0 0 0
+endnode
+node dummy cm1_g
+  parent cloak_g
+  position 0 -0.0998233 -0.0490833
+  orientation 0 0 0 0
+endnode
+node dummy cm2_g
+  parent cm1_g
+  position 0 -0.00684542 -0.396761
+  orientation 0 0 0 0
+endnode
+node dummy cm3_g
+  parent cm2_g
+  position 0 -0.0238787 -0.315
+  orientation 0 0 0 0
+endnode
+node dummy cm4_g
+  parent cm3_g
+  position 0 -0.0259983 -0.453952
+  orientation 0 0 0 0
+endnode
+node dummy cr1_g
+  parent cloak_g
+  position 0.23 0.00382545 0.0130705
+  orientation 0 0 0 0
+endnode
+node dummy cr2_g
+  parent cr1_g
+  position 0.02 -0.0959283 -0.4392
+  orientation 0 0 0 0
+endnode
+node dummy cr3_g
+  parent cr2_g
+  position 0.015 -0.00907209 -0.324
+  orientation 0 0 0 0
+endnode
+node dummy cr4_g
+  parent cr3_g
+  position 0.025 -0.018 -0.4545
+  orientation 0 0 0 0
+endnode
+node dummy wings
+  parent torso_g
+  position -0.0125054 -0.120155 0.248746
+  orientation 0 0 0 0
+endnode
+node dummy impact
+  parent torso_g
+  position -0.0125054 0.10645 0.267087
+  orientation 1 0 0 0
+endnode
+node dummy pelvis_g
+  parent rootdummy
+  position 0.000405168 0.0108289 0.000205994
+  orientation 0 0 0 0
+endnode
+node dummy tail
+  parent pelvis_g
+  position 0.000507381 -0.168357 -0.179517
+  orientation 0 0 0 0
+endnode
+node dummy lthigh_g
+  parent pelvis_g
+  position -0.108069 -0.0234426 -0.182441
+  orientation 0 0 0 0
+endnode
+node dummy lshin_g
+  parent lthigh_g
+  position 0.0306218 -0.0164711 -0.460936
+  orientation 0 0 0 0
+endnode
+node dummy lfoot_g
+  parent lshin_g
+  position 0.020427 -0.0666266 -0.427408
+  orientation 0 0 0 0
+endnode
+node dummy rthigh_g
+  parent pelvis_g
+  position 0.10807 -0.0234426 -0.182441
+  orientation 0 0 0 0
+endnode
+node dummy rshin_g
+  parent rthigh_g
+  position -0.03062 -0.0164711 -0.460936
+  orientation 0 0 0 0
+endnode
+node dummy rfoot_g
+  parent rshin_g
+  position -0.02043 -0.0666267 -0.427408
+  orientation 0 0 0 0
+endnode
+node dummy belt_g
+  parent pelvis_g
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy belt_g1
+  parent rootdummy
+  position 0.00356029 0.0103383 0.000206528
+  orientation 0 0 0 0
+endnode
+node dummy fb1_g01
+  parent belt_g1
+  position -0.00335206 -0.16484 -0.0984306
+  orientation 0 0 0 0
+endnode
+node dummy fb2_g01
+  parent fb1_g01
+  position 0 -0.0156227 -0.207602
+  orientation 0 0 0 0
+endnode
+node dummy fb4_g01
+  parent fb2_g01
+  position 0 -0.00694341 -0.267343
+  orientation 0 0 0 0
+endnode
+node dummy tf1_g
+  parent belt_g1
+  position -0.00335204 0.109909 -0.0979372
+  orientation 0 0 0 0
+endnode
+node dummy tf1l_g
+  parent tf1_g
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy tf2_g
+  parent tf1_g
+  position 0 0.0087712 -0.319176
+  orientation 0 0 0 0
+endnode
+node dummy tf3_g01
+  parent tf2_g
+  position 0 -0.0228551 -0.160326
+  orientation 0 0 0 0
+endnode
+node dummy tf1r_g
+  parent tf1_g
+  position 0 0 0
+  orientation 0 0 0 0
+endnode
+node dummy handconjure
+  parent pmh19
+  position 0.00713298 0.395733 1.51766
+  orientation 0 0 0 0
+endnode
+node dummy headconjure
+  parent pmh19
+  position -9.17205e-05 -0.147674 2.3983
+  orientation 0 0 0 0
+endnode
+node dummy h_controller
+  parent pmh19
+  position -0.000405171 0.0200069 1.2072
+  orientation 0 0 0 0
+endnode
+node dummy lhand
+  parent h_controller
+  position -0.28806 -0.0245489 -0.338011
+  orientation 0 0 0 0
+endnode
+node dummy rhand
+  parent h_controller
+  position 0.284603 -0.0245487 -0.33962
+  orientation 0 0 0 0
+endnode
+node dummy lforearm
+  parent h_controller
+  position -0.269817 -0.0474425 -0.138764
+  orientation 1.50038e-06 -1 -5.047751e-05 -0.069811
+endnode
+node emitter auroraemitter01
+  parent h_controller
+  p2p 0
+  p2p_sel 0
+  affectedByWind 0
+  m_isTinted 0
+  bounce 0
+  random 0
+  inherit 0
+  inheritvel 0
+  inherit_local 0
+  inherit_part 0
+  splat 0
+  renderorder 0
+  spawntype 0
+  update Explosion
+  render Aligned_to_Particle_Dir
+  blend Lighten
+  texture wave2
+  xgrid 1
+  ygrid 1
+  loop 0
+  deadspace 0
+  twosidedtex 1
+  blastRadius 0
+  blastLength 0
+  position 0.000405171 0.379522 0.319833
+  orientation -0.2492431 0.6847912 0.6847912 -3.63013
+  xsize 0
+  ysize 0
+  threshold 0
+  combinetime 0
+  colorStart 1 1 1
+  colorEnd 1 1 1
+  alphaStart 1
+  alphaEnd 0
+  sizeStart 2
+  sizeEnd 2
+  sizeStart_y 0
+  sizeEnd_y 0
+  birthrate 10
+  lifeExp 1
+  mass 0
+  spread 0
+  particleRot 0
+  velocity 5
+  randvel 0
+  bounce_co 0
+  blurlength 0
+  fps 1
+  frameStart 0
+  frameEnd 0
+  lightningDelay 0
+  lightningRadius 0
+  lightningScale 0
+  p2p_bezier2 0
+  p2p_bezier3 0
+  grav 0
+  drag 0
+endnode
+node dummy auroraemitter01_xydimension
+  parent auroraemitter01
+  position 0 0 1.52742e-07
+  orientation 0 0 0 0
+endnode
+endmodelgeom pmh19
+
+donemodel pmh19

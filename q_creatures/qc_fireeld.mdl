@@ -1,0 +1,3342 @@
+# Exported from NWmax v4.10.01 at 11/24/2013 5:59:09 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: qc_fireeld
+filedependancy Unknown
+newmodel qc_fireeld
+setsupermodel qc_fireeld qc_fire
+classification Character
+setanimationscale 1.2
+#NWmax GEOM  ASCII
+beginmodelgeom qc_fireeld
+node dummy qc_fireeld
+  parent NULL
+endnode
+node dummy root_dummy
+  parent qc_fireeld
+  position -0.000689572 -0.0221458 0.187468
+  orientation -0.57735 0.57735 -0.57735 -4.18879
+  wirecolor 0.894118 0.839216 0.6 
+endnode
+node trimesh legs
+  parent root_dummy
+  position -0.0574492 -0.195742 -0.00413013
+  orientation -0.0359934 -0.995817 -0.0839845 -4.96797e-006
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 4
+    0.0 -1.11482 -0.0008796
+    -0.526258 0.0382667 -0.472697
+    0.428684 0.200887 -0.00087972
+    -0.526258 0.0382667 0.470936
+  faces 4
+    0 1 2  1  0 0 0  1
+    2 3 0  2  0 0 0  0
+    0 3 1  4  0 0 0  3
+    2 1 3  8  0 0 0  4
+endnode
+node trimesh torso
+  parent legs
+  position -0.010255 -1.12429 0.00451651
+  orientation -0.163678 0.98207 -0.0935305 -6.28318
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 4
+    0.0 -0.9135 0.00129458
+    -0.429177 0.00946285 -0.406738
+    0.429177 0.00946271 -0.00199633
+    -0.429177 0.00946283 0.402745
+  faces 4
+    0 1 2  1  0 0 0  1
+    2 3 0  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    0 3 1  8  0 0 0  3
+endnode
+node trimesh neck
+  parent torso
+  position 0.0102549 -0.926514 0.0137184
+  orientation 0.111324 -0.979654 0.166987 -5.35414e-006
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 4
+    0.0 -0.63306 0.00941364
+    -0.243559 0.0130142 -0.263374
+    0.243559 0.0130141 0.00941364
+    -0.243559 0.0130142 0.2822
+  faces 4
+    0 1 2  1  0 0 0  1
+    2 3 0  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    0 3 1  8  0 0 0  3
+endnode
+node emitter neck_emitter
+  parent neck
+  position -0.147029 -0.159494 -0.354741
+  orientation -0.674349 0.522137 -0.522137 -2.37321
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 40.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 9
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.870588 0.0 
+  alphaStart 0.1
+  alphaEnd 0.0
+  sizeStart 3.0
+  sizeEnd 2.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 6.0
+  mass 0.01
+  spread 6.28319
+  particleRot 0.0
+  velocity 0.2
+  randvel 0.1
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh head
+  parent neck
+  position -0.00846338 -0.600155 -0.0111733
+  orientation 0.0 0.0 1.0 -5.9603
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 4
+    0.119781 -0.0737246 -0.00536305
+    -0.148249 -0.0416177 -0.0843927
+    -0.0443678 -0.437344 -0.0112633
+    -0.148249 -0.0416177 0.0815819
+  faces 4
+    0 1 2  1  0 0 0  0
+    1 0 2  2  0 0 0  0
+    0 2 3  1  0 0 0  0
+    3 2 0  2  0 0 0  0
+endnode
+node emitter head_emitter01
+  parent head
+  position -0.0328793 -0.150171 -0.00268953
+  orientation -0.462324 0.709715 -0.531565 -1.49086
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 35.0
+  ySize 35.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 11
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.870588 0.0 
+  alphaStart 0.1
+  alphaEnd 0.0
+  sizeStart 3.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 6.0
+  mass 0.01
+  spread 6.28319
+  particleRot 0.0
+  velocity 0.2
+  randvel 0.1
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter NWNEmitter15
+  parent head
+  position -0.419172 -0.0047345 -0.249243
+  orientation -0.465156 -0.486313 -0.739682 -1.66666
+  wirecolor 1.0 1.0 1.0 
+  update_sel 2
+  update Single
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 1.0
+  ySize 1.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 19
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.784314 0.0 0.0 
+  colorEnd 0.784314 0.0 0.0 
+  alphaStart 0.4
+  alphaEnd 0.4
+  sizeStart 0.2
+  sizeEnd 0.2
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 0.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 1.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_strk_b
+  twosidedtex 1
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter NWNEmitter39
+  parent head
+  position -0.422572 0.00162872 -0.252394
+  orientation 0.923929 -0.310645 0.223281 -4.78653
+  wirecolor 1.0 1.0 1.0 
+  update_sel 2
+  update Single
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 1.0
+  ySize 1.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 19
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.784314 0.0 0.0 
+  colorEnd 0.784314 0.0 0.0 
+  alphaStart 0.4
+  alphaEnd 0.4
+  sizeStart 0.2
+  sizeEnd 0.2
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 0.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 1.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_strk_b
+  twosidedtex 1
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter NWNEmitter16
+  parent head
+  position -0.367134 -0.00969696 0.231628
+  orientation 0.447419 0.520477 -0.727269 -1.73882
+  wirecolor 1.0 1.0 1.0 
+  update_sel 2
+  update Single
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 1.0
+  ySize 1.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 19
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.784314 0.0 0.0 
+  colorEnd 0.784314 0.0 0.0 
+  alphaStart 0.4
+  alphaEnd 0.4
+  sizeStart 0.2
+  sizeEnd 0.2
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 0.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 1.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_strk_b
+  twosidedtex 1
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter NWNEmitter42
+  parent head
+  position -0.373737 -0.0148746 0.234084
+  orientation -0.145357 0.74796 -0.647632 -2.76993
+  wirecolor 1.0 1.0 1.0 
+  update_sel 2
+  update Single
+  render_sel 3
+  render Billboard_to_Local_Z
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 1.0
+  ySize 1.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 19
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.784314 0.0 0.0 
+  colorEnd 0.784314 0.0 0.0 
+  alphaStart 0.4
+  alphaEnd 0.4
+  sizeStart 0.2
+  sizeEnd 0.2
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 1
+  lifeExp 0.0
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 1.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_strk_b
+  twosidedtex 1
+  xgrid 1
+  ygrid 1
+  fps 0
+  frameStart 0
+  frameEnd 0
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt07
+  parent neck
+  position 0.132198 -0.0696344 -0.973535
+  orientation 0.595565 0.684209 -0.420904 -3.6361
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.00803593 -0.0498054 -0.0245429
+    -0.00803592 0.0498054 -0.0245429
+    0.7177 1.53761e-007 0.000359787
+    -0.00803591 0.0498054 0.0252625
+    -0.00803592 -0.0498054 0.0252625
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter20
+  parent rt07
+  position 0.041218 -0.00574139 0.0086853
+  orientation 0.0 -1.0 0.0 -1.57952
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 1
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.05
+  alphaEnd 0.1
+  sizeStart 0.7
+  sizeEnd 0.7
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.5
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 1.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 0.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt08
+  parent rt07
+  position 0.667608 -0.0035574 0.0
+  orientation 0.0 -1.0 2.65715e-007 -5.57633
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0424045 -0.0533629 -0.024543
+    -0.0424045 0.0533629 -0.024543
+    0.697561 0.0 0.000359666
+    -0.0424045 0.0533629 0.0252624
+    -0.0424045 -0.0533629 0.0252624
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter21
+  parent rt08
+  position 0.0536707 -0.00218395 0.00155762
+  orientation -2.09169e-007 -1.0 -2.33372e-007 -1.5708
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 2
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.7
+  sizeEnd 0.7
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.5
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 1.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt09
+  parent rt08
+  position 0.658349 0.0 0.00702606
+  orientation 2.20818e-007 -1.0 -5.70728e-007 -5.12255
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0390542 -0.0462478 -0.0186744
+    -0.0390542 0.0462479 -0.0186744
+    0.601301 -1.19225e-007 -0.000886785
+    -0.0390542 0.0462479 0.0169009
+    -0.0390542 -0.0462479 0.0169009
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter22
+  parent rt09
+  position 0.0318076 -0.00218395 -0.0026918
+  orientation 3.27603e-006 1.0 -5.87714e-006 -4.72985
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 3
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.6
+  sizeEnd 0.6
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.7
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.6
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt10
+  parent rt09
+  position 0.560511 -0.00355766 -3.05176e-007
+  orientation -8.0844e-006 -1.0 -1.0765e-005 -5.5676
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0232464 -0.0569205 -0.0186743
+    -0.0232464 0.0569204 -0.0186743
+    0.496152 -1.81537e-007 0.00267083
+    -0.0232464 0.0569204 0.0240159
+    -0.0232464 -0.0569205 0.024016
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter23
+  parent rt10
+  position 0.041221 0.00137352 -0.00531128
+  orientation -3.66035e-007 1.0 1.69877e-005 -4.72984
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 15.0
+  ySize 10.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 4
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.5
+  sizeEnd 0.5
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.65
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.5
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt11
+  parent rt10
+  position 0.488128 0.0 0.00568115
+  orientation 1.63281e-005 1.0 3.59268e-005 -5.67232
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0275514 -0.0569204 -0.0301117
+    -0.0275514 0.0569205 -0.0301118
+    0.399352 -1.73166e-007 -0.00876661
+    -0.0275514 0.0569205 0.0125786
+    -0.0275514 -0.0569204 0.0125787
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node trimesh rt12
+  parent rt11
+  position 0.387539 -4.19617e-007 -0.00609146
+  orientation -2.17074e-005 1.0 -9.02191e-005 -5.35816
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0237614 -0.0426903 -0.0184678
+    -0.0237614 0.0426904 -0.0184679
+    0.30353 0.0 -0.000680444
+    -0.0237614 0.0426903 0.0171074
+    -0.0237614 -0.0426904 0.0171075
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter25
+  parent rt12
+  position 0.00332886 0.00137348 -0.00817688
+  orientation -1.69754e-005 -1.0 4.04651e-005 -1.60568
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 5.0
+  ySize 5.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 6
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.870588 0.0 
+  alphaStart 0.1
+  alphaEnd 0.0
+  sizeStart 0.3
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.7
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.4
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 0.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter NWNEmitter30
+  parent rt11
+  position 0.00110443 -0.0056237 -0.0159308
+  orientation -0.606374 0.512036 -0.608384 -4.13784
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 5.0
+  ySize 5.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 5
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.4
+  sizeEnd 0.4
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.6
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.4
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt13
+  parent neck
+  position 0.303972 -0.706201 0.596038
+  orientation 0.76255 -0.0954086 0.639855 -4.70321
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.00803592 -0.0498053 -0.0245431
+    -0.00803579 0.0498054 -0.0245431
+    0.717701 0.0 0.000359484
+    -0.00803579 0.0498054 0.0252623
+    -0.00803593 -0.0498053 0.0252623
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter26
+  parent rt13
+  position 0.0412181 -0.00574108 0.00868561
+  orientation 0.0 1.0 3.37461e-007 -4.70367
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 1
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.05
+  alphaEnd 0.1
+  sizeStart 0.7
+  sizeEnd 0.7
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.5
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 1.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 0.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt14
+  parent rt13
+  position 0.66761 -0.00355747 -3.05176e-007
+  orientation -4.73576e-007 1.0 -2.67732e-007 -0.706858
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0424046 -0.0533629 -0.024543
+    -0.0424046 0.0533629 -0.024543
+    0.697561 0.0 0.000359747
+    -0.0424046 0.0533629 0.0252624
+    -0.0424046 -0.0533629 0.0252624
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter27
+  parent rt14
+  position 0.0536702 -0.00218382 0.00155731
+  orientation 0.0 1.0 1.28005e-007 -4.71238
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 2
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.7
+  sizeEnd 0.7
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.5
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 1.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt15
+  parent rt14
+  position 0.658349 0.0 0.00702698
+  orientation -2.8876e-007 1.0 1.206e-007 -1.16064
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0390542 -0.0462478 -0.0186744
+    -0.0390543 0.0462479 -0.0186744
+    0.601301 -2.57635e-007 -0.000886635
+    -0.0390543 0.0462479 0.0169009
+    -0.0390542 -0.0462478 0.0169009
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter28
+  parent rt15
+  position 0.0318082 -0.00218426 -0.00269234
+  orientation -1.48622e-006 -1.0 -1.02166e-006 -1.55334
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 3
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.6
+  sizeEnd 0.6
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.7
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.6
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt16
+  parent rt15
+  position 0.560513 -0.00355791 1.52588e-007
+  orientation -2.93592e-006 1.0 1.91473e-006 -0.715584
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0232465 -0.0569204 -0.0186743
+    -0.0232466 0.0569204 -0.0186742
+    0.496152 -3.46639e-007 0.00267091
+    -0.0232466 0.0569205 0.0240161
+    -0.0232465 -0.0569204 0.024016
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter29
+  parent rt16
+  position 0.0412209 0.00137362 -0.00531128
+  orientation -8.04485e-006 -1.0 1.78463e-006 -1.55335
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 15.0
+  ySize 10.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 4
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.5
+  sizeEnd 0.5
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.65
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.5
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt17
+  parent rt16
+  position 0.488128 -4.19617e-007 0.00568115
+  orientation -1.46183e-005 -1.0 1.21902e-005 -0.61087
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0275516 -0.0569203 -0.0301117
+    -0.0275517 0.0569205 -0.0301117
+    0.399352 -4.99166e-007 -0.00876592
+    -0.0275517 0.0569205 0.0125786
+    -0.0275516 -0.0569203 0.0125786
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node trimesh rt18
+  parent rt17
+  position 0.387538 -4.76837e-007 -0.00609146
+  orientation -6.27839e-006 -1.0 1.11876e-005 -0.925029
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0237615 -0.0426902 -0.0184679
+    -0.0237616 0.0426904 -0.0184679
+    0.303531 -4.59379e-007 -0.00067982
+    -0.0237616 0.0426904 0.0171073
+    -0.0237614 -0.0426902 0.0171073
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter31
+  parent rt18
+  position 0.0145605 0.00252918 -0.012417
+  orientation 0.703792 -0.00406936 0.710395 -3.08951
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 5.0
+  ySize 5.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 6
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.870588 0.0 
+  alphaStart 0.1
+  alphaEnd 0.0
+  sizeStart 0.3
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.7
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.4
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 0.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter NWNEmitter24
+  parent rt17
+  position -0.000367126 0.000265503 -0.00512527
+  orientation 0.695205 0.0148649 0.718657 -3.12476
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 5.0
+  ySize 5.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 5
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.4
+  sizeEnd 0.4
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.6
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.4
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter torso_emiter
+  parent torso
+  position -0.510572 -0.313411 0.387364
+  orientation -0.4783 0.4783 -0.736518 -1.87196
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 40.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 8
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.870588 0.0 
+  alphaStart 0.1
+  alphaEnd 0.0
+  sizeStart 3.0
+  sizeEnd 2.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 6.0
+  mass 0.01
+  spread 6.28319
+  particleRot 0.0
+  velocity 0.2
+  randvel 0.1
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter head_emitter02
+  parent torso
+  position -0.0386031 -0.0400195 -0.776557
+  orientation 0.554034 -0.710554 0.433773 -3.64884
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 40.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 6
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.870588 0.0 
+  alphaStart 0.1
+  alphaEnd 0.0
+  sizeStart 2.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 6.0
+  mass 0.01
+  spread 6.28319
+  particleRot 0.0
+  velocity 0.2
+  randvel 0.1
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt1
+  parent torso
+  position 0.059147 0.0187973 0.764288
+  orientation -0.0760871 0.60812 -0.79019 -2.19793
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0080358 -0.0498054 -0.0245431
+    -0.0080358 0.0498054 -0.0245431
+    0.717699 0.0 0.000359658
+    -0.0080358 0.0498054 0.0252623
+    -0.0080358 -0.0498054 0.0252623
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter05
+  parent rt1
+  position 0.041218 -0.00574146 0.00868591
+  orientation 0.0 1.0 -2.29056e-007 -4.70367
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 1
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.05
+  alphaEnd 0.1
+  sizeStart 0.7
+  sizeEnd 0.7
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.5
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 1.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 0.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt2
+  parent rt1
+  position 0.667608 -0.00355789 1.52588e-007
+  orientation 1.50683e-007 1.0 0.0 -0.706858
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0424046 -0.0533629 -0.0245431
+    -0.0424046 0.0533629 -0.0245431
+    0.697561 0.0 0.000359709
+    -0.0424046 0.0533629 0.0252623
+    -0.0424046 -0.0533629 0.0252623
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter06
+  parent rt2
+  position 0.0536706 -0.00218391 0.00155724
+  orientation 0.0 1.0 -1.67022e-007 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 2
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.7
+  sizeEnd 0.7
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.5
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 1.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt3
+  parent rt2
+  position 0.65835 0.0 0.00702591
+  orientation 1.76653e-007 1.0 0.0 -1.16064
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0390542 -0.046248 -0.0186744
+    -0.0390542 0.0462478 -0.0186744
+    0.601301 0.0 -0.00088692
+    -0.0390542 0.0462478 0.0169009
+    -0.0390542 -0.046248 0.0169009
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter07
+  parent rt3
+  position 0.0318076 -0.0021838 -0.00269165
+  orientation 4.59047e-007 -1.0 6.36602e-007 -1.55334
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 3
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.6
+  sizeEnd 0.6
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.7
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.6
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt4
+  parent rt3
+  position 0.560512 -0.00355755 3.05176e-007
+  orientation 1.04246e-006 1.0 0.0 -0.715585
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0232465 -0.0569204 -0.0186743
+    -0.0232465 0.0569206 -0.0186743
+    0.496152 0.0 0.0026709
+    -0.0232465 0.0569206 0.0240161
+    -0.0232465 -0.0569204 0.0240161
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter08
+  parent rt4
+  position 0.0412207 0.00137363 -0.00531174
+  orientation 2.55845e-006 -1.0 -1.7127e-007 -1.55334
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 15.0
+  ySize 10.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 4
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.5
+  sizeEnd 0.5
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.65
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.5
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt5
+  parent rt4
+  position 0.48916 -3.43323e-007 0.005233
+  orientation 4.75717e-006 -1.0 -2.92368e-006 -0.610867
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0275513 -0.0569204 -0.0301117
+    -0.0275513 0.0569204 -0.0301118
+    0.399353 -2.23924e-007 -0.00876682
+    -0.0275513 0.0569204 0.0125786
+    -0.0275514 -0.0569204 0.0125787
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter09
+  parent rt5
+  position 0.00498886 0.00137398 -0.007472
+  orientation -2.12026e-006 1.0 1.74954e-006 -4.68619
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 5.0
+  ySize 5.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 5
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.4
+  sizeEnd 0.4
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.6
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.4
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt6
+  parent rt5
+  position 0.387539 0.0 -0.00609314
+  orientation 2.27091e-006 -1.0 -3.79877e-006 -0.925028
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0237613 -0.0426902 -0.0184681
+    -0.0237614 0.0426903 -0.0184681
+    0.303532 -3.34896e-007 -0.000680905
+    -0.0237614 0.0426903 0.0171071
+    -0.0237613 -0.0426903 0.0171071
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter10
+  parent rt6
+  position 0.00333008 0.00137375 -0.00817657
+  orientation -2.61088e-006 1.0 -4.5345e-007 -4.67748
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 5.0
+  ySize 5.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 6
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.870588 0.0 
+  alphaStart 0.1
+  alphaEnd 0.0
+  sizeStart 0.3
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.7
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.4
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 0.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter head_emitter04
+  parent torso
+  position 0.0129819 -0.464203 0.00975751
+  orientation 0.0327802 0.999455 -0.00399984 -1.59528
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 70.0
+  ySize 70.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 20
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.870588 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.0
+  sizeStart 0.5
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 0.35
+  mass 0.0
+  spread 6.28319
+  particleRot 0.0
+  velocity 0.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter leg_emitter
+  parent legs
+  position 0.246907 -0.145177 -0.221821
+  orientation -0.565365 0.723635 -0.395873 -2.20362
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 40.0
+  ySize 40.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 7
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.870588 0.0 
+  alphaStart 0.1
+  alphaEnd 0.0
+  sizeStart 3.0
+  sizeEnd 2.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 3
+  lifeExp 6.0
+  mass 0.01
+  spread 6.28319
+  particleRot 0.0
+  velocity 0.2
+  randvel 0.1
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt19
+  parent legs
+  position -0.626918 -0.37713 -0.415442
+  orientation 0.420731 0.706891 -0.568586 -3.19095
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.00803591 -0.0498054 -0.0245431
+    -0.00803592 0.0498054 -0.0245431
+    0.717699 0.0 0.000359519
+    -0.00803592 0.0498054 0.0252623
+    -0.00803591 -0.0498054 0.0252623
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter32
+  parent rt19
+  position 0.0412176 -0.0057414 0.00868599
+  orientation 1.69224e-007 -1.0 -3.16479e-007 -1.57952
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 1
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.5
+  alphaEnd 0.1
+  sizeStart 0.7
+  sizeEnd 0.7
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.5
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 1.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 0.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt20
+  parent rt19
+  position 0.667609 -0.00355741 0.0
+  orientation 0.0 -1.0 8.7316e-007 -5.57633
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0424046 -0.0533629 -0.024543
+    -0.0424046 0.0533629 -0.024543
+    0.697561 0.0 0.000359675
+    -0.0424046 0.0533629 0.0252624
+    -0.0424046 -0.0533629 0.0252624
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter33
+  parent rt20
+  position 0.0536703 -0.00218431 0.00155716
+  orientation 0.0 1.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 2
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.7
+  sizeEnd 0.7
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.5
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 1.0
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt21
+  parent rt20
+  position 0.658349 0.0 0.00702566
+  orientation 2.58187e-007 -1.0 0.0 -5.12255
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0390542 -0.0462479 -0.0186743
+    -0.0390542 0.0462479 -0.0186743
+    0.601301 0.0 -0.000886694
+    -0.0390542 0.0462479 0.0169009
+    -0.0390542 -0.0462479 0.0169009
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter34
+  parent rt21
+  position 0.031808 -0.00218405 -0.00269196
+  orientation -1.24206e-007 1.0 -1.68887e-007 -4.72985
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 30.0
+  ySize 15.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 3
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.6
+  sizeEnd 0.6
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.7
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.6
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt22
+  parent rt21
+  position 0.560512 -0.00355768 -1.52588e-007
+  orientation -5.10594e-007 -1.0 4.68045e-007 -5.5676
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0232465 -0.0569205 -0.0186744
+    -0.0232465 0.0569205 -0.0186744
+    0.496152 0.0 0.00267099
+    -0.0232465 0.0569205 0.0240159
+    -0.0232465 -0.0569205 0.024016
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter35
+  parent rt22
+  position 0.041221 0.00137341 -0.00531174
+  orientation 1.32678e-006 1.0 -8.91719e-007 -4.72985
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 15.0
+  ySize 10.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 4
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.5
+  sizeEnd 0.5
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.65
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.5
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt23
+  parent rt22
+  position 0.488129 -1.52588e-007 0.00568146
+  orientation 1.09019e-006 1.0 -3.27056e-006 -5.67232
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0275512 -0.0569205 -0.0301117
+    -0.0275512 0.0569205 -0.0301118
+    0.399353 0.0 -0.00876646
+    -0.0275512 0.0569205 0.0125786
+    -0.0275511 -0.0569205 0.0125787
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter36
+  parent rt23
+  position 0.00498856 0.00137354 -0.00747208
+  orientation 4.69041e-007 -1.0 -1.16707e-006 -1.59698
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 5.0
+  ySize 5.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 5
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.611765 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.4
+  sizeEnd 0.4
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.6
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.4
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node trimesh rt24
+  parent rt23
+  position 0.387539 3.8147e-007 -0.00609268
+  orientation 0.0 1.0 2.22082e-006 -5.35816
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center undefined
+  bitmap NULL
+  verts 5
+    -0.0237615 -0.0426903 -0.0184681
+    -0.0237615 0.0426904 -0.0184682
+    0.303531 0.0 -0.000680581
+    -0.0237616 0.0426904 0.0171072
+    -0.0237615 -0.0426903 0.0171072
+  faces 6
+    0 1 2  1  0 0 0  1
+    2 3 4  2  0 0 0  0
+    2 1 3  4  0 0 0  4
+    1 0 4  8  0 0 0  3
+    4 3 1  8  0 0 0  3
+    2 4 0  16  0 0 0  5
+endnode
+node emitter NWNEmitter37
+  parent rt24
+  position 0.00332886 0.00137304 -0.00817596
+  orientation 3.60519e-006 -1.0 1.22009e-007 -1.60571
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 5.0
+  ySize 5.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 6
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.870588 0.0 
+  alphaStart 0.1
+  alphaEnd 0.1
+  sizeStart 0.3
+  sizeEnd 0.1
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 4
+  lifeExp 0.7
+  mass 0.0
+  spread 0.0
+  particleRot 0.0
+  velocity 0.4
+  randvel 0.0
+  bounce_co 0.0
+  blurlength 0.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node emitter head_emitter03
+  parent legs
+  position 0.00272692 -1.58849 0.014274
+  orientation 0.107238 -0.994231 0.00223862 -4.69803
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 0
+  xSize 100.0
+  ySize 100.0
+  inherit 0
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.611765 0.0 
+  colorEnd 1.0 0.870588 0.0 
+  alphaStart 0.3
+  alphaEnd 0.0
+  sizeStart 2.0
+  sizeEnd 3.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 2
+  lifeExp 6.0
+  mass 0.01
+  spread 6.28319
+  particleRot 0.0
+  velocity 0.5
+  randvel 0.1
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 32
+  frameStart 0
+  frameEnd 15
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node dummy handconjure
+  parent root_dummy
+  position 0.61812 -4.33111 -0.0131536
+  orientation -0.629756 0.396192 -0.668161 -2.3418
+  wirecolor 0.694118 0.109804 0.584314 
+endnode
+endmodelgeom qc_fireeld
+donemodel qc_fireeld

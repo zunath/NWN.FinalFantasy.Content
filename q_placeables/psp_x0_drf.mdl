@@ -1,0 +1,280 @@
+# Exported from NWMax Plus v5.06.01 at 11/7/2015 3:41:36 PM
+# mdl file
+#
+#NWMax Plus MODEL  ASCII
+# model: psp_x0_drf
+filedependancy Unknown
+newmodel psp_x0_drf
+setsupermodel psp_x0_drf NULL
+classification Character
+setanimationscale 1.0
+#NWMax Plus GEOM  ASCII
+beginmodelgeom psp_x0_drf
+node dummy psp_x0_drf
+  parent NULL
+endnode
+node trimesh damage48
+  parent psp_x0_drf
+  position -0.000867298 0.01114 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 0
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 0.0705882 0.0 1.0 
+  Diffuse 1.0 0.501961 0.643137 
+  Specular 0.0 0.0 0.0 
+  shininess 24
+  center 0.0 0.0 25.0 
+  bitmap NULL
+  verts 12
+    -0.195415 -0.186216 0.0
+    -0.195415 0.186216 0.0
+    0.195415 0.186216 0.0
+    0.195415 -0.186216 0.0
+    -0.195415 -0.186216 0.5
+    0.195415 -0.186216 0.5
+    0.195415 0.186216 0.5
+    -0.195415 0.186216 0.5
+    0.103944 -0.0990513 0.25
+    -0.103944 -0.0990513 0.25
+    0.103944 0.0990513 0.25
+    -0.103944 0.0990513 0.25
+  faces 20
+    0 1 2  1  0 1 2  0
+    2 3 0  1  0 1 2  0
+    4 5 6  1  0 1 2  0
+    6 7 4  1  0 1 2  0
+    0 3 8  1  0 1 2  0
+    8 9 0  1  0 1 2  0
+    9 8 5  1  0 1 2  0
+    5 4 9  1  0 1 2  0
+    3 2 10  1  0 1 2  0
+    10 8 3  1  0 1 2  0
+    8 10 6  1  0 1 2  0
+    6 5 8  1  0 1 2  0
+    2 1 11  1  0 1 2  0
+    11 10 2  1  0 1 2  0
+    10 11 7  1  0 1 2  0
+    7 6 10  1  0 1 2  0
+    1 0 9  1  0 1 2  0
+    9 11 1  1  0 1 2  0
+    11 9 4  1  0 1 2  0
+    4 7 11  1  0 1 2  0
+  tverts 3
+    0.0 0.0 0
+    0.0 0.0 0
+    0.0 0.0 0
+endnode
+node trimesh Rectangle103
+  parent damage48
+  position 0.0113681 -0.0190706 0.01
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center -0.264992 -0.964001 0.0 
+  bitmap qp_grnsplotch
+  verts 4
+    -2.51923 1.21078 0.0
+    -2.4898 -1.28626 0.0
+    2.51393 -1.23007 0.0
+    2.4845 1.26698 0.0
+  faces 2
+    0 1 2  1  0 1 2  1
+    3 0 2  1  3 0 2  1
+  tverts 4
+    0.234978 0.512202 0
+    0.506437 0.512202 0
+    0.506437 0.98659 0
+    0.234978 0.98659 0
+endnode
+node emitter fire!90
+  parent psp_x0_drf
+  position 0.00665037 -0.00826465 0.174662
+  orientation 1.0 0.0 0.0 -4.71239
+  wirecolor 1.0 1.0 1.0 
+  update_sel 3
+  update Explosion
+  render_sel 1
+  render Normal
+  blend_sel 1
+  Blend Normal
+  spawnType 0
+  xSize 100.0
+  ySize 99.0
+  inherit 1
+  inherit_local 0
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.47451 0.454902 0.407843 
+  colorEnd 0.819608 0.803922 0.745098 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 4.0
+  sizeEnd 1.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 2.5
+  mass 0.09
+  spread 2.96706
+  particleRot 0.5
+  velocity 2.0
+  randvel 0.5
+  bounce_co 0.0
+  blurlength 10.0
+  loop 0
+  bounce 0
+  m_isTinted 1
+  Splat 0
+  affectedByWind false
+  texture fxpa_smoke01
+  twosidedtex 1
+  xgrid 4
+  ygrid 4
+  fps 10
+  frameStart 0
+  frameEnd 24
+  random 0
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.2
+  blastLength 1.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+endmodelgeom psp_x0_drf
+
+#NWMax Plus ANIM  ASCII
+newanim damage psp_x0_drf
+  length 0.133333
+  transtime 0.0
+  animroot psp_x0_drf
+    node dummy psp_x0_drf
+        parent NULL
+    endnode
+    node trimesh damage48
+        parent psp_x0_drf
+        positionkey
+            0.0 -0.000867298 0.01114 0.0
+            0.0333333 -0.000867298 0.01114 0.0244581
+            0.133333 -0.000867298 0.01114 0.0
+        endlist
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.0333333 0.371336 -0.928463 0.00810258 -0.0469942
+            0.1 -0.599949 0.79997 0.0104721 -0.0436326
+            0.133333 0.0 0.0 0.0 0.0
+        endlist
+    endnode
+    node trimesh Rectangle103
+        parent damage48
+    endnode
+    node emitter fire!90
+        parent psp_x0_drf
+    endnode
+doneanim damage psp_x0_drf
+
+
+#NWMax Plus ANIM  ASCII
+newanim die psp_x0_drf
+  length 0.166667
+  transtime 0.0
+  animroot psp_x0_drf
+  event 0.0 detonate
+  event 0.0 detonate
+    node dummy psp_x0_drf
+        parent NULL
+    endnode
+    node trimesh damage48
+        parent psp_x0_drf
+        positionkey
+            0.0 -0.000867298 0.01114 0.0
+            0.166667 -0.000867298 0.01114 -6.95145
+        endlist
+    endnode
+    node trimesh Rectangle103
+        parent damage48
+    endnode
+    node emitter fire!90
+        parent psp_x0_drf
+    endnode
+doneanim die psp_x0_drf
+
+
+#NWMax Plus ANIM  ASCII
+newanim dead psp_x0_drf
+  length 0.0333333
+  transtime 0.0
+  animroot psp_x0_drf
+    node dummy psp_x0_drf
+        parent NULL
+    endnode
+    node trimesh damage48
+        parent psp_x0_drf
+        positionkey
+            0.0 -0.000867298 0.01114 -6.95145
+            0.0333333 -0.000867298 0.01114 -6.95145
+        endlist
+    endnode
+    node trimesh Rectangle103
+        parent damage48
+    endnode
+    node emitter fire!90
+        parent psp_x0_drf
+    endnode
+doneanim dead psp_x0_drf
+
+
+#NWMax Plus ANIM  ASCII
+newanim default psp_x0_drf
+  length 0.0
+  transtime 0.25
+  animroot psp_x0_drf
+    node dummy psp_x0_drf
+        parent NULL
+    endnode
+    node trimesh damage48
+        parent psp_x0_drf
+    endnode
+    node trimesh Rectangle103
+        parent damage48
+    endnode
+    node emitter fire!90
+        parent psp_x0_drf
+    endnode
+doneanim default psp_x0_drf
+
+donemodel psp_x0_drf

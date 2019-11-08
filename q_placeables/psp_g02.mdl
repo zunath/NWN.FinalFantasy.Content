@@ -1,0 +1,475 @@
+# Exported from NWMax Plus v5.06.01 at 11/1/2015 10:04:34 AM
+# mdl file
+#
+#NWMax Plus MODEL  ASCII
+# model: psp_g02
+filedependancy Unknown
+newmodel psp_g02
+setsupermodel psp_g02 NULL
+classification Character
+setanimationscale 1.5
+#NWMax Plus GEOM  ASCII
+beginmodelgeom psp_g02
+node dummy psp_g02
+  parent NULL
+endnode
+node dummy G02_hand
+  parent psp_g02
+  position -0.201045 0.0 1.59339
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.341176 0.882353 0.560784 
+endnode
+node dummy G02_head_hit
+  parent psp_g02
+  position 0.310452 0.0 1.93938
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.341176 0.882353 0.560784 
+endnode
+node dummy G02_head
+  parent psp_g02
+  position 0.377139 0.0 2.86344
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.776471 0.882353 0.341176 
+endnode
+node dummy G02_impact
+  parent psp_g02
+  position 0.278908 0.0 1.37128
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.776471 0.882353 0.341176 
+endnode
+node dummy G02_ground
+  parent psp_g02
+  position -0.00544921 0.0104809 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.776471 0.882353 0.341176 
+endnode
+node trimesh Box03
+  parent psp_g02
+  position -0.333655 0.04962 1.88827
+  orientation -0.808832 1.90973e-007 0.588039 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap ps_web
+  verts 8
+    -1.92 -0.0149984 -1.92
+    1.92 -0.0149984 -1.92
+    1.92 -0.0150048 1.92
+    -1.92 -0.0149984 1.92
+    1.92 0.0149952 -1.92
+    -1.92 0.0150048 -1.92
+    -1.92 0.0150048 1.92
+    1.92 0.0149952 1.92
+  faces 4
+    0 1 2  1  0 1 2  5
+    2 3 0  1  2 3 0  5
+    4 5 6  1  4 0 3  5
+    6 7 4  1  3 5 4  5
+  tverts 6
+    0.9995 0.000499517 0
+    0.000499845 0.000499517 0
+    0.000499845 0.9995 0
+    0.9995 0.9995 0
+    0.000499547 0.000499517 0
+    0.000499547 0.9995 0
+endnode
+node trimesh Box02
+  parent psp_g02
+  position 0.7502 -0.33972 1.88827
+  orientation 7.91526e-007 1.0 -6.92084e-007 -1.51377
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap ps_web
+  verts 8
+    -1.92 -0.0149984 -1.92
+    1.92 -0.0149984 -1.92
+    1.92 -0.0150048 1.92
+    -1.92 -0.0149984 1.92
+    1.92 0.0149952 -1.92
+    -1.92 0.0150048 -1.92
+    -1.92 0.0150048 1.92
+    1.92 0.0149952 1.92
+  faces 4
+    0 1 2  1  0 1 2  5
+    2 3 0  1  2 3 0  5
+    4 5 6  1  4 0 3  5
+    6 7 4  1  3 5 4  5
+  tverts 6
+    0.9995 0.000499517 0
+    0.000499845 0.000499517 0
+    0.000499845 0.9995 0
+    0.9995 0.9995 0
+    0.000499547 0.000499517 0
+    0.000499547 0.9995 0
+endnode
+node trimesh Box01
+  parent psp_g02
+  position 1.72481 0.293565 2.2388
+  orientation 0.0871557 0.0 0.996195 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap ps_web
+  verts 8
+    -1.92 -0.0149984 -1.92
+    1.92 -0.0149984 -1.92
+    1.92 -0.0150048 1.92
+    -1.92 -0.0149984 1.92
+    1.92 0.0149952 -1.92
+    -1.92 0.0150048 -1.92
+    -1.92 0.0150048 1.92
+    1.92 0.0149952 1.92
+  faces 4
+    0 1 2  1  0 1 2  5
+    2 3 0  1  2 3 0  5
+    4 5 6  1  4 0 3  5
+    6 7 4  1  3 5 4  5
+  tverts 6
+    0.9995 0.000499517 0
+    0.000499845 0.000499517 0
+    0.000499845 0.9995 0
+    0.9995 0.9995 0
+    0.000499547 0.000499517 0
+    0.000499547 0.9995 0
+endnode
+node trimesh Box03
+  parent psp_g02
+  position 0.333655 -0.0496199 1.88827
+  orientation -1.60612e-007 -1.0 -1.62207e-006 -1.88433
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap ps_web
+  verts 8
+    -1.92 -0.0149984 -1.92
+    1.92 -0.0149984 -1.92
+    1.92 -0.0150048 1.92
+    -1.92 -0.0149984 1.92
+    1.92 0.0149952 -1.92
+    -1.92 0.0150048 -1.92
+    -1.92 0.0150048 1.92
+    1.92 0.0149952 1.92
+  faces 4
+    0 1 2  1  0 1 2  5
+    2 3 0  1  2 3 0  5
+    4 5 6  1  4 0 3  5
+    6 7 4  1  3 5 4  5
+  tverts 6
+    0.9995 0.000499517 0
+    0.000499845 0.000499517 0
+    0.000499845 0.9995 0
+    0.9995 0.9995 0
+    0.000499547 0.000499517 0
+    0.000499547 0.9995 0
+endnode
+node trimesh Box02
+  parent psp_g02
+  position -0.7502 0.33972 1.88827
+  orientation -0.68666 4.91668e-007 -0.726978 -3.14159
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap ps_web
+  verts 8
+    -1.92 -0.0149984 -1.92
+    1.92 -0.0149984 -1.92
+    1.92 -0.0150048 1.92
+    -1.92 -0.0149984 1.92
+    1.92 0.0149952 -1.92
+    -1.92 0.0150048 -1.92
+    -1.92 0.0150048 1.92
+    1.92 0.0149952 1.92
+  faces 4
+    0 1 2  1  0 1 2  5
+    2 3 0  1  2 3 0  5
+    4 5 6  1  4 0 3  5
+    6 7 4  1  3 5 4  5
+  tverts 6
+    0.9995 0.000499517 0
+    0.000499845 0.000499517 0
+    0.000499845 0.9995 0
+    0.9995 0.9995 0
+    0.000499547 0.000499517 0
+    0.000499547 0.9995 0
+endnode
+node trimesh Box01
+  parent psp_g02
+  position -1.72481 -0.293565 2.2388
+  orientation 0.0 1.0 -1.54069e-005 -0.174533
+  wirecolor 1.0 1.0 1.0 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 1
+  center 0.0 0.0 0.0 
+  bitmap ps_web
+  verts 8
+    -1.92 -0.0149984 -1.92
+    1.92 -0.0149984 -1.92
+    1.92 -0.0150048 1.92
+    -1.92 -0.0149984 1.92
+    1.92 0.0149952 -1.92
+    -1.92 0.0150048 -1.92
+    -1.92 0.0150048 1.92
+    1.92 0.0149952 1.92
+  faces 4
+    0 1 2  1  0 1 2  5
+    2 3 0  1  2 3 0  5
+    4 5 6  1  4 0 3  5
+    6 7 4  1  3 5 4  5
+  tverts 6
+    0.9995 0.000499517 0
+    0.000499845 0.000499517 0
+    0.000499845 0.9995 0
+    0.9995 0.9995 0
+    0.000499547 0.000499517 0
+    0.000499547 0.9995 0
+endnode
+endmodelgeom psp_g02
+
+#NWMax Plus ANIM  ASCII
+newanim die psp_g02
+  length 0.0333333
+  transtime 0.25
+  animroot psp_g02
+  event 0.0333333 detonate
+    node dummy psp_g02
+        parent NULL
+    endnode
+    node dummy G02_hand
+        parent psp_g02
+    endnode
+    node dummy G02_head_hit
+        parent psp_g02
+    endnode
+    node dummy G02_head
+        parent psp_g02
+    endnode
+    node dummy G02_impact
+        parent psp_g02
+    endnode
+    node dummy G02_ground
+        parent psp_g02
+    endnode
+    node trimesh Box03
+        parent psp_g02
+    endnode
+    node trimesh Box02
+        parent psp_g02
+    endnode
+    node trimesh Box01
+        parent psp_g02
+    endnode
+    node trimesh Box03
+        parent psp_g02
+    endnode
+    node trimesh Box02
+        parent psp_g02
+    endnode
+    node trimesh Box01
+        parent psp_g02
+    endnode
+    node dummy psp_g02_pwk
+        parent psp_g02
+    endnode
+    node pwk PX2_G02_wg
+        parent psp_g02_pwk
+    endnode
+    node dummy G02_pwk_use01
+        parent psp_g02_pwk
+    endnode
+    node dummy G02_pwk_use02
+        parent psp_g02_pwk
+    endnode
+doneanim die psp_g02
+
+
+#NWMax Plus ANIM  ASCII
+newanim dead psp_g02
+  length 0.0
+  transtime 0.25
+  animroot psp_g02
+  event 0.0 detonate
+    node dummy psp_g02
+        parent NULL
+    endnode
+    node dummy G02_hand
+        parent psp_g02
+    endnode
+    node dummy G02_head_hit
+        parent psp_g02
+    endnode
+    node dummy G02_head
+        parent psp_g02
+    endnode
+    node dummy G02_impact
+        parent psp_g02
+    endnode
+    node dummy G02_ground
+        parent psp_g02
+    endnode
+    node trimesh Box03
+        parent psp_g02
+    endnode
+    node trimesh Box02
+        parent psp_g02
+    endnode
+    node trimesh Box01
+        parent psp_g02
+    endnode
+    node trimesh Box03
+        parent psp_g02
+    endnode
+    node trimesh Box02
+        parent psp_g02
+    endnode
+    node trimesh Box01
+        parent psp_g02
+    endnode
+    node dummy psp_g02_pwk
+        parent psp_g02
+    endnode
+    node pwk PX2_G02_wg
+        parent psp_g02_pwk
+    endnode
+    node dummy G02_pwk_use01
+        parent psp_g02_pwk
+    endnode
+    node dummy G02_pwk_use02
+        parent psp_g02_pwk
+    endnode
+doneanim dead psp_g02
+
+
+#NWMax Plus ANIM  ASCII
+newanim default psp_g02
+  length 0.0
+  transtime 0.25
+  animroot psp_g02
+    node dummy psp_g02
+        parent NULL
+    endnode
+    node dummy G02_hand
+        parent psp_g02
+    endnode
+    node dummy G02_head_hit
+        parent psp_g02
+    endnode
+    node dummy G02_head
+        parent psp_g02
+    endnode
+    node dummy G02_impact
+        parent psp_g02
+    endnode
+    node dummy G02_ground
+        parent psp_g02
+    endnode
+    node trimesh Box03
+        parent psp_g02
+    endnode
+    node trimesh Box02
+        parent psp_g02
+    endnode
+    node trimesh Box01
+        parent psp_g02
+    endnode
+    node trimesh Box03
+        parent psp_g02
+    endnode
+    node trimesh Box02
+        parent psp_g02
+    endnode
+    node trimesh Box01
+        parent psp_g02
+    endnode
+    node dummy psp_g02_pwk
+        parent psp_g02
+    endnode
+    node pwk PX2_G02_wg
+        parent psp_g02_pwk
+    endnode
+    node dummy G02_pwk_use01
+        parent psp_g02_pwk
+    endnode
+    node dummy G02_pwk_use02
+        parent psp_g02_pwk
+    endnode
+doneanim default psp_g02
+
+donemodel psp_g02

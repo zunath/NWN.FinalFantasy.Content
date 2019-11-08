@@ -1,0 +1,62 @@
+# Exported from NWmax Plus v5.01.12 at 1/16/2014 9:17:33 AM
+# pwk file
+#
+#NWmax Plus PWKMESH  ASCII
+node trimesh Plane001
+  parent psp_camp_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.337255 0.694118 0.101961 
+  multimaterial 30
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  ambient 0.588 0.588 0.588 
+  diffuse 0.705882 0.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Nonwalk
+  verts 9
+    -2.63 -1.99216 0.0
+    0.277893 -4.57489 0.0
+    -0.760437 0.133767 0.0
+    2.07505 -2.22293 0.0
+    -0.420691 4.34632 0.0
+    0.6539 3.41995 0.0
+    0.765064 2.06745 0.0
+    -0.568911 1.21518 0.0
+    -1.77319 2.62327 0.0
+  faces 5
+    2 0 3  1  0 0 0  7
+    1 3 0  1  0 0 0  7
+    4 8 7  0  0 0 0  7
+    4 7 6  0  0 0 0  7
+    4 6 5  0  0 0 0  7
+endnode

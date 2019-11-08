@@ -1,0 +1,26 @@
+2DA V2.0
+
+          Corner1        Edge     Corner2        Height     Model            
+0         Cobble         ****     Cobble         0          tps01_z20_01     
+1         Cobble         road     Cobble         0          tps01_z02_01     
+2         Building       ****     Cobble         0          tps01_z03_01     
+3         Cobble         ****     ****           0          tps01_z04_01     
+4         Building       ****     Building       0          tps01_z01_01     
+5         Cobble+        ****     Cobble         0          tps01_z05_01     
+6         Cobble+        ****     Cobble+        1          tps01_z20_01     
+7         Cobble+        ****     ****           1          tps01_z04_01     
+8         Building       ****     ****           0          tps01_z01_01     
+9         Building       ****     Building       0          tps01_z06_01     
+10        Ditch          ****     Cobble         0          tps01_v02_07     
+11        Ditch          ****     Ditch          0          tps01_v05_01     
+12        Ditch          ****     ****           0          tps01_v05_01     
+13        Cobble         ****     Manor          0          tps02_z24        
+14        Manor          ****     ****           0          tps02_z25        
+15        Manor          ****     Manor          0          tps02_z25        
+16        Cobble         Path     Cobble         0          tps02_z26        
+17        Cobble+        Path     Cobble+        1          tps02_z26        
+18        Courtyard      ****     Courtyard      0          tps02_z27        
+19        Courtyard      ****     ****           0          tps02_z27        
+20        Courtyard+     ****     Courtyard+     1          tps02_z27        
+21        Cobble         ****     Courtyard      0          tps02_z28        
+22        Cobble+        ****     Courtyard+     1          tps02_z28        

@@ -1,0 +1,88 @@
+# Exported from NWmax v4.10.01 at 12/23/2013 12:18:16 PM
+# pwk file
+#
+#NWmax PWKMESH  ASCII
+node trimesh NoWalk
+  parent PSP_X0_RB2_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.839216 0.839216 0.839216 
+  multimaterial 30
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  bitmap NULL
+  verts 17
+    2.40551 -0.34445 0.0
+    2.81495 -0.946474 0.0
+    3.07978 -0.765441 0.0
+    2.97746 -0.0979007 0.0
+    2.31977 0.0606182 0.0
+    1.34563 0.518227 0.0
+    0.800545 -0.404707 0.0
+    0.11229 1.2482 0.0
+    -0.924787 0.877867 0.0
+    -0.621894 -0.197775 0.0
+    -1.63208 0.00542459 0.0
+    -1.89595 -1.11205 0.0
+    -0.719542 -1.41979 0.0
+    -0.444954 -0.585284 0.0
+    -0.152269 -1.23053 0.0
+    0.878977 -0.857147 0.0
+    1.82251 -1.16528 0.0
+  faces 15
+    4 5 6  1  0 0 0  7
+    11 12 13  1  0 0 0  7
+    10 11 13  1  0 0 0  7
+    9 10 13  1  0 0 0  7
+    6 7 8  1  0 0 0  7
+    6 8 9  1  0 0 0  7
+    6 9 13  1  0 0 0  7
+    6 13 14  1  0 0 0  7
+    6 14 15  1  0 0 0  7
+    2 3 4  1  0 0 0  7
+    1 2 4  1  0 0 0  7
+    0 1 4  1  0 0 0  7
+    0 4 6  1  0 0 0  7
+    16 0 6  1  0 0 0  7
+    15 16 6  1  0 0 0  7
+endnode
+node dummy x30_pwk_use01
+  parent PSP_X0_RB2_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.101961 0.694118 0.580392 
+endnode
+node dummy x30_pwk_use02
+  parent PSP_X0_RB2_pwk
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.101961 0.694118 0.580392 
+endnode

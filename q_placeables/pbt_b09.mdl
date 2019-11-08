@@ -1,0 +1,67 @@
+# Exported from NWMax Plus v5.06.01 at 12/5/2015 6:15:26 AM
+# mdl file
+#
+#NWMax Plus MODEL  ASCII
+# model: pbt_b09
+filedependancy Unknown
+newmodel pbt_b09
+setsupermodel pbt_b09 NULL
+classification Other
+#NWMax Plus GEOM  ASCII
+beginmodelgeom pbt_b09
+node dummy pbt_b09
+  parent NULL
+endnode
+node trimesh blood_splat
+  parent pbt_b09
+  position 0.0 0.0 1.25
+  orientation -1.0 0.0 0.0 -1.5708
+  wirecolor 0.894118 0.603922 0.839216 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 1
+  beaming 0
+  inheritColor 0
+  rotateTexture 0
+  alpha 1.0
+  transparencyhint 0
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 10
+  center 0.0 0.0 0.0 
+  bitmap pbt_b09
+  verts 9
+    -1.4125 -1.4125 0.0
+    0.0 -1.4125 0.0
+    1.4125 -1.4125 0.0
+    -1.4125 0.0 0.0
+    0.0 0.0 0.0
+    1.4125 0.0 0.0
+    -1.4125 1.4125 0.0
+    0.0 1.4125 0.0
+    1.4125 1.4125 0.0
+  faces 8
+    3 0 4  1  3 0 4  1
+    1 4 0  1  1 4 0  1
+    4 1 5  1  4 1 5  1
+    2 5 1  1  2 5 1  1
+    6 3 7  1  6 3 7  1
+    4 7 3  1  4 7 3  1
+    7 4 8  1  7 4 8  1
+    5 8 4  1  5 8 4  1
+  tverts 9
+    0.0 0.0 0
+    0.5 0.0 0
+    1.0 0.0 0
+    0.0 0.5 0
+    0.5 0.5 0
+    1.0 0.5 0
+    0.0 1.0 0
+    0.5 1.0 0
+    1.0 1.0 0
+endnode
+endmodelgeom pbt_b09
+donemodel pbt_b09

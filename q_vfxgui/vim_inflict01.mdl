@@ -1,0 +1,281 @@
+# Exported from NWmax v3.10.14b at 4/18/2013 5:02:05 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: vim_inflict01
+filedependancy Unknown
+newmodel vim_inflict01
+setsupermodel vim_inflict01 NULL
+classification Effect
+#NWmax GEOM  ASCII
+beginmodelgeom vim_inflict01
+node dummy vim_inflict01
+  parent NULL
+endnode
+node dummy Dummy01
+  parent vim_inflict01
+  position -0.297645 0.0 0.100423
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.898039 0.65098 0.843137 
+endnode
+node emitter OmenEmitter02
+  parent Dummy01
+  position -0.611451 0.0 -0.0907741
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 1
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 0.466667 0.0 0.0 
+  colorEnd 1.0 0.0 0.0 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 0.5
+  sizeEnd 0.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 1.0
+  mass 0.5
+  spread 2.0944
+  particleRot 1.0
+  velocity 1.0
+  randvel 0.3
+  bounce_co 0.1
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_Sparks
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  frameStart 0
+  frameEnd 15
+  random 1
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+node light AuroraLight01
+  parent OmenEmitter02
+  position 0.935815 -0.826289 0.0499051
+  orientation 0.40744 -0.645753 -0.645753 -3.9154
+  wirecolor 1.0 1.0 1.0 
+  radius 4.99998
+  multiplier 1.5
+  color 0.941177 0.0 0.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 3
+  fadingLight 1
+endnode
+node dummy Dummy02
+  parent vim_inflict01
+  position 0.298833 0.0 0.100423
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.345098 0.780392 0.882353 
+endnode
+node emitter OmenEmitter01
+  parent Dummy02
+  position 0.609249 0.0 -0.0905725
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 1.0 1.0 1.0 
+  update_sel 1
+  update Fountain
+  render_sel 1
+  render Normal
+  blend_sel 3
+  Blend Lighten
+  spawnType 1
+  xSize 0.0
+  ySize 0.0
+  inherit 0
+  inherit_local 1
+  inheritvel 0
+  inherit_part 0
+  renderorder 0
+  threshold 0.0
+  combinetime 0.0
+  deadspace 0.0
+  opacity 0.5
+  colorStart 1.0 0.0 0.0 
+  colorEnd 0.466667 0.0 0.0 
+  alphaStart 1.0
+  alphaEnd 0.0
+  sizeStart 0.5
+  sizeEnd 0.0
+  sizeStart_y 0.0
+  sizeEnd_y 0.0
+  birthrate 10
+  lifeExp 1.0
+  mass 0.5
+  spread 2.0944
+  particleRot 1.0
+  velocity 1.0
+  randvel 0.3
+  bounce_co 0.1
+  blurlength 10.0
+  loop 0
+  bounce 1
+  m_isTinted 0
+  Splat 0
+  affectedByWind false
+  texture fxpa_Sparks
+  twosidedtex 0
+  xgrid 4
+  ygrid 4
+  fps 16
+  frameStart 0
+  frameEnd 15
+  random 1
+  lightningDelay 0.0
+  lightningRadius 0.0
+  lightningSubDiv 0
+  lightningScale 0.0
+  blastRadius 0.0
+  blastLength 0.0
+  p2p 0
+  p2p_type Bezier
+  p2p_sel 1
+  p2p_bezier2 0.0
+  p2p_bezier3 0.0
+  grav 0.0
+  Drag 0.0
+endnode
+endmodelgeom vim_inflict01
+
+#NWmax ANIM ASCII
+newanim impact vim_inflict01
+  length 3.3
+  transtime 0.25
+  animroot vim_inflict01
+    node dummy vim_inflict01
+        parent NULL
+    endnode
+    node dummy Dummy01
+        parent vim_inflict01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.133333 0.0 0.0 1.0 -1.5708
+            0.3 0.0 0.0 1.0 -3.14159
+            0.466667 0.0 0.0 1.0 -4.71239
+            0.633333 0.0 0.0 -1.0 -6.28319
+            0.8 0.0 0.0 -1.0 -4.71239
+            0.966667 0.0 0.0 -1.0 -3.14159
+            1.13333 0.0 0.0 -1.0 -1.5708
+            1.3 0.0 0.0 0.0 0.0
+            1.46667 0.0 0.0 1.0 -1.5708
+            1.63333 0.0 0.0 1.0 -3.14159
+            1.8 0.0 0.0 1.0 -4.71239
+            1.96667 0.0 0.0 1.0 -6.19592
+        endlist
+    endnode
+    node emitter OmenEmitter02
+        parent Dummy01
+        alphaStartkey
+            0.0 1.0 
+            1.93333 1.0 
+            1.96667 1.0 
+            3.16667 1.0 
+            3.2 0.0 
+            3.23333 0.0 
+            3.3 0.0 
+        endlist
+        birthratekey
+            0.0 10 
+            1.9 10 
+            1.93333 10 
+            1.96667 0 
+        endlist
+    endnode
+    node light AuroraLight01
+        parent OmenEmitter02
+        colorkey
+            0.0 0.941177 0.0 0.0 
+            0.266667 1.09412 0.184314 0.0980392 
+            0.666667 1.01569 0.0156871 0.0 
+            1.36667 0.882354 -0.17647 0.0 
+            1.63333 1.03529 0.0156871 0.156863 
+            1.86667 1.04706 0.0784322 0.156863 
+            1.9 1.04706 0.0156871 0.0 
+            2.46667 0.0941175 -0.678431 1.47149e-006 
+        endlist
+        radiuskey
+            1.86667 4.999 
+            1.9 4.972 
+            2.46667 0.0 
+        endlist
+    endnode
+    node dummy Dummy02
+        parent vim_inflict01
+        orientationkey
+            0.0 0.0 0.0 0.0 0.0
+            0.133333 0.0 0.0 1.0 -1.5708
+            0.3 0.0 0.0 1.0 -3.14159
+            0.466667 0.0 0.0 1.0 -4.71239
+            0.633333 0.0 0.0 -1.0 -6.28319
+            0.8 0.0 0.0 -1.0 -4.71239
+            0.966667 0.0 0.0 -1.0 -3.14159
+            1.13333 0.0 0.0 -1.0 -1.5708
+            1.3 0.0 0.0 0.0 0.0
+            1.46667 0.0 0.0 1.0 -1.5708
+            1.63333 0.0 0.0 1.0 -3.14159
+            1.8 0.0 0.0 1.0 -4.71239
+            1.96667 0.0 0.0 1.0 -6.19592
+        endlist
+    endnode
+    node emitter OmenEmitter01
+        parent Dummy02
+        positionkey
+            3.2 0.609249 0.0 -0.0905725
+        endlist
+        alphaStartkey
+            0.0 1.0 
+            1.93333 1.0 
+            1.96667 1.0 
+            3.16667 1.0 
+            3.2 0.0 
+            3.23333 0.0 
+            3.3 0.0 
+        endlist
+        birthratekey
+            0.0 10 
+            1.9 10 
+            1.93333 10 
+            1.96667 0 
+        endlist
+    endnode
+doneanim impact vim_inflict01
+
+donemodel vim_inflict01

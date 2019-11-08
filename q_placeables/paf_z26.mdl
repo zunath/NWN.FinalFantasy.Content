@@ -1,0 +1,186 @@
+# Exported from NWmax 0.8 b61 at 6/18/2011 7:22:04 PM
+# mdl file
+#
+#NWmax MODEL ASCII
+# model: paf_z26
+#local file: Unknown
+filedependancy Unknown
+newmodel paf_z26
+setsupermodel paf_z26 NULL
+classification Character
+setanimationscale 1.0
+#NWmax GEOM  ASCII
+beginmodelgeom paf_z26
+node dummy paf_z26
+  parent NULL
+endnode
+node trimesh Plane01
+  parent paf_z26
+  position 0.0 0.0 0.0
+  orientation 1.0 0.0 0.0 -1.5708
+  wirecolor 0.341176 0.341176 0.341176 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 0
+  center 0.0 -107.343 0.0 
+  bitmap qp_corn02
+  verts 4
+    0.5 0.0 0.0
+    -0.5 0.0 0.0
+    0.5 -2.15 0.0
+    -0.5 -2.15 0.0
+  faces 4
+    2 0 3  1  2 0 3  0
+    1 3 0  2  1 3 0  0
+    0 2 3  4  4 6 7  0
+    3 1 0  8  7 5 4  0
+  tverts 8
+    0.546647 0.0930675 0
+    0.946648 0.0930674 0
+    0.546648 0.951816 0
+    0.946648 0.951816 0
+    0.546647 0.0930675 0
+    0.946648 0.0930674 0
+    0.546648 0.951816 0
+    0.946648 0.951816 0
+endnode
+node trimesh Plane02
+  parent paf_z26
+  position 0.0 0.0 0.0
+  orientation 0.57735 0.57735 -0.57735 -2.0944
+  wirecolor 0.341176 0.341176 0.341176 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 0
+  center 0.0 -107.343 0.0 
+  bitmap qp_corn02
+  verts 4
+    0.5 0.0 0.0
+    -0.5 0.0 0.0
+    0.5 -2.15 0.0
+    -0.5 -2.15 0.0
+  faces 4
+    2 0 3  1  2 0 3  0
+    1 3 0  2  1 3 0  0
+    0 2 3  4  4 6 7  0
+    3 1 0  8  7 5 4  0
+  tverts 8
+    0.0531999 0.0930676 0
+    0.4532 0.0930675 0
+    0.0532001 0.951816 0
+    0.4532 0.951816 0
+    0.0531999 0.0930676 0
+    0.4532 0.0930675 0
+    0.0532001 0.951816 0
+    0.4532 0.951816 0
+endnode
+node trimesh Pyramid01
+  parent paf_z26
+  position -0.00300831 -0.00901902 2.12313
+  orientation 0.92388 0.382683 0.0 -3.14159
+  wirecolor 0.521569 0.521569 0.521569 
+  tilefade 0
+  scale 1.0
+  render 1
+  Shadow 0
+  beaming 0
+  inheritcolor 0
+  rotatetexture 0
+  alpha 1.0
+  transparencyhint 1
+  selfillumcolor 0.0 0.0 0.0 
+  ambient 1.0 1.0 1.0 
+  Diffuse 1.0 1.0 1.0 
+  Specular 0.0 0.0 0.0 
+  shininess 0
+  center 0.0 0.0 21.9483 
+  bitmap qp_corn02
+  verts 5
+    0.0 0.0 0.42
+    0.15 0.15 0.02
+    -0.16 0.16 0.02
+    -0.15 -0.15 0.02
+    0.16 -0.16 0.02
+  faces 8
+    0 1 2  1  6 7 8  0
+    0 2 3  2  9 10 11  0
+    0 3 4  4  12 13 14  0
+    0 4 1  8  0 15 16  0
+    1 0 2  16  31 30 32  0
+    2 0 3  8  34 33 35  0
+    3 0 4  16  37 36 38  0
+    4 0 1  32  39 24 40  0
+  tverts 48
+    0.745936 0.767714 0
+    0.354064 0.348962 0
+    0.354064 0.148962 0
+    0.154064 0.148962 0
+    0.154064 0.348962 0
+    0.254064 0.248962 0
+    0.248962 0.767714 0
+    0.348962 0.927056 0
+    0.148962 0.927056 0
+    0.254064 0.767714 0
+    0.354064 0.927056 0
+    0.154064 0.927056 0
+    0.751038 0.767714 0
+    0.851038 0.927056 0
+    0.651038 0.927056 0
+    0.845936 0.927056 0
+    0.645936 0.927056 0
+    0.354064 0.348962 0
+    0.254064 0.248962 0
+    0.354064 0.148962 0
+    0.254064 0.248962 0
+    0.154064 0.148962 0
+    0.254064 0.248962 0
+    0.154064 0.348962 0
+    0.745936 0.767714 0
+    0.354064 0.348962 0
+    0.354064 0.148962 0
+    0.154064 0.148962 0
+    0.154064 0.348962 0
+    0.254064 0.248962 0
+    0.248962 0.767714 0
+    0.348962 0.927056 0
+    0.148962 0.927056 0
+    0.254064 0.767714 0
+    0.354064 0.927056 0
+    0.154064 0.927056 0
+    0.751038 0.767714 0
+    0.851038 0.927056 0
+    0.651038 0.927056 0
+    0.845936 0.927056 0
+    0.645936 0.927056 0
+    0.354064 0.348962 0
+    0.254064 0.248962 0
+    0.354064 0.148962 0
+    0.254064 0.248962 0
+    0.154064 0.148962 0
+    0.254064 0.248962 0
+    0.154064 0.348962 0
+endnode
+endmodelgeom paf_z26
+donemodel paf_z26
