@@ -362,3 +362,4 @@
 358   PLAYER_TOOL_10                                   1115        1      99               1        
 359   CHAT_COMMAND_TARGETER                            1116        1      99               1        
 360   OPEN_REST_MENU                                   1117        1      99               1        
+361   FIRE                                             1118        1      99               1        
