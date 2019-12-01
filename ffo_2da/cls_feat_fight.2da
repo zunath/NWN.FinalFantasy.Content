@@ -365,7 +365,7 @@
 361   FIRE                                             1118        1      99               1        
 362   HALLOWED_GROUND                                  1119        1      99               1        
 363   DEFENSE_BONUS                                    1120        1      99               0        
-364   ****                                             ****        ****   ****             ****     
+364   ABILITY_SLOT_1                                   1121        1      99               0        
 365   PROVOKE                                          1122        1      99               1        
 366   HP_BOOST                                         1123        1      99               0        
 367   BERSERK                                          1124        1      99               1        
@@ -376,4 +376,16 @@
 372   PROVOKE_MASTERY                                  1129        1      99               0        
 373   HP_BOOST_2                                       1130        1      99               0        
 374   AXE_MASTERY_2                                    1131        1      99               0        
-375   ABILITY_SLOT_1                                   1132        1      99               0        
+375   DUAL_WIELD                                       1132        1      99               0        
+376   HUNDRED_FISTS                                    1133        1      99               1        
+377   ABILITY_SLOT_2                                   1134        1      99               0        
+378   ELECTRIC_FIST                                    1135        1      99               1        
+379   CHAKRA                                           1136        1      99               1        
+380   UNARMED_MASTERY                                  1137        1      99               0        
+381   EVASION                                          1138        1      99               0        
+382   SPRING_ATTACK                                    1139        1      99               0        
+383   SILENCE_STRIKE                                   1140        1      99               1        
+384   WHIRLWIND_ATTACK                                 1141        1      99               1        
+385   MANTRA                                           1142        1      99               1        
+386   HP_BOOST_3                                       1143        1      99               0        
+387   UNARMED_MASTERY_2                                1144        1      99               0        
