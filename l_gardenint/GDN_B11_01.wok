@@ -1,0 +1,79 @@
+# Exported from NWMax Plus v6.11.28 at 7/3/2020 6:18:17 PM
+# wok file
+#
+#NWMax Plus WALKMESH  ASCII
+beginwalkmeshgeom GDN_B11_01
+node aabb thewok_27
+  parent GDN_B11_01
+  position 0.0 4.88281e-006 -10.8581
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.8 0.8 0.8 
+  multimaterial 30
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  ambient 0.588 0.588 0.588 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Obscuring
+  verts 9
+    -5.0 -5.0 0.0
+    -5.0 -0.54 0.0
+    -5.0 -0.93 0.0
+    5.0 -5.0 0.0
+    -5.0 5.0 0.0
+    5.0 3.92 0.0
+    5.0 3.67 0.0
+    5.0 0.99 0.0
+    5.0 5.0 0.0
+  faces 7
+    5 8 4  0  0 0 0  2
+    4 1 5  0  0 0 0  2
+    1 2 6  0  0 0 0  2
+    6 5 1  0  0 0 0  2
+    7 0 3  0  0 0 0  2
+    6 2 0  0  0 0 0  2
+    0 7 6  0  0 0 0  2
+    aabb         -5.0 -5.0 -0.00190186 5.0 5.0 -0.00190186 -1
+        -5.0 -5.0 -0.00190186 5.0 5.0 -0.00190186 -1
+        -5.0 -5.0 -0.00190186 5.0 3.67 -0.00190186 -1
+        -5.0 -5.0 -0.00190186 5.0 3.67 -0.00190186 5
+        -5.0 -0.930005 -0.00190186 5.0 3.67 -0.00190186 2
+        -5.0 -0.540005 -0.00190186 5.0 5.0 -0.00190186 1
+        -5.0 -5.0 -0.00190186 5.0 5.0 -0.00190186 -1
+        -5.0 -5.0 -0.00190186 5.0 3.67 -0.00190186 -1
+        -5.0 -5.0 -0.00190186 5.0 0.989995 -0.00190186 4
+        -5.0 -5.0 -0.00190186 5.0 3.67 -0.00190186 6
+        -5.0 -0.540005 -0.00190186 5.0 5.0 -0.00190186 -1
+        -5.0 -0.540005 -0.00190186 5.0 3.92 -0.00190186 3
+        -5.0 3.92 -0.00190186 5.0 5.0 -0.00190186 0
+endnode
+endwalkmeshgeom GDN_B11_01

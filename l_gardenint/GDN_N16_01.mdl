@@ -1,0 +1,135 @@
+# Exported from NWMax Plus v6.11.28 at 7/3/2020 6:50:13 PM
+# mdl file
+#
+#NWMax Plus MODEL  ASCII
+# model: GDN_N16_01
+filedependancy Unknown
+newmodel GDN_N16_01
+setsupermodel GDN_N16_01 NULL
+classification Tile
+#NWMax Plus GEOM  ASCII
+beginmodelgeom GDN_N16_01
+node dummy GDN_N16_01
+  parent NULL
+endnode
+node light GDN_N16_01ml1
+  parent GDN_N16_01
+  position 0.0 0.0 5.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.529412 0.443137 
+  radius 14.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 0
+endnode
+node light GDN_N16_01ml2
+  parent GDN_N16_01
+  position -2.0 -2.0 4.0
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.0235294 0.529412 0.443137 
+  radius 5.0
+  multiplier 1.0
+  color 0.0 0.0 0.0 
+  ambientonly 0
+  nDynamicType 0
+  affectDynamic 1
+  shadow 0
+  lightpriority 5
+  fadingLight 0
+endnode
+node aabb thewok_224
+  parent GDN_N16_01
+  position 0.0 0.0 -10.8581
+  orientation 1.0 0.0 0.0 0.0
+  wirecolor 0.8 0.8 0.8 
+  multimaterial 30
+    Dirt
+    Obscuring
+    Grass
+    Stone
+    Wood
+    Water
+    Nonwalk
+    Transparent
+    Carpet
+    Metal
+    Puddles
+    Swamp
+    Mud
+    Leaves
+    Lava
+    BottomlessPit
+    DeepWater
+    Door
+    Snow
+    Sand
+    BareBones
+    StoneBridge
+    Temp1
+    Temp2
+    Temp3
+    Temp4
+    Temp5
+    Temp6
+    Temp7
+    Trigger
+  ambient 0.588 0.588 0.588 
+  diffuse 1.0 1.0 1.0 
+  specular 0.0 0.0 0.0 
+  shininess 10.0
+  bitmap Obscuring
+  verts 13
+    -5.0 -5.0 0.0
+    0.63 -5.0 0.0
+    3.97 -5.0 0.0
+    -2.22 -5.0 0.0
+    -0.52 -5.0 0.0
+    5.0 -5.0 0.0
+    -5.0 5.0 0.0
+    5.0 5.0 0.0
+    2.5 5.0 0.0
+    4.79 5.0 0.0
+    0.55 5.0 0.0
+    1.71 5.0 0.0
+    -1.35 5.0 0.0
+  faces 11
+    8 11 4  0  0 0 0  2
+    4 1 8  0  0 0 0  2
+    10 12 0  0  0 0 0  2
+    0 3 10  0  0 0 0  2
+    7 9 2  0  0 0 0  2
+    2 5 7  0  0 0 0  2
+    8 1 2  0  0 0 0  2
+    2 9 8  0  0 0 0  2
+    10 3 4  0  0 0 0  2
+    4 11 10  0  0 0 0  2
+    6 0 12  0  0 0 0  2
+    aabb         -5.0 -5.0 -0.00190063 5.0 5.0 -0.00190063 -1
+        -5.0 -5.0 -0.00190063 1.71 5.0 -0.00190063 -1
+        -5.0 -5.0 -0.00190063 0.55 5.0 -0.00190063 -1
+        -5.0 -5.0 -0.00190063 0.55 5.0 -0.00190063 3
+        -2.22 -5.0 -0.00190063 0.55 5.0 -0.00190063 8
+        -5.0 -5.0 -0.00190063 1.71 5.0 -0.00190063 -1
+        -5.0 -5.0 -0.00190063 0.55 5.0 -0.00190063 -1
+        -5.0 -5.0 -0.00190063 -1.35 5.0 -0.00190063 10
+        -5.0 -5.0 -0.00190063 0.55 5.0 -0.00190063 2
+        -0.52 -5.0 -0.00190063 1.71 5.0 -0.00190063 9
+        -0.52 -5.0 -0.00190063 5.0 5.0 -0.00190063 -1
+        -0.52 -5.0 -0.00190063 5.0 5.0 -0.00190063 -1
+        -0.52 -5.0 -0.00190063 3.97 5.0 -0.00190063 -1
+        -0.52 -5.0 -0.00190063 2.5 5.0 -0.00190063 1
+        0.63 -5.0 -0.00190063 3.97 5.0 -0.00190063 6
+        3.97 -5.0 -0.00190063 5.0 5.0 -0.00190063 5
+        -0.52 -5.0 -0.00190063 5.0 5.0 -0.00190063 -1
+        -0.52 -5.0 -0.00190063 2.5 5.0 -0.00190063 0
+        2.5 -5.0 -0.00190063 5.0 5.0 -0.00190063 -1
+        2.5 -5.0 -0.00190063 4.79 5.0 -0.00190063 7
+        3.97 -5.0 -0.00190063 5.0 5.0 -0.00190063 4
+endnode
+endmodelgeom GDN_N16_01
+donemodel GDN_N16_01
