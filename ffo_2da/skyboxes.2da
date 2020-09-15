@@ -1,12 +1,16 @@
 2DA V2.0
-                                                                                                                                                                                              
-    LABEL           STRING_REF  CYCLICAL    DAWN              DAY               DUSK              NIGHT
 
-0   None            ****        ****        ****              ****              ****              ****
-1   Grass_Clear     ****        1           Skyda_001         Sky_001           Skyd_001          Skyn_001
-2   Grass_Storm	    ****        1           SSkyda_001        SSky_001          SSkyd_001         SSkyn_001
-3   Desert_Clear    ****        1           DSkyda_001        DSky_001          DSkyd_001         DSkyn_001
-4   Winter_Clear    ****        1           WSkyda_001        WSky_001          WSkyd_001         WSkyn_001
+     LABEL        STRING_REF CYCLICAL DAWN      DAY      DUSK     NIGHT    
+0    None         ****       ****     ****      ****     ****     ****     
+1    Grass_Clear  ****       1        Skyda_001 Sky_001  Skyd_001 Skyn_001 
+2    Grass_Storm  ****       1        Skyda_001 Sky_001  Skyd_001 Skyn_001 
+3    Desert_Clear ****       1        Skyda_001 Sky_001  Skyd_001 Skyn_001 
+4    Winter_Clear ****       1        Skyda_001 Sky_001  Skyd_001 Skyn_001 
+5    Icy          ****       0        Skyda_001 Sky_001  Skyd_001 Skyn_001 
+6    Garden_Sky   ****       ****     gdn_sky   gdn_sky  gdn_sky  gdn_sky  
+7    Trn_Sky      ****       ****     d_trainc  d_trainc d_trainc ****     
+8    anc_fsky     ****       ****     anc_fsky  anc_fsky anc_fsky anc_fsky 
+ WSkyda_001        WSky_001          WSkyd_001         WSkyn_001
 5   Icy    	    ****        0           ISky_001          ISky_001          ISky_001          ISky_001
 6   Black           ****        0           Skybl_001         Skybl_001         Skybl_001         Skybl_001
 7   "Overcast 1"    ****        1           sky_q_ovrcast_1a  sky_q_ovrcast_1a  sky_q_ovrcast_1b  sky_q_ovrcast_1b

@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 clifftex 
+texture1 clifftex_n 
+texture2 clifftex_s 
+texture3 null 
+texture4 null 
