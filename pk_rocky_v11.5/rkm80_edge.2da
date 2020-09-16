@@ -1,0 +1,35 @@
+2DA V2.0
+
+          Corner1        Edge           Corner2         Height     Model
+0         grass          ****           ****            0          rkm_z_g_g
+1         grass          ****           grass           0          rkm_z_g_g
+2         low_hill       ****           ****            0          rkm_z_k_k
+3         low_hill       ****           low_hill        0          rkm_z_k_k
+4         high_hill      ****           ****            0          rkm_z_h_h
+5         high_hill      ****           high_hill       0          rkm_z_h_h
+6         lake           ****           ****            0          rkm_z_l_l
+7         lake           ****           lake            0          rkm_z_l_l
+8         keep           ****           ****            0          rkm_z_q_q
+9         keep           ****           keep            0          rkm_z_q_q
+10        castlewall     ****           ****            0          rkm_z_p_p
+11        castlewall     ****           castlewall      0          rkm_z_p_p
+12        grass+         ****           ****            1          rkm_z_g_g
+13        grass+         ****           grass+          1          rkm_z_g_g
+14        grass          ****           low_hill        0          rkm_z_g_k
+15        grass          ****           high_hill       0          rkm_z_g_h
+16        grass          ****           lake            0          rkm_z_g_l
+17        grass          ****           keep            0          rkm_z_g_q
+18        grass          ****           castlewall      0          rkm_z_g_p
+19        grass          ****           grass+          0          rkm_z_g_m
+20        low_hill       ****           high_hill       0          rkm_z_k_h
+21        high_hill      ****           grass+          0          rkm_z_h_m
+22        keep           ****           castlewall      0          rkm_z_q_p
+23        castlewall     ****           grass+          0          rkm_z_p_m
+24        grass          stream         grass           0          rkm_z_gsg
+25        grass          wall           grass           0          rkm_z_gwg
+26        grass          stonewall      grass           0          rkm_z_gog
+27        grass          smallwall      grass           0          rkm_z_gng
+28        high_hill      edge_fixer     high_hill       0          rkm_z_heh
+29        grass+         edge_fixer     grass+          1          rkm_z_g_g
+30        grass          edge_fixer     grass           0          rkm_z_g_g
+31        keep           ****           grass+          0          rkm_z_q_m
