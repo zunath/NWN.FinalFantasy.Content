@@ -33,7 +33,7 @@
       "CompileModels": false
     },
     {
-      "Name": "pk_rocky_v11",
+      "Name": "pk_rocky_v11.5",
       "Path": "./pk_rocky_v11.5/",
       "CompileModels": false
     },
@@ -130,6 +130,11 @@
     {
       "Name": "wrm_scorche",
       "Path": "./wrm_scorche/",
+      "CompileModels": false
+    },
+    {
+      "Name": "pk_textures_v2.0",
+      "Path": "./pk_textures_v2.0/",
       "CompileModels": false
     }
   ]
