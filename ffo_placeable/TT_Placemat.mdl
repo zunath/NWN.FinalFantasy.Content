@@ -17,7 +17,7 @@ node trimesh Placemat
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  bitmap board
+  bitmap Card_Board
   shininess 1
   verts 8
      4.92862  3.89478  0.00166
