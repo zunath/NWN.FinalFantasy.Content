@@ -38,6 +38,16 @@
       "CompileModels": false
     },
     {
+      "Name": "pk_textures_v2.0",
+      "Path": "./pk_textures_v2.0/",
+      "CompileModels": false
+    },
+    {
+      "Name": "q_!armoury",
+      "Path": "./q_!armoury/",
+      "CompileModels": false
+    },
+    {
       "Name": "q_!fightingsfx",
       "Path": "./q_!fightingsfx/",
       "CompileModels": false
@@ -130,11 +140,6 @@
     {
       "Name": "wrm_scorche",
       "Path": "./wrm_scorche/",
-      "CompileModels": false
-    },
-    {
-      "Name": "pk_textures_v2.0",
-      "Path": "./pk_textures_v2.0/",
       "CompileModels": false
     }
   ]
