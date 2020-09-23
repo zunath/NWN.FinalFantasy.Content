@@ -33,6 +33,11 @@
       "CompileModels": false
     },
     {
+      "Name": "ffo_triple_triad",
+      "Path": "./ffo_triple_triad/",
+      "CompileModels": false
+    },
+    {
       "Name": "pk_rocky_v11.5",
       "Path": "./pk_rocky_v11.5/",
       "CompileModels": false
