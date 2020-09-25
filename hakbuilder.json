@@ -38,6 +38,11 @@
       "CompileModels": false
     },
     {
+      "Name": "phod_bunkers",
+      "Path": "./phod_bunkers/",
+      "CompileModels": false
+    },
+    {
       "Name": "pk_rocky_v11.5",
       "Path": "./pk_rocky_v11.5/",
       "CompileModels": false
@@ -140,6 +145,21 @@
     {
       "Name": "q_vfxgui",
       "Path": "./q_vfxgui/",
+      "CompileModels": false
+    },
+    {
+      "Name": "RL_gothic_int",
+      "Path": "./RL_gothic_int/",
+      "CompileModels": false
+    },
+    {
+      "Name": "rl_gothicestates",
+      "Path": "./rl_gothicestates/",
+      "CompileModels": false
+    },
+    {
+      "Name": "RL_gothicgarden",
+      "Path": "./RL_gothicgarden/",
       "CompileModels": false
     },
     {
