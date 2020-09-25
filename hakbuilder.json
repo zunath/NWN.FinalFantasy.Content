@@ -166,6 +166,11 @@
       "Name": "wrm_scorche",
       "Path": "./wrm_scorche/",
       "CompileModels": false
+    },
+    {
+      "Name":  "[DT]Starship_0_4",
+      "Path": "./[DT]Starship_0_4/",
+      "CompileModels": false
     }
   ]
 }
