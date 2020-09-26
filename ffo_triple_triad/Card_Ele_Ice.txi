@@ -3,9 +3,9 @@ filter 0
 downsamplemax 0
 downsamplemin 0
 numchars 127
-fontheight 1.500000
-baselineheight 1.500000
-texturewidth 1.500000
+fontheight 0.330000
+baselineheight 0.330000
+texturewidth 0.330000
 spacingR 0.000000
 spacingB 0.000000
 upperleftcoords 127
