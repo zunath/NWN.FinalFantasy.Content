@@ -1,16 +1,16 @@
 # Exported from blender at Thursday, 2015-05-14 00:25
 # 
 filedependancy Arms2AndHand4.blend
-newmodel pfh0_bicepr001
-setsupermodel pfh0_bicepr001 NULL
+newmodel pfh0_bicepr002
+setsupermodel pfh0_bicepr002 NULL
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom pfh0_bicepr001
-node dummy pfh0_bicepr001
+beginmodelgeom pfh0_bicepr002
+node dummy pfh0_bicepr002
   parent NULL
 endnode
-node trimesh pfh0_bicepr001g
-  parent pfh0_bicepr001
+node trimesh pfh0_bicepr002g
+  parent pfh0_bicepr002
   position 0.0242 -0.0147 -0.0204
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0
@@ -491,7 +491,7 @@ node trimesh pfh0_bicepr001g
     0.4013 0.0142 0
 endnode
 node trimesh Shadow
-  parent pfh0_bicepr001
+  parent pfh0_bicepr002
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0
@@ -571,6 +571,6 @@ node trimesh Shadow
     14 12 7  1  0 0 0  0
   tverts 0
 endnode
-endmodelgeom pfh0_bicepr001
+endmodelgeom pfh0_bicepr002
 
-donemodel pfh0_bicepr001
+donemodel pfh0_bicepr002

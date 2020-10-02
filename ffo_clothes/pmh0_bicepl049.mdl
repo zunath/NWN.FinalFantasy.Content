@@ -2,20 +2,20 @@
 # mdl file
 #
 #NWmax MODEL ASCII
-# model: pmh0_bicepl054
+# model: pmh0_bicepl049
 #local file: Unknown
 filedependancy Unknown
-newmodel pmh0_bicepl054
-setsupermodel pmh0_bicepl054 NULL
+newmodel pmh0_bicepl049
+setsupermodel pmh0_bicepl049 NULL
 classification Character
 setanimationscale 1.0
 #NWmax GEOM  ASCII
-beginmodelgeom pmh0_bicepl054
-node dummy pmh0_bicepl054
+beginmodelgeom pmh0_bicepl049
+node dummy pmh0_bicepl049
   parent NULL
 endnode
-node trimesh pmh0_bicepl054g
-  parent pmh0_bicepl054
+node trimesh pmh0_bicepl049g
+  parent pmh0_bicepl049
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0 
@@ -34,7 +34,7 @@ node trimesh pmh0_bicepl054g
   specular 0.0 0.0 0.0 
   shininess 1
   center -2.07813 1.4214 -13.039 
-  bitmap pmh0_bicepl054
+  bitmap pmh0_bicepl049
   verts 21
     -0.0274336 0.0906766 -0.0122633
     -0.102123 0.0143833 -0.000674809
@@ -131,5 +131,5 @@ node trimesh pmh0_bicepl054g
     0.200639 0.938047 0
     0.561618 0.889628 0
 endnode
-endmodelgeom pmh0_bicepl054
-donemodel pmh0_bicepl054
+endmodelgeom pmh0_bicepl049
+donemodel pmh0_bicepl049

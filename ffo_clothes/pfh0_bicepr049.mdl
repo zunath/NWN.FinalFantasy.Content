@@ -1,24 +1,24 @@
 #MAXMODEL ASCII
-# model: pfh0_bicepr054
-filedependancy pfh0_bicepr054.max
-newmodel pfh0_bicepr054
-setsupermodel pfh0_bicepr054 NULL
+# model: pfh0_bicepr049
+filedependancy pfh0_bicepr049.max
+newmodel pfh0_bicepr049
+setsupermodel pfh0_bicepr049 NULL
 classification character
 setanimationscale 1
 #MAXGEOM  ASCII
-beginmodelgeom pfh0_bicepr054
-node dummy pfh0_bicepr054
+beginmodelgeom pfh0_bicepr049
+node dummy pfh0_bicepr049
   parent NULL
   #part-number 0
 endnode
-node trimesh pfh0_bicepr054g
-  parent pfh0_bicepr054
+node trimesh pfh0_bicepr049g
+  parent pfh0_bicepr049
   #part-number 1
   ambient 1 1 1
   diffuse 1 1 1
   specular 0 0 0
   shininess 1
-  bitmap pfh0_bicepr054
+  bitmap pfh0_bicepr049
   verts 21
     0.0647644028 0.0196380001 -0.0261541009
     0.0094001703 0.0612354986 -0.0248763002
@@ -117,6 +117,6 @@ node trimesh pfh0_bicepr054g
   position 0 0 0
   orientation 0 0 0 0
 endnode
-endmodelgeom pfh0_bicepr054
+endmodelgeom pfh0_bicepr049
 
-donemodel pfh0_bicepr054
+donemodel pfh0_bicepr049

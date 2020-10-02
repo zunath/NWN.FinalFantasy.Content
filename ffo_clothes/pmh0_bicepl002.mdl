@@ -1,16 +1,16 @@
 # Exported from blender at Saturday, 2015-05-30 17:01
 # 
 filedependancy LeftBicepM3.blend
-newmodel pmh0_bicepl001
-setsupermodel pmh0_bicepl001 NULL
+newmodel pmh0_bicepl002
+setsupermodel pmh0_bicepl002 NULL
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom pmh0_bicepl001
-node dummy pmh0_bicepl001
+beginmodelgeom pmh0_bicepl002
+node dummy pmh0_bicepl002
   parent NULL
 endnode
 node trimesh Bicep
-  parent pmh0_bicepl001
+  parent pmh0_bicepl002
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0
@@ -482,7 +482,7 @@ node trimesh Bicep
     0.4292 0.4336 0
 endnode
 node trimesh BicepShad
-  parent pmh0_bicepl001
+  parent pmh0_bicepl002
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0
@@ -562,6 +562,6 @@ node trimesh BicepShad
     12 13 7  1  0 0 0  0
   tverts 0
 endnode
-endmodelgeom pmh0_bicepl001
+endmodelgeom pmh0_bicepl002
 
-donemodel pmh0_bicepl001
+donemodel pmh0_bicepl002

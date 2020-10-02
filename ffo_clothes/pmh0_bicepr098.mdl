@@ -1,17 +1,17 @@
 #Model converted by mdl2ascii
 #For updates/comments check out http://nwn-j3d.sf.net
 filedependancy Unknown
-newmodel pmh0_bicepr100
-setsupermodel pmh0_bicepr100 NULL
+newmodel pmh0_bicepr098
+setsupermodel pmh0_bicepr098 NULL
 classification Character
 setanimationscale 1.000000
 #MAXGEOM  ASCII
-beginmodelgeom pmh0_bicepr100
-node dummy pmh0_bicepr100
+beginmodelgeom pmh0_bicepr098
+node dummy pmh0_bicepr098
   parent NULL
 endnode
-node trimesh pmh0_bicepr100g
-  parent pmh0_bicepr100
+node trimesh pmh0_bicepr098g
+  parent pmh0_bicepr098
   position 0.000000 0.000000 0.000000
   orientation 0.000000 0.000000 0.000000 0.000000
   diffuse 1.000000 1.000000 1.000000
@@ -19,7 +19,7 @@ node trimesh pmh0_bicepr100g
   specular 0.000000 0.000000 0.000000
   shininess 1.000000
   render 1
-    bitmap pmh0_bicepr100
+    bitmap pmh0_bicepr098
     verts 21
      0.102123 0.014383 -0.000675
      0.027434 0.090677 -0.012263
@@ -116,7 +116,7 @@ node trimesh pmh0_bicepr100g
      0.192384 0.926690 0
      0.116295 0.968203 0
 endnode
-endmodelgeom pmh0_bicepr100
-donemodel pmh0_bicepr100
+endmodelgeom pmh0_bicepr098
+donemodel pmh0_bicepr098
 
 

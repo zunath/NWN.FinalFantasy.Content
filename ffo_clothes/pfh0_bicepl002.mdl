@@ -1,16 +1,16 @@
 # Exported from blender at Thursday, 2015-05-14 00:41
 # 
 filedependancy LeftArms2AndHand3.blend
-newmodel pfh0_bicepl001
-setsupermodel pfh0_bicepl001 NULL
+newmodel pfh0_bicepl002
+setsupermodel pfh0_bicepl002 NULL
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom pfh0_bicepl001
-node dummy pfh0_bicepl001
+beginmodelgeom pfh0_bicepl002
+node dummy pfh0_bicepl002
   parent NULL
 endnode
 node trimesh BicepShad
-  parent pfh0_bicepl001
+  parent pfh0_bicepl002
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0
@@ -91,7 +91,7 @@ node trimesh BicepShad
   tverts 0
 endnode
 node trimesh pfh0_bicepr001g
-  parent pfh0_bicepl001
+  parent pfh0_bicepl002
   position -0.0547 -0.0062 -0.0109
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0
@@ -571,6 +571,6 @@ node trimesh pfh0_bicepr001g
     0.3785 0.1053 0
     0.4013 0.0142 0
 endnode
-endmodelgeom pfh0_bicepl001
+endmodelgeom pfh0_bicepl002
 
-donemodel pfh0_bicepl001
+donemodel pfh0_bicepl002

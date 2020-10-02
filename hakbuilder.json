@@ -3,8 +3,18 @@
   "OutputPath": "./output/",
   "HakList": [
     {
+      "Name":  "[DT]Starship_0_4",
+      "Path": "./[DT]Starship_0_4/",
+      "CompileModels": false
+    },
+	{
       "Name":  "ffo_2da",
       "Path": "./ffo_2da/",
+      "CompileModels": false
+    },
+	{
+      "Name":  "ffo_clothes",
+      "Path": "./ffo_clothes/",
       "CompileModels": false
     },
     {
@@ -165,11 +175,6 @@
     {
       "Name": "wrm_scorche",
       "Path": "./wrm_scorche/",
-      "CompileModels": false
-    },
-    {
-      "Name":  "[DT]Starship_0_4",
-      "Path": "./[DT]Starship_0_4/",
       "CompileModels": false
     }
   ]

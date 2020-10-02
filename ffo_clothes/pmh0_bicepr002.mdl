@@ -1,16 +1,16 @@
 # Exported from blender at Saturday, 2015-05-30 17:02
 # 
 filedependancy RIghtBicepM3.blend
-newmodel pmh0_bicepr001
-setsupermodel pmh0_bicepr001 NULL
+newmodel pmh0_bicepr002
+setsupermodel pmh0_bicepr002 NULL
 classification CHARACTER
 setanimationscale 1.0
-beginmodelgeom pmh0_bicepr001
-node dummy pmh0_bicepr001
+beginmodelgeom pmh0_bicepr002
+node dummy pmh0_bicepr002
   parent NULL
 endnode
 node trimesh Bicep
-  parent pmh0_bicepr001
+  parent pmh0_bicepr002
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0
@@ -482,7 +482,7 @@ node trimesh Bicep
     0.4292 0.4336 0
 endnode
 node trimesh BicepShad
-  parent pmh0_bicepr001
+  parent pmh0_bicepr002
   position 0.0 0.0 0.0
   orientation 1.0 0.0 0.0 0.0
   wirecolor 1.0 1.0 1.0
@@ -562,6 +562,6 @@ node trimesh BicepShad
     14 12 7  1  0 0 0  0
   tverts 0
 endnode
-endmodelgeom pmh0_bicepr001
+endmodelgeom pmh0_bicepr002
 
-donemodel pmh0_bicepr001
+donemodel pmh0_bicepr002
