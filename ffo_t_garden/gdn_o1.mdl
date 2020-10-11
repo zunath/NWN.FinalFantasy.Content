@@ -1,4 +1,4 @@
-# Exported from Blender on Friday, 2020-06-12
+# Exported from Blender on Monday, 2020-08-10
 filedependancy gardenoutside.blend
 newmodel gdn_o1
 setsupermodel gdn_o1 null
@@ -8,9 +8,14 @@ beginmodelgeom gdn_o1
 node dummy gdn_o1
   parent null
 endnode
+node dummy Sun
+  parent gdn_o1
+  position -6.35111  30.00000  244.68401
+  orientation  0.51349  0.85164  0.10500  0.57093
+endnode
 node dummy b498s
   parent gdn_o1
-  position  0.00000  46.03975  0.00000
+  position  0.00000  76.03975  0.00000
   orientation  1.00000  0.00000  0.00000  1.57080
 endnode
 node trimesh b498_p1
@@ -52640,9 +52645,7 @@ node trimesh b498_p2far
   diffuse 1.00 1.00 1.00
   specular 0.00 0.00 0.00
   selfillumcolor 0.00 0.00 0.00
-  renderhint NormalAndSpecMapped
   bitmap b498_prop2a2
-  texture1 b498_prop2n
   shininess 1
   verts 24867
     -20.67314 -1.94930 -189.59613

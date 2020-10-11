@@ -1,0 +1,9 @@
+ 
+renderhint NormalAndSpecMapped 
+ 
+// Textures 
+texture0 d_div181 
+texture1 d_div181_n 
+texture2 d_div181_s 
+texture3 null 
+texture4 null 
