@@ -1,0 +1,19 @@
+2DA V2.0
+
+      Corner1   Edge       Corner2   Height   Model          
+0     Earth     ****       Earth     0        XWLF01_A01_01 
+1     Earth     ****       ****     0        XWLF01_A01_01 
+2     Earth+     ****       Earth+     1        XWLF01_A01_01 
+3     Earth+     ****       ****     1        XWLF01_A01_01 
+4     Earth+     ****       Earth     0        XWLF01_S11_01
+5     Earth     ****       lava     0        Xwlf01_b02_01 
+6     Earth     Stream       Earth     0        XWLF01_C02_01 
+7     Earth     BoneTrail       Earth     0        Xwlf01_R02_01
+8     Earth+     Stream+       Earth+     1        XWLF01_C02_01 
+9     Earth+     BoneTrail+       Earth+     1        Xwlf01_R02_01
+10     lava     ****       lava     0        Xwlf01_b01_01 
+11     lava     ****       ****     0        Xwlf01_b01_01 
+12     lava     BoneTrail       lava     0        Xwlf01_D02_01
+13     Pit     ****       Pit     0        XWLF01_P01_01 
+14     Pit     ****       ****     0        XWLF01_P01_01 
+15     Earth     ****       Pit     0        XWLF01_P03_01 
