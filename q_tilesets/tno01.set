@@ -1816,7 +1816,7 @@ ChangedHeight=1
 Count=0
 
 [TILES]
-Count=2460
+Count=2507
 
 [TILE0]
 Model=tno01_a01_01
@@ -3564,7 +3564,7 @@ BottomLeftHeight=0
 BottomRight=trees
 BottomRightHeight=0
 Top=
-Right=road
+Right=
 Bottom=
 Left=road
 MainLight1=1
@@ -3587,7 +3587,7 @@ Type=65
 X=3.19
 Y=0.00
 Z=5.00
-Orientation=-90.0
+Orientation=270.0
 
 [TILE60]
 Model=tno01_o01_01
@@ -4752,7 +4752,7 @@ DoorVisibilityOrientation=90
 ImageMap2D=mi_tno01_r10_01
 
 [TILE99DOOR0]
-Type=57
+Type=240
 X=-0.26
 Y=-0.49
 Z=4.56
@@ -5227,7 +5227,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=MI_tno01_a26_01
@@ -6304,7 +6304,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=B
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_a31_01
 
 [TILE150]
@@ -6696,7 +6696,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=H
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_a41_02
 
 [TILE164]
@@ -6808,7 +6808,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=B
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_a44_01
 
 [TILE168]
@@ -7060,7 +7060,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=H
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_a53_02
 
 [TILE177]
@@ -7284,7 +7284,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=B
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_a63_01
 
 [TILE185]
@@ -8275,7 +8275,7 @@ Type=0
 X=-1.9
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE219]
 Model=tno01_n34_01
@@ -8390,7 +8390,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=B
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_n04_01
@@ -8576,7 +8576,7 @@ Type=0
 X=-2.0
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE229]
 Model=tno01_n16_01
@@ -8798,14 +8798,14 @@ Type=0
 X=-1.97
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE235DOOR1]
 Type=0
 X=0.0
 Y=1.97
 Z=8.6
-Orientation=-180.0
+Orientation=180.0
 
 [TILE236]
 Model=tno01_n18_01
@@ -9002,7 +9002,7 @@ Type=0
 X=-2.01971
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE242]
 Model=tno01_n20_01
@@ -9185,7 +9185,7 @@ VisibilityOrientation=0
 ImageMap2D=mi_tno01_n07_05
 
 [TILE248]
-Model=tno01_n01_05
+Model=tno01_n01_04
 WalkMesh=msb01
 TopLeft=grass
 TopLeftHeight=0
@@ -9358,7 +9358,7 @@ Type=0
 X=-0.54
 Y=1.73
 Z=5.16
-Orientation=-90.0
+Orientation=270.0
 
 [TILE253]
 Model=tno01_m27_01
@@ -10074,7 +10074,7 @@ Type=0
 X=-1.538
 Y=-0.31
 Z=5.33
-Orientation=-90.0
+Orientation=270.0
 
 [TILE278]
 Model=tno01_m21_01
@@ -10406,7 +10406,7 @@ Type=0
 X=-2.14
 Y=0.0
 Z=6.12
-Orientation=-90.0
+Orientation=270.0
 
 [TILE288]
 Model=tno01_m33_01
@@ -10555,7 +10555,7 @@ Type=0
 X=-0.09
 Y=2.91
 Z=5.46
-Orientation=0.0
+Orientation=180.0
 
 [TILE292]
 Model=tno01_m01_03
@@ -10618,7 +10618,7 @@ Type=0
 X=-2.5
 Y=0.0
 Z=5.79
-Orientation=-90.0
+Orientation=270.0
 
 [TILE294]
 Model=tno01_m62_01
@@ -11310,7 +11310,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=j
-Orientation=-180
+Orientation=180
 VisibilityNode=C
 VisibilityOrientation=90
 ImageMap2D=mi_tno01_v26_01
@@ -11340,7 +11340,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=f
-Orientation=-90
+Orientation=270
 VisibilityNode=C
 VisibilityOrientation=90
 ImageMap2D=mi_tno01_v27_01
@@ -11370,7 +11370,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=j
-Orientation=-180
+Orientation=180
 VisibilityNode=C
 VisibilityOrientation=90
 ImageMap2D=mi_tno01_v28_01
@@ -11400,7 +11400,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=k
-Orientation=-90
+Orientation=270
 VisibilityNode=C
 VisibilityOrientation=90
 ImageMap2D=mi_tno01_v29_01
@@ -11430,7 +11430,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=R
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=90
 ImageMap2D=mi_tno01_v30_01
@@ -11490,7 +11490,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=b
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=90
 ImageMap2D=mi_tno01_v32_01
@@ -11520,7 +11520,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=Q
-Orientation=-90
+Orientation=270
 VisibilityNode=C
 VisibilityOrientation=90
 ImageMap2D=mi_tno01_v33_01
@@ -11550,7 +11550,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=R
-Orientation=-90
+Orientation=270
 VisibilityNode=C
 VisibilityOrientation=90
 ImageMap2D=mi_tno01_v34_01
@@ -11610,7 +11610,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=p
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v36_01
@@ -11730,7 +11730,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=U
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v20_01
@@ -11850,7 +11850,7 @@ AnimLoop3=1
 Doors=1
 Sounds=0
 PathNode=U
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v20_02
@@ -12473,7 +12473,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=g
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_v80_03
 
 [TILE356]
@@ -12503,7 +12503,7 @@ Sounds=0
 PathNode=j
 Orientation=0
 VisibilityNode=C
-VisibilityOrientation=-90
+VisibilityOrientation=270
 ImageMap2D=mi_tno01_v80_04
 
 [TILE356DOOR0]
@@ -12538,7 +12538,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=g
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_v80_03
 
 [TILE358]
@@ -12654,18 +12654,18 @@ SourceLight2=1
 AnimLoop1=1
 AnimLoop2=1
 AnimLoop3=1
-Doors=1
+Doors=0
 Sounds=0
 PathNode=A
 Orientation=0
 ImageMap2D=mi_tno01_v00_12
 
 [TILE361DOOR0]
-Type=271
-X=3.20
-Y=0.30
+Type=5151
+X=3.25
+Y=0.27
 Z=5.00
-Orientation=90.0
+Orientation=96.0
 
 [TILE362]
 Model=tno01_v00_10
@@ -12696,7 +12696,7 @@ Orientation=0
 ImageMap2D=mi_tno01_v00_10
 
 [TILE362DOOR0]
-Type=272
+Type=5150
 X=0.97
 Y=2.27
 Z=5.00
@@ -12731,11 +12731,11 @@ Orientation=0
 ImageMap2D=mi_tno01_v00_11
 
 [TILE363DOOR0]
-Type=273
+Type=5150
 X=-1.34
 Y=2.10
 Z=5.00
-Orientation=-180.0
+Orientation=180.0
 
 [TILE364]
 Model=tno01_m47_01
@@ -12951,7 +12951,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=S
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v50_01
@@ -13011,7 +13011,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=S
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v52_01
@@ -13101,7 +13101,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=Q
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v54_01
@@ -13161,9 +13161,9 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=Q
-Orientation=-90
+Orientation=270
 VisibilityNode=A
-VisibilityOrientation=-90
+VisibilityOrientation=270
 ImageMap2D=mi_tno01_v56_01
 
 [TILE378]
@@ -13191,9 +13191,9 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=R
-Orientation=-90
+Orientation=270
 VisibilityNode=A
-VisibilityOrientation=-90
+VisibilityOrientation=270
 ImageMap2D=mi_tno01_v57_01
 
 [TILE379]
@@ -13418,7 +13418,7 @@ Type=0
 X=-2.35
 Y=-1.8
 Z=5.2
-Orientation=-90.0
+Orientation=270.0
 
 [TILE386]
 Model=tno01_m40_02
@@ -13453,7 +13453,7 @@ Type=0
 X=1.15
 Y=-1.8
 Z=5.2
-Orientation=-90.0
+Orientation=90.0
 
 [TILE387]
 Model=tno01_m40_03
@@ -13488,7 +13488,7 @@ Type=0
 X=3.45
 Y=0.0
 Z=9.4
-Orientation=-90.0
+Orientation=270.0
 
 [TILE388]
 Model=tno01_m40_04
@@ -14350,7 +14350,7 @@ Type=0
 X=-1.69
 Y=0.0
 Z=5.2
-Orientation=-90.0
+Orientation=270.0
 
 [TILE417]
 Model=tno01_m38_01
@@ -14494,7 +14494,7 @@ Type=0
 X=-3.43
 Y=-0.28
 Z=4.76
-Orientation=-90.0
+Orientation=270.0
 
 [TILE421]
 Model=tno01_i01_01
@@ -14521,7 +14521,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i01_01
@@ -14671,7 +14671,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i01_02
@@ -14701,7 +14701,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i01_03
@@ -14731,7 +14731,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i01_04
@@ -15091,7 +15091,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i07_01
@@ -15121,7 +15121,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i08_01
@@ -15151,7 +15151,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i09_01
@@ -15211,7 +15211,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=B
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i10_01
@@ -15241,7 +15241,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i11_01
@@ -15361,7 +15361,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=S
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i14_01
@@ -15691,7 +15691,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k06_01
@@ -15721,7 +15721,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k06_02
@@ -15751,7 +15751,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k07_01
@@ -15781,7 +15781,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k07_02
@@ -15811,7 +15811,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k08_01
@@ -15841,7 +15841,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k08_02
@@ -15901,7 +15901,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k11_02
@@ -15961,7 +15961,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k13_01
@@ -16111,7 +16111,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=B
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k17_02
@@ -16321,7 +16321,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k21_01
@@ -16351,7 +16351,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k21_02
@@ -16411,7 +16411,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=B
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k22_02
@@ -16531,7 +16531,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_k24_02
@@ -16681,7 +16681,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i21_01
@@ -16831,7 +16831,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i21_02
@@ -16861,7 +16861,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i21_03
@@ -16891,7 +16891,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i21_04
@@ -16920,7 +16920,7 @@ AnimLoop2=1
 AnimLoop3=1
 Doors=0
 Sounds=0
-PathNode=C
+PathNode=F
 Orientation=90
 VisibilityNode=A
 VisibilityOrientation=0
@@ -17221,7 +17221,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i31_01
@@ -17251,7 +17251,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i31_02
@@ -17281,7 +17281,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i31_03
@@ -17311,7 +17311,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i31_04
@@ -17671,7 +17671,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i41_01
@@ -17701,7 +17701,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i41_02
@@ -17731,7 +17731,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i41_03
@@ -17761,7 +17761,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i41_04
@@ -18121,7 +18121,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i51_01
@@ -18151,7 +18151,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i51_02
@@ -18181,7 +18181,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i51_03
@@ -18211,7 +18211,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i51_04
@@ -18571,7 +18571,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i61_01
@@ -18601,7 +18601,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_i61_02
@@ -18841,7 +18841,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m29_01
 
 [TILE566]
@@ -18904,7 +18904,7 @@ AnimLoop3=1
 Doors=1
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m29_03
 
 [TILE567DOOR0]
@@ -18912,7 +18912,7 @@ Type=0
 X=1.6
 Y=-5.0
 Z=5.2
-Orientation=-90.0
+Orientation=270.0
 
 [TILE568]
 Model=tno01_m29_04
@@ -19002,7 +19002,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=g
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m65_02
 
 [TILE571]
@@ -19457,7 +19457,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=B
-Orientation=-180
+Orientation=180
 ImageMap2D=mi_tno01_m70_01
 
 [TILE586]
@@ -19485,7 +19485,7 @@ AnimLoop3=1
 Doors=1
 Sounds=0
 PathNode=B
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m70_02
 
 [TILE586DOOR0]
@@ -19576,7 +19576,7 @@ AnimLoop3=1
 Doors=1
 Sounds=0
 PathNode=b
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m71_01
 
 [TILE589DOOR0]
@@ -19738,7 +19738,7 @@ Type=0
 X=-2.83
 Y=4.04
 Z=5.23
-Orientation=-90.0
+Orientation=270.0
 
 [TILE595]
 Model=tno01_m53_03
@@ -19765,7 +19765,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-180
+Orientation=180
 ImageMap2D=mi_tno01_m53_03
 
 [TILE596]
@@ -19793,7 +19793,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-180
+Orientation=180
 ImageMap2D=mi_tno01_m53_04
 
 [TILE597]
@@ -20261,7 +20261,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=i
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_b51_06
@@ -20351,7 +20351,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=B
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_m69_01
@@ -20411,7 +20411,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=B
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_m69_03
@@ -20481,7 +20481,7 @@ Type=0
 X=-3.01
 Y=0.15
 Z=23.88
-Orientation=-90.0
+Orientation=270.0
 
 [TILE620]
 Model=tno01_m69_06
@@ -20675,7 +20675,7 @@ Type=0
 X=-2.14945
 Y=-0.144795
 Z=5.12
-Orientation=90.0
+Orientation=270
 
 [TILE626]
 Model=tno01_l09_04
@@ -20762,7 +20762,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=I
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l50_01
@@ -20792,7 +20792,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=I
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l50_02
@@ -20822,7 +20822,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=I
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l50_03
@@ -20852,7 +20852,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=I
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l50_04
@@ -20882,7 +20882,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=I
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l51_01
@@ -20912,7 +20912,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=I
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l51_02
@@ -20942,7 +20942,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=A
-Orientation=-180
+Orientation=180
 ImageMap2D=mi_tno01_l52_01
 
 [TILE635]
@@ -21060,7 +21060,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=D
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l55_01
@@ -21090,7 +21090,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=D
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l56_01
@@ -21120,7 +21120,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=O
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l57_01
@@ -21360,7 +21360,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=S
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l67_01
@@ -21420,7 +21420,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=O
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l69_01
@@ -21510,7 +21510,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=Q
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l72_01
@@ -21540,7 +21540,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=S
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_l80_01
@@ -22174,7 +22174,7 @@ Type=187
 X=1.255
 Y=0.0
 Z=3.2
-Orientation=-90.0
+Orientation=270.0
 
 [TILE676]
 Model=tno01_m54_04
@@ -22279,7 +22279,7 @@ Type=0
 X=-1.81
 Y=4.5
 Z=5.39
-Orientation=-90.0
+Orientation=270.0
 
 [TILE679]
 Model=tno01_m54_03
@@ -22370,7 +22370,7 @@ Type=0
 X=-3.6
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE682]
 Model=tno01_m73_01
@@ -22397,7 +22397,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_m73_01
@@ -22702,7 +22702,7 @@ Type=0
 X=-2.83
 Y=4.04
 Z=5.23
-Orientation=-90.0
+Orientation=270.0
 
 [TILE693]
 Model=tno01_m53_13
@@ -22729,7 +22729,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-180
+Orientation=180
 ImageMap2D=mi_tno01_m53_13
 
 [TILE694]
@@ -22757,7 +22757,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-180
+Orientation=180
 ImageMap2D=mi_tno01_m53_14
 
 [TILE695]
@@ -22956,7 +22956,7 @@ Type=0
 X=-0.54
 Y=1.73
 Z=5.16
-Orientation=-90.0
+Orientation=270.0
 
 [TILE701]
 Model=tno01_m60_11
@@ -22991,7 +22991,7 @@ Type=0
 X=-2.5
 Y=0.0
 Z=5.79
-Orientation=-90.0
+Orientation=270.0
 
 [TILE702]
 Model=tno01_m61_11
@@ -23065,7 +23065,7 @@ Type=0
 X=-2.14
 Y=0.0
 Z=6.12
-Orientation=-90.0
+Orientation=270.0
 
 [TILE704]
 Model=tno01_m34_11
@@ -23139,7 +23139,7 @@ Type=0
 X=-0.09
 Y=2.91
 Z=5.46
-Orientation=0.0
+Orientation=180.0
 
 [TILE706]
 Model=tno01_m62_11
@@ -23440,7 +23440,7 @@ Type=0
 X=-2.35
 Y=-1.8
 Z=5.2
-Orientation=-90.0
+Orientation=270.0
 
 [TILE715]
 Model=tno01_m40_12
@@ -23475,7 +23475,7 @@ Type=0
 X=1.15
 Y=-1.8
 Z=5.2
-Orientation=-90.0
+Orientation=90.0
 
 [TILE716]
 Model=tno01_m40_13
@@ -23510,7 +23510,7 @@ Type=0
 X=3.45
 Y=0.0
 Z=9.4
-Orientation=-90.0
+Orientation=270.0
 
 [TILE717]
 Model=tno01_m40_14
@@ -23744,7 +23744,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m29_11
 
 [TILE724]
@@ -23807,7 +23807,7 @@ AnimLoop3=1
 Doors=1
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m29_13
 
 [TILE725DOOR0]
@@ -23815,7 +23815,7 @@ Type=0
 X=1.6
 Y=-5.0
 Z=5.2
-Orientation=-90.0
+Orientation=270.0
 
 [TILE726]
 Model=tno01_m29_14
@@ -24061,7 +24061,7 @@ Type=0
 X=-3.43
 Y=-0.28
 Z=4.76
-Orientation=-90.0
+Orientation=270.0
 
 [TILE733]
 Model=tno01_m55_11
@@ -24182,7 +24182,7 @@ Type=0
 X=-1.538
 Y=-0.31
 Z=5.33
-Orientation=-90.0
+Orientation=270.0
 
 [TILE737]
 Model=tno01_m21_11
@@ -24358,7 +24358,7 @@ Type=0
 X=-1.69
 Y=0.0
 Z=5.2
-Orientation=-90.0
+Orientation=270.0
 
 [TILE742]
 Model=tno01_m71_11
@@ -24385,7 +24385,7 @@ AnimLoop3=1
 Doors=1
 Sounds=0
 PathNode=b
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m71_11
 
 [TILE742DOOR0]
@@ -24701,7 +24701,7 @@ Type=0
 X=-1.81
 Y=4.5
 Z=5.39
-Orientation=-90.0
+Orientation=270.0
 
 [TILE752]
 Model=tno01_m54_13
@@ -24792,7 +24792,7 @@ Type=0
 X=-3.6
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE755]
 Model=tno01_b68_01
@@ -24892,7 +24892,7 @@ Type=0
 X=-5.5
 Y=1.25883
 Z=5.4
-Orientation=0.0
+Orientation=180.0
 
 [TILE758]
 Model=tno01_m54_21
@@ -24992,7 +24992,7 @@ Type=183
 X=0.74095
 Y=3.0
 Z=5.5
-Orientation=-90.0
+Orientation=270.0
 
 [TILE761]
 Model=tno01_m66_01
@@ -25019,7 +25019,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m66_01
 
 [TILE762]
@@ -25159,7 +25159,7 @@ AnimLoop3=1
 Doors=1
 Sounds=0
 PathNode=Q
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m66_06
 
 [TILE766DOOR0]
@@ -25222,7 +25222,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=I
-Orientation=-180
+Orientation=180
 ImageMap2D=mi_tno01_m66_08
 
 [TILE769]
@@ -25390,7 +25390,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=I
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m66_14
 
 [TILE775]
@@ -25418,7 +25418,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=I
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m66_15
 
 [TILE776]
@@ -25511,7 +25511,7 @@ AnimLoop3=1
 Doors=2
 Sounds=0
 PathNode=C
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_n17_02
@@ -25741,7 +25741,7 @@ Type=0
 X=-0.35
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE786]
 Model=tno01_s01_04
@@ -26032,7 +26032,7 @@ Type=0
 X=-0.35
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE795]
 Model=tno01_s05_04
@@ -26189,7 +26189,7 @@ Type=0
 X=-2.0
 Y=0.533857
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE799DOOR1]
 Type=0
@@ -26561,7 +26561,7 @@ Type=0
 X=-0.1
 Y=-3.5
 Z=9.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE811]
 Model=tno01_s14_01
@@ -26745,7 +26745,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s18_01
@@ -26775,7 +26775,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s19_01
@@ -26896,7 +26896,7 @@ Type=0
 X=0.0
 Y=3.5
 Z=9.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE821]
 Model=tno01_s23_02
@@ -26923,7 +26923,7 @@ AnimLoop3=1
 Doors=1
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s23_02
@@ -26960,7 +26960,7 @@ AnimLoop3=1
 Doors=1
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s24_02
@@ -27087,7 +27087,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s23_01
@@ -27117,7 +27117,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s24_01
@@ -27157,7 +27157,7 @@ Type=0
 X=-0.5
 Y=0.0
 Z=9.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE829]
 Model=tno01_s26_04
@@ -27194,7 +27194,7 @@ Type=0
 X=-2.0
 Y=0.6
 Z=9.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE829DOOR1]
 Type=0
@@ -27238,7 +27238,7 @@ Type=0
 X=-0.05
 Y=-0.6
 Z=9.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE831]
 Model=tno01_s26_03
@@ -28339,7 +28339,7 @@ Type=0
 X=-2.01971
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE867DOOR2]
 Type=0
@@ -28395,7 +28395,7 @@ Type=0
 X=-2.1
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE869]
 Model=tno01_i02_10
@@ -28779,7 +28779,7 @@ Type=194
 X=-1.58
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE880]
 Model=tno01_s05_05
@@ -28816,7 +28816,7 @@ Type=194
 X=-1.58
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE881]
 Model=tno01_s09_02
@@ -28851,7 +28851,7 @@ Type=0
 X=1.1
 Y=-2.4
 Z=14.0
-Orientation=-180.0
+Orientation=180.0
 
 [TILE882]
 Model=tno01_n07_06
@@ -28948,7 +28948,7 @@ Type=0
 X=1.25
 Y=-0.65
 Z=5.25
-Orientation=0.0
+Orientation=180.0
 
 [TILE885]
 Model=tno01_n01_08
@@ -28985,7 +28985,7 @@ Type=0
 X=2.30
 Y=-2.0
 Z=4.25
-Orientation=-90.0
+Orientation=270.0
 
 [TILE886]
 Model=tno01_q20_01
@@ -29215,7 +29215,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=Q
-Orientation=-180
+Orientation=180
 ImageMap2D=mi_tno01_m28_03
 
 [TILE894]
@@ -29388,7 +29388,7 @@ Type=198
 X=-3.35
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE899]
 Model=tno01_i02_16
@@ -29704,7 +29704,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=J
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v60_01
@@ -29864,7 +29864,7 @@ Type=187
 X=-0.545
 Y=0.0
 Z=3.2
-Orientation=-90.0
+Orientation=270.0
 
 [TILE914]
 Model=tno01_g01_01
@@ -30058,7 +30058,7 @@ Type=194
 X=-1.58
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE920]
 Model=tno01_s01_06
@@ -30095,7 +30095,7 @@ Type=194
 X=-1.58
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE921]
 Model=tno01_b57_01
@@ -30122,9 +30122,9 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=k
-Orientation=-90
+Orientation=270
 VisibilityNode=I
-VisibilityOrientation=-90
+VisibilityOrientation=270
 ImageMap2D=MI_tno01_b57_01
 
 [TILE922]
@@ -30212,7 +30212,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v50_02
@@ -30272,7 +30272,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v54_02
@@ -30302,7 +30302,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v55_02
@@ -30992,7 +30992,7 @@ Type=0
 X=1.795
 Y=3.12
 Z=5.64
-Orientation=-90.0
+Orientation=270.0
 
 [TILE951]
 Model=tno01_m22_04
@@ -31055,7 +31055,7 @@ Type=198
 X=-3.35
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE953]
 Model=tno01_n41_01
@@ -31131,7 +31131,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=H
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_v81_01
 
 [TILE955]
@@ -31189,7 +31189,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=H
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v81_03
@@ -31389,7 +31389,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=k
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_b85_01
@@ -31696,7 +31696,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=S
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v38_01
@@ -31846,7 +31846,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=V
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v43_01
@@ -31876,7 +31876,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=V
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v43_02
@@ -32026,7 +32026,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=J
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v48_01
@@ -32647,7 +32647,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=H
-Orientation=-180
+Orientation=180
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_m81_02
@@ -33284,7 +33284,7 @@ Type=0
 X=2.85
 Y=0.05
 Z=11.21
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1026]
 Model=tno01_s05_07
@@ -33321,7 +33321,7 @@ Type=0
 X=2.85
 Y=0.05
 Z=11.21
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1027]
 Model=tno01_s01_07
@@ -33358,7 +33358,7 @@ Type=0
 X=0.0
 Y=-0.7
 Z=11.62
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1028]
 Model=tno01_s01_08
@@ -33395,14 +33395,14 @@ Type=0
 X=-3.3
 Y=2.4
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1028DOOR1]
 Type=0
 X=-0.1
 Y=-0.739023
 Z=11.62
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1029]
 Model=tno01_s01_09
@@ -33543,7 +33543,7 @@ Type=0
 X=-0.2
 Y=-1.65
 Z=8.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1033]
 Model=tno01_s02_07
@@ -33610,7 +33610,7 @@ Type=0
 X=-0.05
 Y=-0.74
 Z=11.62
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1035]
 Model=tno01_s05_09
@@ -33647,14 +33647,14 @@ Type=0
 X=-0.13
 Y=-0.73
 Z=11.62
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1035DOOR1]
 Type=0
 X=-3.3
 Y=2.4
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1036]
 Model=tno01_s05_10
@@ -33795,7 +33795,7 @@ Type=0
 X=-0.18
 Y=-1.64
 Z=8.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1040]
 Model=tno01_s02_08
@@ -33934,7 +33934,7 @@ Type=0
 X=-0.2
 Y=0.0
 Z=8.5
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1044]
 Model=tno01_s01_16
@@ -33969,7 +33969,7 @@ Type=0
 X=-0.2
 Y=0.0
 Z=8.5
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1045]
 Model=tno01_s05_15
@@ -34004,7 +34004,7 @@ Type=0
 X=-0.2
 Y=0.0
 Z=8.5
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1046]
 Model=tno01_s05_16
@@ -34039,7 +34039,7 @@ Type=0
 X=-0.2
 Y=0.0
 Z=8.5
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1047]
 Model=tno01_m82_02
@@ -34279,7 +34279,7 @@ Sounds=0
 PathNode=H
 Orientation=180
 VisibilityNode=I
-VisibilityOrientation=-180
+VisibilityOrientation=180
 ImageMap2D=mi_tno01_u03_01
 
 [TILE1055]
@@ -34337,7 +34337,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=I
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_u01_01
@@ -34425,7 +34425,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=H
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_u07_01
@@ -34485,7 +34485,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=H
-Orientation=-90
+Orientation=270
 VisibilityNode=I
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_u10_01
@@ -34751,7 +34751,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=T
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_v82_04
 
 [TILE1071]
@@ -34779,7 +34779,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=I
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v82_05
@@ -34877,7 +34877,7 @@ Type=199
 X=0.0
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1075]
 Model=tno01_l20_01
@@ -34914,7 +34914,7 @@ Type=199
 X=0.0
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1076]
 Model=tno01_g32_01
@@ -35068,7 +35068,7 @@ Type=0
 X=-1.9
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1081]
 Model=tno01_g24_01
@@ -35159,7 +35159,7 @@ Type=0
 X=-2.0
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1084]
 Model=tno01_g27_01
@@ -35224,14 +35224,14 @@ Type=0
 X=-1.97
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1085DOOR1]
 Type=0
 X=0.0
 Y=1.97
 Z=8.6
-Orientation=-180.0
+Orientation=180.0
 
 [TILE1086]
 Model=tno01_g29_01
@@ -35301,7 +35301,7 @@ Type=0
 X=-2.01971
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1088]
 Model=tno01_g30_02
@@ -35343,7 +35343,7 @@ Type=0
 X=-2.01971
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1088DOOR2]
 Type=0
@@ -35399,7 +35399,7 @@ Type=0
 X=-2.1
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1090]
 Model=tno01_g10_01
@@ -35581,7 +35581,7 @@ Type=0
 X=-2.01971
 Y=0.0
 Z=8.6
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1096]
 Model=tno01_s09_09
@@ -35638,7 +35638,7 @@ AnimLoop3=1
 Doors=1
 Sounds=0
 PathNode=I
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_v86_01
@@ -36001,7 +36001,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s18_51
@@ -36031,7 +36031,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=E
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s19_51
@@ -36131,7 +36131,7 @@ Type=0
 X=2.804
 Y=0.0591699
 Z=11.21
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1114]
 Model=tno01_s01_55
@@ -36168,7 +36168,7 @@ Type=0
 X=0.0
 Y=-0.72
 Z=11.62
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1115]
 Model=tno01_s01_56
@@ -36434,7 +36434,7 @@ Type=194
 X=-1.58
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1123]
 Model=tno01_s09_08
@@ -36648,7 +36648,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=Q
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s02_60
@@ -36678,7 +36678,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=R
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s02_61
@@ -36768,7 +36768,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=S
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s02_64
@@ -36828,7 +36828,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=K
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_s15_52
@@ -37486,7 +37486,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 ImageMap2D=mi_tno01_m87_01
 
 [TILE1157]
@@ -37777,10 +37777,10 @@ ImageMap2D=mi_tno01_n40_02
 
 [TILE1166DOOR0]
 Type=184
-X=2.3
+X=2.1
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270
 
 [TILE1167]
 Model=tno01_n41_01
@@ -37807,7 +37807,7 @@ AnimLoop3=1
 Doors=3
 Sounds=0
 PathNode=i
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=mi_tno01_n41_01
@@ -37858,7 +37858,7 @@ AnimLoop3=0
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=MI_tno01_e20_01
@@ -37948,7 +37948,7 @@ AnimLoop3=0
 Doors=0
 Sounds=0
 PathNode=d
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=MI_tno01_e23_01
@@ -38036,7 +38036,7 @@ AnimLoop3=0
 Doors=0
 Sounds=0
 PathNode=c
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=MI_tno01_e26_01
@@ -38187,7 +38187,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=d
-Orientation=-90
+Orientation=270
 ImageMap2D=MI_tno01_m89_04
 
 [TILE1180]
@@ -38215,7 +38215,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=e
-Orientation=-90
+Orientation=270
 ImageMap2D=MI_tno01_m89_05
 
 [TILE1181]
@@ -38418,7 +38418,7 @@ AnimLoop3=0
 Doors=0
 Sounds=0
 PathNode=d
-Orientation=-90
+Orientation=270
 VisibilityNode=A
 VisibilityOrientation=0
 ImageMap2D=MI_tno01_e23_02
@@ -38626,9 +38626,9 @@ AnimLoop3=1
 Doors=1
 Sounds=0
 PathNode=p
-Orientation=-90
+Orientation=270
 VisibilityNode=I
-VisibilityOrientation=-90
+VisibilityOrientation=270
 ImageMap2D=MI_tno01_b57_02
 
 [TILE1194DOOR0]
@@ -38636,7 +38636,7 @@ Type=224
 X=-0.17
 Y=-3.7
 Z=3.2
-Orientation=-180.0
+Orientation=180.0
 
 [TILE1195]
 Model=tno01_n40_03
@@ -38671,7 +38671,7 @@ Type=198
 X=-3.35
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1196]
 Model=tno01_n41_02
@@ -38698,7 +38698,7 @@ AnimLoop3=1
 Doors=3
 Sounds=0
 PathNode=A
-Orientation=-90
+Orientation=270
 ImageMap2D=MI_tno01_n41_02
 
 [TILE1196DOOR0]
@@ -38755,7 +38755,7 @@ Type=198
 X=-3.35
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1198]
 Model=tno01_n41_02
@@ -38782,7 +38782,7 @@ AnimLoop3=1
 Doors=3
 Sounds=0
 PathNode=A
-Orientation=-90
+Orientation=270
 ImageMap2D=MI_tno01_n41_02
 
 [TILE1198DOOR0]
@@ -38831,7 +38831,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=G
-Orientation=-90
+Orientation=270
 ImageMap2D=MI_tno01_m89_10
 
 [TILE1200]
@@ -38859,7 +38859,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=B
-Orientation=-90
+Orientation=270
 ImageMap2D=MI_tno01_m89_11
 
 [TILE1201]
@@ -38895,7 +38895,7 @@ Type=0
 X=-2.7
 Y=-1.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1202]
 Model=tno01_g90_01
@@ -39741,7 +39741,7 @@ AnimLoop3=1
 Doors=0
 Sounds=0
 PathNode=K
-Orientation=-90
+Orientation=270
 ImageMap2D=MI_tno01_s15_32
 
 [TILE1231]
@@ -40009,7 +40009,7 @@ Type=184
 X=2.3
 Y=0.0
 Z=5.0
-Orientation=-90.0
+Orientation=270.0
 
 [TILE1239]
 Model=tno01_n41_04
@@ -76019,8 +76019,1446 @@ Y=0.85
 Z=4.50
 Orientation=180.0
 
+[TILE2460]
+Model=tno01_m95_01
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=A
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_m95_01
+
+[TILE2461]
+Model=tno01_m96_01
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=A
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_m96_01
+
+[TILE2462]
+Model=tno01_m97_01
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=G
+Orientation=-90
+ImageMap2D=mi_tno01_m97_01
+
+[TILE2463]
+Model=tno01_m97_02
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=G
+Orientation=90
+ImageMap2D=mi_tno01_m97_02
+
+[TILE2464]
+Model=tno01_m99_01
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=G
+Orientation=0
+ImageMap2D=MI_tno01_m99_01
+
+[TILE2465]
+Model=tno01_m99_02
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=B
+Orientation=90
+ImageMap2D=MI_tno01_m99_02
+
+[TILE2466]
+Model=tno01_m99_03
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=1
+Sounds=0
+PathNode=G
+Orientation=90
+ImageMap2D=MI_tno01_m99_03
+
+[TILE2466DOOR0]
+Type=0
+X=-1.59
+Y=-0.37
+Z=2.45
+Orientation=90.0
+
+[TILE2467]
+Model=tno01_m99_04
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=d
+Orientation=-90
+ImageMap2D=MI_tno01_m99_04
+
+[TILE2468]
+Model=tno01_m99_05
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=e
+Orientation=-90
+ImageMap2D=MI_tno01_m99_05
+
+[TILE2469]
+Model=tno01_m99_06
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=e
+Orientation=0
+ImageMap2D=MI_tno01_m99_06
+
+[TILE2470]
+Model=tno01_v69_01
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=sandbank
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=L
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v69_01
+
+[TILE2471]
+Model=tno01_v69_02
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=N
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v69_02
+
+[TILE2472]
+Model=tno01_v69_03
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=V
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v69_03
+
+[TILE2473]
+Model=tno01_v69_04
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=L
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v69_04
+
+[TILE2474]
+Model=tno01_v69_05
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=N
+Orientation=0
+VisibilityNode=T
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v69_05
+
+[TILE2475]
+Model=tno01_v69_06
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=N
+Orientation=180
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v69_06
+
+[TILE2475DOOR0]
+Type=0
+X=0.0
+Y=-3.05
+Z=-7.35
+Orientation=0.0
+
+[TILE2476]
+Model=tno01_v68_01
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=sandbank
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=L
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v68_01
+
+[TILE2477]
+Model=tno01_v68_02
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=N
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v68_02
+
+[TILE2478]
+Model=tno01_v68_03
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=V
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v68_03
+
+[TILE2479]
+Model=tno01_v68_04
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=L
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v68_04
+
+[TILE2479DOOR0]
+Type=0
+X=0.0
+Y=3.7
+Z=-7.5
+Orientation=0.0
+
+[TILE2480]
+Model=tno01_v68_05
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=T
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v68_05
+
+[TILE2481]
+Model=tno01_v68_06
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=N
+Orientation=180
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v68_06
+
+[TILE2482]
+Model=tno01_v67_01
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=sandbank
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=L
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v67_01
+
+[TILE2483]
+Model=tno01_v67_02
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=N
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v67_02
+
+[TILE2484]
+Model=tno01_v67_03
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=V
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v67_03
+
+[TILE2485]
+Model=tno01_v67_04
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=L
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v67_04
+
+[TILE2486]
+Model=tno01_v67_05
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=T
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v67_05
+
+[TILE2487]
+Model=tno01_v67_06
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=N
+Orientation=180
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v67_06
+
+[TILE2487DOOR0]
+Type=0
+X=0.0
+Y=-3.05
+Z=-7.35
+Orientation=0.0
+
+[TILE2488]
+Model=tno01_v66_01
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=sandbank
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=L
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v66_01
+
+[TILE2489]
+Model=tno01_v66_02
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=N
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v66_02
+
+[TILE2490]
+Model=tno01_v66_03
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=V
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v66_03
+
+[TILE2491]
+Model=tno01_v66_04
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=L
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v66_04
+
+[TILE2491DOOR0]
+Type=0
+X=0.0
+Y=3.7
+Z=-7.5
+Orientation=0.0
+
+[TILE2492]
+Model=tno01_v66_05
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=T
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v66_05
+
+[TILE2493]
+Model=tno01_v66_06
+WalkMesh=msb01
+TopLeft=cliff
+TopLeftHeight=0
+TopRight=cliff
+TopRightHeight=0
+BottomLeft=cliff
+BottomLeftHeight=0
+BottomRight=cliff
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=N
+Orientation=180
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_v66_06
+
+[TILE2494]
+Model=tno01_m91_01
+WalkMesh=msb01
+TopLeft=water
+TopLeftHeight=0
+TopRight=water
+TopRightHeight=0
+BottomLeft=water
+BottomLeftHeight=0
+BottomRight=water
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=N
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_m91_01
+
+[TILE2495]
+Model=tno01_m91_02
+WalkMesh=msb01
+TopLeft=water
+TopLeftHeight=0
+TopRight=water
+TopRightHeight=0
+BottomLeft=water
+BottomLeftHeight=0
+BottomRight=water
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=I
+Orientation=180
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_m91_02
+
+[TILE2496]
+Model=tno01_m91_03
+WalkMesh=msb01
+TopLeft=water
+TopLeftHeight=0
+TopRight=water
+TopRightHeight=0
+BottomLeft=water
+BottomLeftHeight=0
+BottomRight=water
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=1
+Sounds=0
+PathNode=L
+Orientation=0
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_m91_03
+
+[TILE2496DOOR0]
+Type=0
+X=0.0
+Y=-2.55
+Z=5.58
+Orientation=0.0
+
+[TILE2497]
+Model=tno01_m91_04
+WalkMesh=msb01
+TopLeft=water
+TopLeftHeight=0
+TopRight=water
+TopRightHeight=0
+BottomLeft=water
+BottomLeftHeight=0
+BottomRight=water
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=N
+Orientation=180
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_m91_04
+
+[TILE2498]
+Model=tno01_m91_05
+WalkMesh=msb01
+TopLeft=water
+TopLeftHeight=0
+TopRight=grass
+TopRightHeight=0
+BottomLeft=water
+BottomLeftHeight=0
+BottomRight=grass
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=I
+Orientation=180
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_m91_05
+
+[TILE2499]
+Model=tno01_m48_01
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=1
+Sounds=0
+PathNode=G
+Orientation=90
+ImageMap2D=mi_tno01_m48_01
+
+[TILE2499DOOR0]
+Type=181
+X=5.0
+Y=4.2
+Z=6.5
+Orientation=0.0
+
+[TILE2500]
+Model=tno01_m48_02
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=G
+Orientation=-90
+ImageMap2D=mi_tno01_m48_02
+
+[TILE2501]
+Model=tno01_m48_03
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=L
+Orientation=0
+ImageMap2D=mi_tno01_m48_03
+
+[TILE2502]
+Model=tno01_m48_04
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=I
+Orientation=180
+ImageMap2D=mi_tno01_m48_04
+
+[TILE2503]
+Model=tno01_m48_05
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=A
+Orientation=0
+ImageMap2D=mi_tno01_m48_05
+
+[TILE2504]
+Model=tno01_m48_06
+WalkMesh=msb01
+TopLeft=dirt
+TopLeftHeight=0
+TopRight=dirt
+TopRightHeight=0
+BottomLeft=dirt
+BottomLeftHeight=0
+BottomRight=dirt
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=A
+Orientation=0
+ImageMap2D=mi_tno01_m48_06
+
+[TILE2505]
+Model=tno01_s26_05
+WalkMesh=msb01
+TopLeft=castlewall
+TopLeftHeight=0
+TopRight=keep
+TopRightHeight=0
+BottomLeft=castlewall
+BottomLeftHeight=0
+BottomRight=castlewall
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=B
+Orientation=180
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_s26_03
+
+[TILE2505DOOR0]
+Type=243
+X=5.0
+Y=-0.32
+Z=9.0
+Orientation=0.0
+
+[TILE2506]
+Model=tno01_s26_06
+WalkMesh=msb01
+TopLeft=keep
+TopLeftHeight=0
+TopRight=castlewall
+TopRightHeight=0
+BottomLeft=castlewall
+BottomLeftHeight=0
+BottomRight=castlewall
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=1
+MainLight2=1
+SourceLight1=1
+SourceLight2=1
+AnimLoop1=1
+AnimLoop2=1
+AnimLoop3=1
+Doors=0
+Sounds=0
+PathNode=B
+Orientation=180
+VisibilityNode=A
+VisibilityOrientation=0
+ImageMap2D=mi_tno01_s26_03
+
 [GROUPS]
-Count=349
+Count=361
 
 [GROUP0]
 Name=Cave
@@ -78570,3 +80008,115 @@ Name=WW_Hill_Entrance_1x1
 Rows=1
 Columns=1
 Tile0=2459
+
+[GROUP349]
+Name=Burned_house1
+Rows=1
+Columns=1
+Tile0=2460
+
+[GROUP350]
+Name=Burned_house2
+Rows=1
+Columns=1
+Tile0=2461
+
+[GROUP351]
+Name=Burned_house2x1
+Rows=1
+Columns=2
+Tile0=2462
+Tile1=2463
+
+[GROUP352]
+Name=Burned_L_2x2
+Rows=2
+Columns=2
+Tile0=2464
+Tile1=-1
+Tile2=2465
+Tile3=2466
+
+[GROUP353]
+Name=ruin_2x2_Lshape_02
+Rows=2
+Columns=2
+Tile0=2467
+Tile1=2468
+Tile2=-1
+Tile3=2469
+
+[GROUP354]
+Name=Ship 1 (3x2) - Docked
+Rows=3
+Columns=2
+Tile0=2470
+Tile1=2471
+Tile2=2472
+Tile3=2473
+Tile4=2474
+Tile5=2475
+
+[GROUP355]
+Name=Ship 2 (3x2) - Docked
+Rows=3
+Columns=2
+Tile0=2476
+Tile1=2477
+Tile2=2478
+Tile3=2479
+Tile4=2480
+Tile5=2481
+
+[GROUP356]
+Name=Ship 3 (3x2) - Docked
+Rows=3
+Columns=2
+Tile0=2482
+Tile1=2483
+Tile2=2484
+Tile3=2485
+Tile4=2486
+Tile5=2487
+
+[GROUP357]
+Name=Ship 4 (3x2) - Docked
+Rows=3
+Columns=2
+Tile0=2488
+Tile1=2489
+Tile2=2490
+Tile3=2491
+Tile4=2492
+Tile5=2493
+
+[GROUP358]
+Name=Docked Ship (4x2)
+Rows=4
+Columns=2
+Tile0=2494
+Tile1=-1
+Tile2=2495
+Tile3=2498
+Tile4=2496
+Tile5=-1
+Tile6=2497
+Tile7=-1
+
+[GROUP359]
+Name=Lodge (3x2)
+Rows=3
+Columns=2
+Tile0=2499
+Tile1=2500
+Tile2=2501
+Tile3=2502
+Tile4=2503
+Tile5=2504
+
+[GROUP360]
+Name=MidwallDoorway
+Rows=1
+Columns=2
+Tile0=2505
+Tile1=2506

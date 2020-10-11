@@ -1,0 +1,916 @@
+# Exported from Blender on Sunday, 2020-09-20
+filedependancy unknown
+newmodel TT_Card.003
+setsupermodel TT_Card.003 null
+classification CHARACTER
+setanimationscale 1.0
+beginmodelgeom TT_Card.003
+node dummy TT_Card
+  parent null
+endnode
+node dummy Card_ground
+  parent TT_Card
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Card_hand
+  parent TT_Card
+  position  0.00000  0.82992  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Card_head
+  parent TT_Card
+  position  0.00000  0.00000  0.14309
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Card_head_hit
+  parent TT_Card
+  position  0.00000  0.00000  0.42927
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node dummy Card_impact
+  parent TT_Card
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+endnode
+node trimesh bottomcard
+  parent TT_Card
+  position  0.00000  0.00933 -0.00160
+  orientation -0.99955  0.00000  0.00000  0.00799
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Back
+  shininess 1
+  verts 8
+     1.11297  0.82345  0.00237
+     1.12374  0.78481 -0.02083
+     1.11297 -0.80752  0.00237
+     1.12374 -0.80044 -0.02083
+    -1.11297  0.82345  0.00237
+    -1.12374  0.78481 -0.02083
+    -1.11297 -0.80752  0.00237
+    -1.12374 -0.80044 -0.02083
+  tverts 8
+     0.9879  0.9876  0
+     0.0121  0.0124  0
+     0.9876  0.0121  0
+     0.5002  0.6220  0
+     0.7445  0.8655  0
+     0.5006  0.8659  0
+     0.0124  0.9879  0
+     0.7441  0.6216  0
+  faces 4
+    4 2 0 1  0 1 2 0
+    1 7 5 2  3 4 5 0
+    4 6 2 3  0 6 1 0
+    1 3 7 4  3 7 4 0
+endnode
+node trimesh elemental1
+  parent bottomcard
+  position -0.67921  0.49345  0.02820
+  orientation  0.99955  0.00011 -0.00000  0.00799
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap card_elem
+  shininess 1
+  render 1
+  shadow 0
+  verts 4
+     0.17222 -0.17117 -0.00257
+     0.17119  0.17220  0.00258
+    -0.17119 -0.17220 -0.00258
+    -0.17222  0.17117  0.00257
+  tverts 4
+     0.9751  0.0249  0
+     0.0249  0.9751  0
+     0.0249  0.0249  0
+     0.9751  0.9751  0
+  faces 2
+    1 2 0 1  0 1 2 0
+    1 3 2 2  0 3 1 0
+endnode
+node trimesh elemental2
+  parent bottomcard
+  position -0.67921 -0.49526 -0.04847
+  orientation  0.99955  0.00011 -0.00000  0.00799
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap card_elem
+  shininess 1
+  render 1
+  shadow 0
+  verts 4
+     0.17222 -0.17117 -0.00257
+     0.17119  0.17220  0.00258
+    -0.17119 -0.17220 -0.00258
+    -0.17222  0.17117  0.00257
+  tverts 4
+     0.9751  0.9751  0
+     0.0249  0.0249  0
+     0.9751  0.0249  0
+     0.0249  0.9751  0
+  faces 2
+    2 1 0 1  0 1 2 0
+    3 1 2 2  3 1 0 0
+endnode
+node trimesh fnumber1
+  parent bottomcard
+  position -0.68003  0.62351 -0.05721
+  orientation -0.70604  0.70817  0.00000  3.14160
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Pwr_B_1
+  shininess 1
+  render 1
+  shadow 0
+  verts 4
+    -0.10267 -0.10267  0.00000
+     0.10267 -0.10267  0.00000
+    -0.10267  0.10267  0.00000
+     0.10267  0.10267  0.00000
+  tverts 4
+     1.0000  0.0000  0
+     0.0000  1.0000  0
+     0.0000  0.0000  0
+     1.0000  1.0000  0
+  faces 2
+    1 2 0 1  0 1 2 0
+    1 3 2 2  0 3 1 0
+endnode
+node trimesh fnumber2
+  parent bottomcard
+  position -0.88319  0.41289 -0.05719
+  orientation -0.70604  0.70817  0.00000  3.14160
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Pwr_B_2
+  shininess 1
+  render 1
+  shadow 0
+  verts 4
+    -0.10267 -0.10267  0.00000
+     0.10267 -0.10267  0.00000
+    -0.10267  0.10267  0.00000
+     0.10267  0.10267  0.00000
+  tverts 4
+     1.0000  0.0000  0
+     0.0000  1.0000  0
+     0.0000  0.0000  0
+     1.0000  1.0000  0
+  faces 2
+    1 2 0 1  0 1 2 0
+    1 3 2 2  0 3 1 0
+endnode
+node trimesh fnumber3
+  parent bottomcard
+  position -0.46844  0.41289 -0.05719
+  orientation -0.70604  0.70817  0.00000  3.14160
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Pwr_B_3
+  shininess 1
+  render 1
+  shadow 0
+  verts 4
+    -0.10267 -0.10267  0.00000
+     0.10267 -0.10267  0.00000
+    -0.10267  0.10267  0.00000
+     0.10267  0.10267  0.00000
+  tverts 4
+     1.0000  0.0000  0
+     0.0000  1.0000  0
+     0.0000  0.0000  0
+     1.0000  1.0000  0
+  faces 2
+    1 2 0 1  0 1 2 0
+    1 3 2 2  0 3 1 0
+endnode
+node trimesh fnumber4
+  parent bottomcard
+  position -0.67473  0.19629 -0.05716
+  orientation  0.71442 -0.69970 -0.00518  3.15506
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Pwr_B_4
+  shininess 1
+  render 1
+  shadow 0
+  verts 4
+    -0.10267 -0.10267  0.00000
+     0.10267 -0.10267  0.00000
+    -0.10267  0.10267  0.00000
+     0.10267  0.10267  0.00000
+  tverts 4
+     1.0000  0.0000  0
+     0.0000  1.0000  0
+     0.0000  0.0000  0
+     1.0000  1.0000  0
+  faces 2
+    1 2 0 1  0 1 2 0
+    1 3 2 2  0 3 1 0
+endnode
+node trimesh middlecardbk1
+  parent bottomcard
+  position  0.00000  0.00000 -0.02128
+  orientation  1.00000  0.00000  0.00000  3.14159
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Bkg_Blue
+  shininess 1
+  render 1
+  shadow 0
+  verts 8
+     1.11297  0.79441  0.00214
+     1.11297  0.77707 -0.00237
+     1.11297 -0.77896  0.00260
+     1.11297 -0.76443 -0.00214
+    -1.11297  0.79441  0.00214
+    -1.11297  0.77707 -0.00237
+    -1.11297 -0.77896  0.00260
+    -1.11297 -0.79299 -0.00237
+  tverts 14
+     0.9949  0.9973  0
+     0.0051  0.0027  0
+     0.9977  0.0030  0
+     0.2515  0.6242  0
+     0.0039  0.3756  0
+     0.2521  0.3757  0
+     0.9961  0.6244  0
+     0.7485  0.3758  0
+     0.9968  0.3759  0
+     0.5003  0.3757  0
+     0.7479  0.6243  0
+     0.0023  0.9970  0
+     0.0032  0.6241  0
+     0.4997  0.6243  0
+  faces 10
+    4 2 0  1   0  1  2 0
+    2 7 3  2   3  4  5 0
+    6 5 7  3   6  7  8 0
+    1 2 3  4   9  3  5 0
+    4 1 5  5  10  9  7 0
+    4 6 2  6   0 11  1 0
+    2 6 7  7   3 12  4 0
+    6 4 5  8   6 10  7 0
+    1 0 2  9   9 13  3 0
+    4 0 1 10  10 13  9 0
+endnode
+node trimesh middlecardbk2
+  parent bottomcard
+  position  0.00000  0.00000 -0.01290
+  orientation  1.00000  0.00000  0.00000  3.14159
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Bkg_Red
+  shininess 1
+  render 1
+  shadow 0
+  verts 4
+     1.11297  0.77707 -0.00237
+     1.11297 -0.79299 -0.00237
+    -1.11297  0.77707 -0.00237
+    -1.11297 -0.79299 -0.00237
+  tverts 4
+    -0.0090  0.0021  0
+     0.9983  0.9946  0
+    -0.0080  0.9977  0
+     0.9973 -0.0010  0
+  faces 2
+    0 3 2 1  0 1 2 0
+    0 1 3 2  0 3 1 0
+endnode
+node trimesh bnumber4
+  parent bottomcard
+  position -0.67473 -0.61414  0.03410
+  orientation  0.00000  0.00001  1.00000  1.57380
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Pwr_R_4
+  shininess 1
+  render 1
+  shadow 0
+  verts 4
+    -0.10267 -0.10267  0.00000
+     0.10267 -0.10267  0.00000
+    -0.10267  0.10267  0.00000
+     0.10267  0.10267  0.00000
+  tverts 4
+     1.0000  0.0000  0
+     0.0000  1.0000  0
+     0.0000  0.0000  0
+     1.0000  1.0000  0
+  faces 2
+    1 2 0 1  0 1 2 0
+    1 3 2 2  0 3 1 0
+endnode
+node trimesh bnumber2
+  parent bottomcard
+  position -0.88319 -0.39754  0.03408
+  orientation  0.00000  0.00001  1.00000  1.57380
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Pwr_R_2
+  shininess 1
+  render 1
+  shadow 0
+  verts 4
+    -0.10267 -0.10267  0.00000
+     0.10267 -0.10267  0.00000
+    -0.10267  0.10267  0.00000
+     0.10267  0.10267  0.00000
+  tverts 4
+     1.0000  0.0000  0
+     0.0000  1.0000  0
+     0.0000  0.0000  0
+     1.0000  1.0000  0
+  faces 2
+    1 2 0 1  0 1 2 0
+    1 3 2 2  0 3 1 0
+endnode
+node trimesh bnumber3
+  parent bottomcard
+  position -0.46844 -0.39754  0.03408
+  orientation  0.00000  0.00001  1.00000  1.57380
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Pwr_R_3
+  shininess 1
+  render 1
+  shadow 0
+  verts 4
+    -0.10267 -0.10267  0.00000
+     0.10267 -0.10267  0.00000
+    -0.10267  0.10267  0.00000
+     0.10267  0.10267  0.00000
+  tverts 4
+     1.0000  0.0000  0
+     0.0000  1.0000  0
+     0.0000  0.0000  0
+     1.0000  1.0000  0
+  faces 2
+    1 2 0 1  0 1 2 0
+    1 3 2 2  0 3 1 0
+endnode
+node trimesh bnumber1
+  parent bottomcard
+  position -0.68003 -0.18692  0.03406
+  orientation  0.01146 -0.01149  0.99987  1.57393
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Pwr_R_1
+  shininess 1
+  render 1
+  shadow 0
+  verts 4
+    -0.10267 -0.10267  0.00000
+     0.10267 -0.10267  0.00000
+    -0.10267  0.10267  0.00000
+     0.10267  0.10267  0.00000
+  tverts 4
+     1.0000  0.0000  0
+     0.0000  1.0000  0
+     0.0000  0.0000  0
+     1.0000  1.0000  0
+  faces 2
+    1 2 0 1  0 1 2 0
+    1 3 2 2  0 3 1 0
+endnode
+node trimesh topcard
+  parent bottomcard
+  position  0.00000  0.01825 -0.02881
+  orientation  1.00000  0.00000  0.00000  3.14960
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Back
+  shininess 1
+  verts 4
+     1.11297  0.82345  0.00237
+     1.11297 -0.80752  0.00237
+    -1.11297  0.82345  0.00237
+    -1.11297 -0.80752  0.00237
+  tverts 4
+     0.9879  0.9876  0
+     0.0121  0.0124  0
+     0.9876  0.0121  0
+     0.0124  0.9879  0
+  faces 2
+    2 1 0 1  0 1 2 0
+    2 3 1 2  0 3 1 0
+endnode
+node trimesh side
+  parent bottomcard
+  position  0.00000  0.00000  0.00000
+  orientation  0.00000  1.00000  0.00000  0.00000
+  wirecolor 1.00 1.00 1.00
+  ambient 1.00 1.00 1.00
+  diffuse 1.00 1.00 1.00
+  specular 0.00 0.00 0.00
+  selfillumcolor 0.00 0.00 0.00
+  bitmap Card_Board
+  shininess 1
+  render 1
+  shadow 0
+  verts 8
+     1.11297  0.82345  0.00237
+     1.11297  0.82576 -0.02471
+     1.11297 -0.80752  0.00237
+     1.11297 -0.80516 -0.03778
+    -1.11297  0.82345  0.00237
+    -1.11297  0.82576 -0.02471
+    -1.11297 -0.80752  0.00237
+    -1.11297 -0.80516 -0.03778
+  tverts 10
+     0.0402  0.8924  0
+     0.0085  0.9897  0
+     0.0075  0.8936  0
+     0.0372  0.6040  0
+     0.0055  0.7013  0
+     0.0044  0.6051  0
+     0.0065  0.7974  0
+     0.0382  0.7001  0
+     0.0413  0.9886  0
+     0.0392  0.7963  0
+  faces 8
+    2 7 3 1   0  1  2 0
+    6 5 7 2   3  4  5 0
+    1 2 3 3   6  0  2 0
+    4 1 5 4   7  6  4 0
+    2 6 7 5   0  8  1 0
+    6 4 5 6   3  7  4 0
+    1 0 2 7   6  9  0 0
+    4 0 1 8   7  9  6 0
+endnode
+endmodelgeom TT_Card.003
+
+# ANIM ASCII
+newanim default TT_Card.003
+  length 0.0
+  transtime 0.25
+  animroot TT_Card
+  node dummy TT_Card
+    parent null
+  endnode
+  node pwk TT_Card_pwk
+    parent TT_Card
+  endnode
+  node dummy Card_PWK_use01
+    parent TT_Card_pwk
+  endnode
+  node dummy Card_PWK_use02
+    parent TT_Card_pwk
+  endnode
+  node dummy Card_ground
+    parent TT_Card
+  endnode
+  node dummy Card_hand
+    parent TT_Card
+  endnode
+  node dummy Card_head
+    parent TT_Card
+  endnode
+  node dummy Card_head_hit
+    parent TT_Card
+  endnode
+  node dummy Card_impact
+    parent TT_Card
+  endnode
+  node trimesh bottomcard
+    parent TT_Card
+    positionkey 1
+       0.000  0.00000  0.00933 -0.00160
+    endlist
+    orientationkey 1
+       0.000 -0.99955  0.00000  0.00000  0.00799
+    endlist
+  endnode
+  node trimesh elemental1
+    parent bottomcard
+  endnode
+  node trimesh elemental2
+    parent bottomcard
+  endnode
+  node trimesh fnumber1
+    parent bottomcard
+  endnode
+  node trimesh fnumber2
+    parent bottomcard
+  endnode
+  node trimesh fnumber3
+    parent bottomcard
+  endnode
+  node trimesh fnumber4
+    parent bottomcard
+  endnode
+  node trimesh middlecardbk1
+    parent bottomcard
+  endnode
+  node trimesh middlecardbk2
+    parent bottomcard
+  endnode
+  node trimesh bnumber4
+    parent bottomcard
+  endnode
+  node trimesh bnumber2
+    parent bottomcard
+  endnode
+  node trimesh bnumber3
+    parent bottomcard
+  endnode
+  node trimesh bnumber1
+    parent bottomcard
+  endnode
+  node trimesh topcard
+    parent bottomcard
+  endnode
+  node trimesh side
+    parent bottomcard
+  endnode
+doneanim default TT_Card.003
+
+newanim on TT_Card.003
+  length 0.033
+  transtime 0.033
+  animroot TT_Card
+  node dummy TT_Card
+    parent null
+  endnode
+  node pwk TT_Card_pwk
+    parent TT_Card
+  endnode
+  node dummy Card_PWK_use01
+    parent TT_Card_pwk
+  endnode
+  node dummy Card_PWK_use02
+    parent TT_Card_pwk
+  endnode
+  node dummy Card_ground
+    parent TT_Card
+  endnode
+  node dummy Card_hand
+    parent TT_Card
+  endnode
+  node dummy Card_head
+    parent TT_Card
+  endnode
+  node dummy Card_head_hit
+    parent TT_Card
+  endnode
+  node dummy Card_impact
+    parent TT_Card
+  endnode
+  node trimesh bottomcard
+    parent TT_Card
+    positionkey 1
+       0.000  0.00000  0.00933 -0.00160
+    endlist
+    orientationkey 1
+       0.000 -0.99955  0.00000  0.00000  0.00799
+    endlist
+  endnode
+  node trimesh elemental1
+    parent bottomcard
+  endnode
+  node trimesh elemental2
+    parent bottomcard
+  endnode
+  node trimesh fnumber1
+    parent bottomcard
+  endnode
+  node trimesh fnumber2
+    parent bottomcard
+  endnode
+  node trimesh fnumber3
+    parent bottomcard
+  endnode
+  node trimesh fnumber4
+    parent bottomcard
+  endnode
+  node trimesh middlecardbk1
+    parent bottomcard
+  endnode
+  node trimesh middlecardbk2
+    parent bottomcard
+  endnode
+  node trimesh bnumber4
+    parent bottomcard
+  endnode
+  node trimesh bnumber2
+    parent bottomcard
+  endnode
+  node trimesh bnumber3
+    parent bottomcard
+  endnode
+  node trimesh bnumber1
+    parent bottomcard
+  endnode
+  node trimesh topcard
+    parent bottomcard
+  endnode
+  node trimesh side
+    parent bottomcard
+  endnode
+doneanim on TT_Card.003
+
+newanim off TT_Card.003
+  length 0.033
+  transtime 0.033
+  animroot TT_Card
+  node dummy TT_Card
+    parent null
+  endnode
+  node pwk TT_Card_pwk
+    parent TT_Card
+  endnode
+  node dummy Card_PWK_use01
+    parent TT_Card_pwk
+  endnode
+  node dummy Card_PWK_use02
+    parent TT_Card_pwk
+  endnode
+  node dummy Card_ground
+    parent TT_Card
+  endnode
+  node dummy Card_hand
+    parent TT_Card
+  endnode
+  node dummy Card_head
+    parent TT_Card
+  endnode
+  node dummy Card_head_hit
+    parent TT_Card
+  endnode
+  node dummy Card_impact
+    parent TT_Card
+  endnode
+  node trimesh bottomcard
+    parent TT_Card
+    orientationkey 1
+       0.000  1.00000  0.00000  0.00000  3.14060
+    endlist
+  endnode
+  node trimesh elemental1
+    parent bottomcard
+  endnode
+  node trimesh elemental2
+    parent bottomcard
+  endnode
+  node trimesh fnumber1
+    parent bottomcard
+  endnode
+  node trimesh fnumber2
+    parent bottomcard
+  endnode
+  node trimesh fnumber3
+    parent bottomcard
+  endnode
+  node trimesh fnumber4
+    parent bottomcard
+  endnode
+  node trimesh middlecardbk1
+    parent bottomcard
+  endnode
+  node trimesh middlecardbk2
+    parent bottomcard
+  endnode
+  node trimesh bnumber4
+    parent bottomcard
+  endnode
+  node trimesh bnumber2
+    parent bottomcard
+  endnode
+  node trimesh bnumber3
+    parent bottomcard
+  endnode
+  node trimesh bnumber1
+    parent bottomcard
+  endnode
+  node trimesh topcard
+    parent bottomcard
+  endnode
+  node trimesh side
+    parent bottomcard
+  endnode
+doneanim off TT_Card.003
+
+newanim off2on TT_Card.003
+  length 0.667
+  transtime 0.25
+  animroot TT_Card
+  node dummy TT_Card
+    parent null
+  endnode
+  node pwk TT_Card_pwk
+    parent TT_Card
+  endnode
+  node dummy Card_PWK_use01
+    parent TT_Card_pwk
+  endnode
+  node dummy Card_PWK_use02
+    parent TT_Card_pwk
+  endnode
+  node dummy Card_ground
+    parent TT_Card
+  endnode
+  node dummy Card_hand
+    parent TT_Card
+  endnode
+  node dummy Card_head
+    parent TT_Card
+  endnode
+  node dummy Card_head_hit
+    parent TT_Card
+  endnode
+  node dummy Card_impact
+    parent TT_Card
+  endnode
+  node trimesh bottomcard
+    parent TT_Card
+    positionkey 2
+       0.000  0.00000  0.00933 -0.00160
+       0.333  0.00000  0.00933  1.02411
+    endlist
+    orientationkey 1
+       0.000  1.00000  0.00000  0.00000  3.14060
+    endlist
+  endnode
+  node trimesh elemental1
+    parent bottomcard
+  endnode
+  node trimesh elemental2
+    parent bottomcard
+  endnode
+  node trimesh fnumber1
+    parent bottomcard
+  endnode
+  node trimesh fnumber2
+    parent bottomcard
+  endnode
+  node trimesh fnumber3
+    parent bottomcard
+  endnode
+  node trimesh fnumber4
+    parent bottomcard
+  endnode
+  node trimesh middlecardbk1
+    parent bottomcard
+  endnode
+  node trimesh middlecardbk2
+    parent bottomcard
+  endnode
+  node trimesh bnumber4
+    parent bottomcard
+  endnode
+  node trimesh bnumber2
+    parent bottomcard
+  endnode
+  node trimesh bnumber3
+    parent bottomcard
+  endnode
+  node trimesh bnumber1
+    parent bottomcard
+  endnode
+  node trimesh topcard
+    parent bottomcard
+  endnode
+  node trimesh side
+    parent bottomcard
+  endnode
+doneanim off2on TT_Card.003
+
+newanim on2off TT_Card.003
+  length 1.5
+  transtime 0.25
+  animroot TT_Card
+  node dummy TT_Card
+    parent null
+  endnode
+  node pwk TT_Card_pwk
+    parent TT_Card
+  endnode
+  node dummy Card_PWK_use01
+    parent TT_Card_pwk
+  endnode
+  node dummy Card_PWK_use02
+    parent TT_Card_pwk
+  endnode
+  node dummy Card_ground
+    parent TT_Card
+  endnode
+  node dummy Card_hand
+    parent TT_Card
+  endnode
+  node dummy Card_head
+    parent TT_Card
+  endnode
+  node dummy Card_head_hit
+    parent TT_Card
+  endnode
+  node dummy Card_impact
+    parent TT_Card
+  endnode
+  node trimesh bottomcard
+    parent TT_Card
+    positionkey 6
+       0.000  0.00000  0.00933 -0.00160
+       0.533  0.00000  0.00933 -0.00160
+       0.967  0.00000  0.00933  0.97399
+       1.300  0.00000  0.00933 -0.00160
+       1.333  0.00000  0.00933 -0.00160
+       1.500  0.00000  0.00933 -0.00160
+    endlist
+    orientationkey 6
+       0.000 -0.99955  0.00000  0.00000  0.00799
+       0.533 -0.99955  0.00000  0.00000  0.00799
+       0.633 -0.99955  0.00000  0.00000  0.00799
+       1.300  1.00000  0.00000  0.00000  3.14060
+       1.333  1.00000  0.00000  0.00000  3.14060
+       1.500  1.00000  0.00000  0.00000  3.14060
+    endlist
+  endnode
+  node trimesh elemental1
+    parent bottomcard
+  endnode
+  node trimesh elemental2
+    parent bottomcard
+  endnode
+  node trimesh fnumber1
+    parent bottomcard
+  endnode
+  node trimesh fnumber2
+    parent bottomcard
+  endnode
+  node trimesh fnumber3
+    parent bottomcard
+  endnode
+  node trimesh fnumber4
+    parent bottomcard
+  endnode
+  node trimesh middlecardbk1
+    parent bottomcard
+  endnode
+  node trimesh middlecardbk2
+    parent bottomcard
+  endnode
+  node trimesh bnumber4
+    parent bottomcard
+  endnode
+  node trimesh bnumber2
+    parent bottomcard
+  endnode
+  node trimesh bnumber3
+    parent bottomcard
+  endnode
+  node trimesh bnumber1
+    parent bottomcard
+  endnode
+  node trimesh topcard
+    parent bottomcard
+  endnode
+  node trimesh side
+    parent bottomcard
+  endnode
+doneanim on2off TT_Card.003
+
+donemodel TT_Card.003
