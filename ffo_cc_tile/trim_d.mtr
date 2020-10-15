@@ -1,0 +1,11 @@
+// normal/spec mapped
+customshaderFS fslit_nm
+
+renderhint NormalAndSpecMapped
+
+// textures0 overwrites bitmap or texture0 parameter in mdl
+texture0 trim_d
+
+// Used by normal and spec mapping shaders
+texture1 trim_n
+texture2 trim_s

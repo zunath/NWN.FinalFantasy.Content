@@ -176,6 +176,16 @@
       "Name": "wrm_scorche",
       "Path": "./wrm_scorche/",
       "CompileModels": false
-    }
+    },
+    {
+      "Name": "ffo_creatures",
+      "Path": "./ffo_creatures/",
+      "CompileModels": false
+    },
+    {
+      "Name": "ffo_cc_tile",
+      "Path": "./ffo_cc_tile/",
+      "CompileModels": false
+    },	
   ]
 }
