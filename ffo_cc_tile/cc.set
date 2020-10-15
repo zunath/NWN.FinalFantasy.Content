@@ -1,0 +1,85 @@
+; created with .Set Editor Beta 0.85
+; comment, contacts and bugs reports to Jlenlc@wanadoo.fr
+
+[GENERAL]
+Name=cc
+Type=SET
+Version=V1.0
+Interior=0
+HasHeightTransition=0
+EnvMap=ttf01__ref01
+Transition=5
+DisplayName=-1
+UnlocalizedName=Crisis Core Areas
+Border=wall
+Default=wall
+Floor=wall
+
+[GRASS]
+Grass=0
+
+[TERRAIN TYPES]
+Count=1
+
+[TERRAIN0]
+Name=wall
+StrRef=63301
+
+[CROSSER TYPES]
+Count=0
+
+[PRIMARY RULES]
+Count=1
+
+[PRIMARY RULE0]
+Placed=Dungeon
+PlacedHeight=0
+Adjacent=Dungeon
+AdjacentHeight=0
+Changed=Dungeon
+ChangedHeight=0
+
+[SECONDARY RULES]
+Count=0
+
+[TILES]
+Count=1
+
+[TILE0]
+Model=cc_gnd
+WalkMesh=msb01
+TopLeft=wall
+TopLeftHeight=0
+TopRight=wall
+TopRightHeight=0
+BottomLeft=wall
+BottomLeftHeight=0
+BottomRight=wall
+BottomRightHeight=0
+Top=
+Right=
+Bottom=
+Left=
+MainLight1=0
+MainLight2=0
+SourceLight1=0
+SourceLight2=0
+AnimLoop1=0
+AnimLoop2=0
+AnimLoop3=0
+Doors=1
+Sounds=0
+PathNode=A
+Orientation=0
+ImageMap2D=mitd01_a09
+
+[TILE0DOOR0]
+Type=0
+X=0.00
+Y=5.00
+Z=0.20
+Orientation=0.0
+
+[GROUPS]
+Count=0
+
