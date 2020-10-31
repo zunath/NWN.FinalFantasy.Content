@@ -2,6 +2,7 @@ node trimesh box_wg
   parent p_smgarden_pwk
   position  0.00000  0.00000 -1.56275
   orientation  0.00000  1.00000  0.00000  0.00000
+  scale 0.963
   wirecolor 1.00 1.00 1.00
   verts 8
     -12.94333 -6.46853  0.00000
